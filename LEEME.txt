@@ -1,6 +1,7 @@
 ICC-321 INTELIGENCIA DE NEGOCIOS — PRÁCTICA 1
 Diseño e implementación de una solución de Inteligencia de Negocios
-Estudiante: Enger Douglas (ID 10144675) · Profesora: Lisibonny Beato
+Estudiantes: Elías De La Cruz Jiménez (ID 10155971) y Enger Douglas (ID 10144675)
+Profesora: Lisibonny Beato
 ===============================================================================
 
 CONTENIDO DE LA CARPETA
@@ -21,6 +22,9 @@ CONTENIDO DE LA CARPETA
     Practica1_Actividad1_Exploracion.pdf ... actividad 1: exploración de la fuente
     Practica1_Actividad2y3_Modelo.pdf ...... actividades 2 y 3: problema de
                                              decisión y modelo dimensional
+    Practica1_Documento_Solucion.pdf ....... entregable 1: documento de la
+                                             solución completo (actividades
+                                             1 a 7 y decisiones de diseño)
 
 4_Data_Warehouse/
     DW_Retail.sql ................. actividad 4: crea la base DW_Retail con
@@ -36,8 +40,18 @@ CONTENIDO DE LA CARPETA
 6_Generadores/
     generar_actividad1.py ......... regenera el PDF de la actividad 1
     generar_actividad2y3.py ....... regenera el PDF de las actividades 2 y 3
+    generar_documento_solucion.py . regenera el documento de la solución
     generar_flujo_etl.py .......... regenera el flujo de Tableau Prep
+    generar_extracto_dashboard.py . crea el extracto del dashboard desde DW_Retail
+    generar_dashboard.py .......... regenera el libro de Tableau del dashboard
     _motor.py, _maestroMetadata ... archivos auxiliares de los generadores
+
+7_Dashboard/
+    Dashboard_Retail.twbx ......... actividad 7: dashboard en Tableau Desktop,
+                                    empaquetado con su extracto del DW
+    Consultas_Dashboard.sql ....... consultas sobre DW_Retail que alimentan
+                                    el extracto del dashboard
+    capturas/ ..................... capturas de los dos tableros
 
 ORDEN DE EJECUCIÓN
 -------------------------------------------------------------------------------
@@ -49,6 +63,9 @@ ORDEN DE EJECUCIÓN
    (lee de 2_Fuente/CSV_origen y escribe en 5_ETL/CSV_salida).
 4. Ejecutar 4_Data_Warehouse/Cargar_DW.sql
    (carga los CSV del paso anterior en las tablas del DW).
+5. Abrir 7_Dashboard/Dashboard_Retail.twbx en Tableau Desktop. Para
+   actualizar sus datos después de recargar el DW, ejecutar
+   6_Generadores/generar_extracto_dashboard.py y luego generar_dashboard.py.
 
 RESULTADOS VERIFICADOS
 -------------------------------------------------------------------------------
@@ -58,8 +75,3 @@ FactPagos ............. 28 803 filas
 Venta neta ............ RD$ 288 991 557,74   (idéntica a la del origen)
 Margen bruto .......... RD$ 75 608 585,04    (26,16 %)
 Unidades vendidas ..... 210 229
-
-PENDIENTE
--------------------------------------------------------------------------------
-Actividad 6: análisis de las medidas (documento).
-Actividad 7: dashboard interactivo conectado a DW_Retail.

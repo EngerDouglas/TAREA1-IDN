@@ -36,6 +36,10 @@ tr:nth-child(even) td { background: #f5f7fa; }
 .diagrama .cat { fill: #eef2f8; stroke: #7d8ca5; stroke-width: 1.5; }
 .diagrama .tx { fill: #14243d; stroke: #14243d; }
 .diagrama .tx2 { fill: #1f4e79; stroke: #1f4e79; }
+.figura { margin: 8px 0 16px; break-inside: avoid; text-align: center; }
+.figura img { width: 100%; border: 1px solid #ccd3de; }
+.figura figcaption { font-size: 9pt; color: #44506a; margin-top: 6px; text-align: left; }
+code { font-family: Menlo, 'Liberation Mono', monospace; font-size: 9pt; }
 """
 
 
@@ -50,17 +54,28 @@ def fmt(t):
     return t
 
 
+def datos_portada():
+    """Bloque de datos de la portada. Con INTEGRANTES [(nombre, ID)] lista a todo el grupo."""
+    integrantes = globals().get("INTEGRANTES")
+    if integrantes:
+        filas = "".join("<div>%s (ID %s)</div>" % (esc(n), esc(i)) for n, i in integrantes)
+        grupo = "<div><b>Integrantes:</b></div>%s" % filas
+    else:
+        grupo = "<div><b>Estudiante:</b> %s</div><div><b>ID:</b> %s</div>" % (esc(ESTUDIANTE), esc(MATRICULA))
+    return ("<div class='datos'>%s<div><b>Profesora:</b> %s</div><div><b>Fecha:</b> %s</div></div>"
+            % (grupo, esc(PROFESORA), esc(FECHA)))
+
+
 def render_html():
     o = ["<!doctype html><html lang='es'><head><meta charset='utf-8'><title>",
-         esc("Práctica 1 — Actividad 1"), "</title><style>", CSS, "</style></head><body>"]
+         esc("Práctica 1: " + ENTREGA), "</title><style>", CSS, globals().get("CSS_EXTRA", ""),
+         "</style></head><body>"]
     o.append(
         "<div class='portada'><div class='univ'>%s<div class='escuela'>%s</div>"
         "<div class='asignatura'>%s</div></div>"
         "<div class='bloque'><div class='entrega'>%s</div><h1>%s</h1><div class='linea'></div></div>"
-        "<div class='datos'><div><b>Estudiante:</b> %s</div><div><b>ID:</b> %s</div>"
-        "<div><b>Profesora:</b> %s</div><div><b>Fecha:</b> %s</div></div></div>"
-        % (esc(UNIVERSIDAD), esc(ESCUELA), esc(ASIGNATURA), esc(ENTREGA), esc(PRACTICA),
-           esc(ESTUDIANTE), esc(MATRICULA), esc(PROFESORA), esc(FECHA)))
+        "%s</div>"
+        % (esc(UNIVERSIDAD), esc(ESCUELA), esc(ASIGNATURA), esc(ENTREGA), esc(PRACTICA), datos_portada()))
 
     for b in BLOQUES:
         k = b[0]
@@ -76,6 +91,9 @@ def render_html():
             o.append("<div class='nota'>%s</div>" % fmt(b[1]))
         elif k == "svg":
             o.append(b[1])
+        elif k == "img":
+            o.append("<figure class='figura'><img src='file://%s'><figcaption>%s</figcaption></figure>"
+                     % (b[1], fmt(b[2])))
         elif k == "salto":
             o.append("<div style='break-after:page'></div>")
         elif k == "tabla":
@@ -91,13 +109,21 @@ def render_html():
     return "".join(o)
 
 
+def navegador():
+    """Chrome en macOS; en Linux, el Chromium del sistema."""
+    if os.path.exists(CHROME):
+        return CHROME
+    return os.environ.get("CHROME") or shutil.which("chromium") or shutil.which("google-chrome")
+
+
 if __name__ == "__main__":
-    pdf = os.path.join(TAREA, "3_Informes", "Practica1_Actividad2y3_Modelo.pdf")
+    import shutil
+    pdf = os.path.join(TAREA, "3_Informes", globals().get("SALIDA_PDF", "Practica1_Actividad2y3_Modelo.pdf"))
     with tempfile.TemporaryDirectory() as tmp:
         h = os.path.join(tmp, "doc.html")
         with open(h, "w", encoding="utf-8") as f:
             f.write(render_html())
-        subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
+        subprocess.run([navegador(), "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
                         "--allow-file-access-from-files", "--print-to-pdf=" + pdf, "file://" + h],
                        check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     print("PDF:", pdf)

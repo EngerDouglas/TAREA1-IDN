@@ -1,0 +1,13 @@
+TiendaID,NombreTienda,Ciudad,Provincia,TipoTienda,FechaApertura
+1,Agora Mall,Santo Domingo,Distrito Nacional,Centro comercial,2017-03-15
+2,Bella Vista,Santo Domingo,Distrito Nacional,Calle,2018-06-01
+3,Santo Domingo Este,Santo Domingo Este,Santo Domingo,Express,2020-09-12
+4,Santo Domingo Norte,Santo Domingo Norte,Santo Domingo,Calle,2021-02-20
+5,Santiago Centro,Santiago,Santiago,Centro comercial,2016-11-05
+6,Santiago Norte,Santiago,Santiago,Express,2022-01-10
+7,La Vega,La Vega,La Vega,Calle,2019-04-18
+8,San Cristobal,San Cristobal,San Cristobal,Calle,2020-01-25
+9,Puerto Plata,Puerto Plata,Puerto Plata,Centro comercial,2018-12-02
+10,La Romana,La Romana,La Romana,Centro comercial,2019-08-22
+11,Higuey,Higuey,La Altagracia,Express,2022-07-14
+12,Bani Outlet,Bani,Peravia,Outlet,2023-03-03

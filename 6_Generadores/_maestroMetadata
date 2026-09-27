@@ -1,0 +1,8 @@
+{
+  "majorVersion" : 1,
+  "minorVersion" : 0,
+  "flowEntryName" : "flow",
+  "displaySettingsEntryName" : "displaySettings",
+  "isPackagedMaestroDocument" : false,
+  "documentFeaturesUsedInDocument" : [ ]
+}

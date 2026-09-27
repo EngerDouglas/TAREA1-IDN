@@ -1,0 +1,65 @@
+ICC-321 INTELIGENCIA DE NEGOCIOS — PRÁCTICA 1
+Diseño e implementación de una solución de Inteligencia de Negocios
+Estudiante: Enger Douglas (ID 10144675) · Profesora: Lisibonny Beato
+===============================================================================
+
+CONTENIDO DE LA CARPETA
+-------------------------------------------------------------------------------
+1_Enunciado/
+    Práctica 1.pdf ................ enunciado de la práctica
+
+2_Fuente/
+    Retail_Operacional.sql ........ script original entregado con la práctica
+    Retail_Operacional_fix.sql .... versión corregida: el original no corre
+                                    porque usa el alias LineNo y LINENO es
+                                    palabra reservada de T-SQL (9 ocurrencias
+                                    renombradas a LineaNo)
+    CSV_origen/ ................... las 10 tablas del sistema operacional
+                                    extraídas a CSV (entrada del ETL)
+
+3_Informes/
+    Practica1_Actividad1_Exploracion.pdf ... actividad 1: exploración de la fuente
+    Practica1_Actividad2y3_Modelo.pdf ...... actividades 2 y 3: problema de
+                                             decisión y modelo dimensional
+
+4_Data_Warehouse/
+    DW_Retail.sql ................. actividad 4: crea la base DW_Retail con
+                                    8 dimensiones, 3 hechos, claves, índices,
+                                    los miembros -1 y DimFecha (1 461 días)
+    Cargar_DW.sql ................. carga en el DW los CSV que produce el ETL
+
+5_ETL/
+    ETL_DW_Retail.tfl ............. actividad 5: flujo de Tableau Prep
+                                    (40 nodos, 10 entradas, 10 salidas)
+    CSV_salida/ ................... tablas del DW generadas por el flujo
+
+6_Generadores/
+    generar_actividad1.py ......... regenera el PDF de la actividad 1
+    generar_actividad2y3.py ....... regenera el PDF de las actividades 2 y 3
+    generar_flujo_etl.py .......... regenera el flujo de Tableau Prep
+    _motor.py, _maestroMetadata ... archivos auxiliares de los generadores
+
+ORDEN DE EJECUCIÓN
+-------------------------------------------------------------------------------
+1. Ejecutar 2_Fuente/Retail_Operacional_fix.sql en SQL Server
+   (crea la base operacional BI_Practica_Retail).
+2. Ejecutar 4_Data_Warehouse/DW_Retail.sql
+   (crea la base DW_Retail y carga la dimensión de tiempo).
+3. Abrir 5_ETL/ETL_DW_Retail.tfl en Tableau Prep y ejecutar el flujo
+   (lee de 2_Fuente/CSV_origen y escribe en 5_ETL/CSV_salida).
+4. Ejecutar 4_Data_Warehouse/Cargar_DW.sql
+   (carga los CSV del paso anterior en las tablas del DW).
+
+RESULTADOS VERIFICADOS
+-------------------------------------------------------------------------------
+FactVentas ............ 73 667 filas (76 784 líneas menos 3 117 canceladas)
+FactDevoluciones ...... 5 139 filas
+FactPagos ............. 28 803 filas
+Venta neta ............ RD$ 288 991 557,74   (idéntica a la del origen)
+Margen bruto .......... RD$ 75 608 585,04    (26,16 %)
+Unidades vendidas ..... 210 229
+
+PENDIENTE
+-------------------------------------------------------------------------------
+Actividad 6: análisis de las medidas (documento).
+Actividad 7: dashboard interactivo conectado a DW_Retail.

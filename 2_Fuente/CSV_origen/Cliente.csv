@@ -1,0 +1,2501 @@
+ClienteID,Nombre,Apellido,Sexo,FechaNacimiento,Ciudad,Provincia,Segmento,FechaRegistro
+1,Rafael,Garcia,M,1967-07-05,Puerto Plata,Puerto Plata,Preferente,2022-07-18
+2,Daniela,Martinez,F,1967-07-04,La Romana,La Romana,Regular,2022-07-19
+3,Andres,Rodriguez,M,1967-07-03,Higuey,La Altagracia,Regular,2022-07-20
+4,Sofia,Ortiz,F,1967-07-02,Santo Domingo,Distrito Nacional,Regular,2022-07-21
+5,Carlos,Herrera,M,1967-07-01,Santo Domingo Este,Santo Domingo,Regular,2022-07-22
+6,Laura,Cruz,F,1967-06-30,Santiago,Santiago,Regular,2022-07-23
+7,Miguel,Vargas,M,1967-06-29,La Vega,La Vega,Regular,2022-07-24
+8,Carla,Mendez,,1967-06-28,San Cristobal,San Cristobal,Regular,2022-07-25
+9,Jose,Castillo,,1967-06-27,Puerto Plata,Puerto Plata,Regular,2022-07-26
+10,Javier,Rodriguez,,1973-11-03,San Cristobal,San Cristobal,Preferente,2022-01-16
+11,Paola,Ortiz,,1973-11-02,Puerto Plata,Puerto Plata,Preferente,2022-01-17
+12,Pedro,Herrera,F,1973-11-01,La Romana,La Romana,Preferente,2022-01-18
+13,Natalia,Cruz,M,1973-10-31,Higuey,La Altagracia,Preferente,2022-01-19
+14,Luis,Sanchez,F,1973-10-30,Santo Domingo,Distrito Nacional,Preferente,2022-01-20
+15,Ana,Perez,M,1973-10-29,Santo Domingo Este,Santo Domingo,Preferente,2022-01-21
+16,Jose,Garcia,F,1973-10-28,Santiago,Santiago,Preferente,2022-01-22
+17,Maria,Martinez,M,1973-10-27,La Vega,La Vega,Preferente,2022-01-23
+18,Miguel,Reyes,F,1973-10-26,San Cristobal,San Cristobal,Preferente,2022-01-24
+19,Carla,Diaz,M,1973-10-25,Puerto Plata,Puerto Plata,Preferente,2022-01-25
+20,Javier,Rodriguez,F,1973-10-18,San Cristobal,San Cristobal,Regular,2022-02-01
+21,Paola,Ortiz,M,1973-10-17,Puerto Plata,Puerto Plata,Regular,2022-02-02
+22,Pedro,Herrera,F,1973-10-16,La Romana,La Romana,Regular,2022-02-03
+23,Natalia,Cruz,M,1973-10-15,Higuey,La Altagracia,Regular,2022-02-04
+24,Luis,Sanchez,,1973-10-14,Santo Domingo,Distrito Nacional,Regular,2022-02-05
+25,Ana,Perez,,1973-10-13,Santo Domingo Este,Santo Domingo,Regular,2022-02-06
+26,Jose,Garcia,F,1973-10-12,Santiago,Santiago,Regular,2022-02-07
+27,Maria,Martinez,M,1973-10-11,La Vega,La Vega,Regular,2022-02-08
+28,Miguel,Reyes,F,1973-10-10,San Cristobal,San Cristobal,Regular,2022-02-09
+29,Carla,Diaz,M,1973-10-09,Puerto Plata,Puerto Plata,Regular,2022-02-10
+30,Javier,Rodriguez,F,1973-10-02,San Cristobal,San Cristobal,Regular,2022-02-17
+31,Paola,Ortiz,M,1973-10-01,Puerto Plata,Puerto Plata,Regular,2022-02-18
+32,Pedro,Herrera,F,1973-09-30,La Romana,La Romana,Regular,2022-02-19
+33,Natalia,Cruz,M,1973-09-29,Higuey,La Altagracia,Regular,2022-02-20
+34,Luis,Sanchez,F,1973-09-28,Santo Domingo,Distrito Nacional,Regular,2022-02-21
+35,Ana,Perez,M,1973-09-27,Santo Domingo Este,Santo Domingo,Regular,2022-02-22
+36,Jose,Garcia,F,1973-09-26,Santiago,Santiago,Regular,2022-02-23
+37,Maria,Martinez,M,1973-09-25,La Vega,La Vega,Regular,2022-02-24
+38,Miguel,Reyes,,1973-09-24,San Cristobal,San Cristobal,Regular,2022-02-25
+39,Carla,Diaz,,1973-09-23,Puerto Plata,Puerto Plata,Regular,2022-02-26
+40,Javier,Rodriguez,F,1974-05-30,San Cristobal,San Cristobal,Preferente,2021-06-22
+41,Paola,Ortiz,M,1974-05-29,Puerto Plata,Puerto Plata,Preferente,2021-06-23
+42,Pedro,Herrera,F,1974-05-28,La Romana,La Romana,Preferente,2021-06-24
+43,Natalia,Cruz,M,1974-05-27,Higuey,La Altagracia,Preferente,2021-06-25
+44,Luis,Sanchez,F,1974-05-26,Santo Domingo,Distrito Nacional,Preferente,2021-06-26
+45,Ana,Perez,M,1974-05-25,Santo Domingo Este,Santo Domingo,Preferente,2021-06-27
+46,Jose,Garcia,F,1974-05-24,Santiago,Santiago,Preferente,2021-06-28
+47,Maria,Martinez,M,1974-05-23,La Vega,La Vega,Preferente,2021-06-29
+48,Miguel,Reyes,,1974-05-22,San Cristobal,San Cristobal,Preferente,2021-06-30
+49,Carla,Diaz,,1974-05-21,Puerto Plata,Puerto Plata,Preferente,2021-07-01
+50,Javier,Rodriguez,F,1974-05-14,San Cristobal,San Cristobal,Preferente,2021-07-08
+51,Paola,Ortiz,M,1974-05-13,Puerto Plata,Puerto Plata,Preferente,2021-07-09
+52,Pedro,Herrera,F,1974-05-12,La Romana,La Romana,Preferente,2021-07-10
+53,Natalia,Cruz,M,1974-05-11,Higuey,La Altagracia,Preferente,2021-07-11
+54,Luis,Sanchez,F,1974-05-10,Santo Domingo,Distrito Nacional,Preferente,2021-07-12
+55,Ana,Perez,M,1974-05-09,Santo Domingo Este,Santo Domingo,Preferente,2021-07-13
+56,Jose,Garcia,F,1974-05-08,Santiago,Santiago,Regular,2021-07-14
+57,Maria,Martinez,M,1974-05-07,La Vega,La Vega,Regular,2021-07-15
+58,Miguel,Reyes,F,1974-05-06,San Cristobal,San Cristobal,Regular,2021-07-16
+59,Carla,Diaz,M,1974-05-05,Puerto Plata,Puerto Plata,Regular,2021-07-17
+60,Javier,Rodriguez,F,1974-04-28,San Cristobal,San Cristobal,Regular,2021-07-24
+61,Paola,Ortiz,M,1974-04-27,Puerto Plata,Puerto Plata,Regular,2021-07-25
+62,Pedro,Herrera,F,1974-04-26,La Romana,La Romana,Regular,2021-07-26
+63,Natalia,Cruz,M,1974-04-25,Higuey,La Altagracia,Regular,2021-07-27
+64,Luis,Sanchez,F,1974-04-24,Santo Domingo,Distrito Nacional,Regular,2021-07-28
+65,Ana,Perez,M,1974-04-23,Santo Domingo Este,Santo Domingo,Regular,2021-07-29
+66,Jose,Garcia,F,1974-04-22,Santiago,Santiago,Regular,2021-07-30
+67,Maria,Martinez,M,1974-04-21,La Vega,La Vega,Regular,2021-07-31
+68,Miguel,Reyes,F,1974-04-20,San Cristobal,San Cristobal,Regular,2021-08-01
+69,Carla,Diaz,M,1974-04-19,Puerto Plata,Puerto Plata,Regular,2021-08-02
+70,Javier,Rodriguez,,1974-04-12,San Cristobal,San Cristobal,Regular,2021-08-09
+71,Paola,Ortiz,,1974-04-11,Puerto Plata,Puerto Plata,Regular,2021-08-10
+72,Pedro,Herrera,F,1974-04-10,La Romana,La Romana,Regular,2021-08-11
+73,Natalia,Cruz,M,1974-04-09,Higuey,La Altagracia,Regular,2021-08-12
+74,Luis,Sanchez,F,1974-04-08,Santo Domingo,Distrito Nacional,Regular,2021-08-13
+75,Ana,Perez,M,1974-04-07,Santo Domingo Este,Santo Domingo,Regular,2021-08-14
+76,Jose,Garcia,F,1974-04-06,Santiago,Santiago,Regular,2021-08-15
+77,Maria,Martinez,M,1974-04-05,La Vega,La Vega,Regular,2021-08-16
+78,Miguel,Reyes,F,1974-04-04,San Cristobal,San Cristobal,Regular,2021-08-17
+79,Carla,Diaz,M,1974-04-03,Puerto Plata,Puerto Plata,Regular,2021-08-18
+80,Javier,Rodriguez,F,1974-03-27,San Cristobal,San Cristobal,Regular,2021-08-25
+81,Paola,Ortiz,M,1974-03-26,Puerto Plata,Puerto Plata,Regular,2021-08-26
+82,Pedro,Herrera,F,1974-03-25,La Romana,La Romana,Regular,2021-08-27
+83,Natalia,Cruz,M,1974-03-24,Higuey,La Altagracia,Regular,2021-08-28
+84,Luis,Sanchez,,1974-03-23,Santo Domingo,Distrito Nacional,Regular,2021-08-29
+85,Ana,Perez,,1974-03-22,Santo Domingo Este,Santo Domingo,Regular,2021-08-30
+86,Jose,Garcia,F,1974-03-21,Santiago,Santiago,Regular,2021-08-31
+87,Maria,Martinez,M,1974-03-20,La Vega,La Vega,Regular,2021-09-01
+88,Miguel,Reyes,F,1974-03-19,San Cristobal,San Cristobal,Regular,2021-09-02
+89,Carla,Diaz,M,1974-03-18,Puerto Plata,Puerto Plata,Regular,2021-09-03
+90,Javier,Rodriguez,F,1974-03-11,San Cristobal,San Cristobal,Regular,2021-09-10
+91,Paola,Ortiz,M,1974-03-10,Puerto Plata,Puerto Plata,Regular,2021-09-11
+92,Pedro,Herrera,F,1974-03-09,La Romana,La Romana,Regular,2021-09-12
+93,Natalia,Cruz,M,1974-03-08,Higuey,La Altagracia,Regular,2021-09-13
+94,Luis,Sanchez,F,1974-03-07,Santo Domingo,Distrito Nacional,Corporativo,2021-09-14
+95,Ana,Perez,M,1974-03-06,Santo Domingo Este,Santo Domingo,Corporativo,2021-09-15
+96,Jose,Garcia,F,1974-03-05,Santiago,Santiago,Corporativo,2021-09-16
+97,Maria,Martinez,M,1974-03-04,La Vega,La Vega,Corporativo,2021-09-17
+98,Miguel,Reyes,,1974-03-03,San Cristobal,San Cristobal,Corporativo,2021-09-18
+99,Carla,Diaz,,1974-03-02,Puerto Plata,Puerto Plata,Corporativo,2021-09-19
+100,Laura,Ortiz,F,1971-02-15,San Cristobal,San Cristobal,Preferente,2022-01-08
+101,Carlos,Herrera,M,1971-02-14,Puerto Plata,Puerto Plata,Preferente,2022-01-09
+102,Carla,Cruz,F,1971-02-13,La Romana,La Romana,Preferente,2022-01-10
+103,Miguel,Vargas,,1971-02-12,Higuey,La Altagracia,Preferente,2022-01-11
+104,Daniela,Perez,,1971-02-11,Santo Domingo,Distrito Nacional,Preferente,2022-01-12
+105,Rafael,Garcia,M,1971-02-10,Santo Domingo Este,Santo Domingo,Preferente,2022-01-13
+106,Sofia,Martinez,F,1971-02-09,Santiago,Santiago,Preferente,2022-01-14
+107,Andres,Rodriguez,M,1971-02-08,La Vega,La Vega,Preferente,2022-01-15
+108,Natalia,Diaz,F,1971-02-07,San Cristobal,San Cristobal,Preferente,2022-01-16
+109,Pedro,Torres,M,1971-02-06,Puerto Plata,Puerto Plata,Preferente,2022-01-17
+110,Laura,Ortiz,F,1971-01-30,San Cristobal,San Cristobal,Preferente,2022-01-24
+111,Carlos,Herrera,M,1971-01-29,Puerto Plata,Puerto Plata,Preferente,2022-01-25
+112,Carla,Cruz,F,1971-01-28,La Romana,La Romana,Preferente,2022-01-26
+113,Miguel,Vargas,M,1971-01-27,Higuey,La Altagracia,Preferente,2022-01-27
+114,Daniela,Perez,F,1971-01-26,Santo Domingo,Distrito Nacional,Preferente,2022-01-28
+115,Rafael,Garcia,M,1971-01-25,Santo Domingo Este,Santo Domingo,Preferente,2022-01-29
+116,Sofia,Martinez,F,1971-01-24,Santiago,Santiago,Regular,2022-01-30
+117,Andres,Rodriguez,,1971-01-23,La Vega,La Vega,Regular,2022-01-31
+118,Natalia,Diaz,,1971-01-22,San Cristobal,San Cristobal,Regular,2022-02-01
+119,Pedro,Torres,M,1971-01-21,Puerto Plata,Puerto Plata,Regular,2022-02-02
+120,Laura,Ortiz,F,1971-01-14,San Cristobal,San Cristobal,Regular,2022-02-09
+121,Carlos,Herrera,M,1971-01-13,Puerto Plata,Puerto Plata,Regular,2022-02-10
+122,Carla,Cruz,F,1971-01-12,La Romana,La Romana,Regular,2022-02-11
+123,Miguel,Vargas,M,1971-01-11,Higuey,La Altagracia,Regular,2022-02-12
+124,Daniela,Perez,F,1971-01-10,Santo Domingo,Distrito Nacional,Regular,2022-02-13
+125,Rafael,Garcia,M,1971-01-09,Santo Domingo Este,Santo Domingo,Regular,2022-02-14
+126,Sofia,Martinez,F,1971-01-08,Santiago,Santiago,Regular,2022-02-15
+127,Andres,Rodriguez,M,1971-01-07,La Vega,La Vega,Regular,2022-02-16
+128,Natalia,Diaz,F,1971-01-06,San Cristobal,San Cristobal,Regular,2022-02-17
+129,Pedro,Torres,M,1971-01-05,Puerto Plata,Puerto Plata,Regular,2022-02-18
+130,Laura,Ortiz,F,1970-12-29,San Cristobal,San Cristobal,Regular,2022-02-25
+131,Carlos,Herrera,M,1970-12-28,Puerto Plata,Puerto Plata,Regular,2022-02-26
+132,Carla,Cruz,F,1970-12-27,La Romana,La Romana,Regular,2022-02-27
+133,Miguel,Vargas,M,1970-12-26,Higuey,La Altagracia,Regular,2022-02-28
+134,Daniela,Perez,F,1970-12-25,Santo Domingo,Distrito Nacional,Regular,2022-03-01
+135,Rafael,Garcia,M,1970-12-24,Santo Domingo Este,Santo Domingo,Regular,2022-03-02
+136,Sofia,Martinez,F,1970-12-23,Santiago,Santiago,Regular,2022-03-03
+137,Andres,Rodriguez,M,1970-12-22,La Vega,La Vega,Regular,2022-03-04
+138,Natalia,Diaz,F,1970-12-21,San Cristobal,San Cristobal,Regular,2022-03-05
+139,Pedro,Torres,M,1970-12-20,Puerto Plata,Puerto Plata,Regular,2022-03-06
+140,Laura,Ortiz,F,1971-08-26,San Cristobal,San Cristobal,Preferente,2021-06-30
+141,Carlos,Herrera,M,1971-08-25,Puerto Plata,Puerto Plata,Preferente,2021-07-01
+142,Carla,Cruz,F,1971-08-24,La Romana,La Romana,Preferente,2021-07-02
+143,Miguel,Vargas,M,1971-08-23,Higuey,La Altagracia,Preferente,2021-07-03
+144,Daniela,Perez,F,1971-08-22,Santo Domingo,Distrito Nacional,Preferente,2021-07-04
+145,Rafael,Garcia,M,1971-08-21,Santo Domingo Este,Santo Domingo,Preferente,2021-07-05
+146,Sofia,Martinez,F,1971-08-20,Santiago,Santiago,Preferente,2021-07-06
+147,Andres,Rodriguez,M,1971-08-19,La Vega,La Vega,Preferente,2021-07-07
+148,Natalia,Diaz,F,1971-08-18,San Cristobal,San Cristobal,Preferente,2021-07-08
+149,Pedro,Torres,M,1971-08-17,Puerto Plata,Puerto Plata,Preferente,2021-07-09
+150,Laura,Ortiz,,1971-08-10,San Cristobal,San Cristobal,Regular,2021-07-16
+151,Carlos,Herrera,M,1971-08-09,Puerto Plata,Puerto Plata,Regular,2021-07-17
+152,Carla,Cruz,F,1971-08-08,La Romana,La Romana,Regular,2021-07-18
+153,Miguel,Vargas,M,1971-08-07,Higuey,La Altagracia,Regular,2021-07-19
+154,Daniela,Perez,F,1971-08-06,Santo Domingo,Distrito Nacional,Regular,2021-07-20
+155,Rafael,Garcia,M,1971-08-05,Santo Domingo Este,Santo Domingo,Regular,2021-07-21
+156,Sofia,Martinez,F,1971-08-04,Santiago,Santiago,Regular,2021-07-22
+157,Andres,Rodriguez,M,1971-08-03,La Vega,La Vega,Regular,2021-07-23
+158,Natalia,Diaz,F,1971-08-02,San Cristobal,San Cristobal,Regular,2021-07-24
+159,Pedro,Torres,M,1971-08-01,Puerto Plata,Puerto Plata,Regular,2021-07-25
+160,Laura,Ortiz,F,1971-07-25,San Cristobal,San Cristobal,Regular,2021-08-01
+161,Carlos,Herrera,M,1971-07-24,Puerto Plata,Puerto Plata,Regular,2021-08-02
+162,Carla,Cruz,F,1971-07-23,La Romana,La Romana,Regular,2021-08-03
+163,Miguel,Vargas,,1971-07-22,Higuey,La Altagracia,Regular,2021-08-04
+164,Daniela,Perez,,1971-07-21,Santo Domingo,Distrito Nacional,Regular,2021-08-05
+165,Rafael,Garcia,M,1971-07-20,Santo Domingo Este,Santo Domingo,Regular,2021-08-06
+166,Sofia,Martinez,F,1971-07-19,Santiago,Santiago,Regular,2021-08-07
+167,Andres,Rodriguez,M,1971-07-18,La Vega,La Vega,Regular,2021-08-08
+168,Natalia,Diaz,F,1971-07-17,San Cristobal,San Cristobal,Regular,2021-08-09
+169,Pedro,Torres,M,1971-07-16,Puerto Plata,Puerto Plata,Regular,2021-08-10
+170,Laura,Ortiz,F,1971-07-09,San Cristobal,San Cristobal,Regular,2021-08-17
+171,Carlos,Herrera,M,1971-07-08,Puerto Plata,Puerto Plata,Regular,2021-08-18
+172,Carla,Cruz,F,1971-07-07,La Romana,La Romana,Regular,2021-08-19
+173,Miguel,Vargas,M,1971-07-06,Higuey,La Altagracia,Regular,2021-08-20
+174,Daniela,Perez,F,1971-07-05,Santo Domingo,Distrito Nacional,Regular,2021-08-21
+175,Rafael,Garcia,M,1971-07-04,Santo Domingo Este,Santo Domingo,Regular,2021-08-22
+176,Sofia,Martinez,F,1971-07-03,Santiago,Santiago,Regular,2021-08-23
+177,Andres,Rodriguez,,1971-07-02,La Vega,La Vega,Regular,2021-08-24
+178,Natalia,Diaz,,1971-07-01,San Cristobal,San Cristobal,Regular,2021-08-25
+179,Pedro,Torres,M,1971-06-30,Puerto Plata,Puerto Plata,Regular,2021-08-26
+180,Laura,Ortiz,F,1971-06-23,San Cristobal,San Cristobal,Regular,2021-09-02
+181,Carlos,Herrera,M,1971-06-22,Puerto Plata,Puerto Plata,Regular,2021-09-03
+182,Carla,Cruz,F,1971-06-21,La Romana,La Romana,Regular,2021-09-04
+183,Miguel,Vargas,M,1971-06-20,Higuey,La Altagracia,Regular,2021-09-05
+184,Daniela,Perez,F,1971-06-19,Santo Domingo,Distrito Nacional,Regular,2021-09-06
+185,Rafael,Garcia,M,1971-06-18,Santo Domingo Este,Santo Domingo,Regular,2021-09-07
+186,Sofia,Martinez,F,1971-06-17,Santiago,Santiago,Regular,2021-09-08
+187,Andres,Rodriguez,M,1971-06-16,La Vega,La Vega,Regular,2021-09-09
+188,Natalia,Diaz,F,1971-06-15,San Cristobal,San Cristobal,Regular,2021-09-10
+189,Pedro,Torres,M,1971-06-14,Puerto Plata,Puerto Plata,Regular,2021-09-11
+190,Laura,Ortiz,F,1971-06-07,San Cristobal,San Cristobal,Corporativo,2021-09-18
+191,Carlos,Herrera,M,1971-06-06,Puerto Plata,Puerto Plata,Corporativo,2021-09-19
+192,Carla,Cruz,F,1971-06-05,La Romana,La Romana,Corporativo,2021-09-20
+193,Miguel,Vargas,M,1971-06-04,Higuey,La Altagracia,Corporativo,2021-09-21
+194,Daniela,Perez,F,1971-06-03,Santo Domingo,Distrito Nacional,Corporativo,2021-09-22
+195,Rafael,Garcia,M,1971-06-02,Santo Domingo Este,Santo Domingo,Corporativo,2021-09-23
+196,Sofia,Martinez,F,1971-06-01,Santiago,Santiago,Corporativo,2021-09-24
+197,Andres,Rodriguez,M,1971-05-31,La Vega,La Vega,Corporativo,2021-09-25
+198,Natalia,Diaz,F,1971-05-30,San Cristobal,San Cristobal,Preferente,2021-09-26
+199,Pedro,Torres,M,1971-05-29,Puerto Plata,Puerto Plata,Preferente,2021-09-27
+200,Laura,Ortiz,F,1970-06-04,San Cristobal,San Cristobal,Regular,2022-09-21
+201,Carlos,Herrera,M,1970-06-03,Puerto Plata,Puerto Plata,Regular,2022-09-22
+202,Carla,Cruz,F,1970-06-02,La Romana,La Romana,Regular,2022-09-23
+203,Miguel,Vargas,M,1970-06-01,Higuey,La Altagracia,Regular,2022-09-24
+204,Daniela,Perez,F,1970-05-31,Santo Domingo,Distrito Nacional,Regular,2022-09-25
+205,Rafael,Garcia,M,1970-05-30,Santo Domingo Este,Santo Domingo,Regular,2022-09-26
+206,Sofia,Martinez,F,1970-05-29,Santiago,Santiago,Regular,2022-09-27
+207,Andres,Rodriguez,,1970-05-28,La Vega,La Vega,Regular,2022-09-28
+208,Natalia,Diaz,,1970-05-27,San Cristobal,San Cristobal,Regular,2022-09-29
+209,Pedro,Torres,M,1970-05-26,Puerto Plata,Puerto Plata,Regular,2022-09-30
+210,Laura,Ortiz,F,1970-05-19,San Cristobal,San Cristobal,Regular,2022-10-07
+211,Carlos,Herrera,M,1970-05-18,Puerto Plata,Puerto Plata,Regular,2022-10-08
+212,Carla,Cruz,F,1970-05-17,La Romana,La Romana,Regular,2022-10-09
+213,Miguel,Vargas,M,1970-05-16,Higuey,La Altagracia,Regular,2022-10-10
+214,Daniela,Perez,F,1970-05-15,Santo Domingo,Distrito Nacional,Regular,2022-10-11
+215,Rafael,Garcia,M,1970-05-14,Santo Domingo Este,Santo Domingo,Regular,2022-10-12
+216,Sofia,Martinez,F,1970-05-13,Santiago,Santiago,Regular,2022-10-13
+217,Andres,Rodriguez,M,1970-05-12,La Vega,La Vega,Regular,2022-10-14
+218,Natalia,Diaz,F,1970-05-11,San Cristobal,San Cristobal,Regular,2022-10-15
+219,Pedro,Torres,M,1970-05-10,Puerto Plata,Puerto Plata,Regular,2022-10-16
+220,Laura,Ortiz,F,1970-05-03,San Cristobal,San Cristobal,Corporativo,2022-10-23
+221,Carlos,Herrera,M,1970-05-02,Puerto Plata,Puerto Plata,Corporativo,2022-10-24
+222,Carla,Cruz,F,1970-05-01,La Romana,La Romana,Corporativo,2022-10-25
+223,Miguel,Vargas,M,1970-04-30,Higuey,La Altagracia,Corporativo,2022-10-26
+224,Daniela,Perez,F,1970-04-29,Santo Domingo,Distrito Nacional,Corporativo,2022-10-27
+225,Rafael,Garcia,M,1970-04-28,Santo Domingo Este,Santo Domingo,Corporativo,2022-10-28
+226,Sofia,Martinez,F,1970-04-27,Santiago,Santiago,Corporativo,2022-10-29
+227,Andres,Rodriguez,M,1970-04-26,La Vega,La Vega,Corporativo,2022-10-30
+228,Natalia,Diaz,F,1970-04-25,San Cristobal,San Cristobal,Preferente,2022-10-31
+229,Pedro,Torres,M,1970-04-24,Puerto Plata,Puerto Plata,Preferente,2022-11-01
+230,Laura,Ortiz,,1970-04-17,San Cristobal,San Cristobal,Preferente,2022-11-08
+231,Carlos,Herrera,M,1970-04-16,Puerto Plata,Puerto Plata,Preferente,2022-11-09
+232,Carla,Cruz,F,1970-04-15,La Romana,La Romana,Preferente,2022-11-10
+233,Miguel,Vargas,M,1970-04-14,Higuey,La Altagracia,Preferente,2022-11-11
+234,Daniela,Perez,F,1970-04-13,Santo Domingo,Distrito Nacional,Preferente,2022-11-12
+235,Rafael,Garcia,M,1970-04-12,Santo Domingo Este,Santo Domingo,Preferente,2022-11-13
+236,Sofia,Martinez,F,1970-04-11,Santiago,Santiago,Preferente,2022-11-14
+237,Andres,Rodriguez,M,1970-04-10,La Vega,La Vega,Preferente,2022-11-15
+238,Natalia,Diaz,F,1970-04-09,San Cristobal,San Cristobal,Preferente,2022-11-16
+239,Pedro,Torres,M,1970-04-08,Puerto Plata,Puerto Plata,Preferente,2022-11-17
+240,Laura,Ortiz,,1970-12-13,San Cristobal,San Cristobal,Regular,2022-03-13
+241,Carlos,Herrera,M,1970-12-12,Puerto Plata,Puerto Plata,Regular,2022-03-14
+242,Carla,Cruz,F,1970-12-11,La Romana,La Romana,Regular,2022-03-15
+243,Miguel,Vargas,M,1970-12-10,Higuey,La Altagracia,Regular,2022-03-16
+244,Daniela,Perez,F,1970-12-09,Santo Domingo,Distrito Nacional,Regular,2022-03-17
+245,Rafael,Garcia,M,1970-12-08,Santo Domingo Este,Santo Domingo,Regular,2022-03-18
+246,Sofia,Martinez,F,1970-12-07,Santiago,Santiago,Regular,2022-03-19
+247,Andres,Rodriguez,M,1970-12-06,La Vega,La Vega,Regular,2022-03-20
+248,Natalia,Diaz,F,1970-12-05,San Cristobal,San Cristobal,Regular,2022-03-21
+249,Pedro,Torres,M,1970-12-04,Puerto Plata,Puerto Plata,Regular,2022-03-22
+250,Laura,Ortiz,F,1970-11-27,San Cristobal,San Cristobal,Regular,2022-03-29
+251,Carlos,Herrera,M,1970-11-26,Puerto Plata,Puerto Plata,Regular,2022-03-30
+252,Carla,Cruz,F,1970-11-25,La Romana,La Romana,Regular,2022-03-31
+253,Miguel,Vargas,,1970-11-24,Higuey,La Altagracia,Regular,2022-04-01
+254,Daniela,Perez,,1970-11-23,Santo Domingo,Distrito Nacional,Corporativo,2022-04-02
+255,Rafael,Garcia,M,1970-11-22,Santo Domingo Este,Santo Domingo,Corporativo,2022-04-03
+256,Sofia,Martinez,F,1970-11-21,Santiago,Santiago,Corporativo,2022-04-04
+257,Andres,Rodriguez,M,1970-11-20,La Vega,La Vega,Corporativo,2022-04-05
+258,Natalia,Diaz,F,1970-11-19,San Cristobal,San Cristobal,Corporativo,2022-04-06
+259,Pedro,Torres,M,1970-11-18,Puerto Plata,Puerto Plata,Corporativo,2022-04-07
+260,Laura,Ortiz,F,1970-11-11,San Cristobal,San Cristobal,Preferente,2022-04-14
+261,Carlos,Herrera,M,1970-11-10,Puerto Plata,Puerto Plata,Preferente,2022-04-15
+262,Carla,Cruz,F,1970-11-09,La Romana,La Romana,Preferente,2022-04-16
+263,Miguel,Vargas,M,1970-11-08,Higuey,La Altagracia,Preferente,2022-04-17
+264,Daniela,Perez,F,1970-11-07,Santo Domingo,Distrito Nacional,Preferente,2022-04-18
+265,Rafael,Garcia,M,1970-11-06,Santo Domingo Este,Santo Domingo,Preferente,2022-04-19
+266,Sofia,Martinez,F,1970-11-05,Santiago,Santiago,Preferente,2022-04-20
+267,Andres,Rodriguez,,1970-11-04,La Vega,La Vega,Preferente,2022-04-21
+268,Natalia,Diaz,,1970-11-03,San Cristobal,San Cristobal,Preferente,2022-04-22
+269,Pedro,Torres,M,1970-11-02,Puerto Plata,Puerto Plata,Preferente,2022-04-23
+270,Laura,Ortiz,F,1970-10-26,San Cristobal,San Cristobal,Preferente,2022-04-30
+271,Carlos,Herrera,M,1970-10-25,Puerto Plata,Puerto Plata,Preferente,2022-05-01
+272,Carla,Cruz,F,1970-10-24,La Romana,La Romana,Preferente,2022-05-02
+273,Miguel,Vargas,M,1970-10-23,Higuey,La Altagracia,Preferente,2022-05-03
+274,Daniela,Perez,F,1970-10-22,Santo Domingo,Distrito Nacional,Preferente,2022-05-04
+275,Rafael,Garcia,M,1970-10-21,Santo Domingo Este,Santo Domingo,Preferente,2022-05-05
+276,Sofia,Martinez,F,1970-10-20,Santiago,Santiago,Preferente,2022-05-06
+277,Andres,Rodriguez,M,1970-10-19,La Vega,La Vega,Preferente,2022-05-07
+278,Natalia,Diaz,F,1970-10-18,San Cristobal,San Cristobal,Preferente,2022-05-08
+279,Pedro,Torres,M,1970-10-17,Puerto Plata,Puerto Plata,Preferente,2022-05-09
+280,Laura,Ortiz,F,1970-10-10,San Cristobal,San Cristobal,Regular,2022-05-16
+281,Carlos,Herrera,M,1970-10-09,Puerto Plata,Puerto Plata,Regular,2022-05-17
+282,Carla,Cruz,F,1970-10-08,La Romana,La Romana,Regular,2022-05-18
+283,Miguel,Vargas,M,1970-10-07,Higuey,La Altagracia,Regular,2022-05-19
+284,Daniela,Perez,F,1970-10-06,Santo Domingo,Distrito Nacional,Regular,2022-05-20
+285,Rafael,Garcia,M,1970-10-05,Santo Domingo Este,Santo Domingo,Regular,2022-05-21
+286,Sofia,Martinez,F,1970-10-04,Santiago,Santiago,Regular,2022-05-22
+287,Andres,Rodriguez,M,1970-10-03,La Vega,La Vega,Regular,2022-05-23
+288,Natalia,Diaz,F,1970-10-02,San Cristobal,San Cristobal,Regular,2022-05-24
+289,Pedro,Torres,M,1970-10-01,Puerto Plata,Puerto Plata,Regular,2022-05-25
+290,Laura,Ortiz,,1970-09-24,San Cristobal,San Cristobal,Regular,2022-06-01
+291,Carlos,Herrera,M,1970-09-23,Puerto Plata,Puerto Plata,Regular,2022-06-02
+292,Carla,Cruz,F,1970-09-22,La Romana,La Romana,Regular,2022-06-03
+293,Miguel,Vargas,M,1970-09-21,Higuey,La Altagracia,Regular,2022-06-04
+294,Daniela,Perez,F,1970-09-20,Santo Domingo,Distrito Nacional,Regular,2022-06-05
+295,Rafael,Garcia,M,1970-09-19,Santo Domingo Este,Santo Domingo,Regular,2022-06-06
+296,Sofia,Martinez,F,1970-09-18,Santiago,Santiago,Regular,2022-06-07
+297,Andres,Rodriguez,M,1970-09-17,La Vega,La Vega,Regular,2022-06-08
+298,Natalia,Diaz,F,1970-09-16,San Cristobal,San Cristobal,Regular,2022-06-09
+299,Pedro,Torres,M,1970-09-15,Puerto Plata,Puerto Plata,Regular,2022-06-10
+300,Laura,Ortiz,F,1969-09-21,San Cristobal,San Cristobal,Preferente,2021-06-04
+301,Carlos,Herrera,M,1969-09-20,Puerto Plata,Puerto Plata,Preferente,2021-06-05
+302,Carla,Cruz,F,1969-09-19,La Romana,La Romana,Preferente,2021-06-06
+303,Miguel,Vargas,M,1969-09-18,Higuey,La Altagracia,Preferente,2021-06-07
+304,Daniela,Perez,F,1969-09-17,Santo Domingo,Distrito Nacional,Preferente,2021-06-08
+305,Rafael,Garcia,M,1969-09-16,Santo Domingo Este,Santo Domingo,Preferente,2021-06-09
+306,Sofia,Martinez,F,1969-09-15,Santiago,Santiago,Preferente,2021-06-10
+307,Andres,Rodriguez,M,1969-09-14,La Vega,La Vega,Preferente,2021-06-11
+308,Natalia,Diaz,F,1969-09-13,San Cristobal,San Cristobal,Preferente,2021-06-12
+309,Pedro,Torres,M,1969-09-12,Puerto Plata,Puerto Plata,Preferente,2021-06-13
+310,Laura,Ortiz,F,1969-09-05,San Cristobal,San Cristobal,Regular,2021-06-20
+311,Carlos,Herrera,M,1969-09-04,Puerto Plata,Puerto Plata,Regular,2021-06-21
+312,Carla,Cruz,F,1969-09-03,La Romana,La Romana,Regular,2021-06-22
+313,Miguel,Vargas,M,1969-09-02,Higuey,La Altagracia,Regular,2021-06-23
+314,Daniela,Perez,F,1969-09-01,Santo Domingo,Distrito Nacional,Regular,2021-06-24
+315,Rafael,Garcia,M,1969-08-31,Santo Domingo Este,Santo Domingo,Regular,2021-06-25
+316,Sofia,Martinez,F,1969-08-30,Santiago,Santiago,Regular,2021-06-26
+317,Andres,Rodriguez,M,1969-08-29,La Vega,La Vega,Regular,2021-06-27
+318,Natalia,Diaz,F,1969-08-28,San Cristobal,San Cristobal,Regular,2021-06-28
+319,Pedro,Torres,M,1969-08-27,Puerto Plata,Puerto Plata,Regular,2021-06-29
+320,Laura,Ortiz,,1969-08-20,San Cristobal,San Cristobal,Regular,2021-07-06
+321,Carlos,Herrera,M,1969-08-19,Puerto Plata,Puerto Plata,Regular,2021-07-07
+322,Carla,Cruz,F,1969-08-18,La Romana,La Romana,Regular,2021-07-08
+323,Miguel,Vargas,M,1969-08-17,Higuey,La Altagracia,Regular,2021-07-09
+324,Daniela,Perez,F,1969-08-16,Santo Domingo,Distrito Nacional,Regular,2021-07-10
+325,Rafael,Garcia,M,1969-08-15,Santo Domingo Este,Santo Domingo,Regular,2021-07-11
+326,Sofia,Martinez,F,1969-08-14,Santiago,Santiago,Regular,2021-07-12
+327,Andres,Rodriguez,M,1969-08-13,La Vega,La Vega,Regular,2021-07-13
+328,Natalia,Diaz,F,1969-08-12,San Cristobal,San Cristobal,Regular,2021-07-14
+329,Pedro,Torres,M,1969-08-11,Puerto Plata,Puerto Plata,Regular,2021-07-15
+330,Laura,Ortiz,F,1969-08-04,San Cristobal,San Cristobal,Regular,2021-07-22
+331,Carlos,Herrera,M,1969-08-03,Puerto Plata,Puerto Plata,Regular,2021-07-23
+332,Carla,Cruz,F,1969-08-02,La Romana,La Romana,Regular,2021-07-24
+333,Miguel,Vargas,,1969-08-01,Higuey,La Altagracia,Regular,2021-07-25
+334,Daniela,Perez,,1969-07-31,Santo Domingo,Distrito Nacional,Regular,2021-07-26
+335,Rafael,Garcia,M,1969-07-30,Santo Domingo Este,Santo Domingo,Regular,2021-07-27
+336,Sofia,Martinez,F,1969-07-29,Santiago,Santiago,Regular,2021-07-28
+337,Andres,Rodriguez,M,1969-07-28,La Vega,La Vega,Regular,2021-07-29
+338,Natalia,Diaz,F,1969-07-27,San Cristobal,San Cristobal,Regular,2021-07-30
+339,Pedro,Torres,M,1969-07-26,Puerto Plata,Puerto Plata,Regular,2021-07-31
+340,Laura,Ortiz,F,1970-04-01,San Cristobal,San Cristobal,Preferente,2022-11-24
+341,Carlos,Herrera,M,1970-03-31,Puerto Plata,Puerto Plata,Preferente,2022-11-25
+342,Carla,Cruz,F,1970-03-30,La Romana,La Romana,Regular,2022-11-26
+343,Miguel,Vargas,,1970-03-29,Higuey,La Altagracia,Regular,2022-11-27
+344,Daniela,Perez,,1970-03-28,Santo Domingo,Distrito Nacional,Regular,2022-11-28
+345,Rafael,Garcia,M,1970-03-27,Santo Domingo Este,Santo Domingo,Regular,2022-11-29
+346,Sofia,Martinez,F,1970-03-26,Santiago,Santiago,Regular,2022-11-30
+347,Andres,Rodriguez,M,1970-03-25,La Vega,La Vega,Regular,2022-12-01
+348,Natalia,Diaz,F,1970-03-24,San Cristobal,San Cristobal,Regular,2022-12-02
+349,Pedro,Torres,M,1970-03-23,Puerto Plata,Puerto Plata,Regular,2022-12-03
+350,Laura,Ortiz,F,1970-03-16,San Cristobal,San Cristobal,Regular,2022-12-10
+351,Carlos,Herrera,M,1970-03-15,Puerto Plata,Puerto Plata,Regular,2022-12-11
+352,Carla,Cruz,F,1970-03-14,La Romana,La Romana,Regular,2022-12-12
+353,Miguel,Vargas,M,1970-03-13,Higuey,La Altagracia,Regular,2022-12-13
+354,Daniela,Perez,F,1970-03-12,Santo Domingo,Distrito Nacional,Regular,2022-12-14
+355,Rafael,Garcia,M,1970-03-11,Santo Domingo Este,Santo Domingo,Regular,2022-12-15
+356,Sofia,Martinez,F,1970-03-10,Santiago,Santiago,Regular,2022-12-16
+357,Andres,Rodriguez,,1970-03-09,La Vega,La Vega,Regular,2022-12-17
+358,Natalia,Diaz,,1970-03-08,San Cristobal,San Cristobal,Regular,2022-12-18
+359,Pedro,Torres,M,1970-03-07,Puerto Plata,Puerto Plata,Regular,2022-12-19
+360,Laura,Ortiz,F,1970-02-28,San Cristobal,San Cristobal,Regular,2022-12-26
+361,Carlos,Herrera,M,1970-02-27,Puerto Plata,Puerto Plata,Regular,2022-12-27
+362,Carla,Cruz,F,1970-02-26,La Romana,La Romana,Regular,2022-12-28
+363,Miguel,Vargas,M,1970-02-25,Higuey,La Altagracia,Regular,2022-12-29
+364,Daniela,Perez,F,1970-02-24,Santo Domingo,Distrito Nacional,Regular,2022-12-30
+365,Rafael,Garcia,M,1970-02-23,Santo Domingo Este,Santo Domingo,Regular,2022-12-31
+366,Sofia,Martinez,F,1970-02-22,Santiago,Santiago,Regular,2021-01-01
+367,Andres,Rodriguez,M,1970-02-21,La Vega,La Vega,Regular,2021-01-02
+368,Natalia,Diaz,F,1970-02-20,San Cristobal,San Cristobal,Regular,2021-01-03
+369,Pedro,Torres,M,1970-02-19,Puerto Plata,Puerto Plata,Regular,2021-01-04
+370,Laura,Ortiz,F,1970-02-12,San Cristobal,San Cristobal,Regular,2021-01-11
+371,Carlos,Herrera,M,1970-02-11,Puerto Plata,Puerto Plata,Regular,2021-01-12
+372,Carla,Cruz,F,1970-02-10,La Romana,La Romana,Regular,2021-01-13
+373,Miguel,Vargas,M,1970-02-09,Higuey,La Altagracia,Regular,2021-01-14
+374,Daniela,Perez,F,1970-02-08,Santo Domingo,Distrito Nacional,Regular,2021-01-15
+375,Rafael,Garcia,M,1970-02-07,Santo Domingo Este,Santo Domingo,Regular,2021-01-16
+376,Sofia,Martinez,F,1970-02-06,Santiago,Santiago,Regular,2021-01-17
+377,Andres,Rodriguez,M,1970-02-05,La Vega,La Vega,Regular,2021-01-18
+378,Natalia,Diaz,F,1970-02-04,San Cristobal,San Cristobal,Regular,2021-01-19
+379,Pedro,Torres,M,1970-02-03,Puerto Plata,Puerto Plata,Regular,2021-01-20
+380,Laura,Ortiz,,1970-01-27,San Cristobal,San Cristobal,Corporativo,2021-01-27
+381,Carlos,Herrera,M,1970-01-26,Puerto Plata,Puerto Plata,Corporativo,2021-01-28
+382,Carla,Cruz,F,1970-01-25,La Romana,La Romana,Corporativo,2021-01-29
+383,Miguel,Vargas,M,1970-01-24,Higuey,La Altagracia,Corporativo,2021-01-30
+384,Daniela,Perez,F,1970-01-23,Santo Domingo,Distrito Nacional,Corporativo,2021-01-31
+385,Rafael,Garcia,M,1970-01-22,Santo Domingo Este,Santo Domingo,Corporativo,2021-02-01
+386,Sofia,Martinez,F,1970-01-21,Santiago,Santiago,Corporativo,2021-02-02
+387,Andres,Rodriguez,M,1970-01-20,La Vega,La Vega,Corporativo,2021-02-03
+388,Natalia,Diaz,F,1970-01-19,San Cristobal,San Cristobal,Corporativo,2021-02-04
+389,Pedro,Torres,M,1970-01-18,Puerto Plata,Puerto Plata,Corporativo,2021-02-05
+390,Laura,Ortiz,F,1970-01-11,San Cristobal,San Cristobal,Preferente,2021-02-12
+391,Carlos,Herrera,M,1970-01-10,Puerto Plata,Puerto Plata,Preferente,2021-02-13
+392,Carla,Cruz,F,1970-01-09,La Romana,La Romana,Preferente,2021-02-14
+393,Miguel,Vargas,,1970-01-08,Higuey,La Altagracia,Preferente,2021-02-15
+394,Daniela,Perez,,1970-01-07,Santo Domingo,Distrito Nacional,Preferente,2021-02-16
+395,Rafael,Garcia,M,1970-01-06,Santo Domingo Este,Santo Domingo,Preferente,2021-02-17
+396,Sofia,Martinez,F,1970-01-05,Santiago,Santiago,Preferente,2021-02-18
+397,Andres,Rodriguez,M,1970-01-04,La Vega,La Vega,Preferente,2021-02-19
+398,Natalia,Diaz,F,1970-01-03,San Cristobal,San Cristobal,Preferente,2021-02-20
+399,Pedro,Torres,M,1970-01-02,Puerto Plata,Puerto Plata,Preferente,2021-02-21
+400,Laura,Ortiz,F,1980-03-27,San Cristobal,San Cristobal,Regular,2022-11-26
+401,Carlos,Herrera,M,1980-03-26,Puerto Plata,Puerto Plata,Regular,2022-11-27
+402,Carla,Cruz,F,1980-03-25,La Romana,La Romana,Regular,2022-11-28
+403,Miguel,Vargas,M,1980-03-24,Higuey,La Altagracia,Regular,2022-11-29
+404,Daniela,Perez,F,1980-03-23,Santo Domingo,Distrito Nacional,Regular,2022-11-30
+405,Rafael,Garcia,M,1980-03-22,Santo Domingo Este,Santo Domingo,Regular,2022-12-01
+406,Sofia,Martinez,F,1980-03-21,Santiago,Santiago,Regular,2022-12-02
+407,Andres,Rodriguez,M,1980-03-20,La Vega,La Vega,Regular,2022-12-03
+408,Natalia,Diaz,F,1980-03-19,San Cristobal,San Cristobal,Regular,2022-12-04
+409,Pedro,Torres,M,1980-03-18,Puerto Plata,Puerto Plata,Regular,2022-12-05
+410,Laura,Ortiz,F,1980-03-11,San Cristobal,San Cristobal,Corporativo,2022-12-12
+411,Carlos,Herrera,M,1980-03-10,Puerto Plata,Puerto Plata,Corporativo,2022-12-13
+412,Carla,Cruz,F,1980-03-09,La Romana,La Romana,Corporativo,2022-12-14
+413,Miguel,Vargas,M,1980-03-08,Higuey,La Altagracia,Corporativo,2022-12-15
+414,Daniela,Perez,F,1980-03-07,Santo Domingo,Distrito Nacional,Corporativo,2022-12-16
+415,Rafael,Garcia,M,1980-03-06,Santo Domingo Este,Santo Domingo,Corporativo,2022-12-17
+416,Sofia,Martinez,F,1980-03-05,Santiago,Santiago,Corporativo,2022-12-18
+417,Andres,Rodriguez,M,1980-03-04,La Vega,La Vega,Corporativo,2022-12-19
+418,Natalia,Diaz,F,1980-03-03,San Cristobal,San Cristobal,Preferente,2022-12-20
+419,Pedro,Torres,M,1980-03-02,Puerto Plata,Puerto Plata,Preferente,2022-12-21
+420,Laura,Ortiz,,1980-02-24,San Cristobal,San Cristobal,Preferente,2022-12-28
+421,Carlos,Herrera,M,1980-02-23,Puerto Plata,Puerto Plata,Preferente,2022-12-29
+422,Carla,Cruz,F,1980-02-22,La Romana,La Romana,Preferente,2022-12-30
+423,Miguel,Vargas,M,1980-02-21,Higuey,La Altagracia,Preferente,2022-12-31
+424,Daniela,Perez,F,1980-02-20,Santo Domingo,Distrito Nacional,Preferente,2021-01-01
+425,Rafael,Garcia,M,1980-02-19,Santo Domingo Este,Santo Domingo,Preferente,2021-01-02
+426,Sofia,Martinez,F,1980-02-18,Santiago,Santiago,Preferente,2021-01-03
+427,Andres,Rodriguez,M,1980-02-17,La Vega,La Vega,Preferente,2021-01-04
+428,Natalia,Diaz,F,1980-02-16,San Cristobal,San Cristobal,Preferente,2021-01-05
+429,Pedro,Torres,M,1980-02-15,Puerto Plata,Puerto Plata,Preferente,2021-01-06
+430,Laura,Ortiz,F,1980-02-08,San Cristobal,San Cristobal,Preferente,2021-01-13
+431,Carlos,Herrera,M,1980-02-07,Puerto Plata,Puerto Plata,Preferente,2021-01-14
+432,Carla,Cruz,F,1980-02-06,La Romana,La Romana,Regular,2021-01-15
+433,Miguel,Vargas,,1980-02-05,Higuey,La Altagracia,Regular,2021-01-16
+434,Daniela,Perez,,1980-02-04,Santo Domingo,Distrito Nacional,Regular,2021-01-17
+435,Rafael,Garcia,M,1980-02-03,Santo Domingo Este,Santo Domingo,Regular,2021-01-18
+436,Sofia,Martinez,F,1980-02-02,Santiago,Santiago,Regular,2021-01-19
+437,Andres,Rodriguez,M,1980-02-01,La Vega,La Vega,Regular,2021-01-20
+438,Natalia,Diaz,F,1980-01-31,San Cristobal,San Cristobal,Regular,2021-01-21
+439,Pedro,Torres,M,1980-01-30,Puerto Plata,Puerto Plata,Regular,2021-01-22
+440,Laura,Ortiz,F,1980-10-05,San Cristobal,San Cristobal,Regular,2022-05-18
+441,Carlos,Herrera,M,1980-10-04,Puerto Plata,Puerto Plata,Regular,2022-05-19
+442,Carla,Cruz,F,1980-10-03,La Romana,La Romana,Regular,2022-05-20
+443,Miguel,Vargas,,1980-10-02,Higuey,La Altagracia,Regular,2022-05-21
+444,Daniela,Perez,,1980-10-01,Santo Domingo,Distrito Nacional,Corporativo,2022-05-22
+445,Rafael,Garcia,M,1980-09-30,Santo Domingo Este,Santo Domingo,Corporativo,2022-05-23
+446,Sofia,Martinez,F,1980-09-29,Santiago,Santiago,Corporativo,2022-05-24
+447,Andres,Rodriguez,M,1980-09-28,La Vega,La Vega,Corporativo,2022-05-25
+448,Natalia,Diaz,F,1980-09-27,San Cristobal,San Cristobal,Corporativo,2022-05-26
+449,Pedro,Torres,M,1980-09-26,Puerto Plata,Puerto Plata,Corporativo,2022-05-27
+450,Laura,Ortiz,F,1980-09-19,San Cristobal,San Cristobal,Preferente,2022-06-03
+451,Carlos,Herrera,M,1980-09-18,Puerto Plata,Puerto Plata,Preferente,2022-06-04
+452,Carla,Cruz,F,1980-09-17,La Romana,La Romana,Preferente,2022-06-05
+453,Miguel,Vargas,M,1980-09-16,Higuey,La Altagracia,Preferente,2022-06-06
+454,Daniela,Perez,F,1980-09-15,Santo Domingo,Distrito Nacional,Preferente,2022-06-07
+455,Rafael,Garcia,M,1980-09-14,Santo Domingo Este,Santo Domingo,Preferente,2022-06-08
+456,Sofia,Martinez,F,1980-09-13,Santiago,Santiago,Preferente,2022-06-09
+457,Andres,Rodriguez,,1980-09-12,La Vega,La Vega,Preferente,2022-06-10
+458,Natalia,Diaz,,1980-09-11,San Cristobal,San Cristobal,Preferente,2022-06-11
+459,Pedro,Torres,M,1980-09-10,Puerto Plata,Puerto Plata,Preferente,2022-06-12
+460,Laura,Ortiz,F,1980-09-03,San Cristobal,San Cristobal,Preferente,2022-06-19
+461,Carlos,Herrera,M,1980-09-02,Puerto Plata,Puerto Plata,Preferente,2022-06-20
+462,Carla,Cruz,F,1980-09-01,La Romana,La Romana,Preferente,2022-06-21
+463,Miguel,Vargas,M,1980-08-31,Higuey,La Altagracia,Preferente,2022-06-22
+464,Daniela,Perez,F,1980-08-30,Santo Domingo,Distrito Nacional,Preferente,2022-06-23
+465,Rafael,Garcia,M,1980-08-29,Santo Domingo Este,Santo Domingo,Preferente,2022-06-24
+466,Sofia,Martinez,F,1980-08-28,Santiago,Santiago,Preferente,2022-06-25
+467,Andres,Rodriguez,M,1980-08-27,La Vega,La Vega,Preferente,2022-06-26
+468,Natalia,Diaz,F,1980-08-26,San Cristobal,San Cristobal,Preferente,2022-06-27
+469,Pedro,Torres,M,1980-08-25,Puerto Plata,Puerto Plata,Preferente,2022-06-28
+470,Laura,Ortiz,F,1980-08-18,San Cristobal,San Cristobal,Regular,2022-07-05
+471,Carlos,Herrera,M,1980-08-17,Puerto Plata,Puerto Plata,Regular,2022-07-06
+472,Carla,Cruz,F,1980-08-16,La Romana,La Romana,Regular,2022-07-07
+473,Miguel,Vargas,M,1980-08-15,Higuey,La Altagracia,Regular,2022-07-08
+474,Daniela,Perez,F,1980-08-14,Santo Domingo,Distrito Nacional,Regular,2022-07-09
+475,Rafael,Garcia,M,1980-08-13,Santo Domingo Este,Santo Domingo,Regular,2022-07-10
+476,Sofia,Martinez,F,1980-08-12,Santiago,Santiago,Regular,2022-07-11
+477,Andres,Rodriguez,M,1980-08-11,La Vega,La Vega,Regular,2022-07-12
+478,Natalia,Diaz,F,1980-08-10,San Cristobal,San Cristobal,Regular,2022-07-13
+479,Pedro,Torres,M,1980-08-09,Puerto Plata,Puerto Plata,Regular,2022-07-14
+480,Laura,Ortiz,,1980-08-02,San Cristobal,San Cristobal,Regular,2022-07-21
+481,Carlos,Herrera,M,1980-08-01,Puerto Plata,Puerto Plata,Regular,2022-07-22
+482,Carla,Cruz,F,1980-07-31,La Romana,La Romana,Regular,2022-07-23
+483,Miguel,Vargas,M,1980-07-30,Higuey,La Altagracia,Regular,2022-07-24
+484,Daniela,Perez,F,1980-07-29,Santo Domingo,Distrito Nacional,Regular,2022-07-25
+485,Rafael,Garcia,M,1980-07-28,Santo Domingo Este,Santo Domingo,Regular,2022-07-26
+486,Sofia,Martinez,F,1980-07-27,Santiago,Santiago,Regular,2022-07-27
+487,Andres,Rodriguez,M,1980-07-26,La Vega,La Vega,Regular,2022-07-28
+488,Natalia,Diaz,F,1980-07-25,San Cristobal,San Cristobal,Regular,2022-07-29
+489,Pedro,Torres,M,1980-07-24,Puerto Plata,Puerto Plata,Regular,2022-07-30
+490,Laura,Ortiz,F,1980-07-17,San Cristobal,San Cristobal,Regular,2022-08-06
+491,Carlos,Herrera,M,1980-07-16,Puerto Plata,Puerto Plata,Regular,2022-08-07
+492,Carla,Cruz,F,1980-07-15,La Romana,La Romana,Regular,2022-08-08
+493,Miguel,Vargas,,1980-07-14,Higuey,La Altagracia,Regular,2022-08-09
+494,Daniela,Perez,,1980-07-13,Santo Domingo,Distrito Nacional,Regular,2022-08-10
+495,Rafael,Garcia,M,1980-07-12,Santo Domingo Este,Santo Domingo,Regular,2022-08-11
+496,Sofia,Martinez,F,1980-07-11,Santiago,Santiago,Regular,2022-08-12
+497,Andres,Rodriguez,M,1980-07-10,La Vega,La Vega,Regular,2022-08-13
+498,Natalia,Diaz,F,1980-07-09,San Cristobal,San Cristobal,Regular,2022-08-14
+499,Pedro,Torres,M,1980-07-08,Puerto Plata,Puerto Plata,Regular,2022-08-15
+500,Laura,Ortiz,F,1979-07-15,San Cristobal,San Cristobal,Regular,2021-08-09
+501,Carlos,Herrera,M,1979-07-14,Puerto Plata,Puerto Plata,Regular,2021-08-10
+502,Carla,Cruz,F,1979-07-13,La Romana,La Romana,Regular,2021-08-11
+503,Miguel,Vargas,M,1979-07-12,Higuey,La Altagracia,Regular,2021-08-12
+504,Daniela,Perez,F,1979-07-11,Santo Domingo,Distrito Nacional,Regular,2021-08-13
+505,Rafael,Garcia,M,1979-07-10,Santo Domingo Este,Santo Domingo,Regular,2021-08-14
+506,Sofia,Martinez,F,1979-07-09,Santiago,Santiago,Regular,2021-08-15
+507,Andres,Rodriguez,M,1979-07-08,La Vega,La Vega,Regular,2021-08-16
+508,Natalia,Diaz,F,1979-07-07,San Cristobal,San Cristobal,Regular,2021-08-17
+509,Pedro,Torres,M,1979-07-06,Puerto Plata,Puerto Plata,Regular,2021-08-18
+510,Laura,Ortiz,,1979-06-29,San Cristobal,San Cristobal,Regular,2021-08-25
+511,Carlos,Herrera,M,1979-06-28,Puerto Plata,Puerto Plata,Regular,2021-08-26
+512,Carla,Cruz,F,1979-06-27,La Romana,La Romana,Regular,2021-08-27
+513,Miguel,Vargas,M,1979-06-26,Higuey,La Altagracia,Regular,2021-08-28
+514,Daniela,Perez,F,1979-06-25,Santo Domingo,Distrito Nacional,Regular,2021-08-29
+515,Rafael,Garcia,M,1979-06-24,Santo Domingo Este,Santo Domingo,Regular,2021-08-30
+516,Sofia,Martinez,F,1979-06-23,Santiago,Santiago,Regular,2021-08-31
+517,Andres,Rodriguez,M,1979-06-22,La Vega,La Vega,Regular,2021-09-01
+518,Natalia,Diaz,F,1979-06-21,San Cristobal,San Cristobal,Regular,2021-09-02
+519,Pedro,Torres,M,1979-06-20,Puerto Plata,Puerto Plata,Regular,2021-09-03
+520,Laura,Ortiz,F,1979-06-13,San Cristobal,San Cristobal,Regular,2021-09-10
+521,Carlos,Herrera,M,1979-06-12,Puerto Plata,Puerto Plata,Regular,2021-09-11
+522,Carla,Cruz,F,1979-06-11,La Romana,La Romana,Regular,2021-09-12
+523,Miguel,Vargas,,1979-06-10,Higuey,La Altagracia,Regular,2021-09-13
+524,Daniela,Perez,,1979-06-09,Santo Domingo,Distrito Nacional,Regular,2021-09-14
+525,Rafael,Garcia,M,1979-06-08,Santo Domingo Este,Santo Domingo,Regular,2021-09-15
+526,Sofia,Martinez,F,1979-06-07,Santiago,Santiago,Regular,2021-09-16
+527,Andres,Rodriguez,M,1979-06-06,La Vega,La Vega,Regular,2021-09-17
+528,Natalia,Diaz,F,1979-06-05,San Cristobal,San Cristobal,Regular,2021-09-18
+529,Pedro,Torres,M,1979-06-04,Puerto Plata,Puerto Plata,Regular,2021-09-19
+530,Laura,Ortiz,F,1979-05-28,San Cristobal,San Cristobal,Regular,2021-09-26
+531,Carlos,Herrera,M,1979-05-27,Puerto Plata,Puerto Plata,Regular,2021-09-27
+532,Carla,Cruz,F,1979-05-26,La Romana,La Romana,Regular,2021-09-28
+533,Miguel,Vargas,M,1979-05-25,Higuey,La Altagracia,Regular,2021-09-29
+534,Daniela,Perez,F,1979-05-24,Santo Domingo,Distrito Nacional,Regular,2021-09-30
+535,Rafael,Garcia,M,1979-05-23,Santo Domingo Este,Santo Domingo,Regular,2021-10-01
+536,Sofia,Martinez,F,1979-05-22,Santiago,Santiago,Regular,2021-10-02
+537,Andres,Rodriguez,,1979-05-21,La Vega,La Vega,Regular,2021-10-03
+538,Natalia,Diaz,,1979-05-20,San Cristobal,San Cristobal,Corporativo,2021-10-04
+539,Pedro,Torres,M,1979-05-19,Puerto Plata,Puerto Plata,Corporativo,2021-10-05
+540,Laura,Ortiz,F,1980-01-23,San Cristobal,San Cristobal,Regular,2021-01-29
+541,Carlos,Herrera,M,1980-01-22,Puerto Plata,Puerto Plata,Regular,2021-01-30
+542,Carla,Cruz,F,1980-01-21,La Romana,La Romana,Regular,2021-01-31
+543,Miguel,Vargas,M,1980-01-20,Higuey,La Altagracia,Regular,2021-02-01
+544,Daniela,Perez,F,1980-01-19,Santo Domingo,Distrito Nacional,Regular,2021-02-02
+545,Rafael,Garcia,M,1980-01-18,Santo Domingo Este,Santo Domingo,Regular,2021-02-03
+546,Sofia,Martinez,F,1980-01-17,Santiago,Santiago,Regular,2021-02-04
+547,Andres,Rodriguez,,1980-01-16,La Vega,La Vega,Regular,2021-02-05
+548,Natalia,Diaz,,1980-01-15,San Cristobal,San Cristobal,Regular,2021-02-06
+549,Pedro,Torres,M,1980-01-14,Puerto Plata,Puerto Plata,Regular,2021-02-07
+550,Laura,Ortiz,F,1980-01-07,San Cristobal,San Cristobal,Regular,2021-02-14
+551,Carlos,Herrera,M,1980-01-06,Puerto Plata,Puerto Plata,Regular,2021-02-15
+552,Carla,Cruz,F,1980-01-05,La Romana,La Romana,Regular,2021-02-16
+553,Miguel,Vargas,M,1980-01-04,Higuey,La Altagracia,Regular,2021-02-17
+554,Daniela,Perez,F,1980-01-03,Santo Domingo,Distrito Nacional,Regular,2021-02-18
+555,Rafael,Garcia,M,1980-01-02,Santo Domingo Este,Santo Domingo,Regular,2021-02-19
+556,Sofia,Martinez,F,1980-01-01,Santiago,Santiago,Regular,2021-02-20
+557,Andres,Rodriguez,M,1979-12-31,La Vega,La Vega,Regular,2021-02-21
+558,Natalia,Diaz,F,1979-12-30,San Cristobal,San Cristobal,Regular,2021-02-22
+559,Pedro,Torres,M,1979-12-29,Puerto Plata,Puerto Plata,Regular,2021-02-23
+560,Laura,Ortiz,F,1979-12-22,San Cristobal,San Cristobal,Regular,2021-03-02
+561,Carlos,Herrera,M,1979-12-21,Puerto Plata,Puerto Plata,Regular,2021-03-03
+562,Carla,Cruz,F,1979-12-20,La Romana,La Romana,Regular,2021-03-04
+563,Miguel,Vargas,M,1979-12-19,Higuey,La Altagracia,Regular,2021-03-05
+564,Daniela,Perez,F,1979-12-18,Santo Domingo,Distrito Nacional,Regular,2021-03-06
+565,Rafael,Garcia,M,1979-12-17,Santo Domingo Este,Santo Domingo,Regular,2021-03-07
+566,Sofia,Martinez,F,1979-12-16,Santiago,Santiago,Regular,2021-03-08
+567,Andres,Rodriguez,M,1979-12-15,La Vega,La Vega,Regular,2021-03-09
+568,Natalia,Diaz,F,1979-12-14,San Cristobal,San Cristobal,Regular,2021-03-10
+569,Pedro,Torres,M,1979-12-13,Puerto Plata,Puerto Plata,Regular,2021-03-11
+570,Laura,Ortiz,,1979-12-06,San Cristobal,San Cristobal,Corporativo,2021-03-18
+571,Carlos,Herrera,M,1979-12-05,Puerto Plata,Puerto Plata,Corporativo,2021-03-19
+572,Carla,Cruz,F,1979-12-04,La Romana,La Romana,Corporativo,2021-03-20
+573,Miguel,Vargas,M,1979-12-03,Higuey,La Altagracia,Corporativo,2021-03-21
+574,Daniela,Perez,F,1979-12-02,Santo Domingo,Distrito Nacional,Corporativo,2021-03-22
+575,Rafael,Garcia,M,1979-12-01,Santo Domingo Este,Santo Domingo,Corporativo,2021-03-23
+576,Sofia,Martinez,F,1979-11-30,Santiago,Santiago,Corporativo,2021-03-24
+577,Andres,Rodriguez,M,1979-11-29,La Vega,La Vega,Corporativo,2021-03-25
+578,Natalia,Diaz,F,1979-11-28,San Cristobal,San Cristobal,Corporativo,2021-03-26
+579,Pedro,Torres,M,1979-11-27,Puerto Plata,Puerto Plata,Corporativo,2021-03-27
+580,Laura,Ortiz,F,1979-11-20,San Cristobal,San Cristobal,Preferente,2021-04-03
+581,Carlos,Herrera,M,1979-11-19,Puerto Plata,Puerto Plata,Preferente,2021-04-04
+582,Carla,Cruz,F,1979-11-18,La Romana,La Romana,Preferente,2021-04-05
+583,Miguel,Vargas,,1979-11-17,Higuey,La Altagracia,Preferente,2021-04-06
+584,Daniela,Perez,,1979-11-16,Santo Domingo,Distrito Nacional,Preferente,2021-04-07
+585,Rafael,Garcia,M,1979-11-15,Santo Domingo Este,Santo Domingo,Preferente,2021-04-08
+586,Sofia,Martinez,F,1979-11-14,Santiago,Santiago,Preferente,2021-04-09
+587,Andres,Rodriguez,M,1979-11-13,La Vega,La Vega,Preferente,2021-04-10
+588,Natalia,Diaz,F,1979-11-12,San Cristobal,San Cristobal,Preferente,2021-04-11
+589,Pedro,Torres,M,1979-11-11,Puerto Plata,Puerto Plata,Preferente,2021-04-12
+590,Laura,Ortiz,F,1979-11-04,San Cristobal,San Cristobal,Preferente,2021-04-19
+591,Carlos,Herrera,M,1979-11-03,Puerto Plata,Puerto Plata,Preferente,2021-04-20
+592,Carla,Cruz,F,1979-11-02,La Romana,La Romana,Preferente,2021-04-21
+593,Miguel,Vargas,M,1979-11-01,Higuey,La Altagracia,Preferente,2021-04-22
+594,Daniela,Perez,F,1979-10-31,Santo Domingo,Distrito Nacional,Preferente,2021-04-23
+595,Rafael,Garcia,M,1979-10-30,Santo Domingo Este,Santo Domingo,Preferente,2021-04-24
+596,Sofia,Martinez,F,1979-10-29,Santiago,Santiago,Regular,2021-04-25
+597,Andres,Rodriguez,,1979-10-28,La Vega,La Vega,Regular,2021-04-26
+598,Natalia,Diaz,,1979-10-27,San Cristobal,San Cristobal,Regular,2021-04-27
+599,Pedro,Torres,M,1979-10-26,Puerto Plata,Puerto Plata,Regular,2021-04-28
+600,Laura,Ortiz,,1978-11-01,San Cristobal,San Cristobal,Corporativo,2022-04-22
+601,Carlos,Herrera,M,1978-10-31,Puerto Plata,Puerto Plata,Corporativo,2022-04-23
+602,Carla,Cruz,F,1978-10-30,La Romana,La Romana,Corporativo,2022-04-24
+603,Miguel,Vargas,M,1978-10-29,Higuey,La Altagracia,Corporativo,2022-04-25
+604,Daniela,Perez,F,1978-10-28,Santo Domingo,Distrito Nacional,Corporativo,2022-04-26
+605,Rafael,Garcia,M,1978-10-27,Santo Domingo Este,Santo Domingo,Corporativo,2022-04-27
+606,Sofia,Martinez,F,1978-10-26,Santiago,Santiago,Corporativo,2022-04-28
+607,Andres,Rodriguez,M,1978-10-25,La Vega,La Vega,Corporativo,2022-04-29
+608,Natalia,Diaz,F,1978-10-24,San Cristobal,San Cristobal,Corporativo,2022-04-30
+609,Pedro,Torres,M,1978-10-23,Puerto Plata,Puerto Plata,Corporativo,2022-05-01
+610,Laura,Ortiz,F,1978-10-16,San Cristobal,San Cristobal,Preferente,2022-05-08
+611,Carlos,Herrera,M,1978-10-15,Puerto Plata,Puerto Plata,Preferente,2022-05-09
+612,Carla,Cruz,F,1978-10-14,La Romana,La Romana,Preferente,2022-05-10
+613,Miguel,Vargas,,1978-10-13,Higuey,La Altagracia,Preferente,2022-05-11
+614,Daniela,Perez,,1978-10-12,Santo Domingo,Distrito Nacional,Preferente,2022-05-12
+615,Rafael,Garcia,M,1978-10-11,Santo Domingo Este,Santo Domingo,Preferente,2022-05-13
+616,Sofia,Martinez,F,1978-10-10,Santiago,Santiago,Preferente,2022-05-14
+617,Andres,Rodriguez,M,1978-10-09,La Vega,La Vega,Preferente,2022-05-15
+618,Natalia,Diaz,F,1978-10-08,San Cristobal,San Cristobal,Preferente,2022-05-16
+619,Pedro,Torres,M,1978-10-07,Puerto Plata,Puerto Plata,Preferente,2022-05-17
+620,Laura,Ortiz,F,1978-09-30,San Cristobal,San Cristobal,Preferente,2022-05-24
+621,Carlos,Herrera,M,1978-09-29,Puerto Plata,Puerto Plata,Preferente,2022-05-25
+622,Carla,Cruz,F,1978-09-28,La Romana,La Romana,Preferente,2022-05-26
+623,Miguel,Vargas,M,1978-09-27,Higuey,La Altagracia,Preferente,2022-05-27
+624,Daniela,Perez,F,1978-09-26,Santo Domingo,Distrito Nacional,Preferente,2022-05-28
+625,Rafael,Garcia,M,1978-09-25,Santo Domingo Este,Santo Domingo,Preferente,2022-05-29
+626,Sofia,Martinez,F,1978-09-24,Santiago,Santiago,Regular,2022-05-30
+627,Andres,Rodriguez,,1978-09-23,La Vega,La Vega,Regular,2022-05-31
+628,Natalia,Diaz,,1978-09-22,San Cristobal,San Cristobal,Regular,2022-06-01
+629,Pedro,Torres,M,1978-09-21,Puerto Plata,Puerto Plata,Regular,2022-06-02
+630,Laura,Ortiz,F,1978-09-14,San Cristobal,San Cristobal,Regular,2022-06-09
+631,Carlos,Herrera,M,1978-09-13,Puerto Plata,Puerto Plata,Regular,2022-06-10
+632,Carla,Cruz,F,1978-09-12,La Romana,La Romana,Regular,2022-06-11
+633,Miguel,Vargas,M,1978-09-11,Higuey,La Altagracia,Regular,2022-06-12
+634,Daniela,Perez,F,1978-09-10,Santo Domingo,Distrito Nacional,Regular,2022-06-13
+635,Rafael,Garcia,M,1978-09-09,Santo Domingo Este,Santo Domingo,Regular,2022-06-14
+636,Sofia,Martinez,F,1978-09-08,Santiago,Santiago,Regular,2022-06-15
+637,Andres,Rodriguez,M,1978-09-07,La Vega,La Vega,Regular,2022-06-16
+638,Natalia,Diaz,F,1978-09-06,San Cristobal,San Cristobal,Regular,2022-06-17
+639,Pedro,Torres,M,1978-09-05,Puerto Plata,Puerto Plata,Regular,2022-06-18
+640,Laura,Ortiz,F,1979-05-12,San Cristobal,San Cristobal,Corporativo,2021-10-12
+641,Carlos,Herrera,M,1979-05-11,Puerto Plata,Puerto Plata,Corporativo,2021-10-13
+642,Carla,Cruz,F,1979-05-10,La Romana,La Romana,Corporativo,2021-10-14
+643,Miguel,Vargas,M,1979-05-09,Higuey,La Altagracia,Corporativo,2021-10-15
+644,Daniela,Perez,F,1979-05-08,Santo Domingo,Distrito Nacional,Preferente,2021-10-16
+645,Rafael,Garcia,M,1979-05-07,Santo Domingo Este,Santo Domingo,Preferente,2021-10-17
+646,Sofia,Martinez,F,1979-05-06,Santiago,Santiago,Preferente,2021-10-18
+647,Andres,Rodriguez,M,1979-05-05,La Vega,La Vega,Preferente,2021-10-19
+648,Natalia,Diaz,F,1979-05-04,San Cristobal,San Cristobal,Preferente,2021-10-20
+649,Pedro,Torres,M,1979-05-03,Puerto Plata,Puerto Plata,Preferente,2021-10-21
+650,Laura,Ortiz,F,1979-04-26,San Cristobal,San Cristobal,Preferente,2021-10-28
+651,Carlos,Herrera,M,1979-04-25,Puerto Plata,Puerto Plata,Preferente,2021-10-29
+652,Carla,Cruz,F,1979-04-24,La Romana,La Romana,Preferente,2021-10-30
+653,Miguel,Vargas,M,1979-04-23,Higuey,La Altagracia,Preferente,2021-10-31
+654,Daniela,Perez,F,1979-04-22,Santo Domingo,Distrito Nacional,Preferente,2021-11-01
+655,Rafael,Garcia,M,1979-04-21,Santo Domingo Este,Santo Domingo,Preferente,2021-11-02
+656,Sofia,Martinez,F,1979-04-20,Santiago,Santiago,Preferente,2021-11-03
+657,Andres,Rodriguez,M,1979-04-19,La Vega,La Vega,Preferente,2021-11-04
+658,Natalia,Diaz,F,1979-04-18,San Cristobal,San Cristobal,Preferente,2021-11-05
+659,Pedro,Torres,M,1979-04-17,Puerto Plata,Puerto Plata,Preferente,2021-11-06
+660,Laura,Ortiz,,1979-04-10,San Cristobal,San Cristobal,Regular,2021-11-13
+661,Carlos,Herrera,M,1979-04-09,Puerto Plata,Puerto Plata,Regular,2021-11-14
+662,Carla,Cruz,F,1979-04-08,La Romana,La Romana,Regular,2021-11-15
+663,Miguel,Vargas,M,1979-04-07,Higuey,La Altagracia,Regular,2021-11-16
+664,Daniela,Perez,F,1979-04-06,Santo Domingo,Distrito Nacional,Regular,2021-11-17
+665,Rafael,Garcia,M,1979-04-05,Santo Domingo Este,Santo Domingo,Regular,2021-11-18
+666,Sofia,Martinez,F,1979-04-04,Santiago,Santiago,Regular,2021-11-19
+667,Andres,Rodriguez,M,1979-04-03,La Vega,La Vega,Regular,2021-11-20
+668,Natalia,Diaz,F,1979-04-02,San Cristobal,San Cristobal,Regular,2021-11-21
+669,Pedro,Torres,M,1979-04-01,Puerto Plata,Puerto Plata,Regular,2021-11-22
+670,Laura,Ortiz,F,1979-03-25,San Cristobal,San Cristobal,Regular,2021-11-29
+671,Carlos,Herrera,M,1979-03-24,Puerto Plata,Puerto Plata,Regular,2021-11-30
+672,Carla,Cruz,F,1979-03-23,La Romana,La Romana,Regular,2021-12-01
+673,Miguel,Vargas,,1979-03-22,Higuey,La Altagracia,Regular,2021-12-02
+674,Daniela,Perez,,1979-03-21,Santo Domingo,Distrito Nacional,Regular,2021-12-03
+675,Rafael,Garcia,M,1979-03-20,Santo Domingo Este,Santo Domingo,Regular,2021-12-04
+676,Sofia,Martinez,F,1979-03-19,Santiago,Santiago,Regular,2021-12-05
+677,Andres,Rodriguez,M,1979-03-18,La Vega,La Vega,Regular,2021-12-06
+678,Natalia,Diaz,F,1979-03-17,San Cristobal,San Cristobal,Regular,2021-12-07
+679,Pedro,Torres,M,1979-03-16,Puerto Plata,Puerto Plata,Regular,2021-12-08
+680,Laura,Ortiz,F,1979-03-09,San Cristobal,San Cristobal,Regular,2021-12-15
+681,Carlos,Herrera,M,1979-03-08,Puerto Plata,Puerto Plata,Regular,2021-12-16
+682,Carla,Cruz,F,1979-03-07,La Romana,La Romana,Regular,2021-12-17
+683,Miguel,Vargas,M,1979-03-06,Higuey,La Altagracia,Regular,2021-12-18
+684,Daniela,Perez,F,1979-03-05,Santo Domingo,Distrito Nacional,Regular,2021-12-19
+685,Rafael,Garcia,M,1979-03-04,Santo Domingo Este,Santo Domingo,Regular,2021-12-20
+686,Sofia,Martinez,F,1979-03-03,Santiago,Santiago,Regular,2021-12-21
+687,Andres,Rodriguez,,1979-03-02,La Vega,La Vega,Regular,2021-12-22
+688,Natalia,Diaz,,1979-03-01,San Cristobal,San Cristobal,Regular,2021-12-23
+689,Pedro,Torres,M,1979-02-28,Puerto Plata,Puerto Plata,Regular,2021-12-24
+690,Laura,Ortiz,F,1979-02-21,San Cristobal,San Cristobal,Regular,2021-12-31
+691,Carlos,Herrera,M,1979-02-20,Puerto Plata,Puerto Plata,Regular,2022-01-01
+692,Carla,Cruz,F,1979-02-19,La Romana,La Romana,Regular,2022-01-02
+693,Miguel,Vargas,M,1979-02-18,Higuey,La Altagracia,Regular,2022-01-03
+694,Daniela,Perez,F,1979-02-17,Santo Domingo,Distrito Nacional,Regular,2022-01-04
+695,Rafael,Garcia,M,1979-02-16,Santo Domingo Este,Santo Domingo,Regular,2022-01-05
+696,Sofia,Martinez,F,1979-02-15,Santiago,Santiago,Regular,2022-01-06
+697,Andres,Rodriguez,M,1979-02-14,La Vega,La Vega,Regular,2022-01-07
+698,Natalia,Diaz,F,1979-02-13,San Cristobal,San Cristobal,Regular,2022-01-08
+699,Pedro,Torres,M,1979-02-12,Puerto Plata,Puerto Plata,Regular,2022-01-09
+700,Laura,Ortiz,F,1978-02-18,San Cristobal,San Cristobal,Regular,2021-01-03
+701,Carlos,Herrera,M,1978-02-17,Puerto Plata,Puerto Plata,Regular,2021-01-04
+702,Carla,Cruz,F,1978-02-16,La Romana,La Romana,Regular,2021-01-05
+703,Miguel,Vargas,,1978-02-15,Higuey,La Altagracia,Regular,2021-01-06
+704,Daniela,Perez,,1978-02-14,Santo Domingo,Distrito Nacional,Regular,2021-01-07
+705,Rafael,Garcia,M,1978-02-13,Santo Domingo Este,Santo Domingo,Regular,2021-01-08
+706,Sofia,Martinez,F,1978-02-12,Santiago,Santiago,Regular,2021-01-09
+707,Andres,Rodriguez,M,1978-02-11,La Vega,La Vega,Regular,2021-01-10
+708,Natalia,Diaz,F,1978-02-10,San Cristobal,San Cristobal,Regular,2021-01-11
+709,Pedro,Torres,M,1978-02-09,Puerto Plata,Puerto Plata,Regular,2021-01-12
+710,Laura,Ortiz,F,1978-02-02,San Cristobal,San Cristobal,Regular,2021-01-19
+711,Carlos,Herrera,M,1978-02-01,Puerto Plata,Puerto Plata,Regular,2021-01-20
+712,Carla,Cruz,F,1978-01-31,La Romana,La Romana,Regular,2021-01-21
+713,Miguel,Vargas,M,1978-01-30,Higuey,La Altagracia,Regular,2021-01-22
+714,Daniela,Perez,F,1978-01-29,Santo Domingo,Distrito Nacional,Regular,2021-01-23
+715,Rafael,Garcia,M,1978-01-28,Santo Domingo Este,Santo Domingo,Regular,2021-01-24
+716,Sofia,Martinez,F,1978-01-27,Santiago,Santiago,Regular,2021-01-25
+717,Andres,Rodriguez,,1978-01-26,La Vega,La Vega,Regular,2021-01-26
+718,Natalia,Diaz,,1978-01-25,San Cristobal,San Cristobal,Regular,2021-01-27
+719,Pedro,Torres,M,1978-01-24,Puerto Plata,Puerto Plata,Regular,2021-01-28
+720,Laura,Ortiz,F,1978-01-17,San Cristobal,San Cristobal,Regular,2021-02-04
+721,Carlos,Herrera,M,1978-01-16,Puerto Plata,Puerto Plata,Regular,2021-02-05
+722,Carla,Cruz,F,1978-01-15,La Romana,La Romana,Regular,2021-02-06
+723,Miguel,Vargas,M,1978-01-14,Higuey,La Altagracia,Regular,2021-02-07
+724,Daniela,Perez,F,1978-01-13,Santo Domingo,Distrito Nacional,Regular,2021-02-08
+725,Rafael,Garcia,M,1978-01-12,Santo Domingo Este,Santo Domingo,Regular,2021-02-09
+726,Sofia,Martinez,F,1978-01-11,Santiago,Santiago,Regular,2021-02-10
+727,Andres,Rodriguez,M,1978-01-10,La Vega,La Vega,Regular,2021-02-11
+728,Natalia,Diaz,F,1978-01-09,San Cristobal,San Cristobal,Regular,2021-02-12
+729,Pedro,Torres,M,1978-01-08,Puerto Plata,Puerto Plata,Regular,2021-02-13
+730,Laura,Ortiz,F,1978-01-01,San Cristobal,San Cristobal,Corporativo,2021-02-20
+731,Carlos,Herrera,M,1977-12-31,Puerto Plata,Puerto Plata,Corporativo,2021-02-21
+732,Carla,Cruz,F,1977-12-30,La Romana,La Romana,Corporativo,2021-02-22
+733,Miguel,Vargas,M,1977-12-29,Higuey,La Altagracia,Corporativo,2021-02-23
+734,Daniela,Perez,F,1977-12-28,Santo Domingo,Distrito Nacional,Corporativo,2021-02-24
+735,Rafael,Garcia,M,1977-12-27,Santo Domingo Este,Santo Domingo,Corporativo,2021-02-25
+736,Sofia,Martinez,F,1977-12-26,Santiago,Santiago,Corporativo,2021-02-26
+737,Andres,Rodriguez,M,1977-12-25,La Vega,La Vega,Corporativo,2021-02-27
+738,Natalia,Diaz,F,1977-12-24,San Cristobal,San Cristobal,Preferente,2021-02-28
+739,Pedro,Torres,M,1977-12-23,Puerto Plata,Puerto Plata,Preferente,2021-03-01
+740,Laura,Ortiz,F,1978-08-29,San Cristobal,San Cristobal,Regular,2022-06-25
+741,Carlos,Herrera,M,1978-08-28,Puerto Plata,Puerto Plata,Regular,2022-06-26
+742,Carla,Cruz,F,1978-08-27,La Romana,La Romana,Regular,2022-06-27
+743,Miguel,Vargas,M,1978-08-26,Higuey,La Altagracia,Regular,2022-06-28
+744,Daniela,Perez,F,1978-08-25,Santo Domingo,Distrito Nacional,Regular,2022-06-29
+745,Rafael,Garcia,M,1978-08-24,Santo Domingo Este,Santo Domingo,Regular,2022-06-30
+746,Sofia,Martinez,F,1978-08-23,Santiago,Santiago,Regular,2022-07-01
+747,Andres,Rodriguez,M,1978-08-22,La Vega,La Vega,Regular,2022-07-02
+748,Natalia,Diaz,F,1978-08-21,San Cristobal,San Cristobal,Regular,2022-07-03
+749,Pedro,Torres,M,1978-08-20,Puerto Plata,Puerto Plata,Regular,2022-07-04
+750,Laura,Ortiz,,1978-08-13,San Cristobal,San Cristobal,Regular,2022-07-11
+751,Carlos,Herrera,M,1978-08-12,Puerto Plata,Puerto Plata,Regular,2022-07-12
+752,Carla,Cruz,F,1978-08-11,La Romana,La Romana,Regular,2022-07-13
+753,Miguel,Vargas,M,1978-08-10,Higuey,La Altagracia,Regular,2022-07-14
+754,Daniela,Perez,F,1978-08-09,Santo Domingo,Distrito Nacional,Regular,2022-07-15
+755,Rafael,Garcia,M,1978-08-08,Santo Domingo Este,Santo Domingo,Regular,2022-07-16
+756,Sofia,Martinez,F,1978-08-07,Santiago,Santiago,Regular,2022-07-17
+757,Andres,Rodriguez,M,1978-08-06,La Vega,La Vega,Regular,2022-07-18
+758,Natalia,Diaz,F,1978-08-05,San Cristobal,San Cristobal,Regular,2022-07-19
+759,Pedro,Torres,M,1978-08-04,Puerto Plata,Puerto Plata,Regular,2022-07-20
+760,Laura,Ortiz,F,1978-07-28,San Cristobal,San Cristobal,Regular,2022-07-27
+761,Carlos,Herrera,M,1978-07-27,Puerto Plata,Puerto Plata,Regular,2022-07-28
+762,Carla,Cruz,F,1978-07-26,La Romana,La Romana,Regular,2022-07-29
+763,Miguel,Vargas,,1978-07-25,Higuey,La Altagracia,Regular,2022-07-30
+764,Daniela,Perez,,1978-07-24,Santo Domingo,Distrito Nacional,Corporativo,2022-07-31
+765,Rafael,Garcia,M,1978-07-23,Santo Domingo Este,Santo Domingo,Corporativo,2022-08-01
+766,Sofia,Martinez,F,1978-07-22,Santiago,Santiago,Corporativo,2022-08-02
+767,Andres,Rodriguez,M,1978-07-21,La Vega,La Vega,Corporativo,2022-08-03
+768,Natalia,Diaz,F,1978-07-20,San Cristobal,San Cristobal,Corporativo,2022-08-04
+769,Pedro,Torres,M,1978-07-19,Puerto Plata,Puerto Plata,Corporativo,2022-08-05
+770,Laura,Ortiz,F,1978-07-12,San Cristobal,San Cristobal,Preferente,2022-08-12
+771,Carlos,Herrera,M,1978-07-11,Puerto Plata,Puerto Plata,Preferente,2022-08-13
+772,Carla,Cruz,F,1978-07-10,La Romana,La Romana,Preferente,2022-08-14
+773,Miguel,Vargas,M,1978-07-09,Higuey,La Altagracia,Preferente,2022-08-15
+774,Daniela,Perez,F,1978-07-08,Santo Domingo,Distrito Nacional,Preferente,2022-08-16
+775,Rafael,Garcia,M,1978-07-07,Santo Domingo Este,Santo Domingo,Preferente,2022-08-17
+776,Sofia,Martinez,F,1978-07-06,Santiago,Santiago,Preferente,2022-08-18
+777,Andres,Rodriguez,,1978-07-05,La Vega,La Vega,Preferente,2022-08-19
+778,Natalia,Diaz,,1978-07-04,San Cristobal,San Cristobal,Preferente,2022-08-20
+779,Pedro,Torres,M,1978-07-03,Puerto Plata,Puerto Plata,Preferente,2022-08-21
+780,Laura,Ortiz,F,1978-06-26,San Cristobal,San Cristobal,Preferente,2022-08-28
+781,Carlos,Herrera,M,1978-06-25,Puerto Plata,Puerto Plata,Preferente,2022-08-29
+782,Carla,Cruz,F,1978-06-24,La Romana,La Romana,Preferente,2022-08-30
+783,Miguel,Vargas,M,1978-06-23,Higuey,La Altagracia,Preferente,2022-08-31
+784,Daniela,Perez,F,1978-06-22,Santo Domingo,Distrito Nacional,Preferente,2022-09-01
+785,Rafael,Garcia,M,1978-06-21,Santo Domingo Este,Santo Domingo,Preferente,2022-09-02
+786,Sofia,Martinez,F,1978-06-20,Santiago,Santiago,Preferente,2022-09-03
+787,Andres,Rodriguez,M,1978-06-19,La Vega,La Vega,Preferente,2022-09-04
+788,Natalia,Diaz,F,1978-06-18,San Cristobal,San Cristobal,Preferente,2022-09-05
+789,Pedro,Torres,M,1978-06-17,Puerto Plata,Puerto Plata,Preferente,2022-09-06
+790,Laura,Ortiz,F,1978-06-10,San Cristobal,San Cristobal,Regular,2022-09-13
+791,Carlos,Herrera,M,1978-06-09,Puerto Plata,Puerto Plata,Regular,2022-09-14
+792,Carla,Cruz,F,1978-06-08,La Romana,La Romana,Regular,2022-09-15
+793,Miguel,Vargas,M,1978-06-07,Higuey,La Altagracia,Regular,2022-09-16
+794,Daniela,Perez,F,1978-06-06,Santo Domingo,Distrito Nacional,Regular,2022-09-17
+795,Rafael,Garcia,M,1978-06-05,Santo Domingo Este,Santo Domingo,Regular,2022-09-18
+796,Sofia,Martinez,F,1978-06-04,Santiago,Santiago,Regular,2022-09-19
+797,Andres,Rodriguez,M,1978-06-03,La Vega,La Vega,Regular,2022-09-20
+798,Natalia,Diaz,F,1978-06-02,San Cristobal,San Cristobal,Regular,2022-09-21
+799,Pedro,Torres,M,1978-06-01,Puerto Plata,Puerto Plata,Regular,2022-09-22
+800,Laura,Ortiz,F,1977-06-07,San Cristobal,San Cristobal,Preferente,2021-09-16
+801,Carlos,Herrera,M,1977-06-06,Puerto Plata,Puerto Plata,Preferente,2021-09-17
+802,Carla,Cruz,F,1977-06-05,La Romana,La Romana,Preferente,2021-09-18
+803,Miguel,Vargas,M,1977-06-04,Higuey,La Altagracia,Preferente,2021-09-19
+804,Daniela,Perez,F,1977-06-03,Santo Domingo,Distrito Nacional,Preferente,2021-09-20
+805,Rafael,Garcia,M,1977-06-02,Santo Domingo Este,Santo Domingo,Preferente,2021-09-21
+806,Sofia,Martinez,F,1977-06-01,Santiago,Santiago,Preferente,2021-09-22
+807,Andres,Rodriguez,,1977-05-31,La Vega,La Vega,Preferente,2021-09-23
+808,Natalia,Diaz,,1977-05-30,San Cristobal,San Cristobal,Preferente,2021-09-24
+809,Pedro,Torres,M,1977-05-29,Puerto Plata,Puerto Plata,Preferente,2021-09-25
+810,Laura,Ortiz,F,1977-05-22,San Cristobal,San Cristobal,Preferente,2021-10-02
+811,Carlos,Herrera,M,1977-05-21,Puerto Plata,Puerto Plata,Preferente,2021-10-03
+812,Carla,Cruz,F,1977-05-20,La Romana,La Romana,Preferente,2021-10-04
+813,Miguel,Vargas,M,1977-05-19,Higuey,La Altagracia,Preferente,2021-10-05
+814,Daniela,Perez,F,1977-05-18,Santo Domingo,Distrito Nacional,Preferente,2021-10-06
+815,Rafael,Garcia,M,1977-05-17,Santo Domingo Este,Santo Domingo,Preferente,2021-10-07
+816,Sofia,Martinez,F,1977-05-16,Santiago,Santiago,Preferente,2021-10-08
+817,Andres,Rodriguez,M,1977-05-15,La Vega,La Vega,Preferente,2021-10-09
+818,Natalia,Diaz,F,1977-05-14,San Cristobal,San Cristobal,Preferente,2021-10-10
+819,Pedro,Torres,M,1977-05-13,Puerto Plata,Puerto Plata,Preferente,2021-10-11
+820,Laura,Ortiz,F,1977-05-06,San Cristobal,San Cristobal,Regular,2021-10-18
+821,Carlos,Herrera,M,1977-05-05,Puerto Plata,Puerto Plata,Regular,2021-10-19
+822,Carla,Cruz,F,1977-05-04,La Romana,La Romana,Regular,2021-10-20
+823,Miguel,Vargas,M,1977-05-03,Higuey,La Altagracia,Regular,2021-10-21
+824,Daniela,Perez,F,1977-05-02,Santo Domingo,Distrito Nacional,Regular,2021-10-22
+825,Rafael,Garcia,M,1977-05-01,Santo Domingo Este,Santo Domingo,Regular,2021-10-23
+826,Sofia,Martinez,F,1977-04-30,Santiago,Santiago,Regular,2021-10-24
+827,Andres,Rodriguez,M,1977-04-29,La Vega,La Vega,Regular,2021-10-25
+828,Natalia,Diaz,F,1977-04-28,San Cristobal,San Cristobal,Regular,2021-10-26
+829,Pedro,Torres,M,1977-04-27,Puerto Plata,Puerto Plata,Regular,2021-10-27
+830,Laura,Ortiz,,1977-04-20,San Cristobal,San Cristobal,Regular,2021-11-03
+831,Carlos,Herrera,M,1977-04-19,Puerto Plata,Puerto Plata,Regular,2021-11-04
+832,Carla,Cruz,F,1977-04-18,La Romana,La Romana,Regular,2021-11-05
+833,Miguel,Vargas,M,1977-04-17,Higuey,La Altagracia,Regular,2021-11-06
+834,Daniela,Perez,F,1977-04-16,Santo Domingo,Distrito Nacional,Regular,2021-11-07
+835,Rafael,Garcia,M,1977-04-15,Santo Domingo Este,Santo Domingo,Regular,2021-11-08
+836,Sofia,Martinez,F,1977-04-14,Santiago,Santiago,Regular,2021-11-09
+837,Andres,Rodriguez,M,1977-04-13,La Vega,La Vega,Regular,2021-11-10
+838,Natalia,Diaz,F,1977-04-12,San Cristobal,San Cristobal,Regular,2021-11-11
+839,Pedro,Torres,M,1977-04-11,Puerto Plata,Puerto Plata,Regular,2021-11-12
+840,Laura,Ortiz,,1977-12-16,San Cristobal,San Cristobal,Preferente,2021-03-08
+841,Carlos,Herrera,M,1977-12-15,Puerto Plata,Puerto Plata,Preferente,2021-03-09
+842,Carla,Cruz,F,1977-12-14,La Romana,La Romana,Preferente,2021-03-10
+843,Miguel,Vargas,M,1977-12-13,Higuey,La Altagracia,Preferente,2021-03-11
+844,Daniela,Perez,F,1977-12-12,Santo Domingo,Distrito Nacional,Preferente,2021-03-12
+845,Rafael,Garcia,M,1977-12-11,Santo Domingo Este,Santo Domingo,Preferente,2021-03-13
+846,Sofia,Martinez,F,1977-12-10,Santiago,Santiago,Preferente,2021-03-14
+847,Andres,Rodriguez,M,1977-12-09,La Vega,La Vega,Preferente,2021-03-15
+848,Natalia,Diaz,F,1977-12-08,San Cristobal,San Cristobal,Preferente,2021-03-16
+849,Pedro,Torres,M,1977-12-07,Puerto Plata,Puerto Plata,Preferente,2021-03-17
+850,Laura,Ortiz,F,1977-11-30,San Cristobal,San Cristobal,Preferente,2021-03-24
+851,Carlos,Herrera,M,1977-11-29,Puerto Plata,Puerto Plata,Preferente,2021-03-25
+852,Carla,Cruz,F,1977-11-28,La Romana,La Romana,Regular,2021-03-26
+853,Miguel,Vargas,,1977-11-27,Higuey,La Altagracia,Regular,2021-03-27
+854,Daniela,Perez,,1977-11-26,Santo Domingo,Distrito Nacional,Regular,2021-03-28
+855,Rafael,Garcia,M,1977-11-25,Santo Domingo Este,Santo Domingo,Regular,2021-03-29
+856,Sofia,Martinez,F,1977-11-24,Santiago,Santiago,Regular,2021-03-30
+857,Andres,Rodriguez,M,1977-11-23,La Vega,La Vega,Regular,2021-03-31
+858,Natalia,Diaz,F,1977-11-22,San Cristobal,San Cristobal,Regular,2021-04-01
+859,Pedro,Torres,M,1977-11-21,Puerto Plata,Puerto Plata,Regular,2021-04-02
+860,Laura,Ortiz,F,1977-11-14,San Cristobal,San Cristobal,Regular,2021-04-09
+861,Carlos,Herrera,M,1977-11-13,Puerto Plata,Puerto Plata,Regular,2021-04-10
+862,Carla,Cruz,F,1977-11-12,La Romana,La Romana,Regular,2021-04-11
+863,Miguel,Vargas,M,1977-11-11,Higuey,La Altagracia,Regular,2021-04-12
+864,Daniela,Perez,F,1977-11-10,Santo Domingo,Distrito Nacional,Regular,2021-04-13
+865,Rafael,Garcia,M,1977-11-09,Santo Domingo Este,Santo Domingo,Regular,2021-04-14
+866,Sofia,Martinez,F,1977-11-08,Santiago,Santiago,Regular,2021-04-15
+867,Andres,Rodriguez,,1977-11-07,La Vega,La Vega,Regular,2021-04-16
+868,Natalia,Diaz,,1977-11-06,San Cristobal,San Cristobal,Regular,2021-04-17
+869,Pedro,Torres,M,1977-11-05,Puerto Plata,Puerto Plata,Regular,2021-04-18
+870,Laura,Ortiz,F,1977-10-29,San Cristobal,San Cristobal,Regular,2021-04-25
+871,Carlos,Herrera,M,1977-10-28,Puerto Plata,Puerto Plata,Regular,2021-04-26
+872,Carla,Cruz,F,1977-10-27,La Romana,La Romana,Regular,2021-04-27
+873,Miguel,Vargas,M,1977-10-26,Higuey,La Altagracia,Regular,2021-04-28
+874,Daniela,Perez,F,1977-10-25,Santo Domingo,Distrito Nacional,Regular,2021-04-29
+875,Rafael,Garcia,M,1977-10-24,Santo Domingo Este,Santo Domingo,Regular,2021-04-30
+876,Sofia,Martinez,F,1977-10-23,Santiago,Santiago,Regular,2021-05-01
+877,Andres,Rodriguez,M,1977-10-22,La Vega,La Vega,Regular,2021-05-02
+878,Natalia,Diaz,F,1977-10-21,San Cristobal,San Cristobal,Regular,2021-05-03
+879,Pedro,Torres,M,1977-10-20,Puerto Plata,Puerto Plata,Regular,2021-05-04
+880,Laura,Ortiz,F,1977-10-13,San Cristobal,San Cristobal,Regular,2021-05-11
+881,Carlos,Herrera,M,1977-10-12,Puerto Plata,Puerto Plata,Regular,2021-05-12
+882,Carla,Cruz,F,1977-10-11,La Romana,La Romana,Regular,2021-05-13
+883,Miguel,Vargas,M,1977-10-10,Higuey,La Altagracia,Regular,2021-05-14
+884,Daniela,Perez,F,1977-10-09,Santo Domingo,Distrito Nacional,Regular,2021-05-15
+885,Rafael,Garcia,M,1977-10-08,Santo Domingo Este,Santo Domingo,Regular,2021-05-16
+886,Sofia,Martinez,F,1977-10-07,Santiago,Santiago,Regular,2021-05-17
+887,Andres,Rodriguez,M,1977-10-06,La Vega,La Vega,Regular,2021-05-18
+888,Natalia,Diaz,F,1977-10-05,San Cristobal,San Cristobal,Regular,2021-05-19
+889,Pedro,Torres,M,1977-10-04,Puerto Plata,Puerto Plata,Regular,2021-05-20
+890,Laura,Ortiz,,1977-09-27,San Cristobal,San Cristobal,Corporativo,2021-05-27
+891,Carlos,Herrera,M,1977-09-26,Puerto Plata,Puerto Plata,Corporativo,2021-05-28
+892,Carla,Cruz,F,1977-09-25,La Romana,La Romana,Corporativo,2021-05-29
+893,Miguel,Vargas,M,1977-09-24,Higuey,La Altagracia,Corporativo,2021-05-30
+894,Daniela,Perez,F,1977-09-23,Santo Domingo,Distrito Nacional,Corporativo,2021-05-31
+895,Rafael,Garcia,M,1977-09-22,Santo Domingo Este,Santo Domingo,Corporativo,2021-06-01
+896,Sofia,Martinez,F,1977-09-21,Santiago,Santiago,Corporativo,2021-06-02
+897,Andres,Rodriguez,M,1977-09-20,La Vega,La Vega,Corporativo,2021-06-03
+898,Natalia,Diaz,F,1977-09-19,San Cristobal,San Cristobal,Corporativo,2021-06-04
+899,Pedro,Torres,M,1977-09-18,Puerto Plata,Puerto Plata,Corporativo,2021-06-05
+900,Laura,Ortiz,F,1976-09-24,San Cristobal,San Cristobal,Regular,2022-05-30
+901,Carlos,Herrera,M,1976-09-23,Puerto Plata,Puerto Plata,Regular,2022-05-31
+902,Carla,Cruz,F,1976-09-22,La Romana,La Romana,Regular,2022-06-01
+903,Miguel,Vargas,M,1976-09-21,Higuey,La Altagracia,Regular,2022-06-02
+904,Daniela,Perez,F,1976-09-20,Santo Domingo,Distrito Nacional,Regular,2022-06-03
+905,Rafael,Garcia,M,1976-09-19,Santo Domingo Este,Santo Domingo,Regular,2022-06-04
+906,Sofia,Martinez,F,1976-09-18,Santiago,Santiago,Regular,2022-06-05
+907,Andres,Rodriguez,M,1976-09-17,La Vega,La Vega,Regular,2022-06-06
+908,Natalia,Diaz,F,1976-09-16,San Cristobal,San Cristobal,Regular,2022-06-07
+909,Pedro,Torres,M,1976-09-15,Puerto Plata,Puerto Plata,Regular,2022-06-08
+910,Laura,Ortiz,F,1976-09-08,San Cristobal,San Cristobal,Regular,2022-06-15
+911,Carlos,Herrera,M,1976-09-07,Puerto Plata,Puerto Plata,Regular,2022-06-16
+912,Carla,Cruz,F,1976-09-06,La Romana,La Romana,Regular,2022-06-17
+913,Miguel,Vargas,M,1976-09-05,Higuey,La Altagracia,Regular,2022-06-18
+914,Daniela,Perez,F,1976-09-04,Santo Domingo,Distrito Nacional,Regular,2022-06-19
+915,Rafael,Garcia,M,1976-09-03,Santo Domingo Este,Santo Domingo,Regular,2022-06-20
+916,Sofia,Martinez,F,1976-09-02,Santiago,Santiago,Regular,2022-06-21
+917,Andres,Rodriguez,M,1976-09-01,La Vega,La Vega,Regular,2022-06-22
+918,Natalia,Diaz,F,1976-08-31,San Cristobal,San Cristobal,Regular,2022-06-23
+919,Pedro,Torres,M,1976-08-30,Puerto Plata,Puerto Plata,Regular,2022-06-24
+920,Laura,Ortiz,,1976-08-23,San Cristobal,San Cristobal,Corporativo,2022-07-01
+921,Carlos,Herrera,M,1976-08-22,Puerto Plata,Puerto Plata,Corporativo,2022-07-02
+922,Carla,Cruz,F,1976-08-21,La Romana,La Romana,Corporativo,2022-07-03
+923,Miguel,Vargas,M,1976-08-20,Higuey,La Altagracia,Corporativo,2022-07-04
+924,Daniela,Perez,F,1976-08-19,Santo Domingo,Distrito Nacional,Corporativo,2022-07-05
+925,Rafael,Garcia,M,1976-08-18,Santo Domingo Este,Santo Domingo,Corporativo,2022-07-06
+926,Sofia,Martinez,F,1976-08-17,Santiago,Santiago,Corporativo,2022-07-07
+927,Andres,Rodriguez,M,1976-08-16,La Vega,La Vega,Corporativo,2022-07-08
+928,Natalia,Diaz,F,1976-08-15,San Cristobal,San Cristobal,Corporativo,2022-07-09
+929,Pedro,Torres,M,1976-08-14,Puerto Plata,Puerto Plata,Corporativo,2022-07-10
+930,Laura,Ortiz,F,1976-08-07,San Cristobal,San Cristobal,Preferente,2022-07-17
+931,Carlos,Herrera,M,1976-08-06,Puerto Plata,Puerto Plata,Preferente,2022-07-18
+932,Carla,Cruz,F,1976-08-05,La Romana,La Romana,Preferente,2022-07-19
+933,Miguel,Vargas,,1976-08-04,Higuey,La Altagracia,Preferente,2022-07-20
+934,Daniela,Perez,,1976-08-03,Santo Domingo,Distrito Nacional,Preferente,2022-07-21
+935,Rafael,Garcia,M,1976-08-02,Santo Domingo Este,Santo Domingo,Preferente,2022-07-22
+936,Sofia,Martinez,F,1976-08-01,Santiago,Santiago,Preferente,2022-07-23
+937,Andres,Rodriguez,M,1976-07-31,La Vega,La Vega,Preferente,2022-07-24
+938,Natalia,Diaz,F,1976-07-30,San Cristobal,San Cristobal,Preferente,2022-07-25
+939,Pedro,Torres,M,1976-07-29,Puerto Plata,Puerto Plata,Preferente,2022-07-26
+940,Laura,Ortiz,F,1977-04-04,San Cristobal,San Cristobal,Regular,2021-11-19
+941,Carlos,Herrera,M,1977-04-03,Puerto Plata,Puerto Plata,Regular,2021-11-20
+942,Carla,Cruz,F,1977-04-02,La Romana,La Romana,Regular,2021-11-21
+943,Miguel,Vargas,,1977-04-01,Higuey,La Altagracia,Regular,2021-11-22
+944,Daniela,Perez,,1977-03-31,Santo Domingo,Distrito Nacional,Regular,2021-11-23
+945,Rafael,Garcia,M,1977-03-30,Santo Domingo Este,Santo Domingo,Regular,2021-11-24
+946,Sofia,Martinez,F,1977-03-29,Santiago,Santiago,Regular,2021-11-25
+947,Andres,Rodriguez,M,1977-03-28,La Vega,La Vega,Regular,2021-11-26
+948,Natalia,Diaz,F,1977-03-27,San Cristobal,San Cristobal,Regular,2021-11-27
+949,Pedro,Torres,M,1977-03-26,Puerto Plata,Puerto Plata,Regular,2021-11-28
+950,Laura,Ortiz,F,1977-03-19,San Cristobal,San Cristobal,Regular,2021-12-05
+951,Carlos,Herrera,M,1977-03-18,Puerto Plata,Puerto Plata,Regular,2021-12-06
+952,Carla,Cruz,F,1977-03-17,La Romana,La Romana,Regular,2021-12-07
+953,Miguel,Vargas,M,1977-03-16,Higuey,La Altagracia,Regular,2021-12-08
+954,Daniela,Perez,F,1977-03-15,Santo Domingo,Distrito Nacional,Regular,2021-12-09
+955,Rafael,Garcia,M,1977-03-14,Santo Domingo Este,Santo Domingo,Regular,2021-12-10
+956,Sofia,Martinez,F,1977-03-13,Santiago,Santiago,Regular,2021-12-11
+957,Andres,Rodriguez,,1977-03-12,La Vega,La Vega,Regular,2021-12-12
+958,Natalia,Diaz,,1977-03-11,San Cristobal,San Cristobal,Corporativo,2021-12-13
+959,Pedro,Torres,M,1977-03-10,Puerto Plata,Puerto Plata,Corporativo,2021-12-14
+960,Laura,Ortiz,F,1977-03-03,San Cristobal,San Cristobal,Corporativo,2021-12-21
+961,Carlos,Herrera,M,1977-03-02,Puerto Plata,Puerto Plata,Corporativo,2021-12-22
+962,Carla,Cruz,F,1977-03-01,La Romana,La Romana,Corporativo,2021-12-23
+963,Miguel,Vargas,M,1977-02-28,Higuey,La Altagracia,Corporativo,2021-12-24
+964,Daniela,Perez,F,1977-02-27,Santo Domingo,Distrito Nacional,Preferente,2021-12-25
+965,Rafael,Garcia,M,1977-02-26,Santo Domingo Este,Santo Domingo,Preferente,2021-12-26
+966,Sofia,Martinez,F,1977-02-25,Santiago,Santiago,Preferente,2021-12-27
+967,Andres,Rodriguez,M,1977-02-24,La Vega,La Vega,Preferente,2021-12-28
+968,Natalia,Diaz,F,1977-02-23,San Cristobal,San Cristobal,Preferente,2021-12-29
+969,Pedro,Torres,M,1977-02-22,Puerto Plata,Puerto Plata,Preferente,2021-12-30
+970,Laura,Ortiz,F,1977-02-15,San Cristobal,San Cristobal,Preferente,2022-01-06
+971,Carlos,Herrera,M,1977-02-14,Puerto Plata,Puerto Plata,Preferente,2022-01-07
+972,Carla,Cruz,F,1977-02-13,La Romana,La Romana,Preferente,2022-01-08
+973,Miguel,Vargas,M,1977-02-12,Higuey,La Altagracia,Preferente,2022-01-09
+974,Daniela,Perez,F,1977-02-11,Santo Domingo,Distrito Nacional,Preferente,2022-01-10
+975,Rafael,Garcia,M,1977-02-10,Santo Domingo Este,Santo Domingo,Preferente,2022-01-11
+976,Sofia,Martinez,F,1977-02-09,Santiago,Santiago,Preferente,2022-01-12
+977,Andres,Rodriguez,M,1977-02-08,La Vega,La Vega,Preferente,2022-01-13
+978,Natalia,Diaz,F,1977-02-07,San Cristobal,San Cristobal,Preferente,2022-01-14
+979,Pedro,Torres,M,1977-02-06,Puerto Plata,Puerto Plata,Preferente,2022-01-15
+980,Laura,Ortiz,,1977-01-30,San Cristobal,San Cristobal,Regular,2022-01-22
+981,Carlos,Herrera,M,1977-01-29,Puerto Plata,Puerto Plata,Regular,2022-01-23
+982,Carla,Cruz,F,1977-01-28,La Romana,La Romana,Regular,2022-01-24
+983,Miguel,Vargas,M,1977-01-27,Higuey,La Altagracia,Regular,2022-01-25
+984,Daniela,Perez,F,1977-01-26,Santo Domingo,Distrito Nacional,Regular,2022-01-26
+985,Rafael,Garcia,M,1977-01-25,Santo Domingo Este,Santo Domingo,Regular,2022-01-27
+986,Sofia,Martinez,F,1977-01-24,Santiago,Santiago,Regular,2022-01-28
+987,Andres,Rodriguez,M,1977-01-23,La Vega,La Vega,Regular,2022-01-29
+988,Natalia,Diaz,F,1977-01-22,San Cristobal,San Cristobal,Regular,2022-01-30
+989,Pedro,Torres,M,1977-01-21,Puerto Plata,Puerto Plata,Regular,2022-01-31
+990,Laura,Ortiz,F,1977-01-14,San Cristobal,San Cristobal,Regular,2022-02-07
+991,Carlos,Herrera,M,1977-01-13,Puerto Plata,Puerto Plata,Regular,2022-02-08
+992,Carla,Cruz,F,1977-01-12,La Romana,La Romana,Regular,2022-02-09
+993,Miguel,Vargas,,1977-01-11,Higuey,La Altagracia,Regular,2022-02-10
+994,Daniela,Perez,,1977-01-10,Santo Domingo,Distrito Nacional,Regular,2022-02-11
+995,Rafael,Garcia,M,1977-01-09,Santo Domingo Este,Santo Domingo,Regular,2022-02-12
+996,Sofia,Martinez,F,1977-01-08,Santiago,Santiago,Regular,2022-02-13
+997,Andres,Rodriguez,M,1977-01-07,La Vega,La Vega,Regular,2022-02-14
+998,Natalia,Diaz,F,1977-01-06,San Cristobal,San Cristobal,Regular,2022-02-15
+999,Pedro,Torres,M,1977-01-05,Puerto Plata,Puerto Plata,Regular,2022-02-16
+1000,Luis,Sanchez,M,1990-04-24,San Cristobal,San Cristobal,Corporativo,2022-01-08
+1001,Ana,Ramirez,,1990-04-25,La Vega,La Vega,Corporativo,2022-01-07
+1002,Jose,Torres,M,1990-04-26,Santiago,Santiago,Corporativo,2022-01-06
+1003,Maria,Diaz,F,1990-04-27,Santo Domingo Este,Santo Domingo,Corporativo,2022-01-05
+1004,Javier,Reyes,M,1990-04-28,Santo Domingo,Distrito Nacional,Corporativo,2022-01-04
+1005,Paola,Gomez,F,1990-04-29,Higuey,La Altagracia,Corporativo,2022-01-03
+1006,Pedro,Castillo,M,1990-04-30,La Romana,La Romana,Corporativo,2022-01-02
+1007,Natalia,Mendez,F,1990-05-01,Puerto Plata,Puerto Plata,Corporativo,2022-01-01
+1008,Andres,Vargas,M,1990-05-02,San Cristobal,San Cristobal,Corporativo,2021-12-31
+1009,Sofia,Cruz,F,1990-05-03,La Vega,La Vega,Regular,2021-12-30
+1010,Luis,Sanchez,M,1990-05-10,San Cristobal,San Cristobal,Regular,2021-12-23
+1011,Ana,Ramirez,F,1990-05-11,La Vega,La Vega,Regular,2021-12-22
+1012,Jose,Torres,M,1990-05-12,Santiago,Santiago,Regular,2021-12-21
+1013,Maria,Diaz,F,1990-05-13,Santo Domingo Este,Santo Domingo,Regular,2021-12-20
+1014,Javier,Reyes,M,1990-05-14,Santo Domingo,Distrito Nacional,Regular,2021-12-19
+1015,Paola,Gomez,F,1990-05-15,Higuey,La Altagracia,Regular,2021-12-18
+1016,Pedro,Castillo,,1990-05-16,La Romana,La Romana,Regular,2021-12-17
+1017,Natalia,Mendez,F,1990-05-17,Puerto Plata,Puerto Plata,Regular,2021-12-16
+1018,Andres,Vargas,M,1990-05-18,San Cristobal,San Cristobal,Regular,2021-12-15
+1019,Sofia,Cruz,F,1990-05-19,La Vega,La Vega,Regular,2021-12-14
+1020,Luis,Sanchez,M,1990-05-26,San Cristobal,San Cristobal,Regular,2021-12-07
+1021,Ana,Ramirez,F,1990-05-27,La Vega,La Vega,Regular,2021-12-06
+1022,Jose,Torres,M,1990-05-28,Santiago,Santiago,Regular,2021-12-05
+1023,Maria,Diaz,F,1990-05-29,Santo Domingo Este,Santo Domingo,Regular,2021-12-04
+1024,Javier,Reyes,M,1990-05-30,Santo Domingo,Distrito Nacional,Regular,2021-12-03
+1025,Paola,Gomez,,1990-05-31,Higuey,La Altagracia,Regular,2021-12-02
+1026,Pedro,Castillo,M,1990-06-01,La Romana,La Romana,Regular,2021-12-01
+1027,Natalia,Mendez,F,1990-06-02,Puerto Plata,Puerto Plata,Regular,2021-11-30
+1028,Andres,Vargas,M,1990-06-03,San Cristobal,San Cristobal,Regular,2021-11-29
+1029,Sofia,Cruz,F,1990-06-04,La Vega,La Vega,Regular,2021-11-28
+1030,Luis,Sanchez,M,1990-06-11,San Cristobal,San Cristobal,Regular,2021-11-21
+1031,Ana,Ramirez,F,1990-06-12,La Vega,La Vega,Regular,2021-11-20
+1032,Jose,Torres,M,1990-06-13,Santiago,Santiago,Regular,2021-11-19
+1033,Maria,Diaz,F,1990-06-14,Santo Domingo Este,Santo Domingo,Regular,2021-11-18
+1034,Javier,Reyes,M,1990-06-15,Santo Domingo,Distrito Nacional,Regular,2021-11-17
+1035,Paola,Gomez,F,1990-06-16,Higuey,La Altagracia,Regular,2021-11-16
+1036,Pedro,Castillo,M,1990-06-17,La Romana,La Romana,Regular,2021-11-15
+1037,Natalia,Mendez,F,1990-06-18,Puerto Plata,Puerto Plata,Regular,2021-11-14
+1038,Andres,Vargas,M,1990-06-19,San Cristobal,San Cristobal,Regular,2021-11-13
+1039,Sofia,Cruz,,1990-06-20,La Vega,La Vega,Regular,2021-11-12
+1040,Luis,Sanchez,M,1989-10-14,San Cristobal,San Cristobal,Corporativo,2022-07-19
+1041,Ana,Ramirez,F,1989-10-15,La Vega,La Vega,Regular,2022-07-18
+1042,Jose,Torres,M,1989-10-16,Santiago,Santiago,Regular,2022-07-17
+1043,Maria,Diaz,F,1989-10-17,Santo Domingo Este,Santo Domingo,Regular,2022-07-16
+1044,Javier,Reyes,M,1989-10-18,Santo Domingo,Distrito Nacional,Regular,2022-07-15
+1045,Paola,Gomez,F,1989-10-19,Higuey,La Altagracia,Regular,2022-07-14
+1046,Pedro,Castillo,M,1989-10-20,La Romana,La Romana,Regular,2022-07-13
+1047,Natalia,Mendez,F,1989-10-21,Puerto Plata,Puerto Plata,Regular,2022-07-12
+1048,Andres,Vargas,M,1989-10-22,San Cristobal,San Cristobal,Regular,2022-07-11
+1049,Sofia,Cruz,,1989-10-23,La Vega,La Vega,Regular,2022-07-10
+1050,Luis,Sanchez,M,1989-10-30,San Cristobal,San Cristobal,Regular,2022-07-03
+1051,Ana,Ramirez,F,1989-10-31,La Vega,La Vega,Regular,2022-07-02
+1052,Jose,Torres,,1989-11-01,Santiago,Santiago,Regular,2022-07-01
+1053,Maria,Diaz,F,1989-11-02,Santo Domingo Este,Santo Domingo,Regular,2022-06-30
+1054,Javier,Reyes,M,1989-11-03,Santo Domingo,Distrito Nacional,Regular,2022-06-29
+1055,Paola,Gomez,F,1989-11-04,Higuey,La Altagracia,Regular,2022-06-28
+1056,Pedro,Castillo,M,1989-11-05,La Romana,La Romana,Regular,2022-06-27
+1057,Natalia,Mendez,F,1989-11-06,Puerto Plata,Puerto Plata,Regular,2022-06-26
+1058,Andres,Vargas,M,1989-11-07,San Cristobal,San Cristobal,Regular,2022-06-25
+1059,Sofia,Cruz,F,1989-11-08,La Vega,La Vega,Regular,2022-06-24
+1060,Luis,Sanchez,M,1989-11-15,San Cristobal,San Cristobal,Regular,2022-06-17
+1061,Ana,Ramirez,,1989-11-16,La Vega,La Vega,Regular,2022-06-16
+1062,Jose,Torres,M,1989-11-17,Santiago,Santiago,Regular,2022-06-15
+1063,Maria,Diaz,F,1989-11-18,Santo Domingo Este,Santo Domingo,Regular,2022-06-14
+1064,Javier,Reyes,M,1989-11-19,Santo Domingo,Distrito Nacional,Regular,2022-06-13
+1065,Paola,Gomez,F,1989-11-20,Higuey,La Altagracia,Regular,2022-06-12
+1066,Pedro,Castillo,M,1989-11-21,La Romana,La Romana,Regular,2022-06-11
+1067,Natalia,Mendez,F,1989-11-22,Puerto Plata,Puerto Plata,Regular,2022-06-10
+1068,Andres,Vargas,M,1989-11-23,San Cristobal,San Cristobal,Regular,2022-06-09
+1069,Sofia,Cruz,F,1989-11-24,La Vega,La Vega,Regular,2022-06-08
+1070,Luis,Sanchez,M,1989-12-01,San Cristobal,San Cristobal,Regular,2022-06-01
+1071,Ana,Ramirez,F,1989-12-02,La Vega,La Vega,Regular,2022-05-31
+1072,Jose,Torres,M,1989-12-03,Santiago,Santiago,Regular,2022-05-30
+1073,Maria,Diaz,F,1989-12-04,Santo Domingo Este,Santo Domingo,Regular,2022-05-29
+1074,Javier,Reyes,M,1989-12-05,Santo Domingo,Distrito Nacional,Regular,2022-05-28
+1075,Paola,Gomez,F,1989-12-06,Higuey,La Altagracia,Regular,2022-05-27
+1076,Pedro,Castillo,,1989-12-07,La Romana,La Romana,Regular,2022-05-26
+1077,Natalia,Mendez,F,1989-12-08,Puerto Plata,Puerto Plata,Regular,2022-05-25
+1078,Andres,Vargas,M,1989-12-09,San Cristobal,San Cristobal,Regular,2022-05-24
+1079,Sofia,Cruz,F,1989-12-10,La Vega,La Vega,Regular,2022-05-23
+1080,Luis,Sanchez,M,1989-12-17,San Cristobal,San Cristobal,Preferente,2022-05-16
+1081,Ana,Ramirez,F,1989-12-18,La Vega,La Vega,Preferente,2022-05-15
+1082,Jose,Torres,M,1989-12-19,Santiago,Santiago,Preferente,2022-05-14
+1083,Maria,Diaz,F,1989-12-20,Santo Domingo Este,Santo Domingo,Preferente,2022-05-13
+1084,Javier,Reyes,M,1989-12-21,Santo Domingo,Distrito Nacional,Preferente,2022-05-12
+1085,Paola,Gomez,,1989-12-22,Higuey,La Altagracia,Preferente,2022-05-11
+1086,Pedro,Castillo,M,1989-12-23,La Romana,La Romana,Preferente,2022-05-10
+1087,Natalia,Mendez,F,1989-12-24,Puerto Plata,Puerto Plata,Preferente,2022-05-09
+1088,Andres,Vargas,M,1989-12-25,San Cristobal,San Cristobal,Preferente,2022-05-08
+1089,Sofia,Cruz,F,1989-12-26,La Vega,La Vega,Preferente,2022-05-07
+1090,Luis,Sanchez,M,1990-01-02,San Cristobal,San Cristobal,Preferente,2022-04-30
+1091,Ana,Ramirez,F,1990-01-03,La Vega,La Vega,Preferente,2022-04-29
+1092,Jose,Torres,M,1990-01-04,Santiago,Santiago,Preferente,2022-04-28
+1093,Maria,Diaz,F,1990-01-05,Santo Domingo Este,Santo Domingo,Preferente,2022-04-27
+1094,Javier,Reyes,M,1990-01-06,Santo Domingo,Distrito Nacional,Preferente,2022-04-26
+1095,Paola,Gomez,F,1990-01-07,Higuey,La Altagracia,Preferente,2022-04-25
+1096,Pedro,Castillo,M,1990-01-08,La Romana,La Romana,Preferente,2022-04-24
+1097,Natalia,Mendez,F,1990-01-09,Puerto Plata,Puerto Plata,Preferente,2022-04-23
+1098,Andres,Vargas,M,1990-01-10,San Cristobal,San Cristobal,Preferente,2022-04-22
+1099,Sofia,Cruz,,1990-01-11,La Vega,La Vega,Corporativo,2022-04-21
+1100,Luis,Sanchez,M,1991-01-05,San Cristobal,San Cristobal,Regular,2021-04-27
+1101,Ana,Ramirez,F,1991-01-06,La Vega,La Vega,Regular,2021-04-26
+1102,Jose,Torres,M,1991-01-07,Santiago,Santiago,Regular,2021-04-25
+1103,Maria,Diaz,F,1991-01-08,Santo Domingo Este,Santo Domingo,Regular,2021-04-24
+1104,Javier,Reyes,M,1991-01-09,Santo Domingo,Distrito Nacional,Regular,2021-04-23
+1105,Paola,Gomez,F,1991-01-10,Higuey,La Altagracia,Regular,2021-04-22
+1106,Pedro,Castillo,,1991-01-11,La Romana,La Romana,Regular,2021-04-21
+1107,Natalia,Mendez,F,1991-01-12,Puerto Plata,Puerto Plata,Regular,2021-04-20
+1108,Andres,Vargas,M,1991-01-13,San Cristobal,San Cristobal,Regular,2021-04-19
+1109,Sofia,Cruz,F,1991-01-14,La Vega,La Vega,Regular,2021-04-18
+1110,Luis,Sanchez,M,1991-01-21,San Cristobal,San Cristobal,Preferente,2021-04-11
+1111,Ana,Ramirez,F,1991-01-22,La Vega,La Vega,Preferente,2021-04-10
+1112,Jose,Torres,M,1991-01-23,Santiago,Santiago,Preferente,2021-04-09
+1113,Maria,Diaz,F,1991-01-24,Santo Domingo Este,Santo Domingo,Preferente,2021-04-08
+1114,Javier,Reyes,M,1991-01-25,Santo Domingo,Distrito Nacional,Preferente,2021-04-07
+1115,Paola,Gomez,,1991-01-26,Higuey,La Altagracia,Preferente,2021-04-06
+1116,Pedro,Castillo,M,1991-01-27,La Romana,La Romana,Preferente,2021-04-05
+1117,Natalia,Mendez,F,1991-01-28,Puerto Plata,Puerto Plata,Preferente,2021-04-04
+1118,Andres,Vargas,M,1991-01-29,San Cristobal,San Cristobal,Preferente,2021-04-03
+1119,Sofia,Cruz,F,1991-01-30,La Vega,La Vega,Preferente,2021-04-02
+1120,Luis,Sanchez,M,1991-02-06,San Cristobal,San Cristobal,Preferente,2021-03-26
+1121,Ana,Ramirez,F,1991-02-07,La Vega,La Vega,Preferente,2021-03-25
+1122,Jose,Torres,M,1991-02-08,Santiago,Santiago,Preferente,2021-03-24
+1123,Maria,Diaz,F,1991-02-09,Santo Domingo Este,Santo Domingo,Preferente,2021-03-23
+1124,Javier,Reyes,M,1991-02-10,Santo Domingo,Distrito Nacional,Preferente,2021-03-22
+1125,Paola,Gomez,F,1991-02-11,Higuey,La Altagracia,Preferente,2021-03-21
+1126,Pedro,Castillo,M,1991-02-12,La Romana,La Romana,Preferente,2021-03-20
+1127,Natalia,Mendez,F,1991-02-13,Puerto Plata,Puerto Plata,Preferente,2021-03-19
+1128,Andres,Vargas,M,1991-02-14,San Cristobal,San Cristobal,Preferente,2021-03-18
+1129,Sofia,Cruz,,1991-02-15,La Vega,La Vega,Corporativo,2021-03-17
+1130,Luis,Sanchez,M,1991-02-22,San Cristobal,San Cristobal,Corporativo,2021-03-10
+1131,Ana,Ramirez,F,1991-02-23,La Vega,La Vega,Corporativo,2021-03-09
+1132,Jose,Torres,,1991-02-24,Santiago,Santiago,Corporativo,2021-03-08
+1133,Maria,Diaz,F,1991-02-25,Santo Domingo Este,Santo Domingo,Corporativo,2021-03-07
+1134,Javier,Reyes,M,1991-02-26,Santo Domingo,Distrito Nacional,Corporativo,2021-03-06
+1135,Paola,Gomez,F,1991-02-27,Higuey,La Altagracia,Regular,2021-03-05
+1136,Pedro,Castillo,M,1991-02-28,La Romana,La Romana,Regular,2021-03-04
+1137,Natalia,Mendez,F,1991-03-01,Puerto Plata,Puerto Plata,Regular,2021-03-03
+1138,Andres,Vargas,M,1991-03-02,San Cristobal,San Cristobal,Regular,2021-03-02
+1139,Sofia,Cruz,F,1991-03-03,La Vega,La Vega,Regular,2021-03-01
+1140,Luis,Sanchez,M,1990-06-27,San Cristobal,San Cristobal,Regular,2021-11-05
+1141,Ana,Ramirez,F,1990-06-28,La Vega,La Vega,Regular,2021-11-04
+1142,Jose,Torres,,1990-06-29,Santiago,Santiago,Regular,2021-11-03
+1143,Maria,Diaz,F,1990-06-30,Santo Domingo Este,Santo Domingo,Regular,2021-11-02
+1144,Javier,Reyes,M,1990-07-01,Santo Domingo,Distrito Nacional,Regular,2021-11-01
+1145,Paola,Gomez,F,1990-07-02,Higuey,La Altagracia,Regular,2021-10-31
+1146,Pedro,Castillo,M,1990-07-03,La Romana,La Romana,Regular,2021-10-30
+1147,Natalia,Mendez,F,1990-07-04,Puerto Plata,Puerto Plata,Preferente,2021-10-29
+1148,Andres,Vargas,M,1990-07-05,San Cristobal,San Cristobal,Preferente,2021-10-28
+1149,Sofia,Cruz,F,1990-07-06,La Vega,La Vega,Preferente,2021-10-27
+1150,Luis,Sanchez,M,1990-07-13,San Cristobal,San Cristobal,Preferente,2021-10-20
+1151,Ana,Ramirez,,1990-07-14,La Vega,La Vega,Preferente,2021-10-19
+1152,Jose,Torres,M,1990-07-15,Santiago,Santiago,Preferente,2021-10-18
+1153,Maria,Diaz,F,1990-07-16,Santo Domingo Este,Santo Domingo,Preferente,2021-10-17
+1154,Javier,Reyes,M,1990-07-17,Santo Domingo,Distrito Nacional,Preferente,2021-10-16
+1155,Paola,Gomez,F,1990-07-18,Higuey,La Altagracia,Preferente,2021-10-15
+1156,Pedro,Castillo,M,1990-07-19,La Romana,La Romana,Preferente,2021-10-14
+1157,Natalia,Mendez,F,1990-07-20,Puerto Plata,Puerto Plata,Preferente,2021-10-13
+1158,Andres,Vargas,M,1990-07-21,San Cristobal,San Cristobal,Preferente,2021-10-12
+1159,Sofia,Cruz,F,1990-07-22,La Vega,La Vega,Preferente,2021-10-11
+1160,Luis,Sanchez,M,1990-07-29,San Cristobal,San Cristobal,Preferente,2021-10-04
+1161,Ana,Ramirez,F,1990-07-30,La Vega,La Vega,Corporativo,2021-10-03
+1162,Jose,Torres,M,1990-07-31,Santiago,Santiago,Corporativo,2021-10-02
+1163,Maria,Diaz,F,1990-08-01,Santo Domingo Este,Santo Domingo,Corporativo,2021-10-01
+1164,Javier,Reyes,M,1990-08-02,Santo Domingo,Distrito Nacional,Corporativo,2021-09-30
+1165,Paola,Gomez,F,1990-08-03,Higuey,La Altagracia,Corporativo,2021-09-29
+1166,Pedro,Castillo,,1990-08-04,La Romana,La Romana,Corporativo,2021-09-28
+1167,Natalia,Mendez,F,1990-08-05,Puerto Plata,Puerto Plata,Corporativo,2021-09-27
+1168,Andres,Vargas,M,1990-08-06,San Cristobal,San Cristobal,Corporativo,2021-09-26
+1169,Sofia,Cruz,F,1990-08-07,La Vega,La Vega,Corporativo,2021-09-25
+1170,Luis,Sanchez,M,1990-08-14,San Cristobal,San Cristobal,Regular,2021-09-18
+1171,Ana,Ramirez,F,1990-08-15,La Vega,La Vega,Regular,2021-09-17
+1172,Jose,Torres,M,1990-08-16,Santiago,Santiago,Regular,2021-09-16
+1173,Maria,Diaz,F,1990-08-17,Santo Domingo Este,Santo Domingo,Regular,2021-09-15
+1174,Javier,Reyes,M,1990-08-18,Santo Domingo,Distrito Nacional,Regular,2021-09-14
+1175,Paola,Gomez,,1990-08-19,Higuey,La Altagracia,Regular,2021-09-13
+1176,Pedro,Castillo,M,1990-08-20,La Romana,La Romana,Regular,2021-09-12
+1177,Natalia,Mendez,F,1990-08-21,Puerto Plata,Puerto Plata,Regular,2021-09-11
+1178,Andres,Vargas,M,1990-08-22,San Cristobal,San Cristobal,Regular,2021-09-10
+1179,Sofia,Cruz,F,1990-08-23,La Vega,La Vega,Regular,2021-09-09
+1180,Luis,Sanchez,M,1990-08-30,San Cristobal,San Cristobal,Regular,2021-09-02
+1181,Ana,Ramirez,F,1990-08-31,La Vega,La Vega,Regular,2021-09-01
+1182,Jose,Torres,M,1990-09-01,Santiago,Santiago,Regular,2021-08-31
+1183,Maria,Diaz,F,1990-09-02,Santo Domingo Este,Santo Domingo,Regular,2021-08-30
+1184,Javier,Reyes,M,1990-09-03,Santo Domingo,Distrito Nacional,Regular,2021-08-29
+1185,Paola,Gomez,F,1990-09-04,Higuey,La Altagracia,Regular,2021-08-28
+1186,Pedro,Castillo,M,1990-09-05,La Romana,La Romana,Regular,2021-08-27
+1187,Natalia,Mendez,F,1990-09-06,Puerto Plata,Puerto Plata,Regular,2021-08-26
+1188,Andres,Vargas,M,1990-09-07,San Cristobal,San Cristobal,Regular,2021-08-25
+1189,Sofia,Cruz,,1990-09-08,La Vega,La Vega,Regular,2021-08-24
+1190,Luis,Sanchez,M,1990-09-15,San Cristobal,San Cristobal,Regular,2021-08-17
+1191,Ana,Ramirez,F,1990-09-16,La Vega,La Vega,Regular,2021-08-16
+1192,Jose,Torres,,1990-09-17,Santiago,Santiago,Regular,2021-08-15
+1193,Maria,Diaz,F,1990-09-18,Santo Domingo Este,Santo Domingo,Regular,2021-08-14
+1194,Javier,Reyes,M,1990-09-19,Santo Domingo,Distrito Nacional,Regular,2021-08-13
+1195,Paola,Gomez,F,1990-09-20,Higuey,La Altagracia,Regular,2021-08-12
+1196,Pedro,Castillo,M,1990-09-21,La Romana,La Romana,Regular,2021-08-11
+1197,Natalia,Mendez,F,1990-09-22,Puerto Plata,Puerto Plata,Regular,2021-08-10
+1198,Andres,Vargas,M,1990-09-23,San Cristobal,San Cristobal,Regular,2021-08-09
+1199,Sofia,Cruz,F,1990-09-24,La Vega,La Vega,Regular,2021-08-08
+1200,Luis,Sanchez,M,1991-09-18,San Cristobal,San Cristobal,Regular,2022-08-14
+1201,Ana,Ramirez,F,1991-09-19,La Vega,La Vega,Regular,2022-08-13
+1202,Jose,Torres,M,1991-09-20,Santiago,Santiago,Regular,2022-08-12
+1203,Maria,Diaz,F,1991-09-21,Santo Domingo Este,Santo Domingo,Regular,2022-08-11
+1204,Javier,Reyes,M,1991-09-22,Santo Domingo,Distrito Nacional,Regular,2022-08-10
+1205,Paola,Gomez,,1991-09-23,Higuey,La Altagracia,Regular,2022-08-09
+1206,Pedro,Castillo,M,1991-09-24,La Romana,La Romana,Regular,2022-08-08
+1207,Natalia,Mendez,F,1991-09-25,Puerto Plata,Puerto Plata,Regular,2022-08-07
+1208,Andres,Vargas,M,1991-09-26,San Cristobal,San Cristobal,Regular,2022-08-06
+1209,Sofia,Cruz,F,1991-09-27,La Vega,La Vega,Regular,2022-08-05
+1210,Luis,Sanchez,M,1991-10-04,San Cristobal,San Cristobal,Regular,2022-07-29
+1211,Ana,Ramirez,F,1991-10-05,La Vega,La Vega,Regular,2022-07-28
+1212,Jose,Torres,M,1991-10-06,Santiago,Santiago,Regular,2022-07-27
+1213,Maria,Diaz,F,1991-10-07,Santo Domingo Este,Santo Domingo,Regular,2022-07-26
+1214,Javier,Reyes,M,1991-10-08,Santo Domingo,Distrito Nacional,Regular,2022-07-25
+1215,Paola,Gomez,F,1991-10-09,Higuey,La Altagracia,Regular,2022-07-24
+1216,Pedro,Castillo,M,1991-10-10,La Romana,La Romana,Regular,2022-07-23
+1217,Natalia,Mendez,F,1991-10-11,Puerto Plata,Puerto Plata,Regular,2022-07-22
+1218,Andres,Vargas,M,1991-10-12,San Cristobal,San Cristobal,Regular,2022-07-21
+1219,Sofia,Cruz,,1991-10-13,La Vega,La Vega,Regular,2022-07-20
+1220,Luis,Sanchez,M,1991-10-20,San Cristobal,San Cristobal,Regular,2022-07-13
+1221,Ana,Ramirez,F,1991-10-21,La Vega,La Vega,Regular,2022-07-12
+1222,Jose,Torres,,1991-10-22,Santiago,Santiago,Regular,2022-07-11
+1223,Maria,Diaz,F,1991-10-23,Santo Domingo Este,Santo Domingo,Regular,2022-07-10
+1224,Javier,Reyes,M,1991-10-24,Santo Domingo,Distrito Nacional,Regular,2022-07-09
+1225,Paola,Gomez,F,1991-10-25,Higuey,La Altagracia,Regular,2022-07-08
+1226,Pedro,Castillo,M,1991-10-26,La Romana,La Romana,Regular,2022-07-07
+1227,Natalia,Mendez,F,1991-10-27,Puerto Plata,Puerto Plata,Regular,2022-07-06
+1228,Andres,Vargas,M,1991-10-28,San Cristobal,San Cristobal,Regular,2022-07-05
+1229,Sofia,Cruz,F,1991-10-29,La Vega,La Vega,Regular,2022-07-04
+1230,Luis,Sanchez,M,1991-11-05,San Cristobal,San Cristobal,Regular,2022-06-27
+1231,Ana,Ramirez,,1991-11-06,La Vega,La Vega,Regular,2022-06-26
+1232,Jose,Torres,M,1991-11-07,Santiago,Santiago,Regular,2022-06-25
+1233,Maria,Diaz,F,1991-11-08,Santo Domingo Este,Santo Domingo,Regular,2022-06-24
+1234,Javier,Reyes,M,1991-11-09,Santo Domingo,Distrito Nacional,Regular,2022-06-23
+1235,Paola,Gomez,F,1991-11-10,Higuey,La Altagracia,Regular,2022-06-22
+1236,Pedro,Castillo,M,1991-11-11,La Romana,La Romana,Regular,2022-06-21
+1237,Natalia,Mendez,F,1991-11-12,Puerto Plata,Puerto Plata,Regular,2022-06-20
+1238,Andres,Vargas,M,1991-11-13,San Cristobal,San Cristobal,Regular,2022-06-19
+1239,Sofia,Cruz,F,1991-11-14,La Vega,La Vega,Regular,2022-06-18
+1240,Luis,Sanchez,M,1991-03-10,San Cristobal,San Cristobal,Regular,2021-02-22
+1241,Ana,Ramirez,,1991-03-11,La Vega,La Vega,Regular,2021-02-21
+1242,Jose,Torres,M,1991-03-12,Santiago,Santiago,Regular,2021-02-20
+1243,Maria,Diaz,F,1991-03-13,Santo Domingo Este,Santo Domingo,Regular,2021-02-19
+1244,Javier,Reyes,M,1991-03-14,Santo Domingo,Distrito Nacional,Regular,2021-02-18
+1245,Paola,Gomez,F,1991-03-15,Higuey,La Altagracia,Regular,2021-02-17
+1246,Pedro,Castillo,M,1991-03-16,La Romana,La Romana,Regular,2021-02-16
+1247,Natalia,Mendez,F,1991-03-17,Puerto Plata,Puerto Plata,Regular,2021-02-15
+1248,Andres,Vargas,M,1991-03-18,San Cristobal,San Cristobal,Regular,2021-02-14
+1249,Sofia,Cruz,F,1991-03-19,La Vega,La Vega,Regular,2021-02-13
+1250,Luis,Sanchez,M,1991-03-26,San Cristobal,San Cristobal,Regular,2021-02-06
+1251,Ana,Ramirez,F,1991-03-27,La Vega,La Vega,Regular,2021-02-05
+1252,Jose,Torres,M,1991-03-28,Santiago,Santiago,Regular,2021-02-04
+1253,Maria,Diaz,F,1991-03-29,Santo Domingo Este,Santo Domingo,Regular,2021-02-03
+1254,Javier,Reyes,M,1991-03-30,Santo Domingo,Distrito Nacional,Regular,2021-02-02
+1255,Paola,Gomez,F,1991-03-31,Higuey,La Altagracia,Regular,2021-02-01
+1256,Pedro,Castillo,,1991-04-01,La Romana,La Romana,Regular,2021-01-31
+1257,Natalia,Mendez,F,1991-04-02,Puerto Plata,Puerto Plata,Regular,2021-01-30
+1258,Andres,Vargas,M,1991-04-03,San Cristobal,San Cristobal,Regular,2021-01-29
+1259,Sofia,Cruz,F,1991-04-04,La Vega,La Vega,Regular,2021-01-28
+1260,Luis,Sanchez,M,1991-04-11,San Cristobal,San Cristobal,Regular,2021-01-21
+1261,Ana,Ramirez,F,1991-04-12,La Vega,La Vega,Regular,2021-01-20
+1262,Jose,Torres,M,1991-04-13,Santiago,Santiago,Regular,2021-01-19
+1263,Maria,Diaz,F,1991-04-14,Santo Domingo Este,Santo Domingo,Regular,2021-01-18
+1264,Javier,Reyes,M,1991-04-15,Santo Domingo,Distrito Nacional,Regular,2021-01-17
+1265,Paola,Gomez,,1991-04-16,Higuey,La Altagracia,Regular,2021-01-16
+1266,Pedro,Castillo,M,1991-04-17,La Romana,La Romana,Regular,2021-01-15
+1267,Natalia,Mendez,F,1991-04-18,Puerto Plata,Puerto Plata,Regular,2021-01-14
+1268,Andres,Vargas,M,1991-04-19,San Cristobal,San Cristobal,Regular,2021-01-13
+1269,Sofia,Cruz,F,1991-04-20,La Vega,La Vega,Regular,2021-01-12
+1270,Luis,Sanchez,M,1991-04-27,San Cristobal,San Cristobal,Regular,2021-01-05
+1271,Ana,Ramirez,F,1991-04-28,La Vega,La Vega,Regular,2021-01-04
+1272,Jose,Torres,M,1991-04-29,Santiago,Santiago,Regular,2021-01-03
+1273,Maria,Diaz,F,1991-04-30,Santo Domingo Este,Santo Domingo,Preferente,2021-01-02
+1274,Javier,Reyes,M,1991-05-01,Santo Domingo,Distrito Nacional,Preferente,2021-01-01
+1275,Paola,Gomez,F,1991-05-02,Higuey,La Altagracia,Preferente,2022-12-31
+1276,Pedro,Castillo,M,1991-05-03,La Romana,La Romana,Preferente,2022-12-30
+1277,Natalia,Mendez,F,1991-05-04,Puerto Plata,Puerto Plata,Preferente,2022-12-29
+1278,Andres,Vargas,M,1991-05-05,San Cristobal,San Cristobal,Preferente,2022-12-28
+1279,Sofia,Cruz,,1991-05-06,La Vega,La Vega,Preferente,2022-12-27
+1280,Luis,Sanchez,M,1991-05-13,San Cristobal,San Cristobal,Preferente,2022-12-20
+1281,Ana,Ramirez,F,1991-05-14,La Vega,La Vega,Preferente,2022-12-19
+1282,Jose,Torres,,1991-05-15,Santiago,Santiago,Preferente,2022-12-18
+1283,Maria,Diaz,F,1991-05-16,Santo Domingo Este,Santo Domingo,Preferente,2022-12-17
+1284,Javier,Reyes,M,1991-05-17,Santo Domingo,Distrito Nacional,Preferente,2022-12-16
+1285,Paola,Gomez,F,1991-05-18,Higuey,La Altagracia,Preferente,2022-12-15
+1286,Pedro,Castillo,M,1991-05-19,La Romana,La Romana,Preferente,2022-12-14
+1287,Natalia,Mendez,F,1991-05-20,Puerto Plata,Puerto Plata,Preferente,2022-12-13
+1288,Andres,Vargas,M,1991-05-21,San Cristobal,San Cristobal,Preferente,2022-12-12
+1289,Sofia,Cruz,F,1991-05-22,La Vega,La Vega,Preferente,2022-12-11
+1290,Luis,Sanchez,M,1991-05-29,San Cristobal,San Cristobal,Corporativo,2022-12-04
+1291,Ana,Ramirez,,1991-05-30,La Vega,La Vega,Corporativo,2022-12-03
+1292,Jose,Torres,M,1991-05-31,Santiago,Santiago,Corporativo,2022-12-02
+1293,Maria,Diaz,F,1991-06-01,Santo Domingo Este,Santo Domingo,Corporativo,2022-12-01
+1294,Javier,Reyes,M,1991-06-02,Santo Domingo,Distrito Nacional,Corporativo,2022-11-30
+1295,Paola,Gomez,F,1991-06-03,Higuey,La Altagracia,Corporativo,2022-11-29
+1296,Pedro,Castillo,M,1991-06-04,La Romana,La Romana,Corporativo,2022-11-28
+1297,Natalia,Mendez,F,1991-06-05,Puerto Plata,Puerto Plata,Corporativo,2022-11-27
+1298,Andres,Vargas,M,1991-06-06,San Cristobal,San Cristobal,Corporativo,2022-11-26
+1299,Sofia,Cruz,F,1991-06-07,La Vega,La Vega,Regular,2022-11-25
+1300,Luis,Sanchez,M,1992-05-31,San Cristobal,San Cristobal,Regular,2021-12-01
+1301,Ana,Ramirez,F,1992-06-01,La Vega,La Vega,Regular,2021-11-30
+1302,Jose,Torres,M,1992-06-02,Santiago,Santiago,Regular,2021-11-29
+1303,Maria,Diaz,F,1992-06-03,Santo Domingo Este,Santo Domingo,Preferente,2021-11-28
+1304,Javier,Reyes,M,1992-06-04,Santo Domingo,Distrito Nacional,Preferente,2021-11-27
+1305,Paola,Gomez,F,1992-06-05,Higuey,La Altagracia,Preferente,2021-11-26
+1306,Pedro,Castillo,M,1992-06-06,La Romana,La Romana,Preferente,2021-11-25
+1307,Natalia,Mendez,F,1992-06-07,Puerto Plata,Puerto Plata,Preferente,2021-11-24
+1308,Andres,Vargas,M,1992-06-08,San Cristobal,San Cristobal,Preferente,2021-11-23
+1309,Sofia,Cruz,,1992-06-09,La Vega,La Vega,Preferente,2021-11-22
+1310,Luis,Sanchez,M,1992-06-16,San Cristobal,San Cristobal,Preferente,2021-11-15
+1311,Ana,Ramirez,F,1992-06-17,La Vega,La Vega,Preferente,2021-11-14
+1312,Jose,Torres,,1992-06-18,Santiago,Santiago,Preferente,2021-11-13
+1313,Maria,Diaz,F,1992-06-19,Santo Domingo Este,Santo Domingo,Preferente,2021-11-12
+1314,Javier,Reyes,M,1992-06-20,Santo Domingo,Distrito Nacional,Preferente,2021-11-11
+1315,Paola,Gomez,F,1992-06-21,Higuey,La Altagracia,Preferente,2021-11-10
+1316,Pedro,Castillo,M,1992-06-22,La Romana,La Romana,Preferente,2021-11-09
+1317,Natalia,Mendez,F,1992-06-23,Puerto Plata,Puerto Plata,Preferente,2021-11-08
+1318,Andres,Vargas,M,1992-06-24,San Cristobal,San Cristobal,Preferente,2021-11-07
+1319,Sofia,Cruz,F,1992-06-25,La Vega,La Vega,Preferente,2021-11-06
+1320,Luis,Sanchez,M,1992-07-02,San Cristobal,San Cristobal,Corporativo,2021-10-30
+1321,Ana,Ramirez,,1992-07-03,La Vega,La Vega,Corporativo,2021-10-29
+1322,Jose,Torres,M,1992-07-04,Santiago,Santiago,Corporativo,2021-10-28
+1323,Maria,Diaz,F,1992-07-05,Santo Domingo Este,Santo Domingo,Corporativo,2021-10-27
+1324,Javier,Reyes,M,1992-07-06,Santo Domingo,Distrito Nacional,Corporativo,2021-10-26
+1325,Paola,Gomez,F,1992-07-07,Higuey,La Altagracia,Corporativo,2021-10-25
+1326,Pedro,Castillo,M,1992-07-08,La Romana,La Romana,Corporativo,2021-10-24
+1327,Natalia,Mendez,F,1992-07-09,Puerto Plata,Puerto Plata,Corporativo,2021-10-23
+1328,Andres,Vargas,M,1992-07-10,San Cristobal,San Cristobal,Corporativo,2021-10-22
+1329,Sofia,Cruz,F,1992-07-11,La Vega,La Vega,Regular,2021-10-21
+1330,Luis,Sanchez,M,1992-07-18,San Cristobal,San Cristobal,Regular,2021-10-14
+1331,Ana,Ramirez,F,1992-07-19,La Vega,La Vega,Regular,2021-10-13
+1332,Jose,Torres,M,1992-07-20,Santiago,Santiago,Regular,2021-10-12
+1333,Maria,Diaz,F,1992-07-21,Santo Domingo Este,Santo Domingo,Regular,2021-10-11
+1334,Javier,Reyes,M,1992-07-22,Santo Domingo,Distrito Nacional,Regular,2021-10-10
+1335,Paola,Gomez,F,1992-07-23,Higuey,La Altagracia,Regular,2021-10-09
+1336,Pedro,Castillo,,1992-07-24,La Romana,La Romana,Regular,2021-10-08
+1337,Natalia,Mendez,F,1992-07-25,Puerto Plata,Puerto Plata,Regular,2021-10-07
+1338,Andres,Vargas,M,1992-07-26,San Cristobal,San Cristobal,Regular,2021-10-06
+1339,Sofia,Cruz,F,1992-07-27,La Vega,La Vega,Regular,2021-10-05
+1340,Luis,Sanchez,M,1991-11-21,San Cristobal,San Cristobal,Preferente,2022-06-11
+1341,Ana,Ramirez,F,1991-11-22,La Vega,La Vega,Preferente,2022-06-10
+1342,Jose,Torres,M,1991-11-23,Santiago,Santiago,Preferente,2022-06-09
+1343,Maria,Diaz,F,1991-11-24,Santo Domingo Este,Santo Domingo,Preferente,2022-06-08
+1344,Javier,Reyes,M,1991-11-25,Santo Domingo,Distrito Nacional,Preferente,2022-06-07
+1345,Paola,Gomez,F,1991-11-26,Higuey,La Altagracia,Preferente,2022-06-06
+1346,Pedro,Castillo,,1991-11-27,La Romana,La Romana,Preferente,2022-06-05
+1347,Natalia,Mendez,F,1991-11-28,Puerto Plata,Puerto Plata,Preferente,2022-06-04
+1348,Andres,Vargas,M,1991-11-29,San Cristobal,San Cristobal,Preferente,2022-06-03
+1349,Sofia,Cruz,F,1991-11-30,La Vega,La Vega,Preferente,2022-06-02
+1350,Luis,Sanchez,M,1991-12-07,San Cristobal,San Cristobal,Preferente,2022-05-26
+1351,Ana,Ramirez,F,1991-12-08,La Vega,La Vega,Preferente,2022-05-25
+1352,Jose,Torres,M,1991-12-09,Santiago,Santiago,Preferente,2022-05-24
+1353,Maria,Diaz,F,1991-12-10,Santo Domingo Este,Santo Domingo,Preferente,2022-05-23
+1354,Javier,Reyes,M,1991-12-11,Santo Domingo,Distrito Nacional,Preferente,2022-05-22
+1355,Paola,Gomez,,1991-12-12,Higuey,La Altagracia,Corporativo,2022-05-21
+1356,Pedro,Castillo,M,1991-12-13,La Romana,La Romana,Corporativo,2022-05-20
+1357,Natalia,Mendez,F,1991-12-14,Puerto Plata,Puerto Plata,Corporativo,2022-05-19
+1358,Andres,Vargas,M,1991-12-15,San Cristobal,San Cristobal,Corporativo,2022-05-18
+1359,Sofia,Cruz,F,1991-12-16,La Vega,La Vega,Corporativo,2022-05-17
+1360,Luis,Sanchez,M,1991-12-23,San Cristobal,San Cristobal,Corporativo,2022-05-10
+1361,Ana,Ramirez,F,1991-12-24,La Vega,La Vega,Regular,2022-05-09
+1362,Jose,Torres,M,1991-12-25,Santiago,Santiago,Regular,2022-05-08
+1363,Maria,Diaz,F,1991-12-26,Santo Domingo Este,Santo Domingo,Regular,2022-05-07
+1364,Javier,Reyes,M,1991-12-27,Santo Domingo,Distrito Nacional,Regular,2022-05-06
+1365,Paola,Gomez,F,1991-12-28,Higuey,La Altagracia,Regular,2022-05-05
+1366,Pedro,Castillo,M,1991-12-29,La Romana,La Romana,Regular,2022-05-04
+1367,Natalia,Mendez,F,1991-12-30,Puerto Plata,Puerto Plata,Regular,2022-05-03
+1368,Andres,Vargas,M,1991-12-31,San Cristobal,San Cristobal,Regular,2022-05-02
+1369,Sofia,Cruz,,1992-01-01,La Vega,La Vega,Regular,2022-05-01
+1370,Luis,Sanchez,M,1992-01-08,San Cristobal,San Cristobal,Regular,2022-04-24
+1371,Ana,Ramirez,F,1992-01-09,La Vega,La Vega,Regular,2022-04-23
+1372,Jose,Torres,,1992-01-10,Santiago,Santiago,Regular,2022-04-22
+1373,Maria,Diaz,F,1992-01-11,Santo Domingo Este,Santo Domingo,Regular,2022-04-21
+1374,Javier,Reyes,M,1992-01-12,Santo Domingo,Distrito Nacional,Regular,2022-04-20
+1375,Paola,Gomez,F,1992-01-13,Higuey,La Altagracia,Regular,2022-04-19
+1376,Pedro,Castillo,M,1992-01-14,La Romana,La Romana,Regular,2022-04-18
+1377,Natalia,Mendez,F,1992-01-15,Puerto Plata,Puerto Plata,Regular,2022-04-17
+1378,Andres,Vargas,M,1992-01-16,San Cristobal,San Cristobal,Regular,2022-04-16
+1379,Sofia,Cruz,F,1992-01-17,La Vega,La Vega,Regular,2022-04-15
+1380,Luis,Sanchez,M,1992-01-24,San Cristobal,San Cristobal,Regular,2022-04-08
+1381,Ana,Ramirez,,1992-01-25,La Vega,La Vega,Regular,2022-04-07
+1382,Jose,Torres,M,1992-01-26,Santiago,Santiago,Regular,2022-04-06
+1383,Maria,Diaz,F,1992-01-27,Santo Domingo Este,Santo Domingo,Regular,2022-04-05
+1384,Javier,Reyes,M,1992-01-28,Santo Domingo,Distrito Nacional,Regular,2022-04-04
+1385,Paola,Gomez,F,1992-01-29,Higuey,La Altagracia,Regular,2022-04-03
+1386,Pedro,Castillo,M,1992-01-30,La Romana,La Romana,Regular,2022-04-02
+1387,Natalia,Mendez,F,1992-01-31,Puerto Plata,Puerto Plata,Regular,2022-04-01
+1388,Andres,Vargas,M,1992-02-01,San Cristobal,San Cristobal,Regular,2022-03-31
+1389,Sofia,Cruz,F,1992-02-02,La Vega,La Vega,Regular,2022-03-30
+1390,Luis,Sanchez,M,1992-02-09,San Cristobal,San Cristobal,Regular,2022-03-23
+1391,Ana,Ramirez,F,1992-02-10,La Vega,La Vega,Regular,2022-03-22
+1392,Jose,Torres,M,1992-02-11,Santiago,Santiago,Regular,2022-03-21
+1393,Maria,Diaz,F,1992-02-12,Santo Domingo Este,Santo Domingo,Regular,2022-03-20
+1394,Javier,Reyes,M,1992-02-13,Santo Domingo,Distrito Nacional,Regular,2022-03-19
+1395,Paola,Gomez,F,1992-02-14,Higuey,La Altagracia,Regular,2022-03-18
+1396,Pedro,Castillo,,1992-02-15,La Romana,La Romana,Regular,2022-03-17
+1397,Natalia,Mendez,F,1992-02-16,Puerto Plata,Puerto Plata,Regular,2022-03-16
+1398,Andres,Vargas,M,1992-02-17,San Cristobal,San Cristobal,Regular,2022-03-15
+1399,Sofia,Cruz,F,1992-02-18,La Vega,La Vega,Regular,2022-03-14
+1400,Luis,Sanchez,M,1981-11-25,San Cristobal,San Cristobal,Regular,2022-06-09
+1401,Ana,Ramirez,F,1981-11-26,La Vega,La Vega,Regular,2022-06-08
+1402,Jose,Torres,M,1981-11-27,Santiago,Santiago,Regular,2022-06-07
+1403,Maria,Diaz,F,1981-11-28,Santo Domingo Este,Santo Domingo,Regular,2022-06-06
+1404,Javier,Reyes,M,1981-11-29,Santo Domingo,Distrito Nacional,Regular,2022-06-05
+1405,Paola,Gomez,F,1981-11-30,Higuey,La Altagracia,Regular,2022-06-04
+1406,Pedro,Castillo,M,1981-12-01,La Romana,La Romana,Regular,2022-06-03
+1407,Natalia,Mendez,F,1981-12-02,Puerto Plata,Puerto Plata,Regular,2022-06-02
+1408,Andres,Vargas,M,1981-12-03,San Cristobal,San Cristobal,Regular,2022-06-01
+1409,Sofia,Cruz,,1981-12-04,La Vega,La Vega,Regular,2022-05-31
+1410,Luis,Sanchez,M,1981-12-11,San Cristobal,San Cristobal,Regular,2022-05-24
+1411,Ana,Ramirez,F,1981-12-12,La Vega,La Vega,Regular,2022-05-23
+1412,Jose,Torres,,1981-12-13,Santiago,Santiago,Regular,2022-05-22
+1413,Maria,Diaz,F,1981-12-14,Santo Domingo Este,Santo Domingo,Regular,2022-05-21
+1414,Javier,Reyes,M,1981-12-15,Santo Domingo,Distrito Nacional,Regular,2022-05-20
+1415,Paola,Gomez,F,1981-12-16,Higuey,La Altagracia,Regular,2022-05-19
+1416,Pedro,Castillo,M,1981-12-17,La Romana,La Romana,Regular,2022-05-18
+1417,Natalia,Mendez,F,1981-12-18,Puerto Plata,Puerto Plata,Regular,2022-05-17
+1418,Andres,Vargas,M,1981-12-19,San Cristobal,San Cristobal,Regular,2022-05-16
+1419,Sofia,Cruz,F,1981-12-20,La Vega,La Vega,Regular,2022-05-15
+1420,Luis,Sanchez,M,1981-12-27,San Cristobal,San Cristobal,Regular,2022-05-08
+1421,Ana,Ramirez,,1981-12-28,La Vega,La Vega,Regular,2022-05-07
+1422,Jose,Torres,M,1981-12-29,Santiago,Santiago,Regular,2022-05-06
+1423,Maria,Diaz,F,1981-12-30,Santo Domingo Este,Santo Domingo,Regular,2022-05-05
+1424,Javier,Reyes,M,1981-12-31,Santo Domingo,Distrito Nacional,Regular,2022-05-04
+1425,Paola,Gomez,F,1982-01-01,Higuey,La Altagracia,Regular,2022-05-03
+1426,Pedro,Castillo,M,1982-01-02,La Romana,La Romana,Regular,2022-05-02
+1427,Natalia,Mendez,F,1982-01-03,Puerto Plata,Puerto Plata,Regular,2022-05-01
+1428,Andres,Vargas,M,1982-01-04,San Cristobal,San Cristobal,Regular,2022-04-30
+1429,Sofia,Cruz,F,1982-01-05,La Vega,La Vega,Regular,2022-04-29
+1430,Luis,Sanchez,M,1982-01-12,San Cristobal,San Cristobal,Preferente,2022-04-22
+1431,Ana,Ramirez,F,1982-01-13,La Vega,La Vega,Preferente,2022-04-21
+1432,Jose,Torres,M,1982-01-14,Santiago,Santiago,Preferente,2022-04-20
+1433,Maria,Diaz,F,1982-01-15,Santo Domingo Este,Santo Domingo,Preferente,2022-04-19
+1434,Javier,Reyes,M,1982-01-16,Santo Domingo,Distrito Nacional,Preferente,2022-04-18
+1435,Paola,Gomez,F,1982-01-17,Higuey,La Altagracia,Preferente,2022-04-17
+1436,Pedro,Castillo,,1982-01-18,La Romana,La Romana,Preferente,2022-04-16
+1437,Natalia,Mendez,F,1982-01-19,Puerto Plata,Puerto Plata,Preferente,2022-04-15
+1438,Andres,Vargas,M,1982-01-20,San Cristobal,San Cristobal,Preferente,2022-04-14
+1439,Sofia,Cruz,F,1982-01-21,La Vega,La Vega,Preferente,2022-04-13
+1440,Luis,Sanchez,M,1981-05-17,San Cristobal,San Cristobal,Regular,2022-12-18
+1441,Ana,Ramirez,F,1981-05-18,La Vega,La Vega,Regular,2022-12-17
+1442,Jose,Torres,M,1981-05-19,Santiago,Santiago,Regular,2022-12-16
+1443,Maria,Diaz,F,1981-05-20,Santo Domingo Este,Santo Domingo,Regular,2022-12-15
+1444,Javier,Reyes,M,1981-05-21,Santo Domingo,Distrito Nacional,Regular,2022-12-14
+1445,Paola,Gomez,F,1981-05-22,Higuey,La Altagracia,Regular,2022-12-13
+1446,Pedro,Castillo,,1981-05-23,La Romana,La Romana,Regular,2022-12-12
+1447,Natalia,Mendez,F,1981-05-24,Puerto Plata,Puerto Plata,Regular,2022-12-11
+1448,Andres,Vargas,M,1981-05-25,San Cristobal,San Cristobal,Regular,2022-12-10
+1449,Sofia,Cruz,F,1981-05-26,La Vega,La Vega,Regular,2022-12-09
+1450,Luis,Sanchez,M,1981-06-02,San Cristobal,San Cristobal,Regular,2022-12-02
+1451,Ana,Ramirez,F,1981-06-03,La Vega,La Vega,Regular,2022-12-01
+1452,Jose,Torres,M,1981-06-04,Santiago,Santiago,Regular,2022-11-30
+1453,Maria,Diaz,F,1981-06-05,Santo Domingo Este,Santo Domingo,Regular,2022-11-29
+1454,Javier,Reyes,M,1981-06-06,Santo Domingo,Distrito Nacional,Regular,2022-11-28
+1455,Paola,Gomez,,1981-06-07,Higuey,La Altagracia,Regular,2022-11-27
+1456,Pedro,Castillo,M,1981-06-08,La Romana,La Romana,Regular,2022-11-26
+1457,Natalia,Mendez,F,1981-06-09,Puerto Plata,Puerto Plata,Regular,2022-11-25
+1458,Andres,Vargas,M,1981-06-10,San Cristobal,San Cristobal,Regular,2022-11-24
+1459,Sofia,Cruz,F,1981-06-11,La Vega,La Vega,Regular,2022-11-23
+1460,Luis,Sanchez,M,1981-06-18,San Cristobal,San Cristobal,Regular,2022-11-16
+1461,Ana,Ramirez,F,1981-06-19,La Vega,La Vega,Regular,2022-11-15
+1462,Jose,Torres,M,1981-06-20,Santiago,Santiago,Regular,2022-11-14
+1463,Maria,Diaz,F,1981-06-21,Santo Domingo Este,Santo Domingo,Preferente,2022-11-13
+1464,Javier,Reyes,M,1981-06-22,Santo Domingo,Distrito Nacional,Preferente,2022-11-12
+1465,Paola,Gomez,F,1981-06-23,Higuey,La Altagracia,Preferente,2022-11-11
+1466,Pedro,Castillo,M,1981-06-24,La Romana,La Romana,Preferente,2022-11-10
+1467,Natalia,Mendez,F,1981-06-25,Puerto Plata,Puerto Plata,Preferente,2022-11-09
+1468,Andres,Vargas,M,1981-06-26,San Cristobal,San Cristobal,Preferente,2022-11-08
+1469,Sofia,Cruz,,1981-06-27,La Vega,La Vega,Preferente,2022-11-07
+1470,Luis,Sanchez,M,1981-07-04,San Cristobal,San Cristobal,Preferente,2022-10-31
+1471,Ana,Ramirez,F,1981-07-05,La Vega,La Vega,Preferente,2022-10-30
+1472,Jose,Torres,,1981-07-06,Santiago,Santiago,Preferente,2022-10-29
+1473,Maria,Diaz,F,1981-07-07,Santo Domingo Este,Santo Domingo,Preferente,2022-10-28
+1474,Javier,Reyes,M,1981-07-08,Santo Domingo,Distrito Nacional,Preferente,2022-10-27
+1475,Paola,Gomez,F,1981-07-09,Higuey,La Altagracia,Preferente,2022-10-26
+1476,Pedro,Castillo,M,1981-07-10,La Romana,La Romana,Preferente,2022-10-25
+1477,Natalia,Mendez,F,1981-07-11,Puerto Plata,Puerto Plata,Preferente,2022-10-24
+1478,Andres,Vargas,M,1981-07-12,San Cristobal,San Cristobal,Preferente,2022-10-23
+1479,Sofia,Cruz,F,1981-07-13,La Vega,La Vega,Preferente,2022-10-22
+1480,Luis,Sanchez,M,1981-07-20,San Cristobal,San Cristobal,Corporativo,2022-10-15
+1481,Ana,Ramirez,,1981-07-21,La Vega,La Vega,Corporativo,2022-10-14
+1482,Jose,Torres,M,1981-07-22,Santiago,Santiago,Corporativo,2022-10-13
+1483,Maria,Diaz,F,1981-07-23,Santo Domingo Este,Santo Domingo,Corporativo,2022-10-12
+1484,Javier,Reyes,M,1981-07-24,Santo Domingo,Distrito Nacional,Corporativo,2022-10-11
+1485,Paola,Gomez,F,1981-07-25,Higuey,La Altagracia,Corporativo,2022-10-10
+1486,Pedro,Castillo,M,1981-07-26,La Romana,La Romana,Corporativo,2022-10-09
+1487,Natalia,Mendez,F,1981-07-27,Puerto Plata,Puerto Plata,Corporativo,2022-10-08
+1488,Andres,Vargas,M,1981-07-28,San Cristobal,San Cristobal,Corporativo,2022-10-07
+1489,Sofia,Cruz,F,1981-07-29,La Vega,La Vega,Regular,2022-10-06
+1490,Luis,Sanchez,M,1981-08-05,San Cristobal,San Cristobal,Regular,2022-09-29
+1491,Ana,Ramirez,F,1981-08-06,La Vega,La Vega,Regular,2022-09-28
+1492,Jose,Torres,M,1981-08-07,Santiago,Santiago,Regular,2022-09-27
+1493,Maria,Diaz,F,1981-08-08,Santo Domingo Este,Santo Domingo,Regular,2022-09-26
+1494,Javier,Reyes,M,1981-08-09,Santo Domingo,Distrito Nacional,Regular,2022-09-25
+1495,Paola,Gomez,F,1981-08-10,Higuey,La Altagracia,Regular,2022-09-24
+1496,Pedro,Castillo,,1981-08-11,La Romana,La Romana,Regular,2022-09-23
+1497,Natalia,Mendez,F,1981-08-12,Puerto Plata,Puerto Plata,Regular,2022-09-22
+1498,Andres,Vargas,M,1981-08-13,San Cristobal,San Cristobal,Regular,2022-09-21
+1499,Sofia,Cruz,F,1981-08-14,La Vega,La Vega,Regular,2022-09-20
+1500,Luis,Sanchez,M,1982-08-08,San Cristobal,San Cristobal,Preferente,2021-09-26
+1501,Ana,Ramirez,F,1982-08-09,La Vega,La Vega,Preferente,2021-09-25
+1502,Jose,Torres,,1982-08-10,Santiago,Santiago,Preferente,2021-09-24
+1503,Maria,Diaz,F,1982-08-11,Santo Domingo Este,Santo Domingo,Preferente,2021-09-23
+1504,Javier,Reyes,M,1982-08-12,Santo Domingo,Distrito Nacional,Preferente,2021-09-22
+1505,Paola,Gomez,F,1982-08-13,Higuey,La Altagracia,Preferente,2021-09-21
+1506,Pedro,Castillo,M,1982-08-14,La Romana,La Romana,Preferente,2021-09-20
+1507,Natalia,Mendez,F,1982-08-15,Puerto Plata,Puerto Plata,Preferente,2021-09-19
+1508,Andres,Vargas,M,1982-08-16,San Cristobal,San Cristobal,Preferente,2021-09-18
+1509,Sofia,Cruz,F,1982-08-17,La Vega,La Vega,Preferente,2021-09-17
+1510,Luis,Sanchez,M,1982-08-24,San Cristobal,San Cristobal,Corporativo,2021-09-10
+1511,Ana,Ramirez,,1982-08-25,La Vega,La Vega,Corporativo,2021-09-09
+1512,Jose,Torres,M,1982-08-26,Santiago,Santiago,Corporativo,2021-09-08
+1513,Maria,Diaz,F,1982-08-27,Santo Domingo Este,Santo Domingo,Corporativo,2021-09-07
+1514,Javier,Reyes,M,1982-08-28,Santo Domingo,Distrito Nacional,Corporativo,2021-09-06
+1515,Paola,Gomez,F,1982-08-29,Higuey,La Altagracia,Corporativo,2021-09-05
+1516,Pedro,Castillo,M,1982-08-30,La Romana,La Romana,Corporativo,2021-09-04
+1517,Natalia,Mendez,F,1982-08-31,Puerto Plata,Puerto Plata,Corporativo,2021-09-03
+1518,Andres,Vargas,M,1982-09-01,San Cristobal,San Cristobal,Corporativo,2021-09-02
+1519,Sofia,Cruz,F,1982-09-02,La Vega,La Vega,Regular,2021-09-01
+1520,Luis,Sanchez,M,1982-09-09,San Cristobal,San Cristobal,Regular,2021-08-25
+1521,Ana,Ramirez,F,1982-09-10,La Vega,La Vega,Regular,2021-08-24
+1522,Jose,Torres,M,1982-09-11,Santiago,Santiago,Regular,2021-08-23
+1523,Maria,Diaz,F,1982-09-12,Santo Domingo Este,Santo Domingo,Regular,2021-08-22
+1524,Javier,Reyes,M,1982-09-13,Santo Domingo,Distrito Nacional,Regular,2021-08-21
+1525,Paola,Gomez,F,1982-09-14,Higuey,La Altagracia,Regular,2021-08-20
+1526,Pedro,Castillo,,1982-09-15,La Romana,La Romana,Regular,2021-08-19
+1527,Natalia,Mendez,F,1982-09-16,Puerto Plata,Puerto Plata,Regular,2021-08-18
+1528,Andres,Vargas,M,1982-09-17,San Cristobal,San Cristobal,Regular,2021-08-17
+1529,Sofia,Cruz,F,1982-09-18,La Vega,La Vega,Regular,2021-08-16
+1530,Luis,Sanchez,M,1982-09-25,San Cristobal,San Cristobal,Regular,2021-08-09
+1531,Ana,Ramirez,F,1982-09-26,La Vega,La Vega,Regular,2021-08-08
+1532,Jose,Torres,M,1982-09-27,Santiago,Santiago,Regular,2021-08-07
+1533,Maria,Diaz,F,1982-09-28,Santo Domingo Este,Santo Domingo,Regular,2021-08-06
+1534,Javier,Reyes,M,1982-09-29,Santo Domingo,Distrito Nacional,Regular,2021-08-05
+1535,Paola,Gomez,,1982-09-30,Higuey,La Altagracia,Regular,2021-08-04
+1536,Pedro,Castillo,M,1982-10-01,La Romana,La Romana,Regular,2021-08-03
+1537,Natalia,Mendez,F,1982-10-02,Puerto Plata,Puerto Plata,Regular,2021-08-02
+1538,Andres,Vargas,M,1982-10-03,San Cristobal,San Cristobal,Regular,2021-08-01
+1539,Sofia,Cruz,F,1982-10-04,La Vega,La Vega,Regular,2021-07-31
+1540,Luis,Sanchez,M,1982-01-28,San Cristobal,San Cristobal,Preferente,2022-04-06
+1541,Ana,Ramirez,F,1982-01-29,La Vega,La Vega,Preferente,2022-04-05
+1542,Jose,Torres,M,1982-01-30,Santiago,Santiago,Preferente,2022-04-04
+1543,Maria,Diaz,F,1982-01-31,Santo Domingo Este,Santo Domingo,Preferente,2022-04-03
+1544,Javier,Reyes,M,1982-02-01,Santo Domingo,Distrito Nacional,Preferente,2022-04-02
+1545,Paola,Gomez,,1982-02-02,Higuey,La Altagracia,Corporativo,2022-04-01
+1546,Pedro,Castillo,M,1982-02-03,La Romana,La Romana,Corporativo,2022-03-31
+1547,Natalia,Mendez,F,1982-02-04,Puerto Plata,Puerto Plata,Corporativo,2022-03-30
+1548,Andres,Vargas,M,1982-02-05,San Cristobal,San Cristobal,Corporativo,2022-03-29
+1549,Sofia,Cruz,F,1982-02-06,La Vega,La Vega,Corporativo,2022-03-28
+1550,Luis,Sanchez,M,1982-02-13,San Cristobal,San Cristobal,Corporativo,2022-03-21
+1551,Ana,Ramirez,F,1982-02-14,La Vega,La Vega,Regular,2022-03-20
+1552,Jose,Torres,M,1982-02-15,Santiago,Santiago,Regular,2022-03-19
+1553,Maria,Diaz,F,1982-02-16,Santo Domingo Este,Santo Domingo,Regular,2022-03-18
+1554,Javier,Reyes,M,1982-02-17,Santo Domingo,Distrito Nacional,Regular,2022-03-17
+1555,Paola,Gomez,F,1982-02-18,Higuey,La Altagracia,Regular,2022-03-16
+1556,Pedro,Castillo,M,1982-02-19,La Romana,La Romana,Regular,2022-03-15
+1557,Natalia,Mendez,F,1982-02-20,Puerto Plata,Puerto Plata,Regular,2022-03-14
+1558,Andres,Vargas,M,1982-02-21,San Cristobal,San Cristobal,Regular,2022-03-13
+1559,Sofia,Cruz,,1982-02-22,La Vega,La Vega,Regular,2022-03-12
+1560,Luis,Sanchez,M,1982-03-01,San Cristobal,San Cristobal,Regular,2022-03-05
+1561,Ana,Ramirez,F,1982-03-02,La Vega,La Vega,Regular,2022-03-04
+1562,Jose,Torres,,1982-03-03,Santiago,Santiago,Regular,2022-03-03
+1563,Maria,Diaz,F,1982-03-04,Santo Domingo Este,Santo Domingo,Regular,2022-03-02
+1564,Javier,Reyes,M,1982-03-05,Santo Domingo,Distrito Nacional,Regular,2022-03-01
+1565,Paola,Gomez,F,1982-03-06,Higuey,La Altagracia,Regular,2022-02-28
+1566,Pedro,Castillo,M,1982-03-07,La Romana,La Romana,Regular,2022-02-27
+1567,Natalia,Mendez,F,1982-03-08,Puerto Plata,Puerto Plata,Regular,2022-02-26
+1568,Andres,Vargas,M,1982-03-09,San Cristobal,San Cristobal,Regular,2022-02-25
+1569,Sofia,Cruz,F,1982-03-10,La Vega,La Vega,Regular,2022-02-24
+1570,Luis,Sanchez,M,1982-03-17,San Cristobal,San Cristobal,Regular,2022-02-17
+1571,Ana,Ramirez,,1982-03-18,La Vega,La Vega,Regular,2022-02-16
+1572,Jose,Torres,M,1982-03-19,Santiago,Santiago,Regular,2022-02-15
+1573,Maria,Diaz,F,1982-03-20,Santo Domingo Este,Santo Domingo,Regular,2022-02-14
+1574,Javier,Reyes,M,1982-03-21,Santo Domingo,Distrito Nacional,Regular,2022-02-13
+1575,Paola,Gomez,F,1982-03-22,Higuey,La Altagracia,Regular,2022-02-12
+1576,Pedro,Castillo,M,1982-03-23,La Romana,La Romana,Regular,2022-02-11
+1577,Natalia,Mendez,F,1982-03-24,Puerto Plata,Puerto Plata,Regular,2022-02-10
+1578,Andres,Vargas,M,1982-03-25,San Cristobal,San Cristobal,Regular,2022-02-09
+1579,Sofia,Cruz,F,1982-03-26,La Vega,La Vega,Regular,2022-02-08
+1580,Luis,Sanchez,M,1982-04-02,San Cristobal,San Cristobal,Regular,2022-02-01
+1581,Ana,Ramirez,F,1982-04-03,La Vega,La Vega,Regular,2022-01-31
+1582,Jose,Torres,M,1982-04-04,Santiago,Santiago,Regular,2022-01-30
+1583,Maria,Diaz,F,1982-04-05,Santo Domingo Este,Santo Domingo,Regular,2022-01-29
+1584,Javier,Reyes,M,1982-04-06,Santo Domingo,Distrito Nacional,Regular,2022-01-28
+1585,Paola,Gomez,F,1982-04-07,Higuey,La Altagracia,Regular,2022-01-27
+1586,Pedro,Castillo,,1982-04-08,La Romana,La Romana,Regular,2022-01-26
+1587,Natalia,Mendez,F,1982-04-09,Puerto Plata,Puerto Plata,Regular,2022-01-25
+1588,Andres,Vargas,M,1982-04-10,San Cristobal,San Cristobal,Regular,2022-01-24
+1589,Sofia,Cruz,F,1982-04-11,La Vega,La Vega,Regular,2022-01-23
+1590,Luis,Sanchez,M,1982-04-18,San Cristobal,San Cristobal,Preferente,2022-01-16
+1591,Ana,Ramirez,F,1982-04-19,La Vega,La Vega,Preferente,2022-01-15
+1592,Jose,Torres,M,1982-04-20,Santiago,Santiago,Preferente,2022-01-14
+1593,Maria,Diaz,F,1982-04-21,Santo Domingo Este,Santo Domingo,Preferente,2022-01-13
+1594,Javier,Reyes,M,1982-04-22,Santo Domingo,Distrito Nacional,Preferente,2022-01-12
+1595,Paola,Gomez,,1982-04-23,Higuey,La Altagracia,Preferente,2022-01-11
+1596,Pedro,Castillo,M,1982-04-24,La Romana,La Romana,Preferente,2022-01-10
+1597,Natalia,Mendez,F,1982-04-25,Puerto Plata,Puerto Plata,Preferente,2022-01-09
+1598,Andres,Vargas,M,1982-04-26,San Cristobal,San Cristobal,Preferente,2022-01-08
+1599,Sofia,Cruz,F,1982-04-27,La Vega,La Vega,Preferente,2022-01-07
+1600,Luis,Sanchez,M,1983-04-21,San Cristobal,San Cristobal,Regular,2021-01-13
+1601,Ana,Ramirez,,1983-04-22,La Vega,La Vega,Regular,2021-01-12
+1602,Jose,Torres,M,1983-04-23,Santiago,Santiago,Regular,2021-01-11
+1603,Maria,Diaz,F,1983-04-24,Santo Domingo Este,Santo Domingo,Regular,2021-01-10
+1604,Javier,Reyes,M,1983-04-25,Santo Domingo,Distrito Nacional,Regular,2021-01-09
+1605,Paola,Gomez,F,1983-04-26,Higuey,La Altagracia,Regular,2021-01-08
+1606,Pedro,Castillo,M,1983-04-27,La Romana,La Romana,Regular,2021-01-07
+1607,Natalia,Mendez,F,1983-04-28,Puerto Plata,Puerto Plata,Regular,2021-01-06
+1608,Andres,Vargas,M,1983-04-29,San Cristobal,San Cristobal,Regular,2021-01-05
+1609,Sofia,Cruz,F,1983-04-30,La Vega,La Vega,Regular,2021-01-04
+1610,Luis,Sanchez,M,1983-05-07,San Cristobal,San Cristobal,Regular,2022-12-28
+1611,Ana,Ramirez,F,1983-05-08,La Vega,La Vega,Regular,2022-12-27
+1612,Jose,Torres,M,1983-05-09,Santiago,Santiago,Regular,2022-12-26
+1613,Maria,Diaz,F,1983-05-10,Santo Domingo Este,Santo Domingo,Regular,2022-12-25
+1614,Javier,Reyes,M,1983-05-11,Santo Domingo,Distrito Nacional,Regular,2022-12-24
+1615,Paola,Gomez,F,1983-05-12,Higuey,La Altagracia,Regular,2022-12-23
+1616,Pedro,Castillo,,1983-05-13,La Romana,La Romana,Regular,2022-12-22
+1617,Natalia,Mendez,F,1983-05-14,Puerto Plata,Puerto Plata,Regular,2022-12-21
+1618,Andres,Vargas,M,1983-05-15,San Cristobal,San Cristobal,Regular,2022-12-20
+1619,Sofia,Cruz,F,1983-05-16,La Vega,La Vega,Regular,2022-12-19
+1620,Luis,Sanchez,M,1983-05-23,San Cristobal,San Cristobal,Preferente,2022-12-12
+1621,Ana,Ramirez,F,1983-05-24,La Vega,La Vega,Preferente,2022-12-11
+1622,Jose,Torres,M,1983-05-25,Santiago,Santiago,Preferente,2022-12-10
+1623,Maria,Diaz,F,1983-05-26,Santo Domingo Este,Santo Domingo,Preferente,2022-12-09
+1624,Javier,Reyes,M,1983-05-27,Santo Domingo,Distrito Nacional,Preferente,2022-12-08
+1625,Paola,Gomez,,1983-05-28,Higuey,La Altagracia,Preferente,2022-12-07
+1626,Pedro,Castillo,M,1983-05-29,La Romana,La Romana,Preferente,2022-12-06
+1627,Natalia,Mendez,F,1983-05-30,Puerto Plata,Puerto Plata,Preferente,2022-12-05
+1628,Andres,Vargas,M,1983-05-31,San Cristobal,San Cristobal,Preferente,2022-12-04
+1629,Sofia,Cruz,F,1983-06-01,La Vega,La Vega,Preferente,2022-12-03
+1630,Luis,Sanchez,M,1983-06-08,San Cristobal,San Cristobal,Preferente,2022-11-26
+1631,Ana,Ramirez,F,1983-06-09,La Vega,La Vega,Preferente,2022-11-25
+1632,Jose,Torres,M,1983-06-10,Santiago,Santiago,Preferente,2022-11-24
+1633,Maria,Diaz,F,1983-06-11,Santo Domingo Este,Santo Domingo,Preferente,2022-11-23
+1634,Javier,Reyes,M,1983-06-12,Santo Domingo,Distrito Nacional,Preferente,2022-11-22
+1635,Paola,Gomez,F,1983-06-13,Higuey,La Altagracia,Preferente,2022-11-21
+1636,Pedro,Castillo,M,1983-06-14,La Romana,La Romana,Preferente,2022-11-20
+1637,Natalia,Mendez,F,1983-06-15,Puerto Plata,Puerto Plata,Preferente,2022-11-19
+1638,Andres,Vargas,M,1983-06-16,San Cristobal,San Cristobal,Preferente,2022-11-18
+1639,Sofia,Cruz,,1983-06-17,La Vega,La Vega,Corporativo,2022-11-17
+1640,Luis,Sanchez,M,1982-10-11,San Cristobal,San Cristobal,Regular,2021-07-24
+1641,Ana,Ramirez,F,1982-10-12,La Vega,La Vega,Regular,2021-07-23
+1642,Jose,Torres,M,1982-10-13,Santiago,Santiago,Regular,2021-07-22
+1643,Maria,Diaz,F,1982-10-14,Santo Domingo Este,Santo Domingo,Regular,2021-07-21
+1644,Javier,Reyes,M,1982-10-15,Santo Domingo,Distrito Nacional,Regular,2021-07-20
+1645,Paola,Gomez,F,1982-10-16,Higuey,La Altagracia,Regular,2021-07-19
+1646,Pedro,Castillo,M,1982-10-17,La Romana,La Romana,Regular,2021-07-18
+1647,Natalia,Mendez,F,1982-10-18,Puerto Plata,Puerto Plata,Regular,2021-07-17
+1648,Andres,Vargas,M,1982-10-19,San Cristobal,San Cristobal,Regular,2021-07-16
+1649,Sofia,Cruz,,1982-10-20,La Vega,La Vega,Regular,2021-07-15
+1650,Luis,Sanchez,M,1982-10-27,San Cristobal,San Cristobal,Regular,2021-07-08
+1651,Ana,Ramirez,F,1982-10-28,La Vega,La Vega,Regular,2021-07-07
+1652,Jose,Torres,,1982-10-29,Santiago,Santiago,Regular,2021-07-06
+1653,Maria,Diaz,F,1982-10-30,Santo Domingo Este,Santo Domingo,Regular,2021-07-05
+1654,Javier,Reyes,M,1982-10-31,Santo Domingo,Distrito Nacional,Regular,2021-07-04
+1655,Paola,Gomez,F,1982-11-01,Higuey,La Altagracia,Regular,2021-07-03
+1656,Pedro,Castillo,M,1982-11-02,La Romana,La Romana,Regular,2021-07-02
+1657,Natalia,Mendez,F,1982-11-03,Puerto Plata,Puerto Plata,Preferente,2021-07-01
+1658,Andres,Vargas,M,1982-11-04,San Cristobal,San Cristobal,Preferente,2021-06-30
+1659,Sofia,Cruz,F,1982-11-05,La Vega,La Vega,Preferente,2021-06-29
+1660,Luis,Sanchez,M,1982-11-12,San Cristobal,San Cristobal,Preferente,2021-06-22
+1661,Ana,Ramirez,,1982-11-13,La Vega,La Vega,Preferente,2021-06-21
+1662,Jose,Torres,M,1982-11-14,Santiago,Santiago,Preferente,2021-06-20
+1663,Maria,Diaz,F,1982-11-15,Santo Domingo Este,Santo Domingo,Preferente,2021-06-19
+1664,Javier,Reyes,M,1982-11-16,Santo Domingo,Distrito Nacional,Preferente,2021-06-18
+1665,Paola,Gomez,F,1982-11-17,Higuey,La Altagracia,Preferente,2021-06-17
+1666,Pedro,Castillo,M,1982-11-18,La Romana,La Romana,Preferente,2021-06-16
+1667,Natalia,Mendez,F,1982-11-19,Puerto Plata,Puerto Plata,Preferente,2021-06-15
+1668,Andres,Vargas,M,1982-11-20,San Cristobal,San Cristobal,Preferente,2021-06-14
+1669,Sofia,Cruz,F,1982-11-21,La Vega,La Vega,Preferente,2021-06-13
+1670,Luis,Sanchez,M,1982-11-28,San Cristobal,San Cristobal,Preferente,2021-06-06
+1671,Ana,Ramirez,F,1982-11-29,La Vega,La Vega,Corporativo,2021-06-05
+1672,Jose,Torres,M,1982-11-30,Santiago,Santiago,Corporativo,2021-06-04
+1673,Maria,Diaz,F,1982-12-01,Santo Domingo Este,Santo Domingo,Corporativo,2021-06-03
+1674,Javier,Reyes,M,1982-12-02,Santo Domingo,Distrito Nacional,Corporativo,2021-06-02
+1675,Paola,Gomez,F,1982-12-03,Higuey,La Altagracia,Corporativo,2021-06-01
+1676,Pedro,Castillo,,1982-12-04,La Romana,La Romana,Corporativo,2021-05-31
+1677,Natalia,Mendez,F,1982-12-05,Puerto Plata,Puerto Plata,Corporativo,2021-05-30
+1678,Andres,Vargas,M,1982-12-06,San Cristobal,San Cristobal,Corporativo,2021-05-29
+1679,Sofia,Cruz,F,1982-12-07,La Vega,La Vega,Corporativo,2021-05-28
+1680,Luis,Sanchez,M,1982-12-14,San Cristobal,San Cristobal,Regular,2021-05-21
+1681,Ana,Ramirez,F,1982-12-15,La Vega,La Vega,Regular,2021-05-20
+1682,Jose,Torres,M,1982-12-16,Santiago,Santiago,Regular,2021-05-19
+1683,Maria,Diaz,F,1982-12-17,Santo Domingo Este,Santo Domingo,Regular,2021-05-18
+1684,Javier,Reyes,M,1982-12-18,Santo Domingo,Distrito Nacional,Regular,2021-05-17
+1685,Paola,Gomez,,1982-12-19,Higuey,La Altagracia,Regular,2021-05-16
+1686,Pedro,Castillo,M,1982-12-20,La Romana,La Romana,Regular,2021-05-15
+1687,Natalia,Mendez,F,1982-12-21,Puerto Plata,Puerto Plata,Regular,2021-05-14
+1688,Andres,Vargas,M,1982-12-22,San Cristobal,San Cristobal,Regular,2021-05-13
+1689,Sofia,Cruz,F,1982-12-23,La Vega,La Vega,Regular,2021-05-12
+1690,Luis,Sanchez,M,1982-12-30,San Cristobal,San Cristobal,Regular,2021-05-05
+1691,Ana,Ramirez,F,1982-12-31,La Vega,La Vega,Regular,2021-05-04
+1692,Jose,Torres,M,1983-01-01,Santiago,Santiago,Regular,2021-05-03
+1693,Maria,Diaz,F,1983-01-02,Santo Domingo Este,Santo Domingo,Regular,2021-05-02
+1694,Javier,Reyes,M,1983-01-03,Santo Domingo,Distrito Nacional,Regular,2021-05-01
+1695,Paola,Gomez,F,1983-01-04,Higuey,La Altagracia,Regular,2021-04-30
+1696,Pedro,Castillo,M,1983-01-05,La Romana,La Romana,Regular,2021-04-29
+1697,Natalia,Mendez,F,1983-01-06,Puerto Plata,Puerto Plata,Regular,2021-04-28
+1698,Andres,Vargas,M,1983-01-07,San Cristobal,San Cristobal,Regular,2021-04-27
+1699,Sofia,Cruz,,1983-01-08,La Vega,La Vega,Regular,2021-04-26
+1700,Luis,Sanchez,M,1984-01-02,San Cristobal,San Cristobal,Preferente,2022-05-02
+1701,Ana,Ramirez,F,1984-01-03,La Vega,La Vega,Corporativo,2022-05-01
+1702,Jose,Torres,M,1984-01-04,Santiago,Santiago,Corporativo,2022-04-30
+1703,Maria,Diaz,F,1984-01-05,Santo Domingo Este,Santo Domingo,Corporativo,2022-04-29
+1704,Javier,Reyes,M,1984-01-06,Santo Domingo,Distrito Nacional,Corporativo,2022-04-28
+1705,Paola,Gomez,F,1984-01-07,Higuey,La Altagracia,Corporativo,2022-04-27
+1706,Pedro,Castillo,,1984-01-08,La Romana,La Romana,Corporativo,2022-04-26
+1707,Natalia,Mendez,F,1984-01-09,Puerto Plata,Puerto Plata,Corporativo,2022-04-25
+1708,Andres,Vargas,M,1984-01-10,San Cristobal,San Cristobal,Corporativo,2022-04-24
+1709,Sofia,Cruz,F,1984-01-11,La Vega,La Vega,Corporativo,2022-04-23
+1710,Luis,Sanchez,M,1984-01-18,San Cristobal,San Cristobal,Regular,2022-04-16
+1711,Ana,Ramirez,F,1984-01-19,La Vega,La Vega,Regular,2022-04-15
+1712,Jose,Torres,M,1984-01-20,Santiago,Santiago,Regular,2022-04-14
+1713,Maria,Diaz,F,1984-01-21,Santo Domingo Este,Santo Domingo,Regular,2022-04-13
+1714,Javier,Reyes,M,1984-01-22,Santo Domingo,Distrito Nacional,Regular,2022-04-12
+1715,Paola,Gomez,,1984-01-23,Higuey,La Altagracia,Regular,2022-04-11
+1716,Pedro,Castillo,M,1984-01-24,La Romana,La Romana,Regular,2022-04-10
+1717,Natalia,Mendez,F,1984-01-25,Puerto Plata,Puerto Plata,Regular,2022-04-09
+1718,Andres,Vargas,M,1984-01-26,San Cristobal,San Cristobal,Regular,2022-04-08
+1719,Sofia,Cruz,F,1984-01-27,La Vega,La Vega,Regular,2022-04-07
+1720,Luis,Sanchez,M,1984-02-03,San Cristobal,San Cristobal,Regular,2022-03-31
+1721,Ana,Ramirez,F,1984-02-04,La Vega,La Vega,Regular,2022-03-30
+1722,Jose,Torres,M,1984-02-05,Santiago,Santiago,Regular,2022-03-29
+1723,Maria,Diaz,F,1984-02-06,Santo Domingo Este,Santo Domingo,Regular,2022-03-28
+1724,Javier,Reyes,M,1984-02-07,Santo Domingo,Distrito Nacional,Regular,2022-03-27
+1725,Paola,Gomez,F,1984-02-08,Higuey,La Altagracia,Regular,2022-03-26
+1726,Pedro,Castillo,M,1984-02-09,La Romana,La Romana,Regular,2022-03-25
+1727,Natalia,Mendez,F,1984-02-10,Puerto Plata,Puerto Plata,Regular,2022-03-24
+1728,Andres,Vargas,M,1984-02-11,San Cristobal,San Cristobal,Regular,2022-03-23
+1729,Sofia,Cruz,,1984-02-12,La Vega,La Vega,Regular,2022-03-22
+1730,Luis,Sanchez,M,1984-02-19,San Cristobal,San Cristobal,Regular,2022-03-15
+1731,Ana,Ramirez,F,1984-02-20,La Vega,La Vega,Regular,2022-03-14
+1732,Jose,Torres,,1984-02-21,Santiago,Santiago,Regular,2022-03-13
+1733,Maria,Diaz,F,1984-02-22,Santo Domingo Este,Santo Domingo,Regular,2022-03-12
+1734,Javier,Reyes,M,1984-02-23,Santo Domingo,Distrito Nacional,Regular,2022-03-11
+1735,Paola,Gomez,F,1984-02-24,Higuey,La Altagracia,Regular,2022-03-10
+1736,Pedro,Castillo,M,1984-02-25,La Romana,La Romana,Regular,2022-03-09
+1737,Natalia,Mendez,F,1984-02-26,Puerto Plata,Puerto Plata,Regular,2022-03-08
+1738,Andres,Vargas,M,1984-02-27,San Cristobal,San Cristobal,Regular,2022-03-07
+1739,Sofia,Cruz,F,1984-02-28,La Vega,La Vega,Regular,2022-03-06
+1740,Luis,Sanchez,M,1983-06-24,San Cristobal,San Cristobal,Corporativo,2022-11-10
+1741,Ana,Ramirez,F,1983-06-25,La Vega,La Vega,Corporativo,2022-11-09
+1742,Jose,Torres,,1983-06-26,Santiago,Santiago,Corporativo,2022-11-08
+1743,Maria,Diaz,F,1983-06-27,Santo Domingo Este,Santo Domingo,Corporativo,2022-11-07
+1744,Javier,Reyes,M,1983-06-28,Santo Domingo,Distrito Nacional,Corporativo,2022-11-06
+1745,Paola,Gomez,F,1983-06-29,Higuey,La Altagracia,Regular,2022-11-05
+1746,Pedro,Castillo,M,1983-06-30,La Romana,La Romana,Regular,2022-11-04
+1747,Natalia,Mendez,F,1983-07-01,Puerto Plata,Puerto Plata,Regular,2022-11-03
+1748,Andres,Vargas,M,1983-07-02,San Cristobal,San Cristobal,Regular,2022-11-02
+1749,Sofia,Cruz,F,1983-07-03,La Vega,La Vega,Regular,2022-11-01
+1750,Luis,Sanchez,M,1983-07-10,San Cristobal,San Cristobal,Regular,2022-10-25
+1751,Ana,Ramirez,,1983-07-11,La Vega,La Vega,Regular,2022-10-24
+1752,Jose,Torres,M,1983-07-12,Santiago,Santiago,Regular,2022-10-23
+1753,Maria,Diaz,F,1983-07-13,Santo Domingo Este,Santo Domingo,Regular,2022-10-22
+1754,Javier,Reyes,M,1983-07-14,Santo Domingo,Distrito Nacional,Regular,2022-10-21
+1755,Paola,Gomez,F,1983-07-15,Higuey,La Altagracia,Regular,2022-10-20
+1756,Pedro,Castillo,M,1983-07-16,La Romana,La Romana,Regular,2022-10-19
+1757,Natalia,Mendez,F,1983-07-17,Puerto Plata,Puerto Plata,Regular,2022-10-18
+1758,Andres,Vargas,M,1983-07-18,San Cristobal,San Cristobal,Regular,2022-10-17
+1759,Sofia,Cruz,F,1983-07-19,La Vega,La Vega,Regular,2022-10-16
+1760,Luis,Sanchez,M,1983-07-26,San Cristobal,San Cristobal,Regular,2022-10-09
+1761,Ana,Ramirez,F,1983-07-27,La Vega,La Vega,Regular,2022-10-08
+1762,Jose,Torres,M,1983-07-28,Santiago,Santiago,Regular,2022-10-07
+1763,Maria,Diaz,F,1983-07-29,Santo Domingo Este,Santo Domingo,Regular,2022-10-06
+1764,Javier,Reyes,M,1983-07-30,Santo Domingo,Distrito Nacional,Regular,2022-10-05
+1765,Paola,Gomez,F,1983-07-31,Higuey,La Altagracia,Regular,2022-10-04
+1766,Pedro,Castillo,,1983-08-01,La Romana,La Romana,Regular,2022-10-03
+1767,Natalia,Mendez,F,1983-08-02,Puerto Plata,Puerto Plata,Regular,2022-10-02
+1768,Andres,Vargas,M,1983-08-03,San Cristobal,San Cristobal,Regular,2022-10-01
+1769,Sofia,Cruz,F,1983-08-04,La Vega,La Vega,Regular,2022-09-30
+1770,Luis,Sanchez,M,1983-08-11,San Cristobal,San Cristobal,Regular,2022-09-23
+1771,Ana,Ramirez,F,1983-08-12,La Vega,La Vega,Regular,2022-09-22
+1772,Jose,Torres,M,1983-08-13,Santiago,Santiago,Regular,2022-09-21
+1773,Maria,Diaz,F,1983-08-14,Santo Domingo Este,Santo Domingo,Regular,2022-09-20
+1774,Javier,Reyes,M,1983-08-15,Santo Domingo,Distrito Nacional,Regular,2022-09-19
+1775,Paola,Gomez,,1983-08-16,Higuey,La Altagracia,Regular,2022-09-18
+1776,Pedro,Castillo,M,1983-08-17,La Romana,La Romana,Regular,2022-09-17
+1777,Natalia,Mendez,F,1983-08-18,Puerto Plata,Puerto Plata,Regular,2022-09-16
+1778,Andres,Vargas,M,1983-08-19,San Cristobal,San Cristobal,Regular,2022-09-15
+1779,Sofia,Cruz,F,1983-08-20,La Vega,La Vega,Regular,2022-09-14
+1780,Luis,Sanchez,M,1983-08-27,San Cristobal,San Cristobal,Regular,2022-09-07
+1781,Ana,Ramirez,F,1983-08-28,La Vega,La Vega,Regular,2022-09-06
+1782,Jose,Torres,M,1983-08-29,Santiago,Santiago,Regular,2022-09-05
+1783,Maria,Diaz,F,1983-08-30,Santo Domingo Este,Santo Domingo,Preferente,2022-09-04
+1784,Javier,Reyes,M,1983-08-31,Santo Domingo,Distrito Nacional,Preferente,2022-09-03
+1785,Paola,Gomez,F,1983-09-01,Higuey,La Altagracia,Preferente,2022-09-02
+1786,Pedro,Castillo,M,1983-09-02,La Romana,La Romana,Preferente,2022-09-01
+1787,Natalia,Mendez,F,1983-09-03,Puerto Plata,Puerto Plata,Preferente,2022-08-31
+1788,Andres,Vargas,M,1983-09-04,San Cristobal,San Cristobal,Preferente,2022-08-30
+1789,Sofia,Cruz,,1983-09-05,La Vega,La Vega,Preferente,2022-08-29
+1790,Luis,Sanchez,M,1983-09-12,San Cristobal,San Cristobal,Preferente,2022-08-22
+1791,Ana,Ramirez,F,1983-09-13,La Vega,La Vega,Preferente,2022-08-21
+1792,Jose,Torres,,1983-09-14,Santiago,Santiago,Preferente,2022-08-20
+1793,Maria,Diaz,F,1983-09-15,Santo Domingo Este,Santo Domingo,Preferente,2022-08-19
+1794,Javier,Reyes,M,1983-09-16,Santo Domingo,Distrito Nacional,Preferente,2022-08-18
+1795,Paola,Gomez,F,1983-09-17,Higuey,La Altagracia,Preferente,2022-08-17
+1796,Pedro,Castillo,M,1983-09-18,La Romana,La Romana,Preferente,2022-08-16
+1797,Natalia,Mendez,F,1983-09-19,Puerto Plata,Puerto Plata,Preferente,2022-08-15
+1798,Andres,Vargas,M,1983-09-20,San Cristobal,San Cristobal,Preferente,2022-08-14
+1799,Sofia,Cruz,F,1983-09-21,La Vega,La Vega,Preferente,2022-08-13
+1800,Luis,Sanchez,M,1984-09-14,San Cristobal,San Cristobal,Regular,2021-08-19
+1801,Ana,Ramirez,F,1984-09-15,La Vega,La Vega,Regular,2021-08-18
+1802,Jose,Torres,M,1984-09-16,Santiago,Santiago,Regular,2021-08-17
+1803,Maria,Diaz,F,1984-09-17,Santo Domingo Este,Santo Domingo,Regular,2021-08-16
+1804,Javier,Reyes,M,1984-09-18,Santo Domingo,Distrito Nacional,Regular,2021-08-15
+1805,Paola,Gomez,,1984-09-19,Higuey,La Altagracia,Regular,2021-08-14
+1806,Pedro,Castillo,M,1984-09-20,La Romana,La Romana,Regular,2021-08-13
+1807,Natalia,Mendez,F,1984-09-21,Puerto Plata,Puerto Plata,Regular,2021-08-12
+1808,Andres,Vargas,M,1984-09-22,San Cristobal,San Cristobal,Regular,2021-08-11
+1809,Sofia,Cruz,F,1984-09-23,La Vega,La Vega,Regular,2021-08-10
+1810,Luis,Sanchez,M,1984-09-30,San Cristobal,San Cristobal,Regular,2021-08-03
+1811,Ana,Ramirez,F,1984-10-01,La Vega,La Vega,Regular,2021-08-02
+1812,Jose,Torres,M,1984-10-02,Santiago,Santiago,Regular,2021-08-01
+1813,Maria,Diaz,F,1984-10-03,Santo Domingo Este,Santo Domingo,Preferente,2021-07-31
+1814,Javier,Reyes,M,1984-10-04,Santo Domingo,Distrito Nacional,Preferente,2021-07-30
+1815,Paola,Gomez,F,1984-10-05,Higuey,La Altagracia,Preferente,2021-07-29
+1816,Pedro,Castillo,M,1984-10-06,La Romana,La Romana,Preferente,2021-07-28
+1817,Natalia,Mendez,F,1984-10-07,Puerto Plata,Puerto Plata,Preferente,2021-07-27
+1818,Andres,Vargas,M,1984-10-08,San Cristobal,San Cristobal,Preferente,2021-07-26
+1819,Sofia,Cruz,,1984-10-09,La Vega,La Vega,Preferente,2021-07-25
+1820,Luis,Sanchez,M,1984-10-16,San Cristobal,San Cristobal,Preferente,2021-07-18
+1821,Ana,Ramirez,F,1984-10-17,La Vega,La Vega,Preferente,2021-07-17
+1822,Jose,Torres,,1984-10-18,Santiago,Santiago,Preferente,2021-07-16
+1823,Maria,Diaz,F,1984-10-19,Santo Domingo Este,Santo Domingo,Preferente,2021-07-15
+1824,Javier,Reyes,M,1984-10-20,Santo Domingo,Distrito Nacional,Preferente,2021-07-14
+1825,Paola,Gomez,F,1984-10-21,Higuey,La Altagracia,Preferente,2021-07-13
+1826,Pedro,Castillo,M,1984-10-22,La Romana,La Romana,Preferente,2021-07-12
+1827,Natalia,Mendez,F,1984-10-23,Puerto Plata,Puerto Plata,Preferente,2021-07-11
+1828,Andres,Vargas,M,1984-10-24,San Cristobal,San Cristobal,Preferente,2021-07-10
+1829,Sofia,Cruz,F,1984-10-25,La Vega,La Vega,Preferente,2021-07-09
+1830,Luis,Sanchez,M,1984-11-01,San Cristobal,San Cristobal,Corporativo,2021-07-02
+1831,Ana,Ramirez,,1984-11-02,La Vega,La Vega,Corporativo,2021-07-01
+1832,Jose,Torres,M,1984-11-03,Santiago,Santiago,Corporativo,2021-06-30
+1833,Maria,Diaz,F,1984-11-04,Santo Domingo Este,Santo Domingo,Corporativo,2021-06-29
+1834,Javier,Reyes,M,1984-11-05,Santo Domingo,Distrito Nacional,Corporativo,2021-06-28
+1835,Paola,Gomez,F,1984-11-06,Higuey,La Altagracia,Corporativo,2021-06-27
+1836,Pedro,Castillo,M,1984-11-07,La Romana,La Romana,Corporativo,2021-06-26
+1837,Natalia,Mendez,F,1984-11-08,Puerto Plata,Puerto Plata,Corporativo,2021-06-25
+1838,Andres,Vargas,M,1984-11-09,San Cristobal,San Cristobal,Corporativo,2021-06-24
+1839,Sofia,Cruz,F,1984-11-10,La Vega,La Vega,Regular,2021-06-23
+1840,Luis,Sanchez,M,1984-03-06,San Cristobal,San Cristobal,Regular,2022-02-27
+1841,Ana,Ramirez,,1984-03-07,La Vega,La Vega,Regular,2022-02-26
+1842,Jose,Torres,M,1984-03-08,Santiago,Santiago,Regular,2022-02-25
+1843,Maria,Diaz,F,1984-03-09,Santo Domingo Este,Santo Domingo,Regular,2022-02-24
+1844,Javier,Reyes,M,1984-03-10,Santo Domingo,Distrito Nacional,Regular,2022-02-23
+1845,Paola,Gomez,F,1984-03-11,Higuey,La Altagracia,Regular,2022-02-22
+1846,Pedro,Castillo,M,1984-03-12,La Romana,La Romana,Regular,2022-02-21
+1847,Natalia,Mendez,F,1984-03-13,Puerto Plata,Puerto Plata,Regular,2022-02-20
+1848,Andres,Vargas,M,1984-03-14,San Cristobal,San Cristobal,Regular,2022-02-19
+1849,Sofia,Cruz,F,1984-03-15,La Vega,La Vega,Regular,2022-02-18
+1850,Luis,Sanchez,M,1984-03-22,San Cristobal,San Cristobal,Preferente,2022-02-11
+1851,Ana,Ramirez,F,1984-03-23,La Vega,La Vega,Preferente,2022-02-10
+1852,Jose,Torres,M,1984-03-24,Santiago,Santiago,Preferente,2022-02-09
+1853,Maria,Diaz,F,1984-03-25,Santo Domingo Este,Santo Domingo,Preferente,2022-02-08
+1854,Javier,Reyes,M,1984-03-26,Santo Domingo,Distrito Nacional,Preferente,2022-02-07
+1855,Paola,Gomez,F,1984-03-27,Higuey,La Altagracia,Preferente,2022-02-06
+1856,Pedro,Castillo,,1984-03-28,La Romana,La Romana,Preferente,2022-02-05
+1857,Natalia,Mendez,F,1984-03-29,Puerto Plata,Puerto Plata,Preferente,2022-02-04
+1858,Andres,Vargas,M,1984-03-30,San Cristobal,San Cristobal,Preferente,2022-02-03
+1859,Sofia,Cruz,F,1984-03-31,La Vega,La Vega,Preferente,2022-02-02
+1860,Luis,Sanchez,M,1984-04-07,San Cristobal,San Cristobal,Preferente,2022-01-26
+1861,Ana,Ramirez,F,1984-04-08,La Vega,La Vega,Preferente,2022-01-25
+1862,Jose,Torres,M,1984-04-09,Santiago,Santiago,Preferente,2022-01-24
+1863,Maria,Diaz,F,1984-04-10,Santo Domingo Este,Santo Domingo,Preferente,2022-01-23
+1864,Javier,Reyes,M,1984-04-11,Santo Domingo,Distrito Nacional,Preferente,2022-01-22
+1865,Paola,Gomez,,1984-04-12,Higuey,La Altagracia,Corporativo,2022-01-21
+1866,Pedro,Castillo,M,1984-04-13,La Romana,La Romana,Corporativo,2022-01-20
+1867,Natalia,Mendez,F,1984-04-14,Puerto Plata,Puerto Plata,Corporativo,2022-01-19
+1868,Andres,Vargas,M,1984-04-15,San Cristobal,San Cristobal,Corporativo,2022-01-18
+1869,Sofia,Cruz,F,1984-04-16,La Vega,La Vega,Corporativo,2022-01-17
+1870,Luis,Sanchez,M,1984-04-23,San Cristobal,San Cristobal,Corporativo,2022-01-10
+1871,Ana,Ramirez,F,1984-04-24,La Vega,La Vega,Regular,2022-01-09
+1872,Jose,Torres,M,1984-04-25,Santiago,Santiago,Regular,2022-01-08
+1873,Maria,Diaz,F,1984-04-26,Santo Domingo Este,Santo Domingo,Regular,2022-01-07
+1874,Javier,Reyes,M,1984-04-27,Santo Domingo,Distrito Nacional,Regular,2022-01-06
+1875,Paola,Gomez,F,1984-04-28,Higuey,La Altagracia,Regular,2022-01-05
+1876,Pedro,Castillo,M,1984-04-29,La Romana,La Romana,Regular,2022-01-04
+1877,Natalia,Mendez,F,1984-04-30,Puerto Plata,Puerto Plata,Regular,2022-01-03
+1878,Andres,Vargas,M,1984-05-01,San Cristobal,San Cristobal,Regular,2022-01-02
+1879,Sofia,Cruz,,1984-05-02,La Vega,La Vega,Regular,2022-01-01
+1880,Luis,Sanchez,M,1984-05-09,San Cristobal,San Cristobal,Regular,2021-12-25
+1881,Ana,Ramirez,F,1984-05-10,La Vega,La Vega,Regular,2021-12-24
+1882,Jose,Torres,,1984-05-11,Santiago,Santiago,Regular,2021-12-23
+1883,Maria,Diaz,F,1984-05-12,Santo Domingo Este,Santo Domingo,Regular,2021-12-22
+1884,Javier,Reyes,M,1984-05-13,Santo Domingo,Distrito Nacional,Regular,2021-12-21
+1885,Paola,Gomez,F,1984-05-14,Higuey,La Altagracia,Regular,2021-12-20
+1886,Pedro,Castillo,M,1984-05-15,La Romana,La Romana,Regular,2021-12-19
+1887,Natalia,Mendez,F,1984-05-16,Puerto Plata,Puerto Plata,Regular,2021-12-18
+1888,Andres,Vargas,M,1984-05-17,San Cristobal,San Cristobal,Regular,2021-12-17
+1889,Sofia,Cruz,F,1984-05-18,La Vega,La Vega,Regular,2021-12-16
+1890,Luis,Sanchez,M,1984-05-25,San Cristobal,San Cristobal,Regular,2021-12-09
+1891,Ana,Ramirez,,1984-05-26,La Vega,La Vega,Regular,2021-12-08
+1892,Jose,Torres,M,1984-05-27,Santiago,Santiago,Regular,2021-12-07
+1893,Maria,Diaz,F,1984-05-28,Santo Domingo Este,Santo Domingo,Regular,2021-12-06
+1894,Javier,Reyes,M,1984-05-29,Santo Domingo,Distrito Nacional,Regular,2021-12-05
+1895,Paola,Gomez,F,1984-05-30,Higuey,La Altagracia,Regular,2021-12-04
+1896,Pedro,Castillo,M,1984-05-31,La Romana,La Romana,Regular,2021-12-03
+1897,Natalia,Mendez,F,1984-06-01,Puerto Plata,Puerto Plata,Regular,2021-12-02
+1898,Andres,Vargas,M,1984-06-02,San Cristobal,San Cristobal,Regular,2021-12-01
+1899,Sofia,Cruz,F,1984-06-03,La Vega,La Vega,Regular,2021-11-30
+1900,Luis,Sanchez,M,1985-05-28,San Cristobal,San Cristobal,Corporativo,2022-12-06
+1901,Ana,Ramirez,F,1985-05-29,La Vega,La Vega,Regular,2022-12-05
+1902,Jose,Torres,M,1985-05-30,Santiago,Santiago,Regular,2022-12-04
+1903,Maria,Diaz,F,1985-05-31,Santo Domingo Este,Santo Domingo,Regular,2022-12-03
+1904,Javier,Reyes,M,1985-06-01,Santo Domingo,Distrito Nacional,Regular,2022-12-02
+1905,Paola,Gomez,F,1985-06-02,Higuey,La Altagracia,Regular,2022-12-01
+1906,Pedro,Castillo,M,1985-06-03,La Romana,La Romana,Regular,2022-11-30
+1907,Natalia,Mendez,F,1985-06-04,Puerto Plata,Puerto Plata,Regular,2022-11-29
+1908,Andres,Vargas,M,1985-06-05,San Cristobal,San Cristobal,Regular,2022-11-28
+1909,Sofia,Cruz,,1985-06-06,La Vega,La Vega,Regular,2022-11-27
+1910,Luis,Sanchez,M,1985-06-13,San Cristobal,San Cristobal,Regular,2022-11-20
+1911,Ana,Ramirez,F,1985-06-14,La Vega,La Vega,Regular,2022-11-19
+1912,Jose,Torres,,1985-06-15,Santiago,Santiago,Regular,2022-11-18
+1913,Maria,Diaz,F,1985-06-16,Santo Domingo Este,Santo Domingo,Regular,2022-11-17
+1914,Javier,Reyes,M,1985-06-17,Santo Domingo,Distrito Nacional,Regular,2022-11-16
+1915,Paola,Gomez,F,1985-06-18,Higuey,La Altagracia,Regular,2022-11-15
+1916,Pedro,Castillo,M,1985-06-19,La Romana,La Romana,Regular,2022-11-14
+1917,Natalia,Mendez,F,1985-06-20,Puerto Plata,Puerto Plata,Regular,2022-11-13
+1918,Andres,Vargas,M,1985-06-21,San Cristobal,San Cristobal,Regular,2022-11-12
+1919,Sofia,Cruz,F,1985-06-22,La Vega,La Vega,Regular,2022-11-11
+1920,Luis,Sanchez,M,1985-06-29,San Cristobal,San Cristobal,Regular,2022-11-04
+1921,Ana,Ramirez,,1985-06-30,La Vega,La Vega,Regular,2022-11-03
+1922,Jose,Torres,M,1985-07-01,Santiago,Santiago,Regular,2022-11-02
+1923,Maria,Diaz,F,1985-07-02,Santo Domingo Este,Santo Domingo,Regular,2022-11-01
+1924,Javier,Reyes,M,1985-07-03,Santo Domingo,Distrito Nacional,Regular,2022-10-31
+1925,Paola,Gomez,F,1985-07-04,Higuey,La Altagracia,Regular,2022-10-30
+1926,Pedro,Castillo,M,1985-07-05,La Romana,La Romana,Regular,2022-10-29
+1927,Natalia,Mendez,F,1985-07-06,Puerto Plata,Puerto Plata,Regular,2022-10-28
+1928,Andres,Vargas,M,1985-07-07,San Cristobal,San Cristobal,Regular,2022-10-27
+1929,Sofia,Cruz,F,1985-07-08,La Vega,La Vega,Regular,2022-10-26
+1930,Luis,Sanchez,M,1985-07-15,San Cristobal,San Cristobal,Regular,2022-10-19
+1931,Ana,Ramirez,F,1985-07-16,La Vega,La Vega,Regular,2022-10-18
+1932,Jose,Torres,M,1985-07-17,Santiago,Santiago,Regular,2022-10-17
+1933,Maria,Diaz,F,1985-07-18,Santo Domingo Este,Santo Domingo,Regular,2022-10-16
+1934,Javier,Reyes,M,1985-07-19,Santo Domingo,Distrito Nacional,Regular,2022-10-15
+1935,Paola,Gomez,F,1985-07-20,Higuey,La Altagracia,Regular,2022-10-14
+1936,Pedro,Castillo,,1985-07-21,La Romana,La Romana,Regular,2022-10-13
+1937,Natalia,Mendez,F,1985-07-22,Puerto Plata,Puerto Plata,Regular,2022-10-12
+1938,Andres,Vargas,M,1985-07-23,San Cristobal,San Cristobal,Regular,2022-10-11
+1939,Sofia,Cruz,F,1985-07-24,La Vega,La Vega,Regular,2022-10-10
+1940,Luis,Sanchez,M,1984-11-17,San Cristobal,San Cristobal,Regular,2021-06-16
+1941,Ana,Ramirez,F,1984-11-18,La Vega,La Vega,Regular,2021-06-15
+1942,Jose,Torres,M,1984-11-19,Santiago,Santiago,Regular,2021-06-14
+1943,Maria,Diaz,F,1984-11-20,Santo Domingo Este,Santo Domingo,Regular,2021-06-13
+1944,Javier,Reyes,M,1984-11-21,Santo Domingo,Distrito Nacional,Regular,2021-06-12
+1945,Paola,Gomez,F,1984-11-22,Higuey,La Altagracia,Regular,2021-06-11
+1946,Pedro,Castillo,,1984-11-23,La Romana,La Romana,Regular,2021-06-10
+1947,Natalia,Mendez,F,1984-11-24,Puerto Plata,Puerto Plata,Regular,2021-06-09
+1948,Andres,Vargas,M,1984-11-25,San Cristobal,San Cristobal,Regular,2021-06-08
+1949,Sofia,Cruz,F,1984-11-26,La Vega,La Vega,Regular,2021-06-07
+1950,Luis,Sanchez,M,1984-12-03,San Cristobal,San Cristobal,Regular,2021-05-31
+1951,Ana,Ramirez,F,1984-12-04,La Vega,La Vega,Regular,2021-05-30
+1952,Jose,Torres,M,1984-12-05,Santiago,Santiago,Regular,2021-05-29
+1953,Maria,Diaz,F,1984-12-06,Santo Domingo Este,Santo Domingo,Regular,2021-05-28
+1954,Javier,Reyes,M,1984-12-07,Santo Domingo,Distrito Nacional,Regular,2021-05-27
+1955,Paola,Gomez,,1984-12-08,Higuey,La Altagracia,Regular,2021-05-26
+1956,Pedro,Castillo,M,1984-12-09,La Romana,La Romana,Regular,2021-05-25
+1957,Natalia,Mendez,F,1984-12-10,Puerto Plata,Puerto Plata,Regular,2021-05-24
+1958,Andres,Vargas,M,1984-12-11,San Cristobal,San Cristobal,Regular,2021-05-23
+1959,Sofia,Cruz,F,1984-12-12,La Vega,La Vega,Regular,2021-05-22
+1960,Luis,Sanchez,M,1984-12-19,San Cristobal,San Cristobal,Regular,2021-05-15
+1961,Ana,Ramirez,F,1984-12-20,La Vega,La Vega,Regular,2021-05-14
+1962,Jose,Torres,M,1984-12-21,Santiago,Santiago,Regular,2021-05-13
+1963,Maria,Diaz,F,1984-12-22,Santo Domingo Este,Santo Domingo,Regular,2021-05-12
+1964,Javier,Reyes,M,1984-12-23,Santo Domingo,Distrito Nacional,Regular,2021-05-11
+1965,Paola,Gomez,F,1984-12-24,Higuey,La Altagracia,Regular,2021-05-10
+1966,Pedro,Castillo,M,1984-12-25,La Romana,La Romana,Regular,2021-05-09
+1967,Natalia,Mendez,F,1984-12-26,Puerto Plata,Puerto Plata,Regular,2021-05-08
+1968,Andres,Vargas,M,1984-12-27,San Cristobal,San Cristobal,Regular,2021-05-07
+1969,Sofia,Cruz,,1984-12-28,La Vega,La Vega,Regular,2021-05-06
+1970,Luis,Sanchez,M,1985-01-04,San Cristobal,San Cristobal,Regular,2021-04-29
+1971,Ana,Ramirez,F,1985-01-05,La Vega,La Vega,Regular,2021-04-28
+1972,Jose,Torres,,1985-01-06,Santiago,Santiago,Regular,2021-04-27
+1973,Maria,Diaz,F,1985-01-07,Santo Domingo Este,Santo Domingo,Regular,2021-04-26
+1974,Javier,Reyes,M,1985-01-08,Santo Domingo,Distrito Nacional,Regular,2021-04-25
+1975,Paola,Gomez,F,1985-01-09,Higuey,La Altagracia,Regular,2021-04-24
+1976,Pedro,Castillo,M,1985-01-10,La Romana,La Romana,Regular,2021-04-23
+1977,Natalia,Mendez,F,1985-01-11,Puerto Plata,Puerto Plata,Preferente,2021-04-22
+1978,Andres,Vargas,M,1985-01-12,San Cristobal,San Cristobal,Preferente,2021-04-21
+1979,Sofia,Cruz,F,1985-01-13,La Vega,La Vega,Preferente,2021-04-20
+1980,Luis,Sanchez,M,1985-01-20,San Cristobal,San Cristobal,Preferente,2021-04-13
+1981,Ana,Ramirez,,1985-01-21,La Vega,La Vega,Preferente,2021-04-12
+1982,Jose,Torres,M,1985-01-22,Santiago,Santiago,Preferente,2021-04-11
+1983,Maria,Diaz,F,1985-01-23,Santo Domingo Este,Santo Domingo,Preferente,2021-04-10
+1984,Javier,Reyes,M,1985-01-24,Santo Domingo,Distrito Nacional,Preferente,2021-04-09
+1985,Paola,Gomez,F,1985-01-25,Higuey,La Altagracia,Preferente,2021-04-08
+1986,Pedro,Castillo,M,1985-01-26,La Romana,La Romana,Preferente,2021-04-07
+1987,Natalia,Mendez,F,1985-01-27,Puerto Plata,Puerto Plata,Preferente,2021-04-06
+1988,Andres,Vargas,M,1985-01-28,San Cristobal,San Cristobal,Preferente,2021-04-05
+1989,Sofia,Cruz,F,1985-01-29,La Vega,La Vega,Preferente,2021-04-04
+1990,Luis,Sanchez,M,1985-02-05,San Cristobal,San Cristobal,Preferente,2021-03-28
+1991,Ana,Ramirez,F,1985-02-06,La Vega,La Vega,Corporativo,2021-03-27
+1992,Jose,Torres,M,1985-02-07,Santiago,Santiago,Corporativo,2021-03-26
+1993,Maria,Diaz,F,1985-02-08,Santo Domingo Este,Santo Domingo,Corporativo,2021-03-25
+1994,Javier,Reyes,M,1985-02-09,Santo Domingo,Distrito Nacional,Corporativo,2021-03-24
+1995,Paola,Gomez,F,1985-02-10,Higuey,La Altagracia,Corporativo,2021-03-23
+1996,Pedro,Castillo,,1985-02-11,La Romana,La Romana,Corporativo,2021-03-22
+1997,Natalia,Mendez,F,1985-02-12,Puerto Plata,Puerto Plata,Corporativo,2021-03-21
+1998,Andres,Vargas,M,1985-02-13,San Cristobal,San Cristobal,Corporativo,2021-03-20
+1999,Sofia,Cruz,F,1985-02-14,La Vega,La Vega,Corporativo,2021-03-19
+2000,Luis,Sanchez,M,2001-07-11,San Cristobal,San Cristobal,Preferente,2022-10-19
+2001,Ana,Ramirez,F,2001-07-12,La Vega,La Vega,Corporativo,2022-10-18
+2002,Jose,Torres,M,2001-07-13,Santiago,Santiago,Corporativo,2022-10-17
+2003,Maria,Diaz,F,2001-07-14,Santo Domingo Este,Santo Domingo,Corporativo,2022-10-16
+2004,Javier,Reyes,M,2001-07-15,Santo Domingo,Distrito Nacional,Corporativo,2022-10-15
+2005,Paola,Gomez,F,2001-07-16,Higuey,La Altagracia,Corporativo,2022-10-14
+2006,Pedro,Castillo,,2001-07-17,La Romana,La Romana,Corporativo,2022-10-13
+2007,Natalia,Mendez,F,2001-07-18,Puerto Plata,Puerto Plata,Corporativo,2022-10-12
+2008,Andres,Vargas,M,2001-07-19,San Cristobal,San Cristobal,Corporativo,2022-10-11
+2009,Sofia,Cruz,F,2001-07-20,La Vega,La Vega,Corporativo,2022-10-10
+2010,Luis,Sanchez,M,2001-07-27,San Cristobal,San Cristobal,Regular,2022-10-03
+2011,Ana,Ramirez,F,2001-07-28,La Vega,La Vega,Regular,2022-10-02
+2012,Jose,Torres,M,2001-07-29,Santiago,Santiago,Regular,2022-10-01
+2013,Maria,Diaz,F,2001-07-30,Santo Domingo Este,Santo Domingo,Regular,2022-09-30
+2014,Javier,Reyes,M,2001-07-31,Santo Domingo,Distrito Nacional,Regular,2022-09-29
+2015,Paola,Gomez,,2001-08-01,Higuey,La Altagracia,Regular,2022-09-28
+2016,Pedro,Castillo,M,2001-08-02,La Romana,La Romana,Regular,2022-09-27
+2017,Natalia,Mendez,F,2001-08-03,Puerto Plata,Puerto Plata,Regular,2022-09-26
+2018,Andres,Vargas,M,2001-08-04,San Cristobal,San Cristobal,Regular,2022-09-25
+2019,Sofia,Cruz,F,2001-08-05,La Vega,La Vega,Regular,2022-09-24
+2020,Luis,Sanchez,M,2001-08-12,San Cristobal,San Cristobal,Regular,2022-09-17
+2021,Ana,Ramirez,F,2001-08-13,La Vega,La Vega,Regular,2022-09-16
+2022,Jose,Torres,M,2001-08-14,Santiago,Santiago,Regular,2022-09-15
+2023,Maria,Diaz,F,2001-08-15,Santo Domingo Este,Santo Domingo,Regular,2022-09-14
+2024,Javier,Reyes,M,2001-08-16,Santo Domingo,Distrito Nacional,Regular,2022-09-13
+2025,Paola,Gomez,F,2001-08-17,Higuey,La Altagracia,Regular,2022-09-12
+2026,Pedro,Castillo,M,2001-08-18,La Romana,La Romana,Regular,2022-09-11
+2027,Natalia,Mendez,F,2001-08-19,Puerto Plata,Puerto Plata,Regular,2022-09-10
+2028,Andres,Vargas,M,2001-08-20,San Cristobal,San Cristobal,Regular,2022-09-09
+2029,Sofia,Cruz,,2001-08-21,La Vega,La Vega,Regular,2022-09-08
+2030,Luis,Sanchez,M,2001-08-28,San Cristobal,San Cristobal,Regular,2022-09-01
+2031,Ana,Ramirez,F,2001-08-29,La Vega,La Vega,Regular,2022-08-31
+2032,Jose,Torres,,2001-08-30,Santiago,Santiago,Regular,2022-08-30
+2033,Maria,Diaz,F,2001-08-31,Santo Domingo Este,Santo Domingo,Regular,2022-08-29
+2034,Javier,Reyes,M,2001-09-01,Santo Domingo,Distrito Nacional,Regular,2022-08-28
+2035,Paola,Gomez,F,2001-09-02,Higuey,La Altagracia,Regular,2022-08-27
+2036,Pedro,Castillo,M,2001-09-03,La Romana,La Romana,Regular,2022-08-26
+2037,Natalia,Mendez,F,2001-09-04,Puerto Plata,Puerto Plata,Regular,2022-08-25
+2038,Andres,Vargas,M,2001-09-05,San Cristobal,San Cristobal,Regular,2022-08-24
+2039,Sofia,Cruz,F,2001-09-06,La Vega,La Vega,Regular,2022-08-23
+2040,Luis,Sanchez,M,2000-12-31,San Cristobal,San Cristobal,Corporativo,2021-04-29
+2041,Ana,Ramirez,F,2001-01-01,La Vega,La Vega,Corporativo,2021-04-28
+2042,Jose,Torres,,2001-01-02,Santiago,Santiago,Corporativo,2021-04-27
+2043,Maria,Diaz,F,2001-01-03,Santo Domingo Este,Santo Domingo,Corporativo,2021-04-26
+2044,Javier,Reyes,M,2001-01-04,Santo Domingo,Distrito Nacional,Corporativo,2021-04-25
+2045,Paola,Gomez,F,2001-01-05,Higuey,La Altagracia,Regular,2021-04-24
+2046,Pedro,Castillo,M,2001-01-06,La Romana,La Romana,Regular,2021-04-23
+2047,Natalia,Mendez,F,2001-01-07,Puerto Plata,Puerto Plata,Regular,2021-04-22
+2048,Andres,Vargas,M,2001-01-08,San Cristobal,San Cristobal,Regular,2021-04-21
+2049,Sofia,Cruz,F,2001-01-09,La Vega,La Vega,Regular,2021-04-20
+2050,Luis,Sanchez,M,2001-01-16,San Cristobal,San Cristobal,Regular,2021-04-13
+2051,Ana,Ramirez,,2001-01-17,La Vega,La Vega,Regular,2021-04-12
+2052,Jose,Torres,M,2001-01-18,Santiago,Santiago,Regular,2021-04-11
+2053,Maria,Diaz,F,2001-01-19,Santo Domingo Este,Santo Domingo,Regular,2021-04-10
+2054,Javier,Reyes,M,2001-01-20,Santo Domingo,Distrito Nacional,Regular,2021-04-09
+2055,Paola,Gomez,F,2001-01-21,Higuey,La Altagracia,Regular,2021-04-08
+2056,Pedro,Castillo,M,2001-01-22,La Romana,La Romana,Regular,2021-04-07
+2057,Natalia,Mendez,F,2001-01-23,Puerto Plata,Puerto Plata,Regular,2021-04-06
+2058,Andres,Vargas,M,2001-01-24,San Cristobal,San Cristobal,Regular,2021-04-05
+2059,Sofia,Cruz,F,2001-01-25,La Vega,La Vega,Regular,2021-04-04
+2060,Luis,Sanchez,M,2001-02-01,San Cristobal,San Cristobal,Regular,2021-03-28
+2061,Ana,Ramirez,F,2001-02-02,La Vega,La Vega,Regular,2021-03-27
+2062,Jose,Torres,M,2001-02-03,Santiago,Santiago,Regular,2021-03-26
+2063,Maria,Diaz,F,2001-02-04,Santo Domingo Este,Santo Domingo,Regular,2021-03-25
+2064,Javier,Reyes,M,2001-02-05,Santo Domingo,Distrito Nacional,Regular,2021-03-24
+2065,Paola,Gomez,F,2001-02-06,Higuey,La Altagracia,Regular,2021-03-23
+2066,Pedro,Castillo,,2001-02-07,La Romana,La Romana,Regular,2021-03-22
+2067,Natalia,Mendez,F,2001-02-08,Puerto Plata,Puerto Plata,Regular,2021-03-21
+2068,Andres,Vargas,M,2001-02-09,San Cristobal,San Cristobal,Regular,2021-03-20
+2069,Sofia,Cruz,F,2001-02-10,La Vega,La Vega,Regular,2021-03-19
+2070,Luis,Sanchez,M,2001-02-17,San Cristobal,San Cristobal,Regular,2021-03-12
+2071,Ana,Ramirez,F,2001-02-18,La Vega,La Vega,Regular,2021-03-11
+2072,Jose,Torres,M,2001-02-19,Santiago,Santiago,Regular,2021-03-10
+2073,Maria,Diaz,F,2001-02-20,Santo Domingo Este,Santo Domingo,Regular,2021-03-09
+2074,Javier,Reyes,M,2001-02-21,Santo Domingo,Distrito Nacional,Regular,2021-03-08
+2075,Paola,Gomez,,2001-02-22,Higuey,La Altagracia,Regular,2021-03-07
+2076,Pedro,Castillo,M,2001-02-23,La Romana,La Romana,Regular,2021-03-06
+2077,Natalia,Mendez,F,2001-02-24,Puerto Plata,Puerto Plata,Regular,2021-03-05
+2078,Andres,Vargas,M,2001-02-25,San Cristobal,San Cristobal,Regular,2021-03-04
+2079,Sofia,Cruz,F,2001-02-26,La Vega,La Vega,Regular,2021-03-03
+2080,Luis,Sanchez,M,2001-03-05,San Cristobal,San Cristobal,Regular,2021-02-24
+2081,Ana,Ramirez,F,2001-03-06,La Vega,La Vega,Regular,2021-02-23
+2082,Jose,Torres,M,2001-03-07,Santiago,Santiago,Regular,2021-02-22
+2083,Maria,Diaz,F,2001-03-08,Santo Domingo Este,Santo Domingo,Preferente,2021-02-21
+2084,Javier,Reyes,M,2001-03-09,Santo Domingo,Distrito Nacional,Preferente,2021-02-20
+2085,Paola,Gomez,F,2001-03-10,Higuey,La Altagracia,Preferente,2021-02-19
+2086,Pedro,Castillo,M,2001-03-11,La Romana,La Romana,Preferente,2021-02-18
+2087,Natalia,Mendez,F,2001-03-12,Puerto Plata,Puerto Plata,Preferente,2021-02-17
+2088,Andres,Vargas,M,2001-03-13,San Cristobal,San Cristobal,Preferente,2021-02-16
+2089,Sofia,Cruz,,2001-03-14,La Vega,La Vega,Preferente,2021-02-15
+2090,Luis,Sanchez,M,2001-03-21,San Cristobal,San Cristobal,Preferente,2021-02-08
+2091,Ana,Ramirez,F,2001-03-22,La Vega,La Vega,Preferente,2021-02-07
+2092,Jose,Torres,,2001-03-23,Santiago,Santiago,Preferente,2021-02-06
+2093,Maria,Diaz,F,2001-03-24,Santo Domingo Este,Santo Domingo,Preferente,2021-02-05
+2094,Javier,Reyes,M,2001-03-25,Santo Domingo,Distrito Nacional,Preferente,2021-02-04
+2095,Paola,Gomez,F,2001-03-26,Higuey,La Altagracia,Preferente,2021-02-03
+2096,Pedro,Castillo,M,2001-03-27,La Romana,La Romana,Preferente,2021-02-02
+2097,Natalia,Mendez,F,2001-03-28,Puerto Plata,Puerto Plata,Preferente,2021-02-01
+2098,Andres,Vargas,M,2001-03-29,San Cristobal,San Cristobal,Preferente,2021-01-31
+2099,Sofia,Cruz,F,2001-03-30,La Vega,La Vega,Preferente,2021-01-30
+2100,Luis,Sanchez,M,2002-03-24,San Cristobal,San Cristobal,Regular,2022-02-05
+2101,Ana,Ramirez,F,2002-03-25,La Vega,La Vega,Regular,2022-02-04
+2102,Jose,Torres,M,2002-03-26,Santiago,Santiago,Regular,2022-02-03
+2103,Maria,Diaz,F,2002-03-27,Santo Domingo Este,Santo Domingo,Regular,2022-02-02
+2104,Javier,Reyes,M,2002-03-28,Santo Domingo,Distrito Nacional,Regular,2022-02-01
+2105,Paola,Gomez,,2002-03-29,Higuey,La Altagracia,Regular,2022-01-31
+2106,Pedro,Castillo,M,2002-03-30,La Romana,La Romana,Regular,2022-01-30
+2107,Natalia,Mendez,F,2002-03-31,Puerto Plata,Puerto Plata,Regular,2022-01-29
+2108,Andres,Vargas,M,2002-04-01,San Cristobal,San Cristobal,Regular,2022-01-28
+2109,Sofia,Cruz,F,2002-04-02,La Vega,La Vega,Regular,2022-01-27
+2110,Luis,Sanchez,M,2002-04-09,San Cristobal,San Cristobal,Regular,2022-01-20
+2111,Ana,Ramirez,F,2002-04-10,La Vega,La Vega,Regular,2022-01-19
+2112,Jose,Torres,M,2002-04-11,Santiago,Santiago,Regular,2022-01-18
+2113,Maria,Diaz,F,2002-04-12,Santo Domingo Este,Santo Domingo,Preferente,2022-01-17
+2114,Javier,Reyes,M,2002-04-13,Santo Domingo,Distrito Nacional,Preferente,2022-01-16
+2115,Paola,Gomez,F,2002-04-14,Higuey,La Altagracia,Preferente,2022-01-15
+2116,Pedro,Castillo,M,2002-04-15,La Romana,La Romana,Preferente,2022-01-14
+2117,Natalia,Mendez,F,2002-04-16,Puerto Plata,Puerto Plata,Preferente,2022-01-13
+2118,Andres,Vargas,M,2002-04-17,San Cristobal,San Cristobal,Preferente,2022-01-12
+2119,Sofia,Cruz,,2002-04-18,La Vega,La Vega,Preferente,2022-01-11
+2120,Luis,Sanchez,M,2002-04-25,San Cristobal,San Cristobal,Preferente,2022-01-04
+2121,Ana,Ramirez,F,2002-04-26,La Vega,La Vega,Preferente,2022-01-03
+2122,Jose,Torres,,2002-04-27,Santiago,Santiago,Preferente,2022-01-02
+2123,Maria,Diaz,F,2002-04-28,Santo Domingo Este,Santo Domingo,Preferente,2022-01-01
+2124,Javier,Reyes,M,2002-04-29,Santo Domingo,Distrito Nacional,Preferente,2021-12-31
+2125,Paola,Gomez,F,2002-04-30,Higuey,La Altagracia,Preferente,2021-12-30
+2126,Pedro,Castillo,M,2002-05-01,La Romana,La Romana,Preferente,2021-12-29
+2127,Natalia,Mendez,F,2002-05-02,Puerto Plata,Puerto Plata,Preferente,2021-12-28
+2128,Andres,Vargas,M,2002-05-03,San Cristobal,San Cristobal,Preferente,2021-12-27
+2129,Sofia,Cruz,F,2002-05-04,La Vega,La Vega,Preferente,2021-12-26
+2130,Luis,Sanchez,M,2002-05-11,San Cristobal,San Cristobal,Corporativo,2021-12-19
+2131,Ana,Ramirez,,2002-05-12,La Vega,La Vega,Corporativo,2021-12-18
+2132,Jose,Torres,M,2002-05-13,Santiago,Santiago,Corporativo,2021-12-17
+2133,Maria,Diaz,F,2002-05-14,Santo Domingo Este,Santo Domingo,Corporativo,2021-12-16
+2134,Javier,Reyes,M,2002-05-15,Santo Domingo,Distrito Nacional,Corporativo,2021-12-15
+2135,Paola,Gomez,F,2002-05-16,Higuey,La Altagracia,Corporativo,2021-12-14
+2136,Pedro,Castillo,M,2002-05-17,La Romana,La Romana,Corporativo,2021-12-13
+2137,Natalia,Mendez,F,2002-05-18,Puerto Plata,Puerto Plata,Corporativo,2021-12-12
+2138,Andres,Vargas,M,2002-05-19,San Cristobal,San Cristobal,Corporativo,2021-12-11
+2139,Sofia,Cruz,F,2002-05-20,La Vega,La Vega,Regular,2021-12-10
+2140,Luis,Sanchez,M,2001-09-13,San Cristobal,San Cristobal,Regular,2022-08-16
+2141,Ana,Ramirez,,2001-09-14,La Vega,La Vega,Regular,2022-08-15
+2142,Jose,Torres,M,2001-09-15,Santiago,Santiago,Regular,2022-08-14
+2143,Maria,Diaz,F,2001-09-16,Santo Domingo Este,Santo Domingo,Regular,2022-08-13
+2144,Javier,Reyes,M,2001-09-17,Santo Domingo,Distrito Nacional,Regular,2022-08-12
+2145,Paola,Gomez,F,2001-09-18,Higuey,La Altagracia,Regular,2022-08-11
+2146,Pedro,Castillo,M,2001-09-19,La Romana,La Romana,Regular,2022-08-10
+2147,Natalia,Mendez,F,2001-09-20,Puerto Plata,Puerto Plata,Regular,2022-08-09
+2148,Andres,Vargas,M,2001-09-21,San Cristobal,San Cristobal,Regular,2022-08-08
+2149,Sofia,Cruz,F,2001-09-22,La Vega,La Vega,Regular,2022-08-07
+2150,Luis,Sanchez,M,2001-09-29,San Cristobal,San Cristobal,Preferente,2022-07-31
+2151,Ana,Ramirez,F,2001-09-30,La Vega,La Vega,Preferente,2022-07-30
+2152,Jose,Torres,M,2001-10-01,Santiago,Santiago,Preferente,2022-07-29
+2153,Maria,Diaz,F,2001-10-02,Santo Domingo Este,Santo Domingo,Preferente,2022-07-28
+2154,Javier,Reyes,M,2001-10-03,Santo Domingo,Distrito Nacional,Preferente,2022-07-27
+2155,Paola,Gomez,F,2001-10-04,Higuey,La Altagracia,Preferente,2022-07-26
+2156,Pedro,Castillo,,2001-10-05,La Romana,La Romana,Preferente,2022-07-25
+2157,Natalia,Mendez,F,2001-10-06,Puerto Plata,Puerto Plata,Preferente,2022-07-24
+2158,Andres,Vargas,M,2001-10-07,San Cristobal,San Cristobal,Preferente,2022-07-23
+2159,Sofia,Cruz,F,2001-10-08,La Vega,La Vega,Preferente,2022-07-22
+2160,Luis,Sanchez,M,2001-10-15,San Cristobal,San Cristobal,Preferente,2022-07-15
+2161,Ana,Ramirez,F,2001-10-16,La Vega,La Vega,Preferente,2022-07-14
+2162,Jose,Torres,M,2001-10-17,Santiago,Santiago,Preferente,2022-07-13
+2163,Maria,Diaz,F,2001-10-18,Santo Domingo Este,Santo Domingo,Preferente,2022-07-12
+2164,Javier,Reyes,M,2001-10-19,Santo Domingo,Distrito Nacional,Preferente,2022-07-11
+2165,Paola,Gomez,,2001-10-20,Higuey,La Altagracia,Corporativo,2022-07-10
+2166,Pedro,Castillo,M,2001-10-21,La Romana,La Romana,Corporativo,2022-07-09
+2167,Natalia,Mendez,F,2001-10-22,Puerto Plata,Puerto Plata,Corporativo,2022-07-08
+2168,Andres,Vargas,M,2001-10-23,San Cristobal,San Cristobal,Corporativo,2022-07-07
+2169,Sofia,Cruz,F,2001-10-24,La Vega,La Vega,Corporativo,2022-07-06
+2170,Luis,Sanchez,M,2001-10-31,San Cristobal,San Cristobal,Corporativo,2022-06-29
+2171,Ana,Ramirez,F,2001-11-01,La Vega,La Vega,Regular,2022-06-28
+2172,Jose,Torres,M,2001-11-02,Santiago,Santiago,Regular,2022-06-27
+2173,Maria,Diaz,F,2001-11-03,Santo Domingo Este,Santo Domingo,Regular,2022-06-26
+2174,Javier,Reyes,M,2001-11-04,Santo Domingo,Distrito Nacional,Regular,2022-06-25
+2175,Paola,Gomez,F,2001-11-05,Higuey,La Altagracia,Regular,2022-06-24
+2176,Pedro,Castillo,M,2001-11-06,La Romana,La Romana,Regular,2022-06-23
+2177,Natalia,Mendez,F,2001-11-07,Puerto Plata,Puerto Plata,Regular,2022-06-22
+2178,Andres,Vargas,M,2001-11-08,San Cristobal,San Cristobal,Regular,2022-06-21
+2179,Sofia,Cruz,,2001-11-09,La Vega,La Vega,Regular,2022-06-20
+2180,Luis,Sanchez,M,2001-11-16,San Cristobal,San Cristobal,Regular,2022-06-13
+2181,Ana,Ramirez,F,2001-11-17,La Vega,La Vega,Regular,2022-06-12
+2182,Jose,Torres,,2001-11-18,Santiago,Santiago,Regular,2022-06-11
+2183,Maria,Diaz,F,2001-11-19,Santo Domingo Este,Santo Domingo,Regular,2022-06-10
+2184,Javier,Reyes,M,2001-11-20,Santo Domingo,Distrito Nacional,Regular,2022-06-09
+2185,Paola,Gomez,F,2001-11-21,Higuey,La Altagracia,Regular,2022-06-08
+2186,Pedro,Castillo,M,2001-11-22,La Romana,La Romana,Regular,2022-06-07
+2187,Natalia,Mendez,F,2001-11-23,Puerto Plata,Puerto Plata,Regular,2022-06-06
+2188,Andres,Vargas,M,2001-11-24,San Cristobal,San Cristobal,Regular,2022-06-05
+2189,Sofia,Cruz,F,2001-11-25,La Vega,La Vega,Regular,2022-06-04
+2190,Luis,Sanchez,M,2001-12-02,San Cristobal,San Cristobal,Regular,2022-05-28
+2191,Ana,Ramirez,,2001-12-03,La Vega,La Vega,Regular,2022-05-27
+2192,Jose,Torres,M,2001-12-04,Santiago,Santiago,Regular,2022-05-26
+2193,Maria,Diaz,F,2001-12-05,Santo Domingo Este,Santo Domingo,Regular,2022-05-25
+2194,Javier,Reyes,M,2001-12-06,Santo Domingo,Distrito Nacional,Regular,2022-05-24
+2195,Paola,Gomez,F,2001-12-07,Higuey,La Altagracia,Regular,2022-05-23
+2196,Pedro,Castillo,M,2001-12-08,La Romana,La Romana,Regular,2022-05-22
+2197,Natalia,Mendez,F,2001-12-09,Puerto Plata,Puerto Plata,Regular,2022-05-21
+2198,Andres,Vargas,M,2001-12-10,San Cristobal,San Cristobal,Regular,2022-05-20
+2199,Sofia,Cruz,F,2001-12-11,La Vega,La Vega,Regular,2022-05-19
+2200,Luis,Sanchez,M,2002-12-05,San Cristobal,San Cristobal,Corporativo,2021-05-25
+2201,Ana,Ramirez,F,2002-12-06,La Vega,La Vega,Regular,2021-05-24
+2202,Jose,Torres,M,2002-12-07,Santiago,Santiago,Regular,2021-05-23
+2203,Maria,Diaz,F,2002-12-08,Santo Domingo Este,Santo Domingo,Regular,2021-05-22
+2204,Javier,Reyes,M,2002-12-09,Santo Domingo,Distrito Nacional,Regular,2021-05-21
+2205,Paola,Gomez,F,2002-12-10,Higuey,La Altagracia,Regular,2021-05-20
+2206,Pedro,Castillo,M,2002-12-11,La Romana,La Romana,Regular,2021-05-19
+2207,Natalia,Mendez,F,2002-12-12,Puerto Plata,Puerto Plata,Regular,2021-05-18
+2208,Andres,Vargas,M,2002-12-13,San Cristobal,San Cristobal,Regular,2021-05-17
+2209,Sofia,Cruz,,2002-12-14,La Vega,La Vega,Regular,2021-05-16
+2210,Luis,Sanchez,M,2002-12-21,San Cristobal,San Cristobal,Regular,2021-05-09
+2211,Ana,Ramirez,F,2002-12-22,La Vega,La Vega,Regular,2021-05-08
+2212,Jose,Torres,,2002-12-23,Santiago,Santiago,Regular,2021-05-07
+2213,Maria,Diaz,F,2002-12-24,Santo Domingo Este,Santo Domingo,Regular,2021-05-06
+2214,Javier,Reyes,M,2002-12-25,Santo Domingo,Distrito Nacional,Regular,2021-05-05
+2215,Paola,Gomez,F,2002-12-26,Higuey,La Altagracia,Regular,2021-05-04
+2216,Pedro,Castillo,M,2002-12-27,La Romana,La Romana,Regular,2021-05-03
+2217,Natalia,Mendez,F,2002-12-28,Puerto Plata,Puerto Plata,Regular,2021-05-02
+2218,Andres,Vargas,M,2002-12-29,San Cristobal,San Cristobal,Regular,2021-05-01
+2219,Sofia,Cruz,F,2002-12-30,La Vega,La Vega,Regular,2021-04-30
+2220,Luis,Sanchez,M,2003-01-06,San Cristobal,San Cristobal,Regular,2021-04-23
+2221,Ana,Ramirez,,2003-01-07,La Vega,La Vega,Regular,2021-04-22
+2222,Jose,Torres,M,2003-01-08,Santiago,Santiago,Regular,2021-04-21
+2223,Maria,Diaz,F,2003-01-09,Santo Domingo Este,Santo Domingo,Regular,2021-04-20
+2224,Javier,Reyes,M,2003-01-10,Santo Domingo,Distrito Nacional,Regular,2021-04-19
+2225,Paola,Gomez,F,2003-01-11,Higuey,La Altagracia,Regular,2021-04-18
+2226,Pedro,Castillo,M,2003-01-12,La Romana,La Romana,Regular,2021-04-17
+2227,Natalia,Mendez,F,2003-01-13,Puerto Plata,Puerto Plata,Regular,2021-04-16
+2228,Andres,Vargas,M,2003-01-14,San Cristobal,San Cristobal,Regular,2021-04-15
+2229,Sofia,Cruz,F,2003-01-15,La Vega,La Vega,Regular,2021-04-14
+2230,Luis,Sanchez,M,2003-01-22,San Cristobal,San Cristobal,Regular,2021-04-07
+2231,Ana,Ramirez,F,2003-01-23,La Vega,La Vega,Regular,2021-04-06
+2232,Jose,Torres,M,2003-01-24,Santiago,Santiago,Regular,2021-04-05
+2233,Maria,Diaz,F,2003-01-25,Santo Domingo Este,Santo Domingo,Regular,2021-04-04
+2234,Javier,Reyes,M,2003-01-26,Santo Domingo,Distrito Nacional,Regular,2021-04-03
+2235,Paola,Gomez,F,2003-01-27,Higuey,La Altagracia,Regular,2021-04-02
+2236,Pedro,Castillo,,2003-01-28,La Romana,La Romana,Regular,2021-04-01
+2237,Natalia,Mendez,F,2003-01-29,Puerto Plata,Puerto Plata,Regular,2021-03-31
+2238,Andres,Vargas,M,2003-01-30,San Cristobal,San Cristobal,Regular,2021-03-30
+2239,Sofia,Cruz,F,2003-01-31,La Vega,La Vega,Regular,2021-03-29
+2240,Luis,Sanchez,M,2002-05-27,San Cristobal,San Cristobal,Regular,2021-12-03
+2241,Ana,Ramirez,F,2002-05-28,La Vega,La Vega,Regular,2021-12-02
+2242,Jose,Torres,M,2002-05-29,Santiago,Santiago,Regular,2021-12-01
+2243,Maria,Diaz,F,2002-05-30,Santo Domingo Este,Santo Domingo,Regular,2021-11-30
+2244,Javier,Reyes,M,2002-05-31,Santo Domingo,Distrito Nacional,Regular,2021-11-29
+2245,Paola,Gomez,F,2002-06-01,Higuey,La Altagracia,Regular,2021-11-28
+2246,Pedro,Castillo,,2002-06-02,La Romana,La Romana,Regular,2021-11-27
+2247,Natalia,Mendez,F,2002-06-03,Puerto Plata,Puerto Plata,Regular,2021-11-26
+2248,Andres,Vargas,M,2002-06-04,San Cristobal,San Cristobal,Regular,2021-11-25
+2249,Sofia,Cruz,F,2002-06-05,La Vega,La Vega,Regular,2021-11-24
+2250,Luis,Sanchez,M,2002-06-12,San Cristobal,San Cristobal,Regular,2021-11-17
+2251,Ana,Ramirez,F,2002-06-13,La Vega,La Vega,Regular,2021-11-16
+2252,Jose,Torres,M,2002-06-14,Santiago,Santiago,Regular,2021-11-15
+2253,Maria,Diaz,F,2002-06-15,Santo Domingo Este,Santo Domingo,Regular,2021-11-14
+2254,Javier,Reyes,M,2002-06-16,Santo Domingo,Distrito Nacional,Regular,2021-11-13
+2255,Paola,Gomez,,2002-06-17,Higuey,La Altagracia,Regular,2021-11-12
+2256,Pedro,Castillo,M,2002-06-18,La Romana,La Romana,Regular,2021-11-11
+2257,Natalia,Mendez,F,2002-06-19,Puerto Plata,Puerto Plata,Regular,2021-11-10
+2258,Andres,Vargas,M,2002-06-20,San Cristobal,San Cristobal,Regular,2021-11-09
+2259,Sofia,Cruz,F,2002-06-21,La Vega,La Vega,Regular,2021-11-08
+2260,Luis,Sanchez,M,2002-06-28,San Cristobal,San Cristobal,Regular,2021-11-01
+2261,Ana,Ramirez,F,2002-06-29,La Vega,La Vega,Regular,2021-10-31
+2262,Jose,Torres,M,2002-06-30,Santiago,Santiago,Regular,2021-10-30
+2263,Maria,Diaz,F,2002-07-01,Santo Domingo Este,Santo Domingo,Regular,2021-10-29
+2264,Javier,Reyes,M,2002-07-02,Santo Domingo,Distrito Nacional,Regular,2021-10-28
+2265,Paola,Gomez,F,2002-07-03,Higuey,La Altagracia,Regular,2021-10-27
+2266,Pedro,Castillo,M,2002-07-04,La Romana,La Romana,Regular,2021-10-26
+2267,Natalia,Mendez,F,2002-07-05,Puerto Plata,Puerto Plata,Regular,2021-10-25
+2268,Andres,Vargas,M,2002-07-06,San Cristobal,San Cristobal,Regular,2021-10-24
+2269,Sofia,Cruz,,2002-07-07,La Vega,La Vega,Regular,2021-10-23
+2270,Luis,Sanchez,M,2002-07-14,San Cristobal,San Cristobal,Regular,2021-10-16
+2271,Ana,Ramirez,F,2002-07-15,La Vega,La Vega,Regular,2021-10-15
+2272,Jose,Torres,,2002-07-16,Santiago,Santiago,Regular,2021-10-14
+2273,Maria,Diaz,F,2002-07-17,Santo Domingo Este,Santo Domingo,Regular,2021-10-13
+2274,Javier,Reyes,M,2002-07-18,Santo Domingo,Distrito Nacional,Regular,2021-10-12
+2275,Paola,Gomez,F,2002-07-19,Higuey,La Altagracia,Regular,2021-10-11
+2276,Pedro,Castillo,M,2002-07-20,La Romana,La Romana,Regular,2021-10-10
+2277,Natalia,Mendez,F,2002-07-21,Puerto Plata,Puerto Plata,Preferente,2021-10-09
+2278,Andres,Vargas,M,2002-07-22,San Cristobal,San Cristobal,Preferente,2021-10-08
+2279,Sofia,Cruz,F,2002-07-23,La Vega,La Vega,Preferente,2021-10-07
+2280,Luis,Sanchez,M,2002-07-30,San Cristobal,San Cristobal,Preferente,2021-09-30
+2281,Ana,Ramirez,,2002-07-31,La Vega,La Vega,Preferente,2021-09-29
+2282,Jose,Torres,M,2002-08-01,Santiago,Santiago,Preferente,2021-09-28
+2283,Maria,Diaz,F,2002-08-02,Santo Domingo Este,Santo Domingo,Preferente,2021-09-27
+2284,Javier,Reyes,M,2002-08-03,Santo Domingo,Distrito Nacional,Preferente,2021-09-26
+2285,Paola,Gomez,F,2002-08-04,Higuey,La Altagracia,Preferente,2021-09-25
+2286,Pedro,Castillo,M,2002-08-05,La Romana,La Romana,Preferente,2021-09-24
+2287,Natalia,Mendez,F,2002-08-06,Puerto Plata,Puerto Plata,Preferente,2021-09-23
+2288,Andres,Vargas,M,2002-08-07,San Cristobal,San Cristobal,Preferente,2021-09-22
+2289,Sofia,Cruz,F,2002-08-08,La Vega,La Vega,Preferente,2021-09-21
+2290,Luis,Sanchez,M,2002-08-15,San Cristobal,San Cristobal,Preferente,2021-09-14
+2291,Ana,Ramirez,F,2002-08-16,La Vega,La Vega,Corporativo,2021-09-13
+2292,Jose,Torres,M,2002-08-17,Santiago,Santiago,Corporativo,2021-09-12
+2293,Maria,Diaz,F,2002-08-18,Santo Domingo Este,Santo Domingo,Corporativo,2021-09-11
+2294,Javier,Reyes,M,2002-08-19,Santo Domingo,Distrito Nacional,Corporativo,2021-09-10
+2295,Paola,Gomez,F,2002-08-20,Higuey,La Altagracia,Corporativo,2021-09-09
+2296,Pedro,Castillo,,2002-08-21,La Romana,La Romana,Corporativo,2021-09-08
+2297,Natalia,Mendez,F,2002-08-22,Puerto Plata,Puerto Plata,Corporativo,2021-09-07
+2298,Andres,Vargas,M,2002-08-23,San Cristobal,San Cristobal,Corporativo,2021-09-06
+2299,Sofia,Cruz,F,2002-08-24,La Vega,La Vega,Corporativo,2021-09-05
+2300,Luis,Sanchez,M,2003-08-18,San Cristobal,San Cristobal,Regular,2022-09-11
+2301,Ana,Ramirez,F,2003-08-19,La Vega,La Vega,Regular,2022-09-10
+2302,Jose,Torres,,2003-08-20,Santiago,Santiago,Regular,2022-09-09
+2303,Maria,Diaz,F,2003-08-21,Santo Domingo Este,Santo Domingo,Regular,2022-09-08
+2304,Javier,Reyes,M,2003-08-22,Santo Domingo,Distrito Nacional,Regular,2022-09-07
+2305,Paola,Gomez,F,2003-08-23,Higuey,La Altagracia,Regular,2022-09-06
+2306,Pedro,Castillo,M,2003-08-24,La Romana,La Romana,Regular,2022-09-05
+2307,Natalia,Mendez,F,2003-08-25,Puerto Plata,Puerto Plata,Preferente,2022-09-04
+2308,Andres,Vargas,M,2003-08-26,San Cristobal,San Cristobal,Preferente,2022-09-03
+2309,Sofia,Cruz,F,2003-08-27,La Vega,La Vega,Preferente,2022-09-02
+2310,Luis,Sanchez,M,2003-09-03,San Cristobal,San Cristobal,Preferente,2022-08-26
+2311,Ana,Ramirez,,2003-09-04,La Vega,La Vega,Preferente,2022-08-25
+2312,Jose,Torres,M,2003-09-05,Santiago,Santiago,Preferente,2022-08-24
+2313,Maria,Diaz,F,2003-09-06,Santo Domingo Este,Santo Domingo,Preferente,2022-08-23
+2314,Javier,Reyes,M,2003-09-07,Santo Domingo,Distrito Nacional,Preferente,2022-08-22
+2315,Paola,Gomez,F,2003-09-08,Higuey,La Altagracia,Preferente,2022-08-21
+2316,Pedro,Castillo,M,2003-09-09,La Romana,La Romana,Preferente,2022-08-20
+2317,Natalia,Mendez,F,2003-09-10,Puerto Plata,Puerto Plata,Preferente,2022-08-19
+2318,Andres,Vargas,M,2003-09-11,San Cristobal,San Cristobal,Preferente,2022-08-18
+2319,Sofia,Cruz,F,2003-09-12,La Vega,La Vega,Preferente,2022-08-17
+2320,Luis,Sanchez,M,2003-09-19,San Cristobal,San Cristobal,Preferente,2022-08-10
+2321,Ana,Ramirez,F,2003-09-20,La Vega,La Vega,Corporativo,2022-08-09
+2322,Jose,Torres,M,2003-09-21,Santiago,Santiago,Corporativo,2022-08-08
+2323,Maria,Diaz,F,2003-09-22,Santo Domingo Este,Santo Domingo,Corporativo,2022-08-07
+2324,Javier,Reyes,M,2003-09-23,Santo Domingo,Distrito Nacional,Corporativo,2022-08-06
+2325,Paola,Gomez,F,2003-09-24,Higuey,La Altagracia,Corporativo,2022-08-05
+2326,Pedro,Castillo,,2003-09-25,La Romana,La Romana,Corporativo,2022-08-04
+2327,Natalia,Mendez,F,2003-09-26,Puerto Plata,Puerto Plata,Corporativo,2022-08-03
+2328,Andres,Vargas,M,2003-09-27,San Cristobal,San Cristobal,Corporativo,2022-08-02
+2329,Sofia,Cruz,F,2003-09-28,La Vega,La Vega,Corporativo,2022-08-01
+2330,Luis,Sanchez,M,2003-10-05,San Cristobal,San Cristobal,Regular,2022-07-25
+2331,Ana,Ramirez,F,2003-10-06,La Vega,La Vega,Regular,2022-07-24
+2332,Jose,Torres,M,2003-10-07,Santiago,Santiago,Regular,2022-07-23
+2333,Maria,Diaz,F,2003-10-08,Santo Domingo Este,Santo Domingo,Regular,2022-07-22
+2334,Javier,Reyes,M,2003-10-09,Santo Domingo,Distrito Nacional,Regular,2022-07-21
+2335,Paola,Gomez,,2003-10-10,Higuey,La Altagracia,Regular,2022-07-20
+2336,Pedro,Castillo,M,2003-10-11,La Romana,La Romana,Regular,2022-07-19
+2337,Natalia,Mendez,F,2003-10-12,Puerto Plata,Puerto Plata,Regular,2022-07-18
+2338,Andres,Vargas,M,2003-10-13,San Cristobal,San Cristobal,Regular,2022-07-17
+2339,Sofia,Cruz,F,2003-10-14,La Vega,La Vega,Regular,2022-07-16
+2340,Luis,Sanchez,M,2003-02-07,San Cristobal,San Cristobal,Preferente,2021-03-22
+2341,Ana,Ramirez,F,2003-02-08,La Vega,La Vega,Preferente,2021-03-21
+2342,Jose,Torres,M,2003-02-09,Santiago,Santiago,Preferente,2021-03-20
+2343,Maria,Diaz,F,2003-02-10,Santo Domingo Este,Santo Domingo,Preferente,2021-03-19
+2344,Javier,Reyes,M,2003-02-11,Santo Domingo,Distrito Nacional,Preferente,2021-03-18
+2345,Paola,Gomez,,2003-02-12,Higuey,La Altagracia,Preferente,2021-03-17
+2346,Pedro,Castillo,M,2003-02-13,La Romana,La Romana,Preferente,2021-03-16
+2347,Natalia,Mendez,F,2003-02-14,Puerto Plata,Puerto Plata,Preferente,2021-03-15
+2348,Andres,Vargas,M,2003-02-15,San Cristobal,San Cristobal,Preferente,2021-03-14
+2349,Sofia,Cruz,F,2003-02-16,La Vega,La Vega,Preferente,2021-03-13
+2350,Luis,Sanchez,M,2003-02-23,San Cristobal,San Cristobal,Preferente,2021-03-06
+2351,Ana,Ramirez,F,2003-02-24,La Vega,La Vega,Preferente,2021-03-05
+2352,Jose,Torres,M,2003-02-25,Santiago,Santiago,Preferente,2021-03-04
+2353,Maria,Diaz,F,2003-02-26,Santo Domingo Este,Santo Domingo,Preferente,2021-03-03
+2354,Javier,Reyes,M,2003-02-27,Santo Domingo,Distrito Nacional,Preferente,2021-03-02
+2355,Paola,Gomez,F,2003-02-28,Higuey,La Altagracia,Preferente,2021-03-01
+2356,Pedro,Castillo,M,2003-03-01,La Romana,La Romana,Preferente,2021-02-28
+2357,Natalia,Mendez,F,2003-03-02,Puerto Plata,Puerto Plata,Preferente,2021-02-27
+2358,Andres,Vargas,M,2003-03-03,San Cristobal,San Cristobal,Preferente,2021-02-26
+2359,Sofia,Cruz,,2003-03-04,La Vega,La Vega,Corporativo,2021-02-25
+2360,Luis,Sanchez,M,2003-03-11,San Cristobal,San Cristobal,Corporativo,2021-02-18
+2361,Ana,Ramirez,F,2003-03-12,La Vega,La Vega,Corporativo,2021-02-17
+2362,Jose,Torres,,2003-03-13,Santiago,Santiago,Corporativo,2021-02-16
+2363,Maria,Diaz,F,2003-03-14,Santo Domingo Este,Santo Domingo,Corporativo,2021-02-15
+2364,Javier,Reyes,M,2003-03-15,Santo Domingo,Distrito Nacional,Corporativo,2021-02-14
+2365,Paola,Gomez,F,2003-03-16,Higuey,La Altagracia,Regular,2021-02-13
+2366,Pedro,Castillo,M,2003-03-17,La Romana,La Romana,Regular,2021-02-12
+2367,Natalia,Mendez,F,2003-03-18,Puerto Plata,Puerto Plata,Regular,2021-02-11
+2368,Andres,Vargas,M,2003-03-19,San Cristobal,San Cristobal,Regular,2021-02-10
+2369,Sofia,Cruz,F,2003-03-20,La Vega,La Vega,Regular,2021-02-09
+2370,Luis,Sanchez,M,2003-03-27,San Cristobal,San Cristobal,Regular,2021-02-02
+2371,Ana,Ramirez,,2003-03-28,La Vega,La Vega,Regular,2021-02-01
+2372,Jose,Torres,M,2003-03-29,Santiago,Santiago,Regular,2021-01-31
+2373,Maria,Diaz,F,2003-03-30,Santo Domingo Este,Santo Domingo,Regular,2021-01-30
+2374,Javier,Reyes,M,2003-03-31,Santo Domingo,Distrito Nacional,Regular,2021-01-29
+2375,Paola,Gomez,F,2003-04-01,Higuey,La Altagracia,Regular,2021-01-28
+2376,Pedro,Castillo,M,2003-04-02,La Romana,La Romana,Regular,2021-01-27
+2377,Natalia,Mendez,F,2003-04-03,Puerto Plata,Puerto Plata,Regular,2021-01-26
+2378,Andres,Vargas,M,2003-04-04,San Cristobal,San Cristobal,Regular,2021-01-25
+2379,Sofia,Cruz,F,2003-04-05,La Vega,La Vega,Regular,2021-01-24
+2380,Luis,Sanchez,M,2003-04-12,San Cristobal,San Cristobal,Regular,2021-01-17
+2381,Ana,Ramirez,F,2003-04-13,La Vega,La Vega,Regular,2021-01-16
+2382,Jose,Torres,M,2003-04-14,Santiago,Santiago,Regular,2021-01-15
+2383,Maria,Diaz,F,2003-04-15,Santo Domingo Este,Santo Domingo,Regular,2021-01-14
+2384,Javier,Reyes,M,2003-04-16,Santo Domingo,Distrito Nacional,Regular,2021-01-13
+2385,Paola,Gomez,F,2003-04-17,Higuey,La Altagracia,Regular,2021-01-12
+2386,Pedro,Castillo,,2003-04-18,La Romana,La Romana,Regular,2021-01-11
+2387,Natalia,Mendez,F,2003-04-19,Puerto Plata,Puerto Plata,Regular,2021-01-10
+2388,Andres,Vargas,M,2003-04-20,San Cristobal,San Cristobal,Regular,2021-01-09
+2389,Sofia,Cruz,F,2003-04-21,La Vega,La Vega,Regular,2021-01-08
+2390,Luis,Sanchez,M,2003-04-28,San Cristobal,San Cristobal,Regular,2021-01-01
+2391,Ana,Ramirez,F,2003-04-29,La Vega,La Vega,Regular,2022-12-31
+2392,Jose,Torres,M,2003-04-30,Santiago,Santiago,Regular,2022-12-30
+2393,Maria,Diaz,F,2003-05-01,Santo Domingo Este,Santo Domingo,Regular,2022-12-29
+2394,Javier,Reyes,M,2003-05-02,Santo Domingo,Distrito Nacional,Regular,2022-12-28
+2395,Paola,Gomez,,2003-05-03,Higuey,La Altagracia,Regular,2022-12-27
+2396,Pedro,Castillo,M,2003-05-04,La Romana,La Romana,Regular,2022-12-26
+2397,Natalia,Mendez,F,2003-05-05,Puerto Plata,Puerto Plata,Regular,2022-12-25
+2398,Andres,Vargas,M,2003-05-06,San Cristobal,San Cristobal,Regular,2022-12-24
+2399,Sofia,Cruz,F,2003-05-07,La Vega,La Vega,Regular,2022-12-23
+2400,Luis,Sanchez,M,1993-02-11,San Cristobal,San Cristobal,Regular,2021-03-20
+2401,Ana,Ramirez,F,1993-02-12,La Vega,La Vega,Regular,2021-03-19
+2402,Jose,Torres,,1993-02-13,Santiago,Santiago,Regular,2021-03-18
+2403,Maria,Diaz,F,1993-02-14,Santo Domingo Este,Santo Domingo,Regular,2021-03-17
+2404,Javier,Reyes,M,1993-02-15,Santo Domingo,Distrito Nacional,Regular,2021-03-16
+2405,Paola,Gomez,F,1993-02-16,Higuey,La Altagracia,Regular,2021-03-15
+2406,Pedro,Castillo,M,1993-02-17,La Romana,La Romana,Regular,2021-03-14
+2407,Natalia,Mendez,F,1993-02-18,Puerto Plata,Puerto Plata,Regular,2021-03-13
+2408,Andres,Vargas,M,1993-02-19,San Cristobal,San Cristobal,Regular,2021-03-12
+2409,Sofia,Cruz,F,1993-02-20,La Vega,La Vega,Regular,2021-03-11
+2410,Luis,Sanchez,M,1993-02-27,San Cristobal,San Cristobal,Regular,2021-03-04
+2411,Ana,Ramirez,,1993-02-28,La Vega,La Vega,Regular,2021-03-03
+2412,Jose,Torres,M,1993-03-01,Santiago,Santiago,Regular,2021-03-02
+2413,Maria,Diaz,F,1993-03-02,Santo Domingo Este,Santo Domingo,Regular,2021-03-01
+2414,Javier,Reyes,M,1993-03-03,Santo Domingo,Distrito Nacional,Regular,2021-02-28
+2415,Paola,Gomez,F,1993-03-04,Higuey,La Altagracia,Regular,2021-02-27
+2416,Pedro,Castillo,M,1993-03-05,La Romana,La Romana,Regular,2021-02-26
+2417,Natalia,Mendez,F,1993-03-06,Puerto Plata,Puerto Plata,Regular,2021-02-25
+2418,Andres,Vargas,M,1993-03-07,San Cristobal,San Cristobal,Regular,2021-02-24
+2419,Sofia,Cruz,F,1993-03-08,La Vega,La Vega,Regular,2021-02-23
+2420,Luis,Sanchez,M,1993-03-15,San Cristobal,San Cristobal,Regular,2021-02-16
+2421,Ana,Ramirez,F,1993-03-16,La Vega,La Vega,Regular,2021-02-15
+2422,Jose,Torres,M,1993-03-17,Santiago,Santiago,Regular,2021-02-14
+2423,Maria,Diaz,F,1993-03-18,Santo Domingo Este,Santo Domingo,Regular,2021-02-13
+2424,Javier,Reyes,M,1993-03-19,Santo Domingo,Distrito Nacional,Regular,2021-02-12
+2425,Paola,Gomez,F,1993-03-20,Higuey,La Altagracia,Regular,2021-02-11
+2426,Pedro,Castillo,,1993-03-21,La Romana,La Romana,Regular,2021-02-10
+2427,Natalia,Mendez,F,1993-03-22,Puerto Plata,Puerto Plata,Regular,2021-02-09
+2428,Andres,Vargas,M,1993-03-23,San Cristobal,San Cristobal,Regular,2021-02-08
+2429,Sofia,Cruz,F,1993-03-24,La Vega,La Vega,Regular,2021-02-07
+2430,Luis,Sanchez,M,1993-03-31,San Cristobal,San Cristobal,Preferente,2021-01-31
+2431,Ana,Ramirez,F,1993-04-01,La Vega,La Vega,Preferente,2021-01-30
+2432,Jose,Torres,M,1993-04-02,Santiago,Santiago,Preferente,2021-01-29
+2433,Maria,Diaz,F,1993-04-03,Santo Domingo Este,Santo Domingo,Preferente,2021-01-28
+2434,Javier,Reyes,M,1993-04-04,Santo Domingo,Distrito Nacional,Preferente,2021-01-27
+2435,Paola,Gomez,,1993-04-05,Higuey,La Altagracia,Preferente,2021-01-26
+2436,Pedro,Castillo,M,1993-04-06,La Romana,La Romana,Preferente,2021-01-25
+2437,Natalia,Mendez,F,1993-04-07,Puerto Plata,Puerto Plata,Preferente,2021-01-24
+2438,Andres,Vargas,M,1993-04-08,San Cristobal,San Cristobal,Preferente,2021-01-23
+2439,Sofia,Cruz,F,1993-04-09,La Vega,La Vega,Preferente,2021-01-22
+2440,Luis,Sanchez,M,1992-08-03,San Cristobal,San Cristobal,Regular,2021-09-28
+2441,Ana,Ramirez,F,1992-08-04,La Vega,La Vega,Regular,2021-09-27
+2442,Jose,Torres,M,1992-08-05,Santiago,Santiago,Regular,2021-09-26
+2443,Maria,Diaz,F,1992-08-06,Santo Domingo Este,Santo Domingo,Regular,2021-09-25
+2444,Javier,Reyes,M,1992-08-07,Santo Domingo,Distrito Nacional,Regular,2021-09-24
+2445,Paola,Gomez,,1992-08-08,Higuey,La Altagracia,Regular,2021-09-23
+2446,Pedro,Castillo,M,1992-08-09,La Romana,La Romana,Regular,2021-09-22
+2447,Natalia,Mendez,F,1992-08-10,Puerto Plata,Puerto Plata,Regular,2021-09-21
+2448,Andres,Vargas,M,1992-08-11,San Cristobal,San Cristobal,Regular,2021-09-20
+2449,Sofia,Cruz,F,1992-08-12,La Vega,La Vega,Regular,2021-09-19
+2450,Luis,Sanchez,M,1992-08-19,San Cristobal,San Cristobal,Regular,2021-09-12
+2451,Ana,Ramirez,F,1992-08-20,La Vega,La Vega,Regular,2021-09-11
+2452,Jose,Torres,M,1992-08-21,Santiago,Santiago,Regular,2021-09-10
+2453,Maria,Diaz,F,1992-08-22,Santo Domingo Este,Santo Domingo,Regular,2021-09-09
+2454,Javier,Reyes,M,1992-08-23,Santo Domingo,Distrito Nacional,Regular,2021-09-08
+2455,Paola,Gomez,F,1992-08-24,Higuey,La Altagracia,Regular,2021-09-07
+2456,Pedro,Castillo,M,1992-08-25,La Romana,La Romana,Regular,2021-09-06
+2457,Natalia,Mendez,F,1992-08-26,Puerto Plata,Puerto Plata,Regular,2021-09-05
+2458,Andres,Vargas,M,1992-08-27,San Cristobal,San Cristobal,Regular,2021-09-04
+2459,Sofia,Cruz,,1992-08-28,La Vega,La Vega,Regular,2021-09-03
+2460,Luis,Sanchez,M,1992-09-04,San Cristobal,San Cristobal,Regular,2021-08-27
+2461,Ana,Ramirez,F,1992-09-05,La Vega,La Vega,Regular,2021-08-26
+2462,Jose,Torres,,1992-09-06,Santiago,Santiago,Regular,2021-08-25
+2463,Maria,Diaz,F,1992-09-07,Santo Domingo Este,Santo Domingo,Regular,2021-08-24
+2464,Javier,Reyes,M,1992-09-08,Santo Domingo,Distrito Nacional,Regular,2021-08-23
+2465,Paola,Gomez,F,1992-09-09,Higuey,La Altagracia,Regular,2021-08-22
+2466,Pedro,Castillo,M,1992-09-10,La Romana,La Romana,Regular,2021-08-21
+2467,Natalia,Mendez,F,1992-09-11,Puerto Plata,Puerto Plata,Preferente,2021-08-20
+2468,Andres,Vargas,M,1992-09-12,San Cristobal,San Cristobal,Preferente,2021-08-19
+2469,Sofia,Cruz,F,1992-09-13,La Vega,La Vega,Preferente,2021-08-18
+2470,Luis,Sanchez,M,1992-09-20,San Cristobal,San Cristobal,Preferente,2021-08-11
+2471,Ana,Ramirez,,1992-09-21,La Vega,La Vega,Preferente,2021-08-10
+2472,Jose,Torres,M,1992-09-22,Santiago,Santiago,Preferente,2021-08-09
+2473,Maria,Diaz,F,1992-09-23,Santo Domingo Este,Santo Domingo,Preferente,2021-08-08
+2474,Javier,Reyes,M,1992-09-24,Santo Domingo,Distrito Nacional,Preferente,2021-08-07
+2475,Paola,Gomez,F,1992-09-25,Higuey,La Altagracia,Preferente,2021-08-06
+2476,Pedro,Castillo,M,1992-09-26,La Romana,La Romana,Preferente,2021-08-05
+2477,Natalia,Mendez,F,1992-09-27,Puerto Plata,Puerto Plata,Preferente,2021-08-04
+2478,Andres,Vargas,M,1992-09-28,San Cristobal,San Cristobal,Preferente,2021-08-03
+2479,Sofia,Cruz,F,1992-09-29,La Vega,La Vega,Preferente,2021-08-02
+2480,Luis,Sanchez,M,1992-10-06,San Cristobal,San Cristobal,Preferente,2021-07-26
+2481,Ana,Ramirez,F,1992-10-07,La Vega,La Vega,Corporativo,2021-07-25
+2482,Jose,Torres,M,1992-10-08,Santiago,Santiago,Corporativo,2021-07-24
+2483,Maria,Diaz,F,1992-10-09,Santo Domingo Este,Santo Domingo,Corporativo,2021-07-23
+2484,Javier,Reyes,M,1992-10-10,Santo Domingo,Distrito Nacional,Corporativo,2021-07-22
+2485,Paola,Gomez,F,1992-10-11,Higuey,La Altagracia,Corporativo,2021-07-21
+2486,Pedro,Castillo,,1992-10-12,La Romana,La Romana,Corporativo,2021-07-20
+2487,Natalia,Mendez,F,1992-10-13,Puerto Plata,Puerto Plata,Corporativo,2021-07-19
+2488,Andres,Vargas,M,1992-10-14,San Cristobal,San Cristobal,Corporativo,2021-07-18
+2489,Sofia,Cruz,F,1992-10-15,La Vega,La Vega,Corporativo,2021-07-17
+2490,Luis,Sanchez,M,1992-10-22,San Cristobal,San Cristobal,Regular,2021-07-10
+2491,Ana,Ramirez,F,1992-10-23,La Vega,La Vega,Regular,2021-07-09
+2492,Jose,Torres,M,1992-10-24,Santiago,Santiago,Regular,2021-07-08
+2493,Maria,Diaz,F,1992-10-25,Santo Domingo Este,Santo Domingo,Regular,2021-07-07
+2494,Javier,Reyes,M,1992-10-26,Santo Domingo,Distrito Nacional,Regular,2021-07-06
+2495,Paola,Gomez,,1992-10-27,Higuey,La Altagracia,Regular,2021-07-05
+2496,Pedro,Castillo,M,1992-10-28,La Romana,La Romana,Regular,2021-07-04
+2497,Natalia,Mendez,F,1992-10-29,Puerto Plata,Puerto Plata,Regular,2021-07-03
+2498,Andres,Vargas,M,1992-10-30,San Cristobal,San Cristobal,Regular,2021-07-02
+2499,Sofia,Cruz,F,1992-10-31,La Vega,La Vega,Regular,2021-07-01
+2500,Luis,Sanchez,M,1993-10-25,San Cristobal,San Cristobal,Preferente,2022-07-07

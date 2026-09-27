@@ -1,0 +1,16 @@
+PromocionID,NombrePromocion,FechaInicio,FechaFin,PorcentajeDto,CanalPromocion
+1,San Valentin 2023,2023-02-01,2023-02-14,10.00,Todos
+2,Madres 2023,2023-05-15,2023-05-31,12.00,Todos
+3,Regreso a clases 2023,2023-08-01,2023-08-31,15.00,Todos
+4,Black Friday 2023,2023-11-20,2023-11-30,20.00,Todos
+5,San Valentin 2024,2024-02-01,2024-02-14,10.00,Todos
+6,Madres 2024,2024-05-15,2024-05-31,12.00,Todos
+7,Regreso a clases 2024,2024-08-01,2024-08-31,15.00,Todos
+8,Black Friday 2024,2024-11-20,2024-11-30,20.00,Todos
+9,San Valentin 2025,2025-02-01,2025-02-14,10.00,Todos
+10,Madres 2025,2025-05-15,2025-05-31,12.00,Todos
+11,Regreso a clases 2025,2025-08-01,2025-08-31,15.00,Todos
+12,Black Friday 2025,2025-11-20,2025-11-30,20.00,Todos
+13,San Valentin 2026,2026-02-01,2026-02-14,10.00,Todos
+14,Madres 2026,2026-05-15,2026-05-31,12.00,Todos
+15,Regreso a clases 2026,2026-08-01,2026-08-31,15.00,Todos

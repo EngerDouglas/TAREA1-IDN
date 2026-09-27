@@ -1,0 +1,251 @@
+﻿Activo,Categoria,CostoUnitario,FechaLanzamiento,Marca,NombreProducto,PaisProveedor,PrecioLista,ProductoID,ProductoKey,Proveedor,RangoPrecio,SKU
+1,Alimentos y bebidas,1064.3,8/27/2020,Nativo,Producto 001,Panama,1330.38,1,1,Proveedor 18,Medio,SKU-0001
+1,Cuidado personal,1064.4,8/26/2020,Horizonte,Producto 002,Republica Dominicana,1383.72,2,2,Proveedor 19,Medio,SKU-0002
+1,Hogar y limpieza,1064.5,8/25/2020,Nova,Producto 003,Mexico,1437.08,3,3,Proveedor 20,Medio,SKU-0003
+1,Electrodomesticos,1064.6,8/24/2020,Prisma,Producto 004,Espana,1490.44,4,4,Proveedor 05,Medio,SKU-0004
+1,Tecnologia,1064.7,8/23/2020,Origen,Producto 005,Panama,1543.82,5,5,Proveedor 06,Premium,SKU-0005
+1,Papeleria,1064.8,8/22/2020,Lumen,Producto 006,Republica Dominicana,1597.2,6,6,Proveedor 07,Premium,SKU-0006
+1,Deportes,1064.9,8/21/2020,Cumbre,Producto 007,Mexico,1650.6,7,7,Proveedor 08,Premium,SKU-0007
+1,Moda,1065,8/20/2020,Arena,Producto 008,Republica Dominicana,1704,8,8,Proveedor 01,Premium,SKU-0008
+1,Mascotas,1065.1,8/19/2020,Verde,Producto 009,Mexico,1278.12,9,9,Proveedor 02,Medio,SKU-0009
+1,Bebes,317,1/27/2022,Altura,Producto 010,Republica Dominicana,396.25,10,10,Proveedor 19,Economico,SKU-0010
+1,Alimentos y bebidas,317.1,1/26/2022,Brisa,Producto 011,Mexico,412.23,11,11,Proveedor 20,Economico,SKU-0011
+1,Cuidado personal,317.2,1/29/2022,Atlas,Producto 012,Espana,428.22,12,12,Proveedor 17,Economico,SKU-0012
+1,Hogar y limpieza,317.3,1/28/2022,Verde,Producto 013,Panama,444.22,13,13,Proveedor 18,Economico,SKU-0013
+1,Electrodomesticos,317.4,1/15/2022,Arena,Producto 014,Republica Dominicana,460.23,14,14,Proveedor 07,Economico,SKU-0014
+1,Tecnologia,317.5,1/14/2022,Cumbre,Producto 015,Mexico,476.25,15,15,Proveedor 08,Economico,SKU-0015
+1,Papeleria,317.6,1/17/2022,Lumen,Producto 016,Espana,492.28,16,16,Proveedor 05,Economico,SKU-0016
+1,Deportes,317.7,1/16/2022,Origen,Producto 017,Panama,508.32,17,17,Proveedor 06,Economico,SKU-0017
+1,Moda,317.8,1/19/2022,Prisma,Producto 018,Colombia,381.36,18,18,Proveedor 03,Economico,SKU-0018
+1,Mascotas,317.9,1/18/2022,Nova,Producto 019,Estados Unidos,397.38,19,19,Proveedor 04,Economico,SKU-0019
+1,Bebes,318.6,2/12/2022,Arena,Producto 020,Espana,414.18,20,20,Proveedor 11,Economico,SKU-0020
+1,Alimentos y bebidas,318.7,2/11/2022,Cumbre,Producto 021,Panama,430.25,21,21,Proveedor 12,Economico,SKU-0021
+1,Cuidado personal,318.8,2/14/2022,Lumen,Producto 022,Colombia,446.32,22,22,Proveedor 09,Economico,SKU-0022
+0,Hogar y limpieza,318.9,2/13/2022,Origen,Producto 023,Estados Unidos,462.41,23,23,Proveedor 10,Economico,SKU-0023
+1,Electrodomesticos,319,1/31/2022,Prisma,Producto 024,Espana,478.5,24,24,Proveedor 23,Economico,SKU-0024
+1,Tecnologia,319.1,1/30/2022,Nova,Producto 025,Panama,494.61,25,25,Proveedor 24,Economico,SKU-0025
+1,Papeleria,319.2,2/2/2022,Horizonte,Producto 026,Colombia,510.72,26,26,Proveedor 21,Economico,SKU-0026
+1,Deportes,319.3,2/1/2022,Nativo,Producto 027,Estados Unidos,383.16,27,27,Proveedor 22,Economico,SKU-0027
+1,Moda,319.4,2/4/2022,Altura,Producto 028,Republica Dominicana,399.25,28,28,Proveedor 19,Economico,SKU-0028
+1,Mascotas,319.5,2/3/2022,Brisa,Producto 029,Mexico,415.35,29,29,Proveedor 20,Economico,SKU-0029
+1,Bebes,320.2,2/28/2022,Prisma,Producto 030,Colombia,432.27,30,30,Proveedor 03,Economico,SKU-0030
+1,Alimentos y bebidas,320.3,2/27/2022,Nova,Producto 031,Estados Unidos,448.42,31,31,Proveedor 04,Economico,SKU-0031
+1,Cuidado personal,320.4,3/2/2022,Horizonte,Producto 032,Republica Dominicana,464.58,32,32,Proveedor 01,Economico,SKU-0032
+1,Hogar y limpieza,320.5,3/1/2022,Nativo,Producto 033,Mexico,480.75,33,33,Proveedor 02,Economico,SKU-0033
+1,Electrodomesticos,320.6,2/16/2022,Altura,Producto 034,Colombia,496.93,34,34,Proveedor 15,Economico,SKU-0034
+1,Tecnologia,320.7,2/15/2022,Brisa,Producto 035,Estados Unidos,513.12,35,35,Proveedor 16,Economico,SKU-0035
+1,Papeleria,320.8,2/18/2022,Atlas,Producto 036,Republica Dominicana,384.96,36,36,Proveedor 13,Economico,SKU-0036
+1,Deportes,320.9,2/17/2022,Verde,Producto 037,Mexico,401.13,37,37,Proveedor 14,Economico,SKU-0037
+1,Moda,321,2/20/2022,Arena,Producto 038,Espana,417.3,38,38,Proveedor 11,Economico,SKU-0038
+1,Mascotas,321.1,2/19/2022,Cumbre,Producto 039,Panama,433.49,39,39,Proveedor 12,Economico,SKU-0039
+1,Bebes,296.2,7/3/2021,Prisma,Producto 040,Espana,414.68,40,40,Proveedor 11,Economico,SKU-0040
+1,Alimentos y bebidas,296.3,7/2/2021,Nova,Producto 041,Panama,429.64,41,41,Proveedor 12,Economico,SKU-0041
+1,Cuidado personal,296.4,7/5/2021,Horizonte,Producto 042,Colombia,444.6,42,42,Proveedor 09,Economico,SKU-0042
+1,Hogar y limpieza,296.5,7/4/2021,Nativo,Producto 043,Estados Unidos,459.58,43,43,Proveedor 10,Economico,SKU-0043
+1,Electrodomesticos,296.6,6/21/2021,Altura,Producto 044,Espana,474.56,44,44,Proveedor 23,Economico,SKU-0044
+1,Tecnologia,296.7,6/20/2021,Brisa,Producto 045,Panama,356.04,45,45,Proveedor 24,Economico,SKU-0045
+0,Papeleria,296.8,6/23/2021,Atlas,Producto 046,Colombia,371,46,46,Proveedor 21,Economico,SKU-0046
+1,Deportes,296.9,6/22/2021,Verde,Producto 047,Estados Unidos,385.97,47,47,Proveedor 22,Economico,SKU-0047
+1,Moda,297,6/25/2021,Arena,Producto 048,Republica Dominicana,400.95,48,48,Proveedor 19,Economico,SKU-0048
+1,Mascotas,297.1,6/24/2021,Cumbre,Producto 049,Mexico,415.94,49,49,Proveedor 20,Economico,SKU-0049
+1,Bebes,297.8,7/19/2021,Altura,Producto 050,Colombia,431.81,50,50,Proveedor 03,Economico,SKU-0050
+1,Alimentos y bebidas,297.9,7/18/2021,Brisa,Producto 051,Estados Unidos,446.85,51,51,Proveedor 04,Economico,SKU-0051
+1,Cuidado personal,298,7/21/2021,Atlas,Producto 052,Republica Dominicana,461.9,52,52,Proveedor 01,Economico,SKU-0052
+1,Hogar y limpieza,298.1,7/20/2021,Verde,Producto 053,Mexico,476.96,53,53,Proveedor 02,Economico,SKU-0053
+1,Electrodomesticos,298.2,7/7/2021,Arena,Producto 054,Colombia,357.84,54,54,Proveedor 15,Economico,SKU-0054
+1,Tecnologia,298.3,7/6/2021,Cumbre,Producto 055,Estados Unidos,372.88,55,55,Proveedor 16,Economico,SKU-0055
+1,Papeleria,298.4,7/9/2021,Lumen,Producto 056,Republica Dominicana,387.92,56,56,Proveedor 13,Economico,SKU-0056
+1,Deportes,298.5,7/8/2021,Origen,Producto 057,Mexico,402.98,57,57,Proveedor 14,Economico,SKU-0057
+1,Moda,298.6,7/11/2021,Prisma,Producto 058,Espana,418.04,58,58,Proveedor 11,Economico,SKU-0058
+1,Mascotas,298.7,7/10/2021,Nova,Producto 059,Panama,433.12,59,59,Proveedor 12,Economico,SKU-0059
+1,Bebes,299.4,8/4/2021,Arena,Producto 060,Republica Dominicana,449.1,60,60,Proveedor 19,Economico,SKU-0060
+1,Alimentos y bebidas,299.5,8/3/2021,Cumbre,Producto 061,Mexico,464.23,61,61,Proveedor 20,Economico,SKU-0061
+1,Cuidado personal,299.6,8/6/2021,Lumen,Producto 062,Espana,479.36,62,62,Proveedor 17,Economico,SKU-0062
+1,Hogar y limpieza,299.7,8/5/2021,Origen,Producto 063,Panama,359.64,63,63,Proveedor 18,Economico,SKU-0063
+1,Electrodomesticos,299.8,7/23/2021,Prisma,Producto 064,Republica Dominicana,374.75,64,64,Proveedor 07,Economico,SKU-0064
+1,Tecnologia,299.9,7/22/2021,Nova,Producto 065,Mexico,389.87,65,65,Proveedor 08,Economico,SKU-0065
+1,Papeleria,300,7/25/2021,Horizonte,Producto 066,Espana,405,66,66,Proveedor 05,Economico,SKU-0066
+1,Deportes,300.1,7/24/2021,Nativo,Producto 067,Panama,420.14,67,67,Proveedor 06,Economico,SKU-0067
+1,Moda,300.2,7/27/2021,Altura,Producto 068,Colombia,435.29,68,68,Proveedor 03,Economico,SKU-0068
+0,Mascotas,300.3,7/26/2021,Brisa,Producto 069,Estados Unidos,450.45,69,69,Proveedor 04,Economico,SKU-0069
+1,Bebes,301,8/20/2021,Prisma,Producto 070,Espana,466.55,70,70,Proveedor 11,Economico,SKU-0070
+1,Alimentos y bebidas,301.1,8/19/2021,Nova,Producto 071,Panama,481.76,71,71,Proveedor 12,Economico,SKU-0071
+1,Cuidado personal,301.2,8/22/2021,Horizonte,Producto 072,Colombia,361.44,72,72,Proveedor 09,Economico,SKU-0072
+1,Hogar y limpieza,301.3,8/21/2021,Nativo,Producto 073,Estados Unidos,376.63,73,73,Proveedor 10,Economico,SKU-0073
+1,Electrodomesticos,301.4,8/8/2021,Altura,Producto 074,Espana,391.82,74,74,Proveedor 23,Economico,SKU-0074
+1,Tecnologia,301.5,8/7/2021,Brisa,Producto 075,Panama,407.03,75,75,Proveedor 24,Economico,SKU-0075
+1,Papeleria,301.6,8/10/2021,Atlas,Producto 076,Colombia,422.24,76,76,Proveedor 21,Economico,SKU-0076
+1,Deportes,301.7,8/9/2021,Verde,Producto 077,Estados Unidos,437.47,77,77,Proveedor 22,Economico,SKU-0077
+1,Moda,301.8,8/12/2021,Arena,Producto 078,Republica Dominicana,452.7,78,78,Proveedor 19,Economico,SKU-0078
+1,Mascotas,301.9,8/11/2021,Cumbre,Producto 079,Mexico,467.95,79,79,Proveedor 20,Economico,SKU-0079
+1,Bebes,302.6,9/5/2021,Altura,Producto 080,Republica Dominicana,484.16,80,80,Proveedor 19,Economico,SKU-0080
+1,Alimentos y bebidas,302.7,9/4/2021,Brisa,Producto 081,Mexico,363.24,81,81,Proveedor 20,Economico,SKU-0081
+1,Cuidado personal,302.8,9/7/2021,Atlas,Producto 082,Espana,378.5,82,82,Proveedor 17,Economico,SKU-0082
+1,Hogar y limpieza,302.9,9/6/2021,Verde,Producto 083,Panama,393.77,83,83,Proveedor 18,Economico,SKU-0083
+1,Electrodomesticos,303,8/24/2021,Arena,Producto 084,Republica Dominicana,409.05,84,84,Proveedor 07,Economico,SKU-0084
+1,Tecnologia,303.1,8/23/2021,Cumbre,Producto 085,Mexico,424.34,85,85,Proveedor 08,Economico,SKU-0085
+1,Papeleria,303.2,8/26/2021,Lumen,Producto 086,Espana,439.64,86,86,Proveedor 05,Economico,SKU-0086
+1,Deportes,303.3,8/25/2021,Origen,Producto 087,Panama,454.95,87,87,Proveedor 06,Economico,SKU-0087
+1,Moda,303.4,8/28/2021,Prisma,Producto 088,Colombia,470.27,88,88,Proveedor 03,Economico,SKU-0088
+1,Mascotas,303.5,8/27/2021,Nova,Producto 089,Estados Unidos,485.6,89,89,Proveedor 04,Economico,SKU-0089
+1,Bebes,304.2,9/21/2021,Arena,Producto 090,Espana,365.04,90,90,Proveedor 11,Economico,SKU-0090
+1,Alimentos y bebidas,304.3,9/20/2021,Cumbre,Producto 091,Panama,380.38,91,91,Proveedor 12,Economico,SKU-0091
+0,Cuidado personal,304.4,9/23/2021,Lumen,Producto 092,Colombia,395.72,92,92,Proveedor 09,Economico,SKU-0092
+1,Hogar y limpieza,304.5,9/22/2021,Origen,Producto 093,Estados Unidos,411.08,93,93,Proveedor 10,Economico,SKU-0093
+1,Electrodomesticos,304.6,9/9/2021,Prisma,Producto 094,Espana,426.44,94,94,Proveedor 23,Economico,SKU-0094
+1,Tecnologia,304.7,9/8/2021,Nova,Producto 095,Panama,441.82,95,95,Proveedor 24,Economico,SKU-0095
+1,Papeleria,304.8,9/11/2021,Horizonte,Producto 096,Colombia,457.2,96,96,Proveedor 21,Economico,SKU-0096
+1,Deportes,304.9,9/10/2021,Nativo,Producto 097,Estados Unidos,472.6,97,97,Proveedor 22,Economico,SKU-0097
+1,Moda,305,9/13/2021,Altura,Producto 098,Republica Dominicana,488,98,98,Proveedor 19,Economico,SKU-0098
+1,Mascotas,305.1,9/12/2021,Brisa,Producto 099,Mexico,366.12,99,99,Proveedor 20,Economico,SKU-0099
+1,Bebes,1439.4,3/22/2020,Nativo,Producto 100,Republica Dominicana,1799.25,100,100,Proveedor 07,Premium,SKU-0100
+1,Alimentos y bebidas,1439.3,3/21/2020,Altura,Producto 101,Panama,1871.09,101,101,Proveedor 06,Premium,SKU-0101
+1,Cuidado personal,1439.2,3/24/2020,Nova,Producto 102,Colombia,1942.92,102,102,Proveedor 09,Premium,SKU-0102
+1,Hogar y limpieza,1439.1,3/23/2020,Horizonte,Producto 103,Mexico,2014.74,103,103,Proveedor 08,Premium,SKU-0103
+1,Electrodomesticos,1439,3/26/2020,Nativo,Producto 104,Republica Dominicana,2086.55,104,104,Proveedor 19,Premium,SKU-0104
+1,Tecnologia,1438.9,3/25/2020,Altura,Producto 105,Panama,2158.35,105,105,Proveedor 18,Premium,SKU-0105
+1,Papeleria,1438.8,3/28/2020,Nova,Producto 106,Colombia,2230.14,106,106,Proveedor 21,Premium,SKU-0106
+1,Deportes,1438.7,3/27/2020,Horizonte,Producto 107,Mexico,2301.92,107,107,Proveedor 20,Premium,SKU-0107
+1,Moda,1438.6,3/30/2020,Origen,Producto 108,Espana,1726.32,108,108,Proveedor 23,Premium,SKU-0108
+1,Mascotas,1438.5,3/29/2020,Prisma,Producto 109,Estados Unidos,1798.13,109,109,Proveedor 22,Premium,SKU-0109
+1,Bebes,1437.8,3/6/2020,Origen,Producto 110,Colombia,1869.14,110,110,Proveedor 15,Premium,SKU-0110
+1,Alimentos y bebidas,1437.7,3/5/2020,Prisma,Producto 111,Mexico,1940.9,111,111,Proveedor 14,Premium,SKU-0111
+1,Cuidado personal,1437.6,3/8/2020,Cumbre,Producto 112,Espana,2012.64,112,112,Proveedor 17,Premium,SKU-0112
+1,Hogar y limpieza,1437.5,3/7/2020,Lumen,Producto 113,Estados Unidos,2084.38,113,113,Proveedor 16,Premium,SKU-0113
+1,Electrodomesticos,1437.4,3/10/2020,Origen,Producto 114,Colombia,2156.1,114,114,Proveedor 03,Premium,SKU-0114
+0,Tecnologia,1437.3,3/9/2020,Prisma,Producto 115,Mexico,2227.82,115,115,Proveedor 02,Premium,SKU-0115
+1,Papeleria,1437.2,3/12/2020,Cumbre,Producto 116,Espana,2299.52,116,116,Proveedor 05,Premium,SKU-0116
+1,Deportes,1437.1,3/11/2020,Lumen,Producto 117,Estados Unidos,1724.52,117,117,Proveedor 04,Premium,SKU-0117
+1,Moda,1437,3/14/2020,Verde,Producto 118,Republica Dominicana,1796.25,118,118,Proveedor 07,Premium,SKU-0118
+1,Mascotas,1436.9,3/13/2020,Arena,Producto 119,Panama,1867.97,119,119,Proveedor 06,Premium,SKU-0119
+1,Bebes,1436.2,4/23/2020,Verde,Producto 120,Colombia,1938.87,120,120,Proveedor 15,Premium,SKU-0120
+1,Alimentos y bebidas,1436.1,4/22/2020,Arena,Producto 121,Mexico,2010.54,121,121,Proveedor 14,Premium,SKU-0121
+1,Cuidado personal,1436,4/25/2020,Brisa,Producto 122,Espana,2082.2,122,122,Proveedor 17,Premium,SKU-0122
+1,Hogar y limpieza,1435.9,4/24/2020,Atlas,Producto 123,Estados Unidos,2153.85,123,123,Proveedor 16,Premium,SKU-0123
+1,Electrodomesticos,1435.8,4/27/2020,Verde,Producto 124,Colombia,2225.49,124,124,Proveedor 03,Premium,SKU-0124
+1,Tecnologia,1435.7,4/26/2020,Arena,Producto 125,Mexico,2297.12,125,125,Proveedor 02,Premium,SKU-0125
+1,Papeleria,1435.6,4/29/2020,Brisa,Producto 126,Espana,1722.72,126,126,Proveedor 05,Premium,SKU-0126
+1,Deportes,1435.5,4/28/2020,Atlas,Producto 127,Estados Unidos,1794.38,127,127,Proveedor 04,Premium,SKU-0127
+1,Moda,1435.4,5/1/2020,Nativo,Producto 128,Republica Dominicana,1866.02,128,128,Proveedor 07,Premium,SKU-0128
+1,Mascotas,1435.3,4/30/2020,Altura,Producto 129,Panama,1937.66,129,129,Proveedor 06,Premium,SKU-0129
+1,Bebes,1434.6,4/7/2020,Nativo,Producto 130,Espana,2008.44,130,130,Proveedor 23,Premium,SKU-0130
+1,Alimentos y bebidas,1434.5,4/6/2020,Altura,Producto 131,Estados Unidos,2080.03,131,131,Proveedor 22,Premium,SKU-0131
+1,Cuidado personal,1434.4,4/9/2020,Nova,Producto 132,Republica Dominicana,2151.6,132,132,Proveedor 01,Premium,SKU-0132
+1,Hogar y limpieza,1434.3,4/8/2020,Horizonte,Producto 133,Panama,2223.17,133,133,Proveedor 24,Premium,SKU-0133
+1,Electrodomesticos,1434.2,4/11/2020,Nativo,Producto 134,Espana,2294.72,134,134,Proveedor 11,Premium,SKU-0134
+1,Tecnologia,1434.1,4/10/2020,Altura,Producto 135,Estados Unidos,1720.92,135,135,Proveedor 10,Premium,SKU-0135
+1,Papeleria,1434,4/13/2020,Nova,Producto 136,Republica Dominicana,1792.5,136,136,Proveedor 13,Premium,SKU-0136
+1,Deportes,1433.9,4/12/2020,Horizonte,Producto 137,Panama,1864.07,137,137,Proveedor 12,Premium,SKU-0137
+0,Moda,1433.8,4/15/2020,Origen,Producto 138,Colombia,1935.63,138,138,Proveedor 15,Premium,SKU-0138
+1,Mascotas,1433.7,4/14/2020,Prisma,Producto 139,Mexico,2007.18,139,139,Proveedor 14,Premium,SKU-0139
+1,Bebes,1458.6,5/25/2020,Nativo,Producto 140,Espana,2114.97,140,140,Proveedor 23,Premium,SKU-0140
+1,Alimentos y bebidas,1458.5,5/24/2020,Altura,Producto 141,Estados Unidos,2187.75,141,141,Proveedor 22,Premium,SKU-0141
+1,Cuidado personal,1458.4,5/27/2020,Nova,Producto 142,Republica Dominicana,2260.52,142,142,Proveedor 01,Premium,SKU-0142
+1,Hogar y limpieza,1458.3,5/26/2020,Horizonte,Producto 143,Panama,2333.28,143,143,Proveedor 24,Premium,SKU-0143
+1,Electrodomesticos,1458.2,5/29/2020,Nativo,Producto 144,Espana,1749.84,144,144,Proveedor 11,Premium,SKU-0144
+1,Tecnologia,1458.1,5/28/2020,Altura,Producto 145,Estados Unidos,1822.63,145,145,Proveedor 10,Premium,SKU-0145
+1,Papeleria,1458,5/31/2020,Nova,Producto 146,Republica Dominicana,1895.4,146,146,Proveedor 13,Premium,SKU-0146
+1,Deportes,1457.9,5/30/2020,Horizonte,Producto 147,Panama,1968.17,147,147,Proveedor 12,Premium,SKU-0147
+1,Moda,1457.8,6/2/2020,Origen,Producto 148,Colombia,2040.92,148,148,Proveedor 15,Premium,SKU-0148
+1,Mascotas,1457.7,6/1/2020,Prisma,Producto 149,Mexico,2113.67,149,149,Proveedor 14,Premium,SKU-0149
+1,Bebes,1457,5/9/2020,Origen,Producto 150,Republica Dominicana,2185.5,150,150,Proveedor 07,Premium,SKU-0150
+1,Alimentos y bebidas,1456.9,5/8/2020,Prisma,Producto 151,Panama,2258.2,151,151,Proveedor 06,Premium,SKU-0151
+1,Cuidado personal,1456.8,5/11/2020,Cumbre,Producto 152,Colombia,2330.88,152,152,Proveedor 09,Premium,SKU-0152
+1,Hogar y limpieza,1456.7,5/10/2020,Lumen,Producto 153,Mexico,1748.04,153,153,Proveedor 08,Premium,SKU-0153
+1,Electrodomesticos,1456.6,5/13/2020,Origen,Producto 154,Republica Dominicana,1820.75,154,154,Proveedor 19,Premium,SKU-0154
+1,Tecnologia,1456.5,5/12/2020,Prisma,Producto 155,Panama,1893.45,155,155,Proveedor 18,Premium,SKU-0155
+1,Papeleria,1456.4,5/15/2020,Cumbre,Producto 156,Colombia,1966.14,156,156,Proveedor 21,Premium,SKU-0156
+1,Deportes,1456.3,5/14/2020,Lumen,Producto 157,Mexico,2038.82,157,157,Proveedor 20,Premium,SKU-0157
+1,Moda,1456.2,5/17/2020,Verde,Producto 158,Espana,2111.49,158,158,Proveedor 23,Premium,SKU-0158
+1,Mascotas,1456.1,5/16/2020,Arena,Producto 159,Estados Unidos,2184.15,159,159,Proveedor 22,Premium,SKU-0159
+1,Bebes,1455.4,6/26/2020,Verde,Producto 160,Republica Dominicana,2255.87,160,160,Proveedor 07,Premium,SKU-0160
+0,Alimentos y bebidas,1455.3,6/25/2020,Arena,Producto 161,Panama,2328.48,161,161,Proveedor 06,Premium,SKU-0161
+1,Cuidado personal,1455.2,6/28/2020,Brisa,Producto 162,Colombia,1746.24,162,162,Proveedor 09,Premium,SKU-0162
+1,Hogar y limpieza,1455.1,6/27/2020,Atlas,Producto 163,Mexico,1818.88,163,163,Proveedor 08,Premium,SKU-0163
+1,Electrodomesticos,1455,6/30/2020,Verde,Producto 164,Republica Dominicana,1891.5,164,164,Proveedor 19,Premium,SKU-0164
+1,Tecnologia,1454.9,6/29/2020,Arena,Producto 165,Panama,1964.12,165,165,Proveedor 18,Premium,SKU-0165
+1,Papeleria,1454.8,7/2/2020,Brisa,Producto 166,Colombia,2036.72,166,166,Proveedor 21,Premium,SKU-0166
+1,Deportes,1454.7,7/1/2020,Atlas,Producto 167,Mexico,2109.32,167,167,Proveedor 20,Premium,SKU-0167
+1,Moda,1454.6,7/4/2020,Nativo,Producto 168,Espana,2181.9,168,168,Proveedor 23,Premium,SKU-0168
+1,Mascotas,1454.5,7/3/2020,Altura,Producto 169,Estados Unidos,2254.48,169,169,Proveedor 22,Premium,SKU-0169
+1,Bebes,1453.8,6/10/2020,Nativo,Producto 170,Colombia,2326.08,170,170,Proveedor 15,Premium,SKU-0170
+1,Alimentos y bebidas,1453.7,6/9/2020,Altura,Producto 171,Mexico,1744.44,171,171,Proveedor 14,Premium,SKU-0171
+1,Cuidado personal,1453.6,6/12/2020,Nova,Producto 172,Espana,1817,172,172,Proveedor 17,Premium,SKU-0172
+1,Hogar y limpieza,1453.5,6/11/2020,Horizonte,Producto 173,Estados Unidos,1889.55,173,173,Proveedor 16,Premium,SKU-0173
+1,Electrodomesticos,1453.4,6/14/2020,Nativo,Producto 174,Colombia,1962.09,174,174,Proveedor 03,Premium,SKU-0174
+1,Tecnologia,1453.3,6/13/2020,Altura,Producto 175,Mexico,2034.62,175,175,Proveedor 02,Premium,SKU-0175
+1,Papeleria,1453.2,6/16/2020,Nova,Producto 176,Espana,2107.14,176,176,Proveedor 05,Premium,SKU-0176
+1,Deportes,1453.1,6/15/2020,Horizonte,Producto 177,Estados Unidos,2179.65,177,177,Proveedor 04,Premium,SKU-0177
+1,Moda,1453,6/18/2020,Origen,Producto 178,Republica Dominicana,2252.15,178,178,Proveedor 07,Premium,SKU-0178
+1,Mascotas,1452.9,6/17/2020,Prisma,Producto 179,Panama,2324.64,179,179,Proveedor 06,Premium,SKU-0179
+1,Bebes,1452.2,7/28/2020,Origen,Producto 180,Colombia,1742.64,180,180,Proveedor 15,Premium,SKU-0180
+1,Alimentos y bebidas,1452.1,7/27/2020,Prisma,Producto 181,Mexico,1815.13,181,181,Proveedor 14,Premium,SKU-0181
+1,Cuidado personal,1452,7/30/2020,Cumbre,Producto 182,Espana,1887.6,182,182,Proveedor 17,Premium,SKU-0182
+1,Hogar y limpieza,1451.9,7/29/2020,Lumen,Producto 183,Estados Unidos,1960.07,183,183,Proveedor 16,Premium,SKU-0183
+0,Electrodomesticos,1451.8,8/1/2020,Origen,Producto 184,Colombia,2032.52,184,184,Proveedor 03,Premium,SKU-0184
+1,Tecnologia,1451.7,7/31/2020,Prisma,Producto 185,Mexico,2104.97,185,185,Proveedor 02,Premium,SKU-0185
+1,Papeleria,1451.6,8/3/2020,Cumbre,Producto 186,Espana,2177.4,186,186,Proveedor 05,Premium,SKU-0186
+1,Deportes,1451.5,8/2/2020,Lumen,Producto 187,Estados Unidos,2249.83,187,187,Proveedor 04,Premium,SKU-0187
+1,Moda,1451.4,8/5/2020,Verde,Producto 188,Republica Dominicana,2322.24,188,188,Proveedor 07,Premium,SKU-0188
+1,Mascotas,1451.3,8/4/2020,Arena,Producto 189,Panama,1741.56,189,189,Proveedor 06,Premium,SKU-0189
+1,Bebes,1450.6,7/12/2020,Verde,Producto 190,Espana,1813.25,190,190,Proveedor 23,Premium,SKU-0190
+1,Alimentos y bebidas,1450.5,7/11/2020,Arena,Producto 191,Estados Unidos,1885.65,191,191,Proveedor 22,Premium,SKU-0191
+1,Cuidado personal,1450.4,7/14/2020,Brisa,Producto 192,Republica Dominicana,1958.04,192,192,Proveedor 01,Premium,SKU-0192
+1,Hogar y limpieza,1450.3,7/13/2020,Atlas,Producto 193,Panama,2030.42,193,193,Proveedor 24,Premium,SKU-0193
+1,Electrodomesticos,1450.2,7/16/2020,Verde,Producto 194,Espana,2102.79,194,194,Proveedor 11,Premium,SKU-0194
+1,Tecnologia,1450.1,7/15/2020,Arena,Producto 195,Estados Unidos,2175.15,195,195,Proveedor 10,Premium,SKU-0195
+1,Papeleria,1450,7/18/2020,Brisa,Producto 196,Republica Dominicana,2247.5,196,196,Proveedor 13,Premium,SKU-0196
+1,Deportes,1449.9,7/17/2020,Atlas,Producto 197,Panama,2319.84,197,197,Proveedor 12,Premium,SKU-0197
+1,Moda,1449.8,7/20/2020,Nativo,Producto 198,Colombia,1739.76,198,198,Proveedor 15,Premium,SKU-0198
+1,Mascotas,1449.7,7/19/2020,Altura,Producto 199,Mexico,1812.13,199,199,Proveedor 14,Premium,SKU-0199
+1,Bebes,1413.8,12/3/2020,Origen,Producto 200,Colombia,1837.94,200,200,Proveedor 15,Premium,SKU-0200
+1,Alimentos y bebidas,1413.7,12/2/2020,Prisma,Producto 201,Mexico,1908.5,201,201,Proveedor 14,Premium,SKU-0201
+1,Cuidado personal,1413.6,12/5/2020,Cumbre,Producto 202,Espana,1979.04,202,202,Proveedor 17,Premium,SKU-0202
+1,Hogar y limpieza,1413.5,12/4/2020,Lumen,Producto 203,Estados Unidos,2049.58,203,203,Proveedor 16,Premium,SKU-0203
+1,Electrodomesticos,1413.4,12/7/2020,Origen,Producto 204,Colombia,2120.1,204,204,Proveedor 03,Premium,SKU-0204
+1,Tecnologia,1413.3,12/6/2020,Prisma,Producto 205,Mexico,2190.62,205,205,Proveedor 02,Premium,SKU-0205
+1,Papeleria,1413.2,12/9/2020,Cumbre,Producto 206,Espana,2261.12,206,206,Proveedor 05,Premium,SKU-0206
+0,Deportes,1413.1,12/8/2020,Lumen,Producto 207,Estados Unidos,1695.72,207,207,Proveedor 04,Premium,SKU-0207
+1,Moda,1413,12/11/2020,Verde,Producto 208,Republica Dominicana,1766.25,208,208,Proveedor 07,Premium,SKU-0208
+1,Mascotas,1412.9,12/10/2020,Arena,Producto 209,Panama,1836.77,209,209,Proveedor 06,Premium,SKU-0209
+1,Bebes,1412.2,11/17/2020,Verde,Producto 210,Espana,1906.47,210,210,Proveedor 23,Premium,SKU-0210
+1,Alimentos y bebidas,1412.1,11/16/2020,Arena,Producto 211,Estados Unidos,1976.94,211,211,Proveedor 22,Premium,SKU-0211
+1,Cuidado personal,1412,11/19/2020,Brisa,Producto 212,Republica Dominicana,2047.4,212,212,Proveedor 01,Premium,SKU-0212
+1,Hogar y limpieza,1411.9,11/18/2020,Atlas,Producto 213,Panama,2117.85,213,213,Proveedor 24,Premium,SKU-0213
+1,Electrodomesticos,1411.8,11/21/2020,Verde,Producto 214,Espana,2188.29,214,214,Proveedor 11,Premium,SKU-0214
+1,Tecnologia,1411.7,11/20/2020,Arena,Producto 215,Estados Unidos,2258.72,215,215,Proveedor 10,Premium,SKU-0215
+1,Papeleria,1411.6,11/23/2020,Brisa,Producto 216,Republica Dominicana,1693.92,216,216,Proveedor 13,Premium,SKU-0216
+1,Deportes,1411.5,11/22/2020,Atlas,Producto 217,Panama,1764.38,217,217,Proveedor 12,Premium,SKU-0217
+1,Moda,1411.4,11/25/2020,Nativo,Producto 218,Colombia,1834.82,218,218,Proveedor 15,Premium,SKU-0218
+1,Mascotas,1411.3,11/24/2020,Altura,Producto 219,Mexico,1905.26,219,219,Proveedor 14,Premium,SKU-0219
+1,Bebes,1410.6,1/4/2021,Nativo,Producto 220,Espana,1974.84,220,220,Proveedor 23,Premium,SKU-0220
+1,Alimentos y bebidas,1410.5,1/3/2021,Altura,Producto 221,Estados Unidos,2045.23,221,221,Proveedor 22,Premium,SKU-0221
+1,Cuidado personal,1410.4,1/6/2021,Nova,Producto 222,Republica Dominicana,2115.6,222,222,Proveedor 01,Premium,SKU-0222
+1,Hogar y limpieza,1410.3,1/5/2021,Horizonte,Producto 223,Panama,2185.97,223,223,Proveedor 24,Premium,SKU-0223
+1,Electrodomesticos,1410.2,1/8/2021,Nativo,Producto 224,Espana,2256.32,224,224,Proveedor 11,Premium,SKU-0224
+1,Tecnologia,1410.1,1/7/2021,Altura,Producto 225,Estados Unidos,1692.12,225,225,Proveedor 10,Premium,SKU-0225
+1,Papeleria,1410,1/10/2021,Nova,Producto 226,Republica Dominicana,1762.5,226,226,Proveedor 13,Premium,SKU-0226
+1,Deportes,1409.9,1/9/2021,Horizonte,Producto 227,Panama,1832.87,227,227,Proveedor 12,Premium,SKU-0227
+1,Moda,1409.8,1/12/2021,Origen,Producto 228,Colombia,1903.23,228,228,Proveedor 15,Premium,SKU-0228
+1,Mascotas,1409.7,1/11/2021,Prisma,Producto 229,Mexico,1973.58,229,229,Proveedor 14,Premium,SKU-0229
+0,Bebes,1409,12/19/2020,Origen,Producto 230,Republica Dominicana,2043.05,230,230,Proveedor 07,Premium,SKU-0230
+1,Alimentos y bebidas,1408.9,12/18/2020,Prisma,Producto 231,Panama,2113.35,231,231,Proveedor 06,Premium,SKU-0231
+1,Cuidado personal,1408.8,12/21/2020,Cumbre,Producto 232,Colombia,2183.64,232,232,Proveedor 09,Premium,SKU-0232
+1,Hogar y limpieza,1408.7,12/20/2020,Lumen,Producto 233,Mexico,2253.92,233,233,Proveedor 08,Premium,SKU-0233
+1,Electrodomesticos,1408.6,12/23/2020,Origen,Producto 234,Republica Dominicana,1690.32,234,234,Proveedor 19,Premium,SKU-0234
+1,Tecnologia,1408.5,12/22/2020,Prisma,Producto 235,Panama,1760.63,235,235,Proveedor 18,Premium,SKU-0235
+1,Papeleria,1408.4,12/25/2020,Cumbre,Producto 236,Colombia,1830.92,236,236,Proveedor 21,Premium,SKU-0236
+1,Deportes,1408.3,12/24/2020,Lumen,Producto 237,Mexico,1901.21,237,237,Proveedor 20,Premium,SKU-0237
+1,Moda,1408.2,12/27/2020,Verde,Producto 238,Espana,1971.48,238,238,Proveedor 23,Premium,SKU-0238
+1,Mascotas,1408.1,12/26/2020,Arena,Producto 239,Estados Unidos,2041.75,239,239,Proveedor 22,Premium,SKU-0239
+1,Bebes,1433,2/5/2021,Origen,Producto 240,Republica Dominicana,2149.5,240,240,Proveedor 07,Premium,SKU-0240
+1,Alimentos y bebidas,1432.9,2/4/2021,Prisma,Producto 241,Panama,2221,241,241,Proveedor 06,Premium,SKU-0241
+1,Cuidado personal,1432.8,2/7/2021,Cumbre,Producto 242,Colombia,2292.48,242,242,Proveedor 09,Premium,SKU-0242
+1,Hogar y limpieza,1432.7,2/6/2021,Lumen,Producto 243,Mexico,1719.24,243,243,Proveedor 08,Premium,SKU-0243
+1,Electrodomesticos,1432.6,2/9/2021,Origen,Producto 244,Republica Dominicana,1790.75,244,244,Proveedor 19,Premium,SKU-0244
+1,Tecnologia,1432.5,2/8/2021,Prisma,Producto 245,Panama,1862.25,245,245,Proveedor 18,Premium,SKU-0245
+1,Papeleria,1432.4,2/11/2021,Cumbre,Producto 246,Colombia,1933.74,246,246,Proveedor 21,Premium,SKU-0246
+1,Deportes,1432.3,2/10/2021,Lumen,Producto 247,Mexico,2005.22,247,247,Proveedor 20,Premium,SKU-0247
+1,Moda,1432.2,2/13/2021,Verde,Producto 248,Espana,2076.69,248,248,Proveedor 23,Premium,SKU-0248
+1,Mascotas,1432.1,2/12/2021,Arena,Producto 249,Estados Unidos,2148.15,249,249,Proveedor 22,Premium,SKU-0249
+1,Bebes,1431.4,1/20/2021,Verde,Producto 250,Colombia,2218.67,250,250,Proveedor 15,Premium,SKU-0250

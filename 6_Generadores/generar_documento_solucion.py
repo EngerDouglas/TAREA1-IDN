@@ -8,7 +8,6 @@ Requisitos: pip install python-docx; LibreOffice (soffice) y poppler (pdftotext)
 Uso:    python3 generar_documento_solucion.py
 Salida: 3_Informes/Practica1_Documento_Solucion.docx y .pdf
 """
-import ntpath
 import os
 import re
 import shutil
@@ -345,11 +344,9 @@ def escribir(inf):
       "que lee únicamente del Data Warehouse. Es el recorrido habitual de una solución de BI, que va de la "
       "integración de los datos a su análisis [2]. La Figura 1 lo resume.")
     figura(os.path.join(FIG, "arquitectura.png"), "Arquitectura de la solución, desde la base operacional hasta el dashboard.")
-    p("Este documento incluye todos los elementos de la solución. El script completo que crea el Data "
-      "Warehouse está en el Anexo A y el script de carga en el Anexo B. El detalle del flujo de Tableau Prep, "
-      "paso por paso y con cada cálculo, está en el Anexo C, y las consultas y los campos calculados del "
-      "dashboard están en el Anexo D. Las secciones 6 y 8 muestran el flujo y el dashboard tal como se ven en "
-      "Tableau.")
+    p("En las secciones siguientes se describe cada etapa en ese mismo orden. La sección 5 explica el script "
+      "del Data Warehouse (DW_Retail.sql) y el de carga (Cargar_DW.sql), y las secciones 6 y 8 muestran el "
+      "flujo de Tableau Prep y el dashboard tal como se ven en Tableau.")
 
     # 2
     h1("2. Descripción general de la fuente de datos")
@@ -536,7 +533,7 @@ def escribir(inf):
     p("La Figura 2 muestra el esquema estrella de FactVentas con sus seis dimensiones. OrdenID se guarda en "
       "el hecho como dimensión degenerada, porque identifica la orden pero no tiene atributos propios que "
       "justifiquen una tabla aparte.")
-    figura(os.path.join(FIG, "estrella.png"), "Esquema estrella de FactVentas.", 12.0)
+    figura(os.path.join(FIG, "estrella.png"), "Esquema estrella de FactVentas.", 15.0)
     p("El modelo se completa con dos hechos más, que no se pueden meter en FactVentas porque están a otro "
       "grano: FactDevoluciones, con una fila por devolución de una línea, y FactPagos, con una fila por pago "
       "de una orden. Los tres hechos comparten las dimensiones de fecha, cliente y tienda, lo que permite "
@@ -557,11 +554,6 @@ def escribir(inf):
       "desde la dimensión hacia el hecho. Los miembros con clave -1 evitan que queden hechos sin relación "
       "cuando el origen trae nulos.")
 
-    p("La Figura 3 muestra los esquemas de los otros dos hechos. FactDevoluciones comparte con FactVentas "
-      "las dimensiones de fecha, producto, cliente y tienda, y agrega el motivo de la devolución. FactPagos "
-      "comparte fecha, cliente, tienda y canal, y agrega el método de pago. En los dos casos DimFecha "
-      "representa una fecha distinta a la de la venta: la de la devolución y la del pago.")
-    figura(os.path.join(FIG, "otros_hechos.png"), "Esquemas de FactDevoluciones (izquierda) y FactPagos (derecha).", 14.5)
     h2("4.6 Relación entre preguntas, medidas y dimensiones")
     tabla("Trazabilidad entre preguntas, medidas y dimensiones.",
           ["Pregunta", "Medidas", "Dimensiones"], [
@@ -577,7 +569,7 @@ def escribir(inf):
 
     # 5
     h1("5. Implementación del Data Warehouse")
-    p("El modelo se implementó en SQL Server con el script DW_Retail.sql (Anexo A), que crea la base DW_Retail desde "
+    p("El modelo se implementó en SQL Server con el script DW_Retail.sql, que crea la base DW_Retail desde "
       "cero. Las ocho dimensiones tienen su clave subrogada como PRIMARY KEY y los tres hechos tienen una "
       "clave propia de tipo bigint tomada del identificador de la línea, la devolución o el pago del origen. "
       "En total hay 16 claves foráneas (6 en FactVentas, 5 en FactDevoluciones y 5 en FactPagos), de manera "
@@ -590,7 +582,7 @@ def escribir(inf):
       "2026, sin depender de los hechos. Antes de llenarla fijamos SET DATEFIRST 7, porque el número del día "
       "de la semana y de la semana del año dependen de esa configuración del servidor [4]. El script también "
       "inserta los miembros \"No identificado\" y \"Sin promoción\" con clave -1.")
-    p("La carga la hace Cargar_DW.sql (Anexo B), que lee los CSV que produce el flujo de Tableau Prep con BULK INSERT "
+    p("La carga la hace Cargar_DW.sql, que lee los CSV que produce el flujo de Tableau Prep con BULK INSERT "
       "[3]. Como Tableau Prep escribe las columnas en orden alfabético, los archivos se cargan primero en "
       "tablas temporales y de ahí se insertan en las definitivas con el tipo de dato correcto. Durante esta "
       "parte tuvimos que resolver algunos problemas que dependían de la computadora donde se ejecutaba:")
@@ -623,12 +615,11 @@ def escribir(inf):
 
     # 6
     h1("6. Proceso ETL en Tableau Prep")
-    p("El ETL se construyó en Tableau Prep Builder 2026.2 (Figura 4). El flujo tiene 40 nodos: 10 entradas, "
+    p("El ETL se construyó en Tableau Prep Builder 2026.2 (Figura 3). El flujo tiene 40 nodos: 10 entradas, "
       "una por cada tabla extraída del origen; 11 pasos de limpieza; 6 uniones; 3 agregaciones y 10 salidas, "
       "una por cada tabla del Data Warehouse. Las salidas se escriben como CSV en la carpeta CSV_salida y de "
       "ahí las carga Cargar_DW.sql. Guardamos el flujo también como flujo empaquetado (.tflx), que lleva los "
-      "archivos de entrada dentro y se puede abrir en otra computadora sin cambiar rutas [7]. En el Anexo C "
-      "están todos los pasos con sus cálculos.")
+      "archivos de entrada dentro y se puede abrir en otra computadora sin cambiar rutas [7].")
     p("El flujo se puede leer en tres bloques. Arriba están las dimensiones de catálogo: DimProducto une "
       "Producto con Categoria y con Proveedor, y DimCliente, DimTienda y DimPromocion limpian cada tabla por "
       "separado. En el medio están las dimensiones que salen de los datos transaccionales: DimCanal, "
@@ -728,7 +719,7 @@ def escribir(inf):
       "Sus datos salen únicamente de DW_Retail: las consultas de Consultas_Dashboard.sql unen cada hecho con "
       "sus dimensiones y el resultado se guardó como un extracto de Tableau que va dentro del libro [5]. Así "
       "el libro se puede abrir en cualquier computadora con Tableau sin conectarse al servidor, y ningún dato "
-      "viene de la base operacional. Las consultas y los campos calculados están en el Anexo D.")
+      "viene de la base operacional.")
     p("Cada tablero tiene filtros de año y categoría, y el primero también de canal. Los hicimos con "
       "parámetros de Tableau [8] porque un parámetro filtra al mismo tiempo las dos fuentes de datos del "
       "libro, y los aplicamos como filtro de contexto para que el ranking de productos se calcule dentro de lo "
@@ -769,7 +760,7 @@ def escribir(inf):
       "los proveedores 24 y 01 combinan márgenes por encima de 31% con devoluciones bajas.")
     figura(os.path.join(REPO, "7_Dashboard", "capturas", "Tablero_2_Filtro_Moda.png"),
            "El mismo tablero con el filtro de categoría en Moda.", 16.0)
-    p("La Figura 7 muestra la interacción. Al elegir Moda en el filtro de categoría, todas las vistas se "
+    p("La Figura 6 muestra la interacción. Al elegir Moda en el filtro de categoría, todas las vistas se "
       "recalculan: la tasa de devolución de la categoría (14.0%), el margen que pierde (35.9%), los diez "
       "productos de Moda con más reembolsos y los proveedores que la abastecen.")
 
@@ -860,98 +851,6 @@ def escribir(inf):
         par.paragraph_format.line_spacing = 1.15
         par.paragraph_format.space_after = Pt(6)
         texto_con_formato(par, "[%d]\t%s" % (i, r))
-
-    anexos(inf)
-
-
-def pasos_del_flujo():
-    """Lee el .tfl y devuelve (paso, tipo, detalle) en el orden del flujo."""
-    import json
-    import zipfile
-    flujo = json.loads(zipfile.ZipFile(os.path.join(REPO, "5_ETL", "ETL_DW_Retail.tfl")).read("flow"))
-    filas = []
-    for n in flujo["nodes"].values():
-        tipo = n["nodeType"].split(".")[-1]
-        nombre = n["name"]
-        if tipo == "LoadCsv":
-            campos = ", ".join(c["name"] for c in n["fields"])
-            filas.append((nombre, "Entrada", "Archivo %s.csv. Campos: %s" % (nombre, campos)))
-        elif tipo == "SuperJoin":
-            acc = n["actionNode"]
-            cond = " y ".join("%s = %s" % (c["leftExpression"], c["rightExpression"]) for c in acc["conditions"])
-            filas.append((nombre, "Unión", "Unión %s por %s" % ("interna" if acc["joinType"] == "inner" else acc["joinType"], cond)))
-        elif tipo == "SuperAggregate":
-            acc = n["actionNode"]
-            grupo = ", ".join(g["columnName"] for g in acc["groupByFields"])
-            filas.append((nombre, "Agregación", "Agrupa por %s para obtener los valores distintos" % grupo))
-        elif tipo == "Container":
-            for op in n["loomContainer"]["nodes"].values():
-                t = op["nodeType"].split(".")[-1]
-                if t == "AddColumn":
-                    det = "Campo %s = %s" % (op["columnName"], op["expression"])
-                elif t == "RenameColumn":
-                    det = "Renombra %s a %s" % (op["columnName"], op["rename"])
-                elif t == "RemoveColumns":
-                    det = "Quita las columnas %s" % ", ".join(op["columnNames"])
-                elif t == "FilterOperation":
-                    det = "Filtro: %s" % op["filterExpression"]
-                else:
-                    det = op.get("name", t)
-                filas.append((nombre, "Limpieza", det))
-        elif tipo == "WriteToCsv":
-            filas.append((nombre, "Salida", "Escribe %s" % ntpath.basename(n["csvOutputFile"])))
-    return filas
-
-
-def campos_del_dashboard():
-    import importlib.util
-    spec = importlib.util.spec_from_file_location("gd", os.path.join(BASE, "generar_dashboard.py"))
-    gd = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(gd)
-    filas = []
-    for fuente_datos, nombre in ((gd.VENTAS, "Ventas"), (gd.PRODUCTO, "RentabilidadProducto")):
-        for _, cap, _, _, _, formula, _ in fuente_datos.calculos:
-            filas.append((nombre, cap, formula))
-    return filas, gd.PARAMETROS
-
-
-def anexos(inf):
-    def leer(*ruta):
-        with open(os.path.join(REPO, *ruta), encoding="utf-8-sig") as f:
-            return f.read()
-
-    inf.salto()
-    inf.h1("Anexo A. Script de creación del Data Warehouse")
-    inf.p("Contenido completo de DW_Retail.sql. Crea la base DW_Retail con las ocho dimensiones, los tres "
-          "hechos, sus claves primarias y foráneas, restricciones e índices, llena DimFecha e inserta los "
-          "miembros con clave -1.")
-    inf.codigo(leer("4_Data_Warehouse", "DW_Retail.sql"))
-
-    inf.salto()
-    inf.h1("Anexo B. Script de carga del Data Warehouse")
-    inf.p("Contenido completo de Cargar_DW.sql. Se ejecuta en modo SQLCMD después de correr el flujo de "
-          "Tableau Prep y carga los diez archivos CSV en las tablas del Data Warehouse.")
-    inf.codigo(leer("4_Data_Warehouse", "Cargar_DW.sql"))
-
-    inf.salto()
-    inf.h1("Anexo C. Detalle del flujo ETL en Tableau Prep")
-    inf.p("Todos los pasos del flujo ETL_DW_Retail en el orden en que aparecen en Tableau Prep, con cada "
-          "operación y cada cálculo tal como están definidos en el flujo.")
-    inf.tabla("Pasos y operaciones del flujo ETL_DW_Retail.", ["Paso", "Tipo", "Operación"],
-              [list(f) for f in pasos_del_flujo()], [3.8, 2.2, 10.5], literal=True)
-
-    inf.salto()
-    inf.h1("Anexo D. Consultas y campos calculados del dashboard")
-    inf.p("Consultas de Consultas_Dashboard.sql. Se ejecutan sobre DW_Retail y su resultado forma las dos "
-          "tablas del extracto que usa el libro de Tableau.")
-    inf.codigo(leer("7_Dashboard", "Consultas_Dashboard.sql"))
-    filas, parametros = campos_del_dashboard()
-    inf.p("Campos calculados definidos en el libro de Tableau:")
-    inf.tabla("Campos calculados del dashboard.", ["Tabla del extracto", "Campo", "Fórmula"],
-              [list(f) for f in filas], [3.6, 4.2, 8.7], literal=True)
-    inf.p("Parámetros usados como filtros en los tableros:")
-    inf.tabla("Parámetros de los tableros.", ["Parámetro", "Valores"],
-              [[cap, ", ".join(valores)] for _, cap, _, valores in parametros], [3.0, 13.5])
 
 
 # ------------------------------------------------------------------ armado ----

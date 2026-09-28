@@ -311,18 +311,21 @@ def escribir(inf):
                                            inf.tabla, inf.figura)
 
     # Portada
-    c("Pontificia Universidad Católica Madre y Maestra", 16, True, antes=36)
+    logo = inf.doc.add_paragraph()
+    logo.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    logo.paragraph_format.space_after = Pt(18)
+    logo.add_run().add_picture(os.path.join(FIG, "logo_pucmm.png"), width=Cm(11.0))
     c("Facultad de Ciencias e Ingeniería", 12, despues=0)
     c("Escuela de Ingeniería en Computación y Telecomunicaciones", 12)
-    c("ICC-321-T Inteligencia de Negocios, Grupo 5227", 12, antes=40)
-    c("Práctica 1", 18, True, antes=70)
+    c("ICC-321-T Inteligencia de Negocios, Grupo 5227", 12, antes=30)
+    c("Práctica 1", 18, True, antes=55)
     c("Diseño e implementación de una solución de Inteligencia de Negocios", 15, True, antes=6)
-    c("Presentado por:", 12, True, antes=90)
+    c("Presentado por:", 12, True, antes=70)
     c("Elías De La Cruz Jiménez, 1015-5971", 12)
     c("Enger Douglas, 1014-4675", 12)
     c("Presentado a:", 12, True, antes=24)
     c("Prof. Lisibonny Beato", 12)
-    c("Santiago de los Caballeros, República Dominicana", 12, antes=80)
+    c("Santiago de los Caballeros, República Dominicana", 12, antes=60)
     c("27 de septiembre de 2026", 12)
     inf.salto()
 

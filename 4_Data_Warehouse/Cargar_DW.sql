@@ -1,6 +1,6 @@
 /*
 ===============================================================================
- ICC-321 Inteligencia de Negocios — Práctica 1
+ ICC-321 Inteligencia de Negocios, Práctica 1
  Carga del Data Warehouse con la salida del flujo de Tableau Prep
 
  Estudiantes: Elías De La Cruz Jiménez (ID 10155971), Enger Douglas (ID 10144675)

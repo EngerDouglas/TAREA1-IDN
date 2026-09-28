@@ -24,7 +24,7 @@ CONTENIDO DE LA CARPETA
     Practica1_Actividad1_Exploracion.pdf ... actividad 1: exploración de la fuente
     Practica1_Actividad2y3_Modelo.pdf ...... actividades 2 y 3: problema de
                                              decisión y modelo dimensional
-    Practica1_Documento_Solucion.pdf ....... entregable 1: documento de la
+    Practica1_Documento_Solucion.docx/.pdf . entregable 1: documento de la
                                              solución completo (actividades
                                              1 a 7 y decisiones de diseño)
 
@@ -35,6 +35,8 @@ CONTENIDO DE LA CARPETA
     Cargar_DW.sql ................. carga en el DW los CSV que produce el ETL
 
 5_ETL/
+    ETL_DW_Retail.tflx ............ actividad 5: flujo empaquetado con sus datos
+                                    de entrada (el que se entrega)
     ETL_DW_Retail.tfl ............. actividad 5: flujo de Tableau Prep
                                     (40 nodos, 10 entradas, 10 salidas)
     CSV_salida/ ................... tablas del DW generadas por el flujo

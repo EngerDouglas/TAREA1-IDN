@@ -517,10 +517,11 @@ def hojas_ventas():
         subtitulo="Largo de la barra: venta neta. Color y etiqueta: margen %.")
 
     h["Mensual"] = hoja(
-        "Mensual", v, "P5. Venta neta por mes", [ventam], [mes], "Area", [],
-        eje_titulo(ventam, "rows", "") + "\n" + eje_titulo(mes, "cols", ""),
-        etiquetas=False, color_marca=AZUL,
-        subtitulo="Órdenes completadas. La caída final se debe a que agosto de 2026 solo llega al día 15.")
+        "Mensual", v, "P5. Venta neta y margen por mes", [ventam], [mes], "Bar", [("color", margen)],
+        eje_titulo(ventam, "rows", "") + "\n" + eje_titulo(mes, "cols", "") + "\n"
+        + degradado(margen, "#f0d3c9", AZUL),
+        etiquetas=False,
+        subtitulo="Altura: venta neta. Color: margen % (más claro, menos margen). Agosto de 2026 llega hasta el día 15.")
 
     h["Promociones"] = hoja(
         "Promociones", v, "P2. Margen % según la campaña", [camp], [margen], "Bar",

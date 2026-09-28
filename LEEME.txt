@@ -16,7 +16,9 @@ CONTENIDO DE LA CARPETA
                                     palabra reservada de T-SQL (9 ocurrencias
                                     renombradas a LineaNo)
     CSV_origen/ ................... las 10 tablas del sistema operacional
-                                    extraídas a CSV (entrada del ETL)
+                                    extraídas a CSV (entrada del ETL). El
+                                    script genera datos distintos en cada
+                                    ejecución; la solución usa esta extracción
 
 3_Informes/
     Practica1_Actividad1_Exploracion.pdf ... actividad 1: exploración de la fuente
@@ -41,7 +43,8 @@ CONTENIDO DE LA CARPETA
     generar_actividad1.py ......... regenera el PDF de la actividad 1
     generar_actividad2y3.py ....... regenera el PDF de las actividades 2 y 3
     generar_documento_solucion.py . regenera el documento de la solución
-    generar_flujo_etl.py .......... regenera el flujo de Tableau Prep
+    generar_flujo_etl.py .......... regenera el flujo de Tableau Prep (con
+                                    RAIZ_WINDOWS escribe rutas de Windows)
     generar_extracto_dashboard.py . crea el extracto del dashboard desde DW_Retail
     generar_dashboard.py .......... regenera el libro de Tableau del dashboard
     _motor.py, _maestroMetadata ... archivos auxiliares de los generadores
@@ -61,8 +64,10 @@ ORDEN DE EJECUCIÓN
    (crea la base DW_Retail y carga la dimensión de tiempo).
 3. Abrir 5_ETL/ETL_DW_Retail.tfl en Tableau Prep y ejecutar el flujo
    (lee de 2_Fuente/CSV_origen y escribe en 5_ETL/CSV_salida).
-4. Ejecutar 4_Data_Warehouse/Cargar_DW.sql
-   (carga los CSV del paso anterior en las tablas del DW).
+4. Ejecutar 4_Data_Warehouse/Cargar_DW.sql en modo SQLCMD
+   (carga los CSV del paso anterior en las tablas del DW). Antes, ajustar la
+   línea :setvar RutaCSV a la carpeta de 5_ETL/CSV_salida vista desde el
+   servidor.
 5. Abrir 7_Dashboard/Dashboard_Retail.twbx en Tableau Desktop. Para
    actualizar sus datos después de recargar el DW, ejecutar
    6_Generadores/generar_extracto_dashboard.py y luego generar_dashboard.py.

@@ -1,0 +1,8 @@
+# Archivos del sistema
+.DS_Store
+
+# Salidas intermedias que se regeneran con 6_Generadores
+7_Dashboard/Dashboard_DW_Retail.hyper
+7_Dashboard/Dashboard_Retail.twb
+hyperd*.log
+__pycache__/

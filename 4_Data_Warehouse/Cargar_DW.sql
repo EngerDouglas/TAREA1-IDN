@@ -3,21 +3,32 @@
  ICC-321 Inteligencia de Negocios — Práctica 1
  Carga del Data Warehouse con la salida del flujo de Tableau Prep
 
- Estudiante: Enger Douglas (ID 10144675)
+ Estudiantes: Elías De La Cruz Jiménez (ID 10155971), Enger Douglas (ID 10144675)
 
  Requisito previo: haber ejecutado DW_Retail.sql (crea la base y DimFecha)
- y el flujo ETL_DW_Retail.tfl (genera los CSV en la carpeta salida_dw).
+ y el flujo ETL_DW_Retail.tfl (genera los CSV en 5_ETL/CSV_salida).
+
+ Se ejecuta en modo SQLCMD (sqlcmd, o SSMS con Consulta > Modo SQLCMD).
+ La variable RutaCSV indica la carpeta de los CSV vista desde el servidor,
+ terminada en separador; se cambia en la línea :setvar de abajo.
 
  Los CSV se cargan en tablas temporales de staging, porque Tableau Prep
  escribe las columnas en orden alfabético, y de ahí se insertan en las tablas
- definitivas con el tipo de dato correcto.
+ definitivas con el tipo de dato correcto. Tableau Prep en Windows termina las
+ líneas con CRLF y en macOS con LF; después de cada carga se quita el retorno
+ de carro que queda en la última columna, así el script sirve con ambos.
 ===============================================================================
 */
 
 USE DW_Retail;
 GO
 
+:setvar RutaCSV "/datos/"
+
 SET NOCOUNT ON;
+/* Tableau Prep escribe las fechas como mes/día/año; así se leen igual
+   sin importar el idioma configurado en el servidor. */
+SET DATEFORMAT mdy;
 
 /* Las tablas de hechos se vacían primero por las claves foráneas */
 DELETE FROM dbo.FactVentas;
@@ -40,8 +51,9 @@ CREATE TABLE #DimProducto (Activo varchar(10), Categoria varchar(80), CostoUnita
     FechaLanzamiento varchar(30), Marca varchar(60), NombreProducto varchar(120), PaisProveedor varchar(60),
     PrecioLista varchar(30), ProductoID varchar(20), ProductoKey varchar(20), Proveedor varchar(120),
     RangoPrecio varchar(20), SKU varchar(20));
-BULK INSERT #DimProducto FROM '/datos/DimProducto.csv'
+BULK INSERT #DimProducto FROM '$(RutaCSV)DimProducto.csv'
     WITH (FORMAT='CSV', FIRSTROW=2, FIELDTERMINATOR=',', ROWTERMINATOR='0x0a');
+UPDATE #DimProducto SET SKU = REPLACE(SKU, CHAR(13), '');
 INSERT INTO dbo.DimProducto (ProductoKey, ProductoID, SKU, NombreProducto, Marca, Categoria, Proveedor,
                              PaisProveedor, CostoUnitario, PrecioLista, RangoPrecio, FechaLanzamiento, Activo)
 SELECT CAST(ProductoKey AS int), CAST(ProductoID AS int), SKU, NombreProducto, Marca, Categoria, Proveedor,
@@ -51,8 +63,9 @@ FROM #DimProducto;
 
 CREATE TABLE #DimCliente (AnioRegistro varchar(10), Ciudad varchar(80), ClienteID varchar(20), ClienteKey varchar(20),
     GrupoEdad varchar(20), NombreCompleto varchar(130), Provincia varchar(80), Segmento varchar(30), Sexo varchar(20));
-BULK INSERT #DimCliente FROM '/datos/DimCliente.csv'
+BULK INSERT #DimCliente FROM '$(RutaCSV)DimCliente.csv'
     WITH (FORMAT='CSV', FIRSTROW=2, FIELDTERMINATOR=',', ROWTERMINATOR='0x0a');
+UPDATE #DimCliente SET Sexo = REPLACE(Sexo, CHAR(13), '');
 INSERT INTO dbo.DimCliente (ClienteKey, ClienteID, NombreCompleto, Sexo, GrupoEdad, Ciudad, Provincia, Segmento, AnioRegistro)
 SELECT CAST(ClienteKey AS int), CAST(ClienteID AS int), NombreCompleto, Sexo, GrupoEdad, Ciudad, Provincia,
        Segmento, CAST(NULLIF(AnioRegistro,'') AS smallint)
@@ -60,8 +73,9 @@ FROM #DimCliente;
 
 CREATE TABLE #DimTienda (AnioApertura varchar(10), Ciudad varchar(80), NombreTienda varchar(100),
     Provincia varchar(80), TiendaID varchar(20), TiendaKey varchar(20), TipoTienda varchar(30));
-BULK INSERT #DimTienda FROM '/datos/DimTienda.csv'
+BULK INSERT #DimTienda FROM '$(RutaCSV)DimTienda.csv'
     WITH (FORMAT='CSV', FIRSTROW=2, FIELDTERMINATOR=',', ROWTERMINATOR='0x0a');
+UPDATE #DimTienda SET TipoTienda = REPLACE(TipoTienda, CHAR(13), '');
 INSERT INTO dbo.DimTienda (TiendaKey, TiendaID, NombreTienda, Ciudad, Provincia, TipoTienda, AnioApertura)
 SELECT CAST(TiendaKey AS int), CAST(TiendaID AS int), NombreTienda, Ciudad, Provincia, TipoTienda,
        CAST(AnioApertura AS smallint)
@@ -69,26 +83,30 @@ FROM #DimTienda;
 
 CREATE TABLE #DimPromocion (CanalPromocion varchar(20), FechaFin varchar(30), FechaInicio varchar(30),
     NombrePromocion varchar(100), PorcentajeDto varchar(20), PromocionID varchar(20), PromocionKey varchar(20));
-BULK INSERT #DimPromocion FROM '/datos/DimPromocion.csv'
+BULK INSERT #DimPromocion FROM '$(RutaCSV)DimPromocion.csv'
     WITH (FORMAT='CSV', FIRSTROW=2, FIELDTERMINATOR=',', ROWTERMINATOR='0x0a');
+UPDATE #DimPromocion SET PromocionKey = REPLACE(PromocionKey, CHAR(13), '');
 INSERT INTO dbo.DimPromocion (PromocionKey, PromocionID, NombrePromocion, PorcentajeDto, CanalPromocion, FechaInicio, FechaFin)
 SELECT CAST(PromocionKey AS int), CAST(PromocionID AS int), NombrePromocion, CAST(PorcentajeDto AS decimal(5,2)),
        CanalPromocion, CAST(FechaInicio AS date), CAST(FechaFin AS date)
 FROM #DimPromocion;
 
 CREATE TABLE #DimCanal (CanalKey varchar(20), CanalVenta varchar(20));
-BULK INSERT #DimCanal FROM '/datos/DimCanal.csv'
+BULK INSERT #DimCanal FROM '$(RutaCSV)DimCanal.csv'
     WITH (FORMAT='CSV', FIRSTROW=2, FIELDTERMINATOR=',', ROWTERMINATOR='0x0a');
+UPDATE #DimCanal SET CanalVenta = REPLACE(CanalVenta, CHAR(13), '');
 INSERT INTO dbo.DimCanal (CanalKey, CanalVenta) SELECT CAST(CanalKey AS int), CanalVenta FROM #DimCanal;
 
 CREATE TABLE #DimMotivo (Motivo varchar(50), MotivoKey varchar(20));
-BULK INSERT #DimMotivo FROM '/datos/DimMotivoDevolucion.csv'
+BULK INSERT #DimMotivo FROM '$(RutaCSV)DimMotivoDevolucion.csv'
     WITH (FORMAT='CSV', FIRSTROW=2, FIELDTERMINATOR=',', ROWTERMINATOR='0x0a');
+UPDATE #DimMotivo SET MotivoKey = REPLACE(MotivoKey, CHAR(13), '');
 INSERT INTO dbo.DimMotivoDevolucion (MotivoKey, Motivo) SELECT CAST(MotivoKey AS int), Motivo FROM #DimMotivo;
 
 CREATE TABLE #DimMetodoPago (MetodoPago varchar(30), MetodoPagoKey varchar(20));
-BULK INSERT #DimMetodoPago FROM '/datos/DimMetodoPago.csv'
+BULK INSERT #DimMetodoPago FROM '$(RutaCSV)DimMetodoPago.csv'
     WITH (FORMAT='CSV', FIRSTROW=2, FIELDTERMINATOR=',', ROWTERMINATOR='0x0a');
+UPDATE #DimMetodoPago SET MetodoPagoKey = REPLACE(MetodoPagoKey, CHAR(13), '');
 INSERT INTO dbo.DimMetodoPago (MetodoPagoKey, MetodoPago) SELECT CAST(MetodoPagoKey AS int), MetodoPago FROM #DimMetodoPago;
 GO
 
@@ -100,8 +118,9 @@ CREATE TABLE #FactVentas (CanalKey varchar(20), CantidadVendida varchar(20), Cli
     CostoTotal varchar(30), DescuentoMonto varchar(30), FechaKey varchar(20), MargenBruto varchar(30),
     MontoBruto varchar(30), MontoNeto varchar(30), OrdenID varchar(20), PrecioUnitario varchar(30),
     ProductoKey varchar(20), PromocionKey varchar(20), TiendaKey varchar(20), VentaKey varchar(20));
-BULK INSERT #FactVentas FROM '/datos/FactVentas.csv'
+BULK INSERT #FactVentas FROM '$(RutaCSV)FactVentas.csv'
     WITH (FORMAT='CSV', FIRSTROW=2, FIELDTERMINATOR=',', ROWTERMINATOR='0x0a', BATCHSIZE=20000);
+UPDATE #FactVentas SET VentaKey = REPLACE(VentaKey, CHAR(13), '');
 INSERT INTO dbo.FactVentas (VentaKey, FechaKey, ProductoKey, ClienteKey, TiendaKey, PromocionKey, CanalKey,
                             OrdenID, CantidadVendida, PrecioUnitario, MontoBruto, DescuentoMonto, MontoNeto,
                             CostoTotal, MargenBruto)
@@ -115,8 +134,9 @@ FROM #FactVentas;
 CREATE TABLE #FactDevoluciones (CantidadDevuelta varchar(20), ClienteKey varchar(20), DetalleOrdenID varchar(20),
     DevolucionKey varchar(20), FechaKey varchar(20), MontoReembolso varchar(30), MotivoKey varchar(20),
     ProductoKey varchar(20), TiendaKey varchar(20));
-BULK INSERT #FactDevoluciones FROM '/datos/FactDevoluciones.csv'
+BULK INSERT #FactDevoluciones FROM '$(RutaCSV)FactDevoluciones.csv'
     WITH (FORMAT='CSV', FIRSTROW=2, FIELDTERMINATOR=',', ROWTERMINATOR='0x0a');
+UPDATE #FactDevoluciones SET TiendaKey = REPLACE(TiendaKey, CHAR(13), '');
 INSERT INTO dbo.FactDevoluciones (DevolucionKey, FechaKey, ProductoKey, ClienteKey, TiendaKey, MotivoKey,
                                   DetalleOrdenID, CantidadDevuelta, MontoReembolso)
 SELECT CAST(DevolucionKey AS bigint), CAST(FechaKey AS int), CAST(ProductoKey AS int), CAST(ClienteKey AS int),
@@ -126,8 +146,9 @@ FROM #FactDevoluciones;
 
 CREATE TABLE #FactPagos (CanalKey varchar(20), ClienteKey varchar(20), FechaKey varchar(20),
     MetodoPagoKey varchar(20), MontoPagado varchar(30), OrdenID varchar(20), PagoKey varchar(20), TiendaKey varchar(20));
-BULK INSERT #FactPagos FROM '/datos/FactPagos.csv'
+BULK INSERT #FactPagos FROM '$(RutaCSV)FactPagos.csv'
     WITH (FORMAT='CSV', FIRSTROW=2, FIELDTERMINATOR=',', ROWTERMINATOR='0x0a', BATCHSIZE=20000);
+UPDATE #FactPagos SET TiendaKey = REPLACE(TiendaKey, CHAR(13), '');
 INSERT INTO dbo.FactPagos (PagoKey, FechaKey, ClienteKey, TiendaKey, CanalKey, MetodoPagoKey, OrdenID, MontoPagado)
 SELECT CAST(PagoKey AS bigint), CAST(FechaKey AS int), CAST(ClienteKey AS int), CAST(TiendaKey AS int),
        CAST(CanalKey AS int), CAST(MetodoPagoKey AS int), CAST(OrdenID AS bigint), CAST(MontoPagado AS decimal(14,2))

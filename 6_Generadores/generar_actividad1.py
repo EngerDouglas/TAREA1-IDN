@@ -14,8 +14,7 @@ ESCUELA = "Escuela de Ingeniería en Computación y Telecomunicaciones"
 ASIGNATURA = "ICC-321 Inteligencia de Negocios"
 PRACTICA = "Práctica 1: Diseño e implementación de una solución de Inteligencia de Negocios"
 ENTREGA = "Actividad 1 — Exploración de la fuente de datos"
-ESTUDIANTE = "Enger Douglas"
-MATRICULA = "10144675"
+INTEGRANTES = [("Elías De La Cruz Jiménez", "10155971"), ("Enger Douglas", "10144675")]
 PROFESORA = "Lisibonny Beato"
 FECHA = "26 de septiembre de 2026"
 
@@ -226,7 +225,7 @@ tabla(["Indicador (órdenes completadas, 2023–2026)", "Valor"], [
 h3("Frentes de análisis identificados")
 tabla(["Frente", "Preguntas que la fuente permite responder"], [
     ["Rentabilidad", "¿Qué categorías, marcas o proveedores aportan más margen y no solo más ingresos? Papelería es la categoría de mayor venta neta (RD$ 38,7 millones) pero su margen es el más bajo del grupo líder (23,3 %), mientras Cuidado personal rinde 27,9 %."],
-    ["Devoluciones", "¿Qué productos y categorías concentran las devoluciones? La tasa media es de 6,7 % de las líneas, pero **Moda llega a 13,4 %** y Electrodomésticos a 9,6 %. Los motivos se reparten de forma pareja entre cinco causas."],
+    ["Devoluciones", "¿Qué productos y categorías concentran las devoluciones? La tasa media es de 6,7 % de todas las líneas del detalle (incluidas las de órdenes canceladas), pero **Moda llega a 13,4 %** y Electrodomésticos a 9,6 %. Los motivos se reparten de forma pareja entre cinco causas."],
     ["Canal y tienda", "¿Cómo se comparan tienda física, Web y App en ticket promedio y margen? ¿Qué tipo de tienda rinde mejor por sucursal?"],
     ["Promociones", "¿Las órdenes con promoción generan más volumen del que sacrifican en descuento? Solo una de cada cinco órdenes usa promoción, lo que permite comparar contra un grupo de control amplio."],
     ["Cliente", "¿Cómo se comportan los segmentos Regular, Preferente y Corporativo? ¿Qué provincias concentran la venta? Debe considerarse que el 8 % de las ventas no tiene cliente asociado."],
@@ -306,10 +305,10 @@ def render_html():
         "<div class='portada'><div class='univ'>%s<div class='escuela'>%s</div>"
         "<div class='asignatura'>%s</div></div>"
         "<div class='bloque'><div class='entrega'>%s</div><h1>%s</h1><div class='linea'></div></div>"
-        "<div class='datos'><div><b>Estudiante:</b> %s</div><div><b>ID:</b> %s</div>"
+        "<div class='datos'><div><b>Integrantes:</b></div>%s"
         "<div><b>Profesora:</b> %s</div><div><b>Fecha:</b> %s</div></div></div>"
         % (esc(UNIVERSIDAD), esc(ESCUELA), esc(ASIGNATURA), esc(ENTREGA), esc(PRACTICA),
-           esc(ESTUDIANTE), esc(MATRICULA), esc(PROFESORA), esc(FECHA)))
+           "".join("<div>%s (ID %s)</div>" % (esc(n), esc(i)) for n, i in INTEGRANTES), esc(PROFESORA), esc(FECHA)))
 
     for b in BLOQUES:
         k = b[0]
@@ -346,7 +345,9 @@ if __name__ == "__main__":
         h = os.path.join(tmp, "doc.html")
         with open(h, "w", encoding="utf-8") as f:
             f.write(render_html())
-        subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
+        import shutil
+        navegador = CHROME if os.path.exists(CHROME) else (os.environ.get("CHROME") or shutil.which("chromium"))
+        subprocess.run([navegador, "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
                         "--allow-file-access-from-files", "--print-to-pdf=" + pdf, "file://" + h],
                        check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     print("PDF:", pdf)

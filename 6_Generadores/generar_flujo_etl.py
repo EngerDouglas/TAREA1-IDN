@@ -2,15 +2,22 @@
 
 Uso:  python3 generar_flujo_etl.py [carpeta_salida] [archivo_tfl]
 
+Tableau Prep guarda rutas absolutas. Si Tableau Prep corre en Windows y el flujo se
+genera en otro sistema, la variable RAIZ_WINDOWS indica la carpeta de la tarea vista
+desde Windows (por ejemplo C:\\Users\\enger\\ICC321_Practica1) y las rutas se escriben así.
+
 Entradas : CSV extraídos del sistema operacional (carpeta origen/)
 Salidas  : un CSV por tabla del Data Warehouse (carpeta salida_dw/)
 """
-import json, os, sys, uuid, zipfile
+import json, ntpath, os, sys, uuid, zipfile
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 TAREA = os.path.dirname(BASE)
-ORIGEN = os.path.join(TAREA, "2_Fuente", "CSV_origen")
-SALIDA = sys.argv[1] if len(sys.argv) > 1 else os.path.join(TAREA, "5_ETL", "CSV_salida")
+RAIZ_WINDOWS = os.environ.get("RAIZ_WINDOWS")
+unir = ntpath.join if RAIZ_WINDOWS else os.path.join
+RAIZ = RAIZ_WINDOWS or TAREA
+ORIGEN = unir(RAIZ, "2_Fuente", "CSV_origen")
+SALIDA = sys.argv[1] if len(sys.argv) > 1 else unir(RAIZ, "5_ETL", "CSV_salida")
 TFL = sys.argv[2] if len(sys.argv) > 2 else os.path.join(TAREA, "5_ETL", "ETL_DW_Retail.tfl")
 META = os.path.join(BASE, "_maestroMetadata")
 
@@ -35,7 +42,7 @@ def link(a, b, ns="Default"):
 def entrada(nombre, archivo, campos):
     cid = nid()
     conns[cid] = {"connectionType": ".v1.SqlConnection", "id": cid, "name": archivo, "isPackaged": False,
-                  "connectionAttributes": {"filename": os.path.join(ORIGEN, archivo), "class": "textscan"}}
+                  "connectionAttributes": {"filename": unir(ORIGEN, archivo), "class": "textscan"}}
     n = base(".v1.LoadCsv", nombre, "input")
     n.update({"connectionId": cid, "connectionAttributes": {}, "fields": [fld(a, b) for a, b in campos],
               "actions": [], "debugModeRowLimit": 393216, "originalDataTypes": {}, "randomSampling": None,
@@ -111,7 +118,7 @@ def agregar(nombre, agrupar, agregados):
 
 def salida(nombre, archivo):
     n = base(".v1.WriteToCsv", nombre, "output")
-    n.update({"csvOutputFile": os.path.join(SALIDA, archivo), "separator": ","})
+    n.update({"csvOutputFile": unir(SALIDA, archivo), "separator": ","})
     return n
 
 
@@ -175,12 +182,17 @@ dim_cliente = paso("DimCliente", [
     calc("ClienteKey", "[ClienteID]", "Clave subrogada del cliente"),
     calc("NombreCompleto", '[Nombre] + " " + [Apellido]', "Unir nombre y apellido"),
     calc("Sexo", 'IFNULL([Sexo], "No especificado")', "Reemplazar sexo nulo"),
-    calc("GrupoEdad", ('IF DATEDIFF("year", [FechaNacimiento], TODAY()) < 30 THEN "Menor de 30" '
-                       'ELSEIF DATEDIFF("year", [FechaNacimiento], TODAY()) < 45 THEN "30 a 44" '
-                       'ELSEIF DATEDIFF("year", [FechaNacimiento], TODAY()) < 60 THEN "45 a 59" '
+    # La edad se mide a una fecha fija (la última venta del período) y descuenta el año
+    # si el cumpleaños todavía no ha llegado; así el grupo no cambia según el día en que corre el flujo.
+    calc("Edad", ('DATEDIFF("year", [FechaNacimiento], #2026-08-15#) - '
+                  'IIF(DATEADD("year", DATEDIFF("year", [FechaNacimiento], #2026-08-15#), [FechaNacimiento]) '
+                  '> #2026-08-15#, 1, 0)'), "Calcular la edad al 15 de agosto de 2026"),
+    calc("GrupoEdad", ('IF [Edad] < 30 THEN "Menor de 30" '
+                       'ELSEIF [Edad] < 45 THEN "30 a 44" '
+                       'ELSEIF [Edad] < 60 THEN "45 a 59" '
                        'ELSE "60 o mas" END'), "Derivar grupo de edad"),
     calc("AnioRegistro", "YEAR([FechaRegistro])", "Derivar año de registro"),
-    quitar(["Nombre", "Apellido", "FechaNacimiento", "FechaRegistro"]),
+    quitar(["Nombre", "Apellido", "FechaNacimiento", "FechaRegistro", "Edad"]),
 ])
 out_cliente = salida("Salida DimCliente", "DimCliente.csv")
 

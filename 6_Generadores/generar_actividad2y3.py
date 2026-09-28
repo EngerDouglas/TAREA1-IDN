@@ -17,6 +17,7 @@ PRACTICA = "Práctica 1: Diseño e implementación de una solución de Inteligen
 ENTREGA = "Actividades 2 y 3 — Problema de decisión y modelo dimensional"
 ESTUDIANTE = "Enger Douglas"
 MATRICULA = "10144675"
+INTEGRANTES = [("Elías De La Cruz Jiménez", "10155971"), ("Enger Douglas", "10144675")]
 PROFESORA = "Lisibonny Beato"
 FECHA = "27 de septiembre de 2026"
 
@@ -43,11 +44,11 @@ p("La exploración de la actividad 1 mostró un negocio estable en ingresos —e
   "no puede ver con sus reportes operacionales:")
 tabla(["Hallazgo", "Evidencia medida sobre la base"], [
     ["Las promociones sacrifican margen sin generar volumen",
-     "Las órdenes con promoción rinden **17,09 % de margen** frente a **28,13 %** sin promoción. El ticket promedio con promoción es **menor** (RD$ 8 965 contra RD$ 10 299) y las unidades por línea son idénticas en ambos grupos (2,85)."],
+     "Las órdenes con promoción rinden **17,09 % de margen** frente a **28,13 %** sin promoción. El ticket promedio con promoción es **menor** (RD$ 8 965 contra RD$ 10 299) y las unidades por línea son idénticas en ambos grupos (2,85). Las ventas sin promoción también llevan descuentos: 7 159 líneas con un 5 %, apenas el 0,63 % de su venta bruta."],
     ["La categoría que más vende no es la que más aporta",
      "Papelería lidera en venta neta (RD$ 38,7 millones) pero tiene el **margen más bajo: 23,28 %**. Cuidado personal, con RD$ 29,2 millones, rinde **27,95 %**."],
     ["Las devoluciones se concentran en pocas categorías",
-     "Moda devuelve el **13,99 %** de sus líneas y Electrodomésticos el **10,00 %**, frente a un promedio general de 6,7 %. En total se reembolsaron **RD$ 13,2 millones**, equivalentes al 17 % del margen bruto del período."],
+     "Moda devuelve el **13,99 %** de sus líneas y Electrodomésticos el **10,00 %**, frente a un promedio general de 6,98 % de las líneas vendidas. En total se reembolsaron **RD$ 13,2 millones**, equivalentes al 17 % del margen bruto del período."],
 ], [30, 70])
 
 h2("2. Problema de toma de decisiones")
@@ -181,7 +182,7 @@ p("La matriz muestra qué dimensiones comparte cada proceso; las dimensiones com
 tabla(["Proceso", "Fecha", "Producto", "Cliente", "Tienda", "Promoción", "Canal", "Motivo", "Método pago"], [
     ["FactVentas", "X", "X", "X", "X", "X", "X", "—", "—"],
     ["FactDevoluciones", "X", "X", "X", "X", "—", "—", "X", "—"],
-    ["FactPagos", "X", "—", "X", "X", "X", "X", "—", "X"],
+    ["FactPagos", "X", "—", "X", "X", "—", "X", "—", "X"],
 ], [22, 9, 11, 10, 9, 12, 9, 9, 12],
    [None, "center", "center", "center", "center", "center", "center", "center", "center"])
 

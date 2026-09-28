@@ -54,6 +54,12 @@ nota("**Observación sobre el script.** El script original no se ejecuta tal cua
      "Transact-SQL, por lo que el motor devuelve el error «Incorrect syntax near the keyword LineNo». "
      "Se renombró ese alias a `LineaNo` (9 ocurrencias) en `Retail_Operacional_fix.sql` y con ese cambio "
      "el script corre completo.")
+nota("**Los datos cambian en cada ejecución del script.** El script inserta las filas con claves `IDENTITY` "
+     "desde consultas sin `ORDER BY` y calcula fechas, productos y devoluciones a partir de esas claves. Como "
+     "el orden en que el motor asigna las claves no está garantizado, dos ejecuciones producen datos "
+     "distintos: al volver a ejecutarlo se obtuvieron 73 701 líneas completadas y 5 181 devoluciones, frente a "
+     "73 667 y 5 139 de la ejecución usada. Por eso toda la solución trabaja sobre la extracción fija de "
+     "`2_Fuente/CSV_origen`, y las cifras de este documento corresponden a esa extracción.")
 
 h3("1.1 Entidades y relaciones")
 p("La fuente contiene **10 tablas** en el esquema `dbo`, con 9 claves foráneas declaradas. Seis son de "
@@ -110,7 +116,7 @@ p("La exploración mostró un negocio estable en ingresos (entre RD$ 77 y 82 mil
   "por devoluciones aparecen tres desequilibrios que los reportes operacionales no muestran:")
 tabla(["Hallazgo", "Evidencia medida sobre la base"], [
     ["Las promociones sacrifican margen sin generar volumen",
-     "Las órdenes con promoción rinden **17,09 % de margen** frente a **28,13 %** sin promoción. El ticket promedio con promoción es **menor** (RD$ 8 965 contra RD$ 10 299) y las unidades por orden son prácticamente iguales (7,29 contra 7,30)."],
+     "Las órdenes con promoción rinden **17,09 % de margen** frente a **28,13 %** sin promoción. El ticket promedio con promoción es **menor** (RD$ 8 965 contra RD$ 10 299) y las unidades por orden son prácticamente iguales (7,29 contra 7,30). Las ventas sin promoción también llevan descuentos: 7 159 líneas con un 5 % que suman RD$ 1,5 millones, el 0,63 % de su venta bruta."],
     ["La categoría que más vende no es la que más aporta",
      "Papelería lidera en venta neta (RD$ 38,7 millones) pero tiene el **margen más bajo: 23,3 %**. Cuidado personal, con RD$ 29,2 millones, rinde **27,9 %**."],
     ["Las devoluciones se concentran en pocas categorías",
@@ -237,7 +243,7 @@ p("Las dimensiones compartidas son las que permiten analizar los tres hechos con
 tabla(["Proceso", "Fecha", "Producto", "Cliente", "Tienda", "Promoción", "Canal", "Motivo", "Método pago"], [
     ["FactVentas", "X", "X", "X", "X", "X", "X", "", ""],
     ["FactDevoluciones", "X", "X", "X", "X", "", "", "X", ""],
-    ["FactPagos", "X", "", "X", "X", "X", "X", "", "X"],
+    ["FactPagos", "X", "", "X", "X", "", "X", "", "X"],
 ], [22, 9, 11, 10, 9, 12, 9, 9, 12],
    [None, "center", "center", "center", "center", "center", "center", "center", "center"])
 
@@ -276,8 +282,9 @@ tabla(["Elemento", "Implementación"], [
     ["Tipos de datos", "Montos en `decimal(14,2)` y precios en `decimal(12,2)` para no perder centavos; cantidades en `int`; fechas en `date`; indicadores en `bit`."],
     ["Restricciones", "Todas las columnas de hechos son `NOT NULL`; `CHECK (CantidadVendida > 0)` y `CHECK (CantidadDevuelta > 0)`."],
     ["Índices", "8 índices no agrupados sobre las claves foráneas más consultadas (fecha, producto, cliente, tienda y promoción)."],
-    ["DimFecha", "Se genera en el propio script con los 1 461 días del 1-1-2023 al 31-12-2026, independiente de los hechos."],
+    ["DimFecha", "Se genera en el propio script con los 1 461 días del 1-1-2023 al 31-12-2026, independiente de los hechos. `SET DATEFIRST 7` fija el domingo como primer día, así el día y la semana no dependen de la configuración del servidor."],
     ["Miembros especiales", "El script inserta «No identificado» en DimCliente y «Sin promoción» en DimPromocion, ambos con clave −1, antes de cualquier carga."],
+    ["Carga", "`Cargar_DW.sql` lee la carpeta indicada en la variable `RutaCSV`, fija `SET DATEFORMAT mdy` para leer las fechas de Tableau Prep igual en cualquier servidor y acepta archivos con fin de línea de Windows o de macOS."],
 ], [20, 80])
 p("La carga se verificó contra el origen. Los conteos y los totales del Data Warehouse coinciden con los "
   "calculados directamente sobre las órdenes completadas de BI_Practica_Retail:")
@@ -304,7 +311,7 @@ p("El flujo `5_ETL/ETL_DW_Retail.tfl` tiene **40 nodos**: 10 entradas (una por t
 tabla(["Paso del flujo", "Transformación", "Requerimiento del modelo que la justifica"], [
     ["Producto + Categoria + Proveedor", "Dos uniones internas por CategoriaID y ProveedorID; se renombran NombreCategoria, NombreProveedor y Pais.", "DimProducto desnormaliza categoría y proveedor para mantener el esquema estrella."],
     ["DimProducto", "Clave subrogada; atributo derivado RangoPrecio (Económico < RD$ 800, Medio < RD$ 1 500, Premium).", "Permite agrupar el margen por rango de precio sin consultar el precio de lista."],
-    ["DimCliente", "Une nombre y apellido; `IFNULL(Sexo, \"No especificado\")`; deriva GrupoEdad y AñoRegistro.", "Regla de carga 6 y atributos de segmentación para P7."],
+    ["DimCliente", "Une nombre y apellido; `IFNULL(Sexo, \"No especificado\")`; calcula la edad cumplida al 15 de agosto de 2026 (última venta del período) y de ella el GrupoEdad; deriva AñoRegistro.", "Regla de carga 6 y atributos de segmentación para P7. La fecha de corte fija hace que el grupo no cambie según el día en que se ejecuta el flujo."],
     ["DimTienda, DimPromocion", "Clave subrogada; año de apertura derivado de la fecha.", "Dimensiones de análisis de P2 y P6."],
     ["DimCanal, DimMotivoDevolucion, DimMetodoPago", "Agregación por valor distinto y asignación de clave fija a cada valor.", "El canal, el motivo y el método son texto libre en el origen; como dimensión se analizan con clave propia."],
     ["Filtrar órdenes completadas", "Filtro `EstadoOrden = \"Completada\"`; FechaKey AAAAMMDD; `IFNULL(ClienteID, -1)` e `IFNULL(PromocionID, -1)`; clave de canal.", "Grano del hecho y reglas de carga 1, 4 y 5."],
@@ -313,9 +320,11 @@ tabla(["Paso del flujo", "Transformación", "Requerimiento del modelo que la jus
     ["FactDevoluciones", "Unión de la devolución con su línea vendida; FechaKey de la devolución; clave del motivo.", "Hecho aparte al grano de la devolución, con las mismas dimensiones conformadas."],
     ["FactPagos", "Unión del pago con su orden completada; FechaKey del pago; clave del método de pago.", "Hecho al grano de la orden, para no repetir el monto por línea (regla 8)."],
 ], [22, 42, 36])
-p("Las salidas del flujo se compararon línea por línea con el origen: los 73 667 registros de FactVentas "
-  "tienen la misma venta neta, el mismo cliente, la misma promoción y la misma fecha que su línea de origen, "
-  "sin ninguna diferencia, y ningún registro quedó con clave 0 en canal, motivo o método de pago.")
+p("El flujo se ejecutó completo en **Tableau Prep Builder 2026.2**. Sus salidas se compararon línea por "
+  "línea con el origen: los 73 667 registros de FactVentas tienen la misma venta neta, el mismo cliente, la "
+  "misma promoción y la misma fecha que su línea de origen, sin ninguna diferencia, y ningún registro quedó "
+  "con clave 0 en canal, motivo o método de pago. La edad de los 2 500 clientes se comprobó con un cálculo "
+  "independiente de la edad cumplida a la fecha de corte.")
 
 # =====================================================================================
 # 6. ANÁLISIS DE LAS MEDIDAS
@@ -357,6 +366,9 @@ tabla(["Medida", "Qué representa y cómo se obtiene", "Total del período", "Ag
 p("MontoPagado vive a grano de orden porque así ocurre en el negocio: se paga la orden completa, no cada "
   "línea. Su total coincide con la venta neta de FactVentas, lo que sirve de control de la carga. Por el "
   "método de pago se reparte casi igual entre los cinco métodos (de RD$ 57,6 a 58,0 millones cada uno).")
+p("Su fecha es la del **pago**, no la de la orden. En 1 727 de las 28 803 órdenes el pago ocurrió otro día (en 56 de ellas, otro mes), "
+  "por lo que al cortar por día o por mes el total de FactPagos puede no coincidir con la venta "
+  "de FactVentas de ese mismo período; el total del período sí coincide.")
 
 h3("6.4 Indicadores derivados")
 p("Los indicadores que son razones no se almacenan: se calculan en el dashboard a partir de sus "
@@ -400,7 +412,7 @@ img("Tablero_1_Rentabilidad.png", "Figura 1. Tablero «Rentabilidad de la venta�
 tabla(["Vista", "Pregunta", "Lo que muestra"], [
     ["Cifras de cabecera", "", "Venta neta RD$ 289,0 M, margen bruto RD$ 75,6 M, margen 26,2 %, 28 803 órdenes y ticket promedio de RD$ 10 033."],
     ["Venta neta por categoría y su margen", "P1", "Papelería es la categoría que más vende (RD$ 38,7 M) y la de menor margen (23,3 %). Cuidado personal (27,9 %) y Electrodomésticos (27,4 %) son las más rentables."],
-    ["Margen % según la campaña", "P2", "El margen cae a medida que sube el descuento: San Valentín 20,4 %, Madres 18,9 %, Regreso a clases 15,9 % y Black Friday 11,0 %, frente a 28,1 % sin promoción. El ticket con promoción es menor (RD$ 8 965 contra RD$ 10 299), así que el descuento no compra volumen."],
+    ["Margen % según la campaña", "P2", "El margen cae a medida que sube el descuento: San Valentín 20,4 %, Madres 18,9 %, Regreso a clases 15,9 % y Black Friday 11,0 %, frente a 28,1 % sin promoción. El ticket con promoción es menor (RD$ 8 965 contra RD$ 10 299), así que el descuento no compra volumen. «Sin promoción» incluye descuentos puntuales del 5 % que representan solo el 0,63 % de su venta bruta, por lo que funciona como grupo de comparación."],
     ["Venta neta por mes", "P5", "La venta mensual oscila entre RD$ 5,4 y 7,7 millones, con un promedio de RD$ 6,65 millones. Los picos son marzo de 2025 y julio de 2024 y 2025; no hay una temporada que concentre la demanda."],
     ["Ticket por canal y tipo de tienda", "P6", "El ticket se mueve entre RD$ 9 385 y RD$ 10 205 y el margen entre 25,8 % y 26,5 % en todas las combinaciones. La venta se concentra en tienda física de centro comercial."],
     ["Venta neta por segmento", "P7", "Regular sostiene el 56,3 % de la venta, Preferente el 24,3 % y Corporativo el 11,5 %. El 7,8 % no tiene cliente identificado."],

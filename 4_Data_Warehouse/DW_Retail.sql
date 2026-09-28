@@ -3,7 +3,7 @@
  ICC-321 Inteligencia de Negocios — Práctica 1
  Actividad 4: Implementación del Data Warehouse
 
- Estudiante: Enger Douglas (ID 10144675)
+ Estudiantes: Elías De La Cruz Jiménez (ID 10155971), Enger Douglas (ID 10144675)
  Motor: Microsoft SQL Server
  Base fuente: BI_Practica_Retail
 
@@ -199,6 +199,10 @@ GO
    3. CARGA DE LA DIMENSIÓN DE TIEMPO
    Se genera de forma independiente, con todos los días del período 2023-2026.
    ========================================================================= */
+
+/* El día de la semana y la semana del año dependen de DATEFIRST; se fija el
+   domingo como primer día para que el resultado no cambie según el servidor. */
+SET DATEFIRST 7;
 
 WITH Numeros AS (
     SELECT TOP (DATEDIFF(day, '2023-01-01', '2026-12-31') + 1)

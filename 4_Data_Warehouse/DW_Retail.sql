@@ -1,6 +1,6 @@
 /*
 ===============================================================================
- ICC-321 Inteligencia de Negocios — Práctica 1
+ ICC-321 Inteligencia de Negocios, Práctica 1
  Actividad 4: Implementación del Data Warehouse
 
  Estudiantes: Elías De La Cruz Jiménez (ID 10155971), Enger Douglas (ID 10144675)

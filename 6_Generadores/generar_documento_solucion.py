@@ -8,6 +8,7 @@ Requisitos: pip install python-docx; LibreOffice (soffice) y poppler (pdftotext)
 Uso:    python3 generar_documento_solucion.py
 Salida: 3_Informes/Practica1_Documento_Solucion.docx y .pdf
 """
+import ntpath
 import os
 import re
 import shutil
@@ -54,6 +55,48 @@ def texto_con_formato(par, texto, tam=12):
             fuente(par.add_run(trozo[1:-1]), tam, cursiva=True)
         else:
             fuente(par.add_run(trozo), tam)
+
+
+AZUL_TABLA = "1F3864"
+FILA_ALTERNA = "EEF2F8"
+BORDE = "A6B4C8"
+
+
+def sombrear(celda, color):
+    tcPr = celda._tc.get_or_add_tcPr()
+    for viejo in tcPr.findall(qn("w:shd")):
+        tcPr.remove(viejo)
+    sombra = OxmlElement("w:shd")
+    sombra.set(qn("w:val"), "clear")
+    sombra.set(qn("w:color"), "auto")
+    sombra.set(qn("w:fill"), color)
+    tcPr.append(sombra)
+
+
+def bordes(tabla):
+    """Bordes finos: línea más marcada arriba y abajo, líneas suaves por dentro."""
+    tblPr = tabla._tbl.tblPr
+    b = OxmlElement("w:tblBorders")
+    for lado, grosor, color in (("top", 12, AZUL_TABLA), ("bottom", 12, AZUL_TABLA), ("left", 4, BORDE),
+                                ("right", 4, BORDE), ("insideH", 4, BORDE), ("insideV", 4, BORDE)):
+        e = OxmlElement("w:" + lado)
+        e.set(qn("w:val"), "single")
+        e.set(qn("w:sz"), str(grosor))
+        e.set(qn("w:space"), "0")
+        e.set(qn("w:color"), color)
+        b.append(e)
+    tblPr.append(b)
+
+
+def margenes_celda(celda):
+    tcPr = celda._tc.get_or_add_tcPr()
+    m = OxmlElement("w:tcMar")
+    for lado, v in (("top", 30), ("bottom", 30), ("left", 90), ("right", 90)):
+        e = OxmlElement("w:" + lado)
+        e.set(qn("w:w"), str(v))
+        e.set(qn("w:type"), "dxa")
+        m.append(e)
+    tcPr.append(m)
 
 
 class Informe:
@@ -130,7 +173,7 @@ class Informe:
             par.paragraph_format.space_after = Pt(3)
             texto_con_formato(par, t)
 
-    def tabla(self, titulo, encabezado, filas, anchos):
+    def tabla(self, titulo, encabezado, filas, anchos, literal=False):
         """Tabla con su título arriba (Tabla N. ...), como se acostumbra."""
         self.ntab += 1
         cap = self.doc.add_paragraph()
@@ -141,22 +184,26 @@ class Informe:
         fuente(cap.add_run("Tabla %d. " % self.ntab), 10, negrita=True)
         fuente(cap.add_run(titulo), 10)
         t = self.doc.add_table(rows=1, cols=len(encabezado))
-        t.style = "Table Grid"
         t.alignment = WD_TABLE_ALIGNMENT.CENTER
+        bordes(t)
         for i, h in enumerate(encabezado):
             c = t.rows[0].cells[i]
             c.text = ""
-            fuente(c.paragraphs[0].add_run(h), 10, negrita=True)
-            sombra = OxmlElement("w:shd")
-            sombra.set(qn("w:val"), "clear")
-            sombra.set(qn("w:fill"), "D9D9D9")
-            c._tc.get_or_add_tcPr().append(sombra)
-        for f in filas:
+            r = c.paragraphs[0].add_run(h)
+            fuente(r, 10, negrita=True)
+            r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+            sombrear(c, AZUL_TABLA)
+        for n, f in enumerate(filas):
             celdas = t.add_row().cells
             for i, v in enumerate(f):
                 celdas[i].text = ""
                 par = celdas[i].paragraphs[0]
-                texto_con_formato(par, str(v), 10)
+                if literal:
+                    fuente(par.add_run(str(v)), 9)
+                else:
+                    texto_con_formato(par, str(v), 10)
+                if n % 2:
+                    sombrear(celdas[i], FILA_ALTERNA)
         t.autofit = False
         # LibreOffice toma el ancho de la rejilla y de la tabla, no solo el de cada celda
         for i, w in enumerate(anchos):
@@ -169,17 +216,48 @@ class Informe:
         tblW.set(qn("w:type"), "dxa")
         tblW.set(qn("w:w"), str(int(sum(anchos) / 2.54 * 1440)))
         for fila in t.rows:
+            no_partir = OxmlElement("w:cantSplit")
+            no_partir.set(qn("w:val"), "true")
+            fila._tr.get_or_add_trPr().append(no_partir)
             for i, w in enumerate(anchos):
                 fila.cells[i].width = Cm(w)
             for c in fila.cells:
+                margenes_celda(c)
                 for par in c.paragraphs:
                     par.paragraph_format.line_spacing = 1.0
+                    par.paragraph_format.space_before = Pt(2)
                     par.paragraph_format.space_after = Pt(2)
         # la fila de encabezado se repite si la tabla cambia de página
         trPr = t.rows[0]._tr.get_or_add_trPr()
         rep = OxmlElement("w:tblHeader")
         rep.set(qn("w:val"), "true")
         trPr.append(rep)
+        self.doc.add_paragraph().paragraph_format.space_after = Pt(0)
+
+    def codigo(self, texto):
+        """Código fuente en letra monoespaciada, con fondo gris y una línea a la izquierda."""
+        for linea in texto.rstrip("\n").split("\n"):
+            par = self.doc.add_paragraph()
+            pf = par.paragraph_format
+            pf.line_spacing = 1.0
+            pf.space_before = Pt(0)
+            pf.space_after = Pt(0)
+            pf.left_indent = Cm(0.2)
+            pPr = par._p.get_or_add_pPr()
+            sombra = OxmlElement("w:shd")
+            sombra.set(qn("w:val"), "clear")
+            sombra.set(qn("w:color"), "auto")
+            sombra.set(qn("w:fill"), "F3F5F8")
+            pBdr = OxmlElement("w:pBdr")
+            izq = OxmlElement("w:left")
+            izq.set(qn("w:val"), "single")
+            izq.set(qn("w:sz"), "12")
+            izq.set(qn("w:space"), "6")
+            izq.set(qn("w:color"), "8EA3BD")
+            pBdr.append(izq)
+            pPr.append(pBdr)
+            pPr.append(sombra)
+            fuente(par.add_run(linea.replace("\t", "    ") or " "), 6.8, nombre="Courier New")
         self.doc.add_paragraph().paragraph_format.space_after = Pt(0)
 
     def figura(self, archivo, pie, ancho=16.0):
@@ -202,11 +280,11 @@ class Informe:
         ancho = sec.page_width - sec.left_margin - sec.right_margin
         for nivel, texto in self.plan_titulos:
             par = self.doc.add_paragraph()
-            par.paragraph_format.line_spacing = 1.15
-            par.paragraph_format.space_after = Pt(2)
+            par.paragraph_format.line_spacing = 1.0
+            par.paragraph_format.space_after = Pt(1)
             par.paragraph_format.left_indent = Cm(0 if nivel == 1 else 0.8)
             par.paragraph_format.tab_stops.add_tab_stop(ancho, WD_TAB_ALIGNMENT.RIGHT, WD_TAB_LEADER.DOTS)
-            fuente(par.add_run("%s\t%s" % (texto, self.paginas.get(texto, ""))), 12, negrita=(nivel == 1))
+            fuente(par.add_run("%s\t%s" % (texto, self.paginas.get(texto, ""))), 11, negrita=(nivel == 1))
 
     def numeros_de_pagina(self):
         """Número de página centrado en el pie, sin mostrarlo en la portada."""
@@ -267,10 +345,11 @@ def escribir(inf):
       "que lee únicamente del Data Warehouse. Es el recorrido habitual de una solución de BI, que va de la "
       "integración de los datos a su análisis [2]. La Figura 1 lo resume.")
     figura(os.path.join(FIG, "arquitectura.png"), "Arquitectura de la solución, desde la base operacional hasta el dashboard.")
-    p("Junto a este documento se entregan el script del Data Warehouse (DW_Retail.sql) y el de carga "
-      "(Cargar_DW.sql), el flujo de Tableau Prep empaquetado con sus datos de entrada (ETL_DW_Retail.tflx) y "
-      "el libro de Tableau con el dashboard (Dashboard_Retail.twbx), además de las consultas que alimentan "
-      "el dashboard (Consultas_Dashboard.sql).")
+    p("Este documento incluye todos los elementos de la solución. El script completo que crea el Data "
+      "Warehouse está en el Anexo A y el script de carga en el Anexo B. El detalle del flujo de Tableau Prep, "
+      "paso por paso y con cada cálculo, está en el Anexo C, y las consultas y los campos calculados del "
+      "dashboard están en el Anexo D. Las secciones 6 y 8 muestran el flujo y el dashboard tal como se ven en "
+      "Tableau.")
 
     # 2
     h1("2. Descripción general de la fuente de datos")
@@ -478,6 +557,11 @@ def escribir(inf):
       "desde la dimensión hacia el hecho. Los miembros con clave -1 evitan que queden hechos sin relación "
       "cuando el origen trae nulos.")
 
+    p("La Figura 3 muestra los esquemas de los otros dos hechos. FactDevoluciones comparte con FactVentas "
+      "las dimensiones de fecha, producto, cliente y tienda, y agrega el motivo de la devolución. FactPagos "
+      "comparte fecha, cliente, tienda y canal, y agrega el método de pago. En los dos casos DimFecha "
+      "representa una fecha distinta a la de la venta: la de la devolución y la del pago.")
+    figura(os.path.join(FIG, "otros_hechos.png"), "Esquemas de FactDevoluciones (izquierda) y FactPagos (derecha).", 14.5)
     h2("4.6 Relación entre preguntas, medidas y dimensiones")
     tabla("Trazabilidad entre preguntas, medidas y dimensiones.",
           ["Pregunta", "Medidas", "Dimensiones"], [
@@ -493,7 +577,7 @@ def escribir(inf):
 
     # 5
     h1("5. Implementación del Data Warehouse")
-    p("El modelo se implementó en SQL Server con el script DW_Retail.sql, que crea la base DW_Retail desde "
+    p("El modelo se implementó en SQL Server con el script DW_Retail.sql (Anexo A), que crea la base DW_Retail desde "
       "cero. Las ocho dimensiones tienen su clave subrogada como PRIMARY KEY y los tres hechos tienen una "
       "clave propia de tipo bigint tomada del identificador de la línea, la devolución o el pago del origen. "
       "En total hay 16 claves foráneas (6 en FactVentas, 5 en FactDevoluciones y 5 en FactPagos), de manera "
@@ -506,7 +590,7 @@ def escribir(inf):
       "2026, sin depender de los hechos. Antes de llenarla fijamos SET DATEFIRST 7, porque el número del día "
       "de la semana y de la semana del año dependen de esa configuración del servidor [4]. El script también "
       "inserta los miembros \"No identificado\" y \"Sin promoción\" con clave -1.")
-    p("La carga la hace Cargar_DW.sql, que lee los CSV que produce el flujo de Tableau Prep con BULK INSERT "
+    p("La carga la hace Cargar_DW.sql (Anexo B), que lee los CSV que produce el flujo de Tableau Prep con BULK INSERT "
       "[3]. Como Tableau Prep escribe las columnas en orden alfabético, los archivos se cargan primero en "
       "tablas temporales y de ahí se insertan en las definitivas con el tipo de dato correcto. Durante esta "
       "parte tuvimos que resolver algunos problemas que dependían de la computadora donde se ejecutaba:")
@@ -539,11 +623,12 @@ def escribir(inf):
 
     # 6
     h1("6. Proceso ETL en Tableau Prep")
-    p("El ETL se construyó en Tableau Prep Builder 2026.2 (Figura 3). El flujo tiene 40 nodos: 10 entradas, "
+    p("El ETL se construyó en Tableau Prep Builder 2026.2 (Figura 4). El flujo tiene 40 nodos: 10 entradas, "
       "una por cada tabla extraída del origen; 11 pasos de limpieza; 6 uniones; 3 agregaciones y 10 salidas, "
       "una por cada tabla del Data Warehouse. Las salidas se escriben como CSV en la carpeta CSV_salida y de "
-      "ahí las carga Cargar_DW.sql. El flujo se entrega empaquetado (.tflx), de modo que al abrirlo incluye "
-      "los archivos de entrada [7].")
+      "ahí las carga Cargar_DW.sql. Guardamos el flujo también como flujo empaquetado (.tflx), que lleva los "
+      "archivos de entrada dentro y se puede abrir en otra computadora sin cambiar rutas [7]. En el Anexo C "
+      "están todos los pasos con sus cálculos.")
     p("El flujo se puede leer en tres bloques. Arriba están las dimensiones de catálogo: DimProducto une "
       "Producto con Categoria y con Proveedor, y DimCliente, DimTienda y DimPromocion limpian cada tabla por "
       "separado. En el medio están las dimensiones que salen de los datos transaccionales: DimCanal, "
@@ -639,11 +724,11 @@ def escribir(inf):
 
     # 8
     h1("8. Dashboard interactivo")
-    p("El dashboard se hizo en Tableau Desktop y se entrega como libro empaquetado (Dashboard_Retail.twbx). "
+    p("El dashboard se hizo en Tableau Desktop y se guardó como libro empaquetado (Dashboard_Retail.twbx). "
       "Sus datos salen únicamente de DW_Retail: las consultas de Consultas_Dashboard.sql unen cada hecho con "
       "sus dimensiones y el resultado se guardó como un extracto de Tableau que va dentro del libro [5]. Así "
       "el libro se puede abrir en cualquier computadora con Tableau sin conectarse al servidor, y ningún dato "
-      "viene de la base operacional.")
+      "viene de la base operacional. Las consultas y los campos calculados están en el Anexo D.")
     p("Cada tablero tiene filtros de año y categoría, y el primero también de canal. Los hicimos con "
       "parámetros de Tableau [8] porque un parámetro filtra al mismo tiempo las dos fuentes de datos del "
       "libro, y los aplicamos como filtro de contexto para que el ranking de productos se calcule dentro de lo "
@@ -684,9 +769,26 @@ def escribir(inf):
       "los proveedores 24 y 01 combinan márgenes por encima de 31% con devoluciones bajas.")
     figura(os.path.join(REPO, "7_Dashboard", "capturas", "Tablero_2_Filtro_Moda.png"),
            "El mismo tablero con el filtro de categoría en Moda.", 16.0)
-    p("La Figura 6 muestra la interacción. Al elegir Moda en el filtro de categoría, todas las vistas se "
+    p("La Figura 7 muestra la interacción. Al elegir Moda en el filtro de categoría, todas las vistas se "
       "recalculan: la tasa de devolución de la categoría (14.0%), el margen que pierde (35.9%), los diez "
       "productos de Moda con más reembolsos y los proveedores que la abastecen.")
+
+    h2("8.3 Relación entre las preguntas y el dashboard")
+    p("La Tabla 13 resume dónde se responde cada pregunta de análisis y con qué medidas y dimensiones del "
+      "Data Warehouse, para mostrar que todas quedaron cubiertas.")
+    tabla("Preguntas de análisis y vista del dashboard que las responde.",
+          ["Pregunta", "Tablero y vista", "Medidas", "Dimensiones"], [
+              ["P1", "Tablero 1, venta neta por categoría y su margen", "MontoNeto, margen %", "Producto (categoría)"],
+              ["P2", "Tablero 1, margen % según la campaña", "MargenBruto, MontoNeto", "Promoción"],
+              ["P3", "Tablero 2, tasa de devolución por categoría y productos con más reembolsos", "Devoluciones, MontoReembolso", "Producto"],
+              ["P4", "Tablero 2, margen después de devoluciones", "MargenBruto - MontoReembolso", "Producto (categoría)"],
+              ["P5", "Tablero 1, venta neta y margen por mes", "MontoNeto, margen %", "Fecha (año, mes)"],
+              ["P6", "Tablero 1, ticket promedio por canal y tipo de tienda", "MontoNeto, órdenes", "Canal, Tienda"],
+              ["P7", "Tablero 1, venta neta por segmento de cliente", "MontoNeto", "Cliente (segmento)"],
+              ["P8", "Tablero 2, proveedores: margen % frente a tasa de devolución", "Margen %, tasa de devolución", "Producto (proveedor)"],
+          ], [2.0, 7.0, 4.2, 3.3])
+    p("Los filtros de año, categoría y canal se aplican a todas las vistas, así que cada pregunta también se "
+      "puede responder para un año, una categoría o un canal en particular.")
 
     # 9
     h1("9. Justificación de las principales decisiones de diseño")
@@ -759,6 +861,98 @@ def escribir(inf):
         par.paragraph_format.space_after = Pt(6)
         texto_con_formato(par, "[%d]\t%s" % (i, r))
 
+    anexos(inf)
+
+
+def pasos_del_flujo():
+    """Lee el .tfl y devuelve (paso, tipo, detalle) en el orden del flujo."""
+    import json
+    import zipfile
+    flujo = json.loads(zipfile.ZipFile(os.path.join(REPO, "5_ETL", "ETL_DW_Retail.tfl")).read("flow"))
+    filas = []
+    for n in flujo["nodes"].values():
+        tipo = n["nodeType"].split(".")[-1]
+        nombre = n["name"]
+        if tipo == "LoadCsv":
+            campos = ", ".join(c["name"] for c in n["fields"])
+            filas.append((nombre, "Entrada", "Archivo %s.csv. Campos: %s" % (nombre, campos)))
+        elif tipo == "SuperJoin":
+            acc = n["actionNode"]
+            cond = " y ".join("%s = %s" % (c["leftExpression"], c["rightExpression"]) for c in acc["conditions"])
+            filas.append((nombre, "Unión", "Unión %s por %s" % ("interna" if acc["joinType"] == "inner" else acc["joinType"], cond)))
+        elif tipo == "SuperAggregate":
+            acc = n["actionNode"]
+            grupo = ", ".join(g["columnName"] for g in acc["groupByFields"])
+            filas.append((nombre, "Agregación", "Agrupa por %s para obtener los valores distintos" % grupo))
+        elif tipo == "Container":
+            for op in n["loomContainer"]["nodes"].values():
+                t = op["nodeType"].split(".")[-1]
+                if t == "AddColumn":
+                    det = "Campo %s = %s" % (op["columnName"], op["expression"])
+                elif t == "RenameColumn":
+                    det = "Renombra %s a %s" % (op["columnName"], op["rename"])
+                elif t == "RemoveColumns":
+                    det = "Quita las columnas %s" % ", ".join(op["columnNames"])
+                elif t == "FilterOperation":
+                    det = "Filtro: %s" % op["filterExpression"]
+                else:
+                    det = op.get("name", t)
+                filas.append((nombre, "Limpieza", det))
+        elif tipo == "WriteToCsv":
+            filas.append((nombre, "Salida", "Escribe %s" % ntpath.basename(n["csvOutputFile"])))
+    return filas
+
+
+def campos_del_dashboard():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("gd", os.path.join(BASE, "generar_dashboard.py"))
+    gd = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(gd)
+    filas = []
+    for fuente_datos, nombre in ((gd.VENTAS, "Ventas"), (gd.PRODUCTO, "RentabilidadProducto")):
+        for _, cap, _, _, _, formula, _ in fuente_datos.calculos:
+            filas.append((nombre, cap, formula))
+    return filas, gd.PARAMETROS
+
+
+def anexos(inf):
+    def leer(*ruta):
+        with open(os.path.join(REPO, *ruta), encoding="utf-8-sig") as f:
+            return f.read()
+
+    inf.salto()
+    inf.h1("Anexo A. Script de creación del Data Warehouse")
+    inf.p("Contenido completo de DW_Retail.sql. Crea la base DW_Retail con las ocho dimensiones, los tres "
+          "hechos, sus claves primarias y foráneas, restricciones e índices, llena DimFecha e inserta los "
+          "miembros con clave -1.")
+    inf.codigo(leer("4_Data_Warehouse", "DW_Retail.sql"))
+
+    inf.salto()
+    inf.h1("Anexo B. Script de carga del Data Warehouse")
+    inf.p("Contenido completo de Cargar_DW.sql. Se ejecuta en modo SQLCMD después de correr el flujo de "
+          "Tableau Prep y carga los diez archivos CSV en las tablas del Data Warehouse.")
+    inf.codigo(leer("4_Data_Warehouse", "Cargar_DW.sql"))
+
+    inf.salto()
+    inf.h1("Anexo C. Detalle del flujo ETL en Tableau Prep")
+    inf.p("Todos los pasos del flujo ETL_DW_Retail en el orden en que aparecen en Tableau Prep, con cada "
+          "operación y cada cálculo tal como están definidos en el flujo.")
+    inf.tabla("Pasos y operaciones del flujo ETL_DW_Retail.", ["Paso", "Tipo", "Operación"],
+              [list(f) for f in pasos_del_flujo()], [3.8, 2.2, 10.5], literal=True)
+
+    inf.salto()
+    inf.h1("Anexo D. Consultas y campos calculados del dashboard")
+    inf.p("Consultas de Consultas_Dashboard.sql. Se ejecutan sobre DW_Retail y su resultado forma las dos "
+          "tablas del extracto que usa el libro de Tableau.")
+    inf.codigo(leer("7_Dashboard", "Consultas_Dashboard.sql"))
+    filas, parametros = campos_del_dashboard()
+    inf.p("Campos calculados definidos en el libro de Tableau:")
+    inf.tabla("Campos calculados del dashboard.", ["Tabla del extracto", "Campo", "Fórmula"],
+              [list(f) for f in filas], [3.6, 4.2, 8.7], literal=True)
+    inf.p("Parámetros usados como filtros en los tableros:")
+    inf.tabla("Parámetros de los tableros.", ["Parámetro", "Valores"],
+              [[cap, ", ".join(valores)] for _, cap, _, valores in parametros], [3.0, 13.5])
+
 
 # ------------------------------------------------------------------ armado ----
 
@@ -781,19 +975,33 @@ def construir(paginas):
     return inf
 
 
+PERFIL_LO = "-env:UserInstallation=file:///tmp/perfil_lo_practica"
+
+
+def soffice(*args):
+    """LibreOffice con un perfil propio, para no chocar con una ventana de LibreOffice abierta."""
+    subprocess.run(["soffice", PERFIL_LO, "--headless", *args], check=True, capture_output=True)
+
+
 def a_libreoffice(docx_entrada, carpeta):
-    """Pasa el .docx por LibreOffice (como un documento guardado desde Writer) y saca el PDF."""
+    """Pasa el .docx por LibreOffice (como un documento guardado desde Writer) y saca el PDF.
+
+    Todo se genera en una carpeta temporal y al final se copia a la carpeta de salida,
+    porque LibreOffice no sobrescribe un archivo que otra ventana tiene abierto."""
     tmp = tempfile.mkdtemp()
-    subprocess.run(["soffice", "--headless", "--convert-to", "odt", "--outdir", tmp, docx_entrada],
-                   check=True, capture_output=True)
+    soffice("--convert-to", "odt", "--outdir", tmp, docx_entrada)
     odt = os.path.join(tmp, os.path.splitext(os.path.basename(docx_entrada))[0] + ".odt")
-    subprocess.run(["soffice", "--headless", "--convert-to", "docx:MS Word 2007 XML", "--outdir", carpeta, odt],
-                   check=True, capture_output=True)
+    salida_tmp = os.path.join(tmp, "salida")
+    os.makedirs(salida_tmp)
+    soffice("--convert-to", "docx:MS Word 2007 XML", "--outdir", salida_tmp, odt)
+    docx_tmp = os.path.join(salida_tmp, os.path.basename(docx_entrada))
+    soffice("--convert-to", "pdf", "--outdir", salida_tmp, docx_tmp)
     final = os.path.join(carpeta, os.path.basename(docx_entrada))
-    subprocess.run(["soffice", "--headless", "--convert-to", "pdf", "--outdir", carpeta, final],
-                   check=True, capture_output=True)
+    pdf = os.path.splitext(final)[0] + ".pdf"
+    shutil.copyfile(docx_tmp, final)
+    shutil.copyfile(os.path.splitext(docx_tmp)[0] + ".pdf", pdf)
     shutil.rmtree(tmp)
-    return final, os.path.splitext(final)[0] + ".pdf"
+    return final, pdf
 
 
 def paginas_de_titulos(pdf, titulos):
